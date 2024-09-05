@@ -1,7 +1,5 @@
 name: Notifications
-on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+on: [push, pull_request]  
 
 jobs:
   notify:
@@ -9,27 +7,16 @@ jobs:
     steps:
     - name: Check Secrets
       run: |
-        echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK }}"
-        echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN }}"
-        echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID }}"
+        echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK != '' }}"
+        echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}"
+        echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID != '' }}"
         
-    - name: Wait for Vercel Preview
-      uses: patrickedqvist/wait-for-vercel-preview@v1.3.2
-      id: waitFor200
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        max_timeout: 300
-    
-    - run: echo ${{steps.waitFor200.outputs.url}}
-
     - name: Send Notifications
       uses: hunghg255/action-notifications@master
       with:
         discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-        # qrcode: ${{ steps.waitFor200.outputs.url }}
+        qrcode: https://nextech12.netlify.app/
         title: "Dingdong thông báo mới từ github nè mày"
-        description: |
-          Có pull request mới trong repository ${{ github.repository }}
-         
+        description: "Vào đây kiểm tra nè ${{ github.repository.url }}"
