@@ -28,7 +28,7 @@ jobs:
         discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-        qrcode: ${{ steps.waitFor200.outputs.url }}
+        # qrcode: ${{ steps.waitFor200.outputs.url }}
         title: "Dingdong thông báo mới từ github nè mày"
         description: |
           Có pull request mới trong repository ${{ github.repository }}
