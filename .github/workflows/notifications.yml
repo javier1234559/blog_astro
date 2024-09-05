@@ -33,11 +33,18 @@ jobs:
           Vercel Preview: ${{ steps.waitFor200.outputs.url }}
           Branch: ${{ github.head_ref }}
           Author: ${{ github.event.pull_request.user.login }}
-
+          
     - name: Send Telegram Notification
       uses: hunghg255/action-notifications@master
       with:
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-        title: "Telegram: Thông báo mới từ GitHub"
-        description: "New PR ${{ github.event.pull_request.html_url }} by ${{ github.event.pull_request.user.login }} and here is preview url ${{ steps.waitFor200.outputs.url }} "
+        title: "Thông báo mới từ GitHub"
+        description: |
+          New PR in ${{ github.repository }}
+          
+          PR: ${{ github.event.pull_request.html_url }}
+          Author: ${{ github.event.pull_request.user.login }}
+          Branch: ${{ github.head_ref }}
+          
+          Preview URL: ${{ steps.waitFor200.outputs.url }}
