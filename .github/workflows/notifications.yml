@@ -5,6 +5,12 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
+    - name: Check Secrets
+      run: |
+        echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK != '' }}"
+        echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}"
+        echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID != '' }}"
+        
     - name: Send Notifications
       uses: hunghg255/action-notifications@master
       with:
