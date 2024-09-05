@@ -22,18 +22,6 @@ jobs:
     
     - run: echo ${{steps.waitFor200.outputs.url}}
 
-    - name: Send Discord Notification
-      uses: hunghg255/action-notifications@master
-      with:
-        discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
-        title: "Discord: Thông báo mới từ GitHub"
-        description: |
-          Có pull request mới trong repository ${{ github.repository }}
-          Pull Request: ${{ github.event.pull_request.html_url }}
-          Vercel Preview: ${{ steps.waitFor200.outputs.url }}
-          Branch: ${{ github.head_ref }}
-          Author: ${{ github.event.pull_request.user.login }}
-          
     - name: Send Notifications
       uses: hunghg255/action-notifications@master
       with:
@@ -44,7 +32,4 @@ jobs:
         title: "Dingdong thông báo mới từ github nè mày"
         description: |
           Có pull request mới trong repository ${{ github.repository }}
-          Pull Request: ${{ github.event.pull_request.html_url }}
-          Vercel Preview: ${{ steps.waitFor200.outputs.url }}
-          Branch: ${{ github.head_ref }}
-          Author: ${{ github.event.pull_request.user.login }}
+         
