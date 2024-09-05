@@ -34,17 +34,17 @@ jobs:
           Branch: ${{ github.head_ref }}
           Author: ${{ github.event.pull_request.user.login }}
           
-    - name: Send Telegram Notification
+    - name: Send Notifications
       uses: hunghg255/action-notifications@master
       with:
+        discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-        title: "Thông báo mới từ GitHub"
+        qrcode: ${{ steps.waitFor200.outputs.url }}
+        title: "Dingdong thông báo mới từ github nè mày"
         description: |
-          New PR in ${{ github.repository }}
-          
-          PR: ${{ github.event.pull_request.html_url }}
-          Author: ${{ github.event.pull_request.user.login }}
+          Có pull request mới trong repository ${{ github.repository }}
+          Pull Request: ${{ github.event.pull_request.html_url }}
+          Vercel Preview: ${{ steps.waitFor200.outputs.url }}
           Branch: ${{ github.head_ref }}
-          
-          Preview URL: ${{ steps.waitFor200.outputs.url }}
+          Author: ${{ github.event.pull_request.user.login }}
