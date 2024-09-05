@@ -9,9 +9,9 @@ jobs:
     steps:
     - name: Check Secrets
       run: |
-        echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK != '' }}"
-        echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}"
-        echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID != '' }}"
+        echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK }}"
+        echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN }}"
+        echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID }}"
         
     - name: Wait for Vercel Preview
       uses: patrickedqvist/wait-for-vercel-preview@v1.3.2
@@ -21,15 +21,25 @@ jobs:
         max_timeout: 300
     
     - run: echo ${{steps.waitFor200.outputs.url}}
-    
-    - name: Send Notifications
+
+    - name: Send Discord Notification
       uses: hunghg255/action-notifications@master
       with:
         discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        title: "Discord: Thông báo mới từ GitHub"
+        description: |
+          Có pull request mới trong repository ${{ github.repository }}
+          Pull Request: ${{ github.event.pull_request.html_url }}
+          Vercel Preview: ${{ steps.waitFor200.outputs.url }}
+          Branch: ${{ github.head_ref }}
+          Author: ${{ github.event.pull_request.user.login }}
+
+    - name: Send Telegram Notification
+      uses: hunghg255/action-notifications@master
+      with:
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
-        qrcode: ${{ steps.waitFor200.outputs.url }}
-        title: "Dingdong thông báo mới từ github nè mày"
+        title: "Telegram: Thông báo mới từ GitHub"
         description: |
           Có pull request mới trong repository ${{ github.repository }}
           Pull Request: ${{ github.event.pull_request.html_url }}
