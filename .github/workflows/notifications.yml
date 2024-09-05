@@ -1,0 +1,15 @@
+name: Notifications
+on: [push, pull_request]  
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send Notifications
+      uses: hunghg255/action-notifications@master
+      with:
+        discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
+        title: "Dingdong thông báo mới từ github nè mày"
+        description: "Vào đây kiểm tra nè ${{ github.repository }}"
