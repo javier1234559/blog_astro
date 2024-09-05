@@ -10,7 +10,17 @@ jobs:
         echo "Discord Webhook: ${{ secrets.DISCORD_WEBHOOK != '' }}"
         echo "Telegram Bot Token: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}"
         echo "Telegram Chat ID: ${{ secrets.TELEGRAM_CHAT_ID != '' }}"
+        echo "Vercel token : ${{ secrets.VERCEL_TOKEN != '' }}"
         
+    - name: Get Vercel Preview URL
+      id: vercel_preview_url
+      uses: UnlyEd/github-action-await-vercel@v1.2.15
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      with:
+        deployment-url: ${{ steps.vercel_deployment.outputs.preview-url }}
+        timeout: 20 # wait for 20 seconds
+  
     - name: Send Notifications
       uses: hunghg255/action-notifications@master
       with:
@@ -19,4 +29,9 @@ jobs:
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
         qrcode: https://nextech12.netlify.app/
         title: "Dingdong thông báo mới từ github nè mày"
-        description: "Vào đây kiểm tra nè ${{ github.repository.url }}"
+        description: |
+          Có pull request mới trong repository ${{ github.repository }}
+          Pull Request: ${{ github.event.pull_request.html_url }}
+          Vercel Preview: ${{ steps.vercel_preview_url.outputs.url }}
+          Branch: ${{ github.head_ref }}
+          Author: ${{ github.event.pull_request.user.login }}
