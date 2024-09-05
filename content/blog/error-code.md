@@ -1,7 +1,7 @@
 ---
 external: false
 title: The meaning of status code
-description: 
+description: "A comprehensive guide to HTTP status codes"
 date: 2022-11-22
 ---
 
