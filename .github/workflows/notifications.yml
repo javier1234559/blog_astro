@@ -40,9 +40,4 @@ jobs:
         telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
         title: "Telegram: Thông báo mới từ GitHub"
-        description: |
-          Có pull request mới trong repository ${{ github.repository }}
-          Pull Request: ${{ github.event.pull_request.html_url }}
-          Vercel Preview: ${{ steps.waitFor200.outputs.url }}
-          Branch: ${{ github.head_ref }}
-          Author: ${{ github.event.pull_request.user.login }}
+        description: "New PR ${{ github.event.pull_request.html_url }} by ${{ github.event.pull_request.user.login }} and here is preview url ${{ steps.waitFor200.outputs.url }} "
