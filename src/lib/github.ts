@@ -37,10 +37,24 @@ export async function fetchGitHubContentsCache() {
   ); // Cache for 1 hour
 }
 
+function cleanMarkdown(content: string): string {
+  // Regex để tìm tất cả các heading
+  const headingRegex = /^(#{1,6})\s*(.+?)\s*$/gm;
+
+  // Thay thế heading, loại bỏ tất cả dấu **
+  return content.replace(headingRegex, (match, hashes, text) => {
+    // Loại bỏ tất cả dấu ** từ text
+    const cleanText = text.replace(/\*\*/g, "");
+    return `${hashes} ${cleanText.trim()}`;
+  });
+}
+
 export async function parseMarkdown(content: string) {
   try {
+    console.log(content);
+    const cleanedContent = cleanMarkdown(content);
     // Parse nội dung markdown
-    const ast = Markdoc.parse(content);
+    const ast = Markdoc.parse(cleanedContent);
 
     // Validate AST với config
     const errors = Markdoc.validate(ast, config);
