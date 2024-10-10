@@ -10,7 +10,7 @@ Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism) w
 ## HTML Code Block
 
 An example `HTML` code block.
-
+ 
 ```html
 <!DOCTYPE html>
 <html lang="en">

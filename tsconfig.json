@@ -1,14 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "es2020",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": [
-      "astro/client"
-    ],
-    "baseUrl": "."
-  }
+  "extends": "astro/tsconfigs/base"
 }
+// {
+//   "compilerOptions": {
+//     "target": "es6",
+//     "module": "es2020",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "types": [
+//       "astro/client"
+//     ],
+//     "baseUrl": "."
+//   }
+// }

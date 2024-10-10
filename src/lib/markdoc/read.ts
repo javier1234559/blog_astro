@@ -1,10 +1,10 @@
 import type { z } from "zod";
 import path from "path";
-import matter from "gray-matter";
 import fs from "fs/promises";
 import { globby } from "globby";
 import Markdoc from "@markdoc/markdoc";
 import { config } from "./markdoc.config";
+import matter from "gray-matter";
 
 // path is relative to where you run the `yarn build` command
 const contentDirectory = path.normalize("./content");
