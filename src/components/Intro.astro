@@ -1,122 +1,86 @@
 ---
-import Heading from "./ui/Heading.astro";
+import { TextRevealTW } from '@/components/feature/TextRevealTW';
+import { Image } from 'astro:assets';
+
+const socials = [
+  {
+    name: 'Facebook',
+    src: '/icons/facebook.svg',
+    alt: 'Facebook Logo',
+    href: 'https://facebook.com/javier1234559'
+  },
+  {
+    name: 'Github',
+    src: '/icons/github.svg',
+    alt: 'Github Logo',
+    href: 'https://github.com/javier1234559'
+  },
+  {
+    name: 'LinkedIn',
+    src: '/icons/linkedin.svg',
+    alt: 'LinkedIn Logo',
+    href: 'https://linkedin.com/in/minh-nhat-nguyen-044535242/'
+  },
+  {
+    name: 'Mail',
+    src: '/icons/mail.svg',
+    alt: 'Email Icon',
+    href: 'mailto:nhat1234559@example.com'
+  },
+  {
+    name: 'Youtube',
+    src: '/icons/youtube.svg',
+    alt: 'Youtube Logo',
+    href: 'https://www.youtube.com/channel/UCwCtwzDvecNgpYkEjAKQDeA'
+  }
+];
 ---
 
-<section class="wrapper">
-  <Heading
-    as="h1"
-    class="name gradient-text gradient-color outline outline-color"
-  >
-    Nhat Nguyen
-  </Heading>
-  <p class="subtext">Web Developer. OSS Wizard. Blogger.</p>
-  <p class="hello">
-    Hello! Welcome to my blog. This blog is powered by 
-    <a class="animated" href="https://github.com/flexdinesh/blogster" target="_blank">Blogster</a>
-    and 
-    <a class="animated" href="https://astro.build/" target="_blank">Astro</a>.
+<div class="space-y-6">
+  <TextRevealTW as="h1" className='text-2xl' content="Hi there 👋! My name is Nhat nguyen " />
+  <TextRevealTW as="h2" className='text-5xl font-bold' content="Fullstack Developer" />
+  <p class="text-gray-600 max-w-xl fade-up-animate ">
+    a Vietnamese guy studying Information Technology at the HCMUTE University of
+    Technology and Education. I'm a journalist, designer, and engineer with a
+    passion for web development and software. I enjoy leveraging technology to
+    solve problems and bring new ideas to life.
   </p>
-  
-  <p>I'm <strong>Javier</strong>, a developer from Vietnam. I'm passionate about web development and software, and I enjoy using technology to solve problems and create new things.</p>
-  
-  <p>The main languages I use for programming are <code>JavaScript</code> , and I'm always looking to learn more and expand my knowledge. Some of my recent projects can be found on my <a href="https://github.com/javier1234559">GitHub</a> page or visit my portfolio website at <a href="https://javier1234559.github.io/Javersy-Portfolio/">Javersy Portfolio</a>.</p>
-
-  <h2>Statistics</h2>
-
-  <div>	
-    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=javier1234559&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D" />
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=javier1234559&show_icons=true&theme=tokyonight" />
+  <div class="flex items-center gap-4">
+    {socials.map((social) => (
+      <a 
+        href={social.href} 
+        class="hover:scale-125 transition-transform duration-200"
+        aria-label={social.name}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image 
+          src={social.src} 
+          alt={social.alt} 
+          width={100} 
+          height={100} 
+          class="w-10 h-10"
+        />
+      </a>
+    ))}
   </div>
+</div>
 
-  <div>
-    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=javier1234559&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
-  </div>
-
-  <div>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/javier1234559/javier1234559/output/github-contribution-grid-snake-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/javier1234559/javier1234559/output/github-contribution-grid-snake.svg">
-      <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/javier1234559/javier1234559/output/github-contribution-grid-snake.svg">
-    </picture>
-  </div>
-
-  <p><strong>Note:</strong> The languages and tools mentioned below are those I am currently using. They may not reflect my experience or skill level.</p>
-
-  <h2>Knowledge</h2>
-  
-  <h3>Languages</h3>
-  <p>
-    <a href="https://github.com/javier1234559/"><img src="https://shields.io/badge/TypeScript-black?logo=TypeScript&logoColor=#3178c6&style=flat-square" alt="TypeScript" /></a>
-    <a href="https://github.com/javier1234559/"><img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt="JavaScript" /></a>
-    <a href="https://github.com/javier1234559/"><img src="https://img.shields.io/badge/c++-000?style=flat-square&logo=c%2B%2B&logoColor=#00599C" alt="C++" /></a>
-    <a href="https://github.com/javier1234559/"><img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python" alt="Python" /></a>
-    <a href="https://github.com/javier1234559/"><img src="https://img.shields.io/badge/-Dart-black?style=flat-square&logo=Dart&logoColor=#009688" alt="Dart" /></a>
-</p>
-
-</section>
 
 <style>
-  .wrapper {
-    padding-top: 1rem;
-    /* padding-bottom: 1rem; */
-  }
-
-  .outline {
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.075rem var(--outline-color);
-  }
-
-  .gradient-color {
-    --gradient-text-from: #5433ff;
-    --gradient-text-via: #20bdff;
-    --gradient-text-to: #a5fecb;
-  }
-
-  .outline-color {
-    --outline-color: var(--text-heading);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .gradient-color {
-      --gradient-text-from: #a5fecb;
-      --gradient-text-via: #20bdff;
-      --gradient-text-to: #a5fecb;
+  @keyframes fadeUp {
+    from {
+      transform: translateY(10px);
+      opacity: 0;
     }
-    .outline-color {
-      --outline-color: transparent;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
   }
 
-  .name {
-    font-size: 3rem;
-    margin: 0;
-    letter-spacing: -2px;
-    line-height: 3.5rem;
-  }
-
-  .subtext {
-    color: var(--text-heading);
-    font-size: 1.25rem;
-    letter-spacing: -0.51px;
-    line-height: 2rem;
-    margin-top: 0.5rem;
-  }
-
-  .cli-command {
-    white-space: nowrap;
-    overflow: auto;
-  }
-
-  @media (min-width: 640px) {
-    .name {
-      font-size: 4rem;
-      line-height: 4.75rem;
-    }
-    .subtext {
-      font-size: 1.5rem;
-      letter-spacing: -0.51px;
-      line-height: 2rem;
-      margin-top: 0.5rem;
-    }
+  .fade-up-animate {
+    animation: fadeUp 1s ease-out forwards;
+    opacity: 0;
   }
 </style>

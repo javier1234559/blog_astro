@@ -1,0 +1,18 @@
+---
+import siteMetadata from "@/content/sideMetaData";
+import PageLayout from "@/layouts/PageLayout.astro";
+import Hashtags from "@/components/Tags.astro";
+import { TextRevealTW } from "@/components/feature/TextRevealTW";
+
+const metaData = {
+  title: 'Project',
+  description: siteMetadata.description
+};
+---
+
+<PageLayout slot="meta" {...metaData}>
+  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh] ">
+    <TextRevealTW as="h1" className='text-3xl mb-4 font-bold uppercase md:text-5xl' content="Projects" />
+    <Hashtags />
+  </section>
+</PageLayout>

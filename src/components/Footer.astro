@@ -1,24 +1,24 @@
 ---
+import siteMetadata from "@/content/sideMetaData";
+
 ---
 
-<footer>
+<footer class="grid-footer text-center flex items-center justify-center text-sm md:mt-4 mt-8 leading-7 flex-col">
   <div>
     This blog is built with 
     <a class="animated" href={"https://astro.build/"} target="_blank"> Astro</a> 
     and hosted in
     <a class="animated" href={"https://www.vercel.com"}> Vercel</a>.
   </div>
+  <div> 
+    © {new Date().getFullYear()} {siteMetadata.author} •{" "}
+    {siteMetadata.description}
+  </div>
 </footer>
 
 <style>
-  footer {
+  /* If you need to keep the grid-area name, maintain this custom class */
+  .grid-footer {
     grid-area: footer;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.875rem;
-    margin-top: 1rem;
-    line-height: 1.75;
   }
 </style>

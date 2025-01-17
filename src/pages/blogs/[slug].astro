@@ -1,0 +1,92 @@
+---
+import BlogPostMeta from "@/components/BlogPostMeta.astro";
+import { TextRevealTW } from "@/components/feature/TextRevealTW";
+import { badgeVariants } from "@/components/ui/badge";
+import type { BlogEntry } from "@/content/content.config";
+import siteMetadata from "@/content/sideMetaData";
+import ContentLayout from "@/layouts/ContentLayout.astro";
+import { getCollection, getEntry, render } from "astro:content";
+import moment from "moment";
+import { Prism } from '@astrojs/prism';
+
+export async function getStaticPaths() {
+  // need this for dynamic routes
+  const posts: BlogEntry[] = await getCollection("blog");
+
+  const filteredPosts = posts
+    .filter((post) => post.data.draft !== true)
+    .filter((post) => !post.data.external);
+
+  return filteredPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (typeof slug !== "string") {
+  throw Error(`slug should be string. Received: ${slug}`);
+}
+
+let entry, Content, headings;
+
+try {
+  entry = await getEntry("blog", slug);
+  ({ Content, headings } = await render(entry));
+} catch (error) {
+  return new Response(null, {
+    status: 404,
+    statusText: "Not Found",
+  });
+}
+
+const metaData = {
+  title: entry.data.title,
+  description: entry.data.description,
+  publishDate: entry.data.date.toISOString(),
+  pagePath: `/blogs/${slug}`,
+  ogImageAbsoluteUrl: new URL(
+    siteMetadata.socialBanner,
+    siteMetadata.siteUrl
+  ).toString(),
+};
+
+console.log(headings);
+---
+
+<ContentLayout>
+  <BlogPostMeta slot="meta" {...metaData} />
+  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
+    <TextRevealTW
+      as="h1"
+      className="text-3xl mb-4 font-bold uppercase md:text-5xl"
+      content={entry.data.title}
+    />
+    <dt class="sr-only">Published on</dt>
+    <dd class="leading-6 text-gray-500 mb-4 text-subtle">
+      Published on:
+      <time data-time={entry.data.date.toISOString()}>
+        {moment(entry.data.date.toISOString()).format("LL")}
+      </time>
+    </dd>
+    <dt></dt>
+    {
+      entry.data.hashtags && (
+        <div class="flex gap-2 mb-8">
+          {entry.data.hashtags.map((tag) => (
+            <a
+              href={`/tags/${tag}`}
+              class={badgeVariants({ variant: "outline" })}
+            >
+              {tag}
+            </a>
+          ))}
+        </div>
+      )
+    }
+    <!-- <article class="prose prose-lg max-w-none"> -->
+      <Content />
+    <!-- </article> -->
+  </section>
+</ContentLayout>

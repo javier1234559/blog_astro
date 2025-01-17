@@ -1,83 +1,35 @@
 ---
-/* 
-  This layout is used in pages that render markdoc content
-  - pages/blog/[slug].astro
-*/
-// Import the global.css file here so that it is included on
-import "../styles/global.css";
-import "../styles/markdown.css";
-
+import "../styles/index.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import Favicon from "./Favicon.astro";
+import Favicon from "@/components/Favicon.astro";
+import ProgressScroll from "@/components/feature/ProgressScroll";
+import { ClientRouter } from 'astro:transitions';
+import { fade } from 'astro:transitions';
 
-export interface Props {
-  title: string;
-  date: Date;
-}
-
-const { title, date } = Astro.props;
-const formattedDate = new Date(date).toLocaleDateString("en-us", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
-});
 ---
-
 <!DOCTYPE html>
 <html class="theme-sleek" lang="en">
   <head>
     <!-- Global Metadata -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="Blogster" />
+    <meta name="generator" content="Nhat Nguyen" />
     <Favicon />
     <slot name="meta" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+    />
+    
+    <ClientRouter />
   </head>
-
-  <body class="text-text-body bg-bg-body max-w-3xl mx-auto px-4 sm:px-8">
+  <ProgressScroll client:load />
+  <body class="text-text-body bg-bg-body container mx-auto px-4 sm:px-8" transition:animate={fade({ duration: '0.8s' })}>
     <Header />
-    <main id="main">
-      <section class="blog-post">
-        <h1 class="title">{title}</h1>
-        <time class="publish-date">{formattedDate}</time>
-        <slot name="content" />
-      </section>
+    <main id="main" transition:animate="fade">
+      <slot name="main" />
     </main>
     <Footer />
   </body>
-
-  <style>
-    body {
-      display: grid;
-      min-height: 100vh;
-      grid-template-areas:
-        "header"
-        "main"
-        "footer";
-      grid-template-rows: 5rem minmax(0, 1fr) 5rem;
-      grid-template-columns: minmax(0, 1fr);
-    }
-    main {
-      grid-area: main;
-    }
-  </style>
 </html>
-
-<style>
-  .title {
-    font-size: 2.5em;
-    line-height: 1.2 !important;
-    margin: 0.25em 0 0;
-  }
-  .publish-date {
-    font-size: 0.875em;
-    color: var(--text-muted);
-    margin-bottom: 2rem;
-    display: block;
-  }
-  hr {
-    border-top: 1px solid #ddd;
-    margin: 1rem 0;
-  }
-</style>

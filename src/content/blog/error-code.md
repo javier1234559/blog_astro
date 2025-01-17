@@ -3,6 +3,8 @@ external: false
 title: The meaning of status code
 description: "A comprehensive guide to HTTP status codes"
 date: 2022-11-22
+draft: true
+hashtags: ['draft']
 ---
 
 ## This is a status code meaning

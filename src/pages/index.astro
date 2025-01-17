@@ -2,12 +2,24 @@
 import PageMeta from "../components/PageMeta.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
-import { SITE_TITLE } from "../config";
+import siteMetadata from "@/content/sideMetaData";
+import StackedImage from "@/components/StackedImage.astro";
+import ImageStack from "@/components/feature/ImageStack";
+import ProgressScroll from "../components/feature/ProgressScroll";
+
+const metaData = {
+  title: 'Home',
+  description: siteMetadata.description
+};
+
 ---
 
 <PageLayout>
-  <PageMeta title={`${SITE_TITLE} | Web Ninja`} slot="meta" />
-  <Fragment slot="main">
-    <Intro />
-  </Fragment>
+  <PageMeta slot="meta" {...metaData}/>
+  <main slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh] flex items-center">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <Intro />
+      <ImageStack client:only="react" />
+    </div>
+  </main>
 </PageLayout>

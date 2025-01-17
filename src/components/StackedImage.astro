@@ -1,0 +1,54 @@
+---
+import { Image } from 'astro:assets';
+
+const imageUrls = [
+  {
+    name: 'HCMUTE',
+    src: '/images/hcmute.png',
+    alt: 'This is my school HCMUTE',
+  },
+  {
+    name: 'CLOUD',
+    src: '/images/cloudy.png',
+    alt: 'This scene is so beautiful and peaceful',
+  },
+  {
+    name: 'HO CHI MINH CITY',
+    src: '/images/hcm_city.png',
+    alt: 'The city where I live',
+  }
+];
+---
+
+<div class="relative h-[400px] w-full" id="hero-section">
+  <div class="absolute right-0 top-0 w-4/5 h-full">
+    <div class="relative w-full h-full">
+      {imageUrls.map((image, index) => (
+        <div class="image-container absolute inset-0" data-index={index}>
+          <Image
+            src={image.src}
+            alt={image.alt}
+            width={800}
+            height={400}
+            class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-lg transform rotate-2 transition-opacity duration-500"
+          />
+          <div class="absolute inset-0 -z-10 bg-gray-200 rounded-lg transform rotate-6" />
+          <div class="absolute inset-0 -z-20 bg-gray-100 rounded-lg transform -rotate-2" />
+          <div class="absolute bottom-4 left-4 text-white text-xl font-bold">
+            {image.name}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+<script>
+
+</script>
+
+<style>
+  .image-container {
+    transition: opacity 0.5s ease-in-out;
+  }
+</style>

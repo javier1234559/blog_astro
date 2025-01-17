@@ -1,11 +1,6 @@
 ---
 import { getPageMeta } from "../lib/seo";
-import {
-  SITE_TITLE,
-  SITE_DESCRIPTION,
-  SITE_URL,
-  TWITTER_HANDLE,
-} from "../config";
+import siteMetadata from "@/content/sideMetaData";
 
 export interface Props {
   title?: string;
@@ -15,15 +10,15 @@ export interface Props {
 const { title, description } = Astro.props;
 
 const { meta, og, twitter } = getPageMeta({
-  title: title || SITE_TITLE,
-  description: description || SITE_DESCRIPTION,
-  baseUrl: SITE_URL,
-  ogImageAbsoluteUrl: `${SITE_URL}/images/og.png`,
+  title: title ||siteMetadata.title,
+  description: description || siteMetadata.description,
+  baseUrl: siteMetadata.siteUrl,
+  ogImageAbsoluteUrl: `${siteMetadata.siteUrl}/images/og.png`,
   ogImageAltText: "My fancy website",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  siteOwnerTwitterHandle: TWITTER_HANDLE,
-  contentAuthorTwitterHandle: TWITTER_HANDLE,
+  siteOwnerTwitterHandle: siteMetadata.twitterHandle,
+  contentAuthorTwitterHandle: siteMetadata.twitterHandle,
 });
 ---
 

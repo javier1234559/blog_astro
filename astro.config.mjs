@@ -1,32 +1,59 @@
-/* eslint-disable turbo/no-undeclared-env-vars */
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
-
-/* 
-  We are doing some URL mumbo jumbo here to tell Astro what the URL of your website will be.
-  In local development, your SEO meta tags will have localhost URL.
-  In built production websites, your SEO meta tags should have your website URL.
-  So we give our website URL here and the template will know what URL to use 
-  for meta tags during build.
-  If you don't know your website URL yet, don't worry about this
-  and leave it empty or use localhost URL. It won't break anything.
-*/
+import react from "@astrojs/react";
+import tailwind from "@astrojs/tailwind";
+import icon from "astro-icon";
 
 const SERVER_PORT = 4000;
-// the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
-// the url to access your blog after deploying it somewhere (Eg. Netlify)
 const LIVE_URL = "https://nhatng.vercel.app/";
-// this is the astro command your npm script runs
 const SCRIPT = process.env.npm_lifecycle_script || "";
 const isBuild = SCRIPT.includes("astro build");
 let BASE_URL = LOCALHOST_URL;
-// When you're building your site in local or in CI, you could just set your URL manually
 if (isBuild) {
   BASE_URL = LIVE_URL;
 }
+
+// https://astro.build/config
+// https://docs.astro.build/en/reference/configuration-reference/#markdownsyntaxhighlight
 export default defineConfig({
-  server: { port: SERVER_PORT },
+  server: {
+    port: SERVER_PORT
+  },
   site: BASE_URL,
-  integrations: [sitemap()],
+  integrations: [sitemap(), react(), icon(),
+  tailwind({
+    applyBaseStyles: false,
+  }),
+  ],
+  markdown: {
+    shikiConfig: {
+      // Choose from Shiki's built-in themes (or add your own)
+      // https://shiki.style/themes
+      theme: 'catppuccin-frappe',
+      themes: {
+        light: 'github-light',
+        dark: 'github-dark',
+      },
+      // Disable the default colors
+      // https://shiki.style/guide/dual-themes#without-default-color
+      // (Added in v4.12.0)
+      defaultColor: false,
+      // Add custom languages
+      // Note: Shiki has countless langs built-in, including .astro!
+      // https://shiki.style/languages
+      langs: [],
+      // Add custom aliases for languages
+      // Map an alias to a Shiki language ID: https://shiki.style/languages#bundled-languages
+      // https://shiki.style/guide/load-lang#custom-language-aliases
+      langAlias: {
+        cjs: "javascript"
+      },
+      // Enable word wrap to prevent horizontal scrolling
+      wrap: true,
+      // Add custom transformers: https://shiki.style/guide/transformers
+      // Find common transformers: https://shiki.style/packages/transformers
+      transformers: [],
+    },
+  }
 });

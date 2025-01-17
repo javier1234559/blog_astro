@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+
+// Extract unique hashtags
+const allHashtags = Array.from(
+  new Set(posts.flatMap((post) => post.data.hashtags || []))
+);
+
+console.log(allHashtags);
+---
+
+<h1>All Hashtags</h1>
+<ul>
+  {allHashtags.map((hashtag) => (
+    <li>
+      <a href={`#${hashtag}`}>#{hashtag}</a>
+    </li>
+  ))}
+</ul>
+
+<h2>Posts by Hashtag</h2>
+{allHashtags.map((hashtag) => (
+  <section>
+    <h3>#{hashtag}</h3>
+    <ul>
+      {posts.map((post) => (
+        <li>
+          <a href={`/blogs/${post.slug}/`}>{post.data.title}</a> - {post.data.description}
+        </li>
+      ))}
+    </ul>
+  </section>
+))}

@@ -1,0 +1,33 @@
+---
+import BlogList from "@/components/feature/BlogList";
+import { TextRevealTW } from "@/components/feature/TextRevealTW";
+import PageMeta from "@/components/PageMeta.astro";
+import type { BlogEntry } from "@/content/content.config";
+import siteMetadata from "@/content/sideMetaData";
+import PageLayout from "@/layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+
+const metaData = {
+  title: 'Blogs',
+  description: siteMetadata.description
+};
+
+const posts : BlogEntry[] = await getCollection('blog')
+
+const sortedPosts = posts
+  .filter((p) => p.data.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.data.date).valueOf() -
+      new Date(a.data.date).valueOf()
+  );
+
+---
+
+<PageLayout>
+  <PageMeta slot="meta" {...metaData}/>
+  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
+    <TextRevealTW as="h1" className='text-3xl mb-4 font-bold uppercase md:text-5xl' content="Blogs" />
+    <BlogList name="Blogs" posts={sortedPosts} />
+  </section>
+</PageLayout>
