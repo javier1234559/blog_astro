@@ -4,6 +4,8 @@ import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 
+import vercel from "@astrojs/vercel";
+
 const SERVER_PORT = 4000;
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
 const LIVE_URL = "https://nhatng.vercel.app/";
@@ -20,12 +22,15 @@ export default defineConfig({
   server: {
     port: SERVER_PORT
   },
+
   site: BASE_URL,
+
   integrations: [sitemap(), react(), icon(),
   tailwind({
     applyBaseStyles: false,
   }),
   ],
+
   markdown: {
     shikiConfig: {
       // Choose from Shiki's built-in themes (or add your own)
@@ -55,5 +60,7 @@ export default defineConfig({
       // Find common transformers: https://shiki.style/packages/transformers
       transformers: [],
     },
-  }
+  },
+
+  adapter: vercel()
 });
