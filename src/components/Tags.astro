@@ -1,4 +1,5 @@
 ---
+import { badgeVariants } from '@/components/ui/badge';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('blog');
@@ -7,29 +8,37 @@ const posts = await getCollection('blog');
 const allHashtags = Array.from(
   new Set(posts.flatMap((post) => post.data.hashtags || []))
 );
-
-console.log(allHashtags);
 ---
 
-<h1>All Hashtags</h1>
-<ul>
-  {allHashtags.map((hashtag) => (
-    <li>
-      <a href={`#${hashtag}`}>#{hashtag}</a>
-    </li>
-  ))}
-</ul>
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">Tất cả Hashtags</h1>
+  <ul class="flex flex-wrap gap-2 mb-8">
+    {allHashtags.map((hashtag) => (
+      <li>
+        <a href={`/tags/${hashtag}`} class={badgeVariants({ variant: "outline" })}>
+          #{hashtag}
+        </a>
+      </li>
+    ))}
+  </ul>
 
-<h2>Posts by Hashtag</h2>
-{allHashtags.map((hashtag) => (
-  <section>
-    <h3>#{hashtag}</h3>
-    <ul>
-      {posts.map((post) => (
-        <li>
-          <a href={`/blogs/${post.slug}/`}>{post.data.title}</a> - {post.data.description}
-        </li>
-      ))}
-    </ul>
-  </section>
-))}
+  <h2 class="text-2xl font-bold mb-6">Bài viết theo Hashtag</h2>
+  <div class="space-y-8">
+    {allHashtags.map((hashtag) => (
+      <section>
+        <h3 class="text-xl font-semibold mb-4">#{hashtag}</h3>
+        <ul class="flex flex-wrap gap-2">
+          {posts
+            .filter((post) => post.data.hashtags?.includes(hashtag))
+            .map((post) => (
+              <li>
+                <a href={`/blogs/${post.data.slug}/`} class={badgeVariants({ variant: "outline" })}>
+                  {post.data.title}
+                </a>
+              </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</div>

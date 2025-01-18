@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { type CollectionEntry, defineCollection, z } from 'astro:content';
 import { glob, file } from 'astro/loaders';
 
 const BlogSchema = z.object({
@@ -18,19 +18,19 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
-export type CollectionEntry<CollectionName extends string, Schema> = {
-  id: string;
-  slug: string;
-  body: string;
-  collection: CollectionName;
-  data: Schema;
-  filePath: string;
-  digest: string;
-  rendered: {
-    html: string;
-    metadata: Record<string, unknown>;
-  };
-  render: () => Promise<{ html: string }>;
-};
+// export type CollectionEntry<CollectionName extends string, Schema> = {
+//   id: string;
+//   slug: string;
+//   body: string;
+//   collection: CollectionName;
+//   data: Schema;
+//   filePath: string;
+//   digest: string;
+//   rendered: {
+//     html: string;
+//     metadata: Record<string, unknown>;
+//   };
+//   render: () => Promise<{ html: string }>;
+// };
 
-export type BlogEntry = CollectionEntry<'blog', BlogFromSchema>;
+export type BlogEntry = CollectionEntry<'blog'> ;

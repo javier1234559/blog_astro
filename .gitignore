@@ -1,6 +1,7 @@
 # build output
 dist/
 .cache/
+.astro/
 
 # dependencies
 node_modules/

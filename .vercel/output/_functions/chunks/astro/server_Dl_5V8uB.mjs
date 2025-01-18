@@ -4,17 +4,91 @@ import { escape } from 'html-escaper';
 import { decodeBase64, encodeHexUpperCase, encodeBase64, decodeHex } from '@oslojs/encoding';
 import 'cssesc';
 
-const ASTRO_VERSION = "5.1.7";
-const REROUTE_DIRECTIVE_HEADER = "X-Astro-Reroute";
-const REWRITE_DIRECTIVE_HEADER_KEY = "X-Astro-Rewrite";
-const REWRITE_DIRECTIVE_HEADER_VALUE = "yes";
-const NOOP_MIDDLEWARE_HEADER = "X-Astro-Noop";
-const ROUTE_TYPE_HEADER = "X-Astro-Route-Type";
-const DEFAULT_404_COMPONENT = "astro-default-404.astro";
-const REROUTABLE_STATUS_CODES = [404, 500];
-const clientAddressSymbol = Symbol.for("astro.clientAddress");
-const originPathnameSymbol = Symbol.for("astro.originPathname");
-const responseSentSymbol = Symbol.for("astro.responseSent");
+function normalizeLF(code) {
+  return code.replace(/\r\n|\r(?!\n)|\n/g, "\n");
+}
+
+function codeFrame(src, loc) {
+  if (!loc || loc.line === undefined || loc.column === undefined) {
+    return "";
+  }
+  const lines = normalizeLF(src).split("\n").map((ln) => ln.replace(/\t/g, "  "));
+  const visibleLines = [];
+  for (let n = -2; n <= 2; n++) {
+    if (lines[loc.line + n]) visibleLines.push(loc.line + n);
+  }
+  let gutterWidth = 0;
+  for (const lineNo of visibleLines) {
+    let w = `> ${lineNo}`;
+    if (w.length > gutterWidth) gutterWidth = w.length;
+  }
+  let output = "";
+  for (const lineNo of visibleLines) {
+    const isFocusedLine = lineNo === loc.line - 1;
+    output += isFocusedLine ? "> " : "  ";
+    output += `${lineNo + 1} | ${lines[lineNo]}
+`;
+    if (isFocusedLine)
+      output += `${Array.from({ length: gutterWidth }).join(" ")}  | ${Array.from({
+        length: loc.column
+      }).join(" ")}^
+`;
+  }
+  return output;
+}
+
+class AstroError extends Error {
+  loc;
+  title;
+  hint;
+  frame;
+  type = "AstroError";
+  constructor(props, options) {
+    const { name, title, message, stack, location, hint, frame } = props;
+    super(message, options);
+    this.title = title;
+    this.name = name;
+    if (message) this.message = message;
+    this.stack = stack ? stack : this.stack;
+    this.loc = location;
+    this.hint = hint;
+    this.frame = frame;
+  }
+  setLocation(location) {
+    this.loc = location;
+  }
+  setName(name) {
+    this.name = name;
+  }
+  setMessage(message) {
+    this.message = message;
+  }
+  setHint(hint) {
+    this.hint = hint;
+  }
+  setFrame(source, location) {
+    this.frame = codeFrame(source, location);
+  }
+  static is(err) {
+    return err.type === "AstroError";
+  }
+}
+class AstroUserError extends Error {
+  type = "AstroUserError";
+  /**
+   * A message that explains to the user how they can fix the error.
+   */
+  hint;
+  name = "AstroUserError";
+  constructor(message, hint) {
+    super();
+    this.message = message;
+    this.hint = hint;
+  }
+  static is(err) {
+    return err.type === "AstroUserError";
+  }
+}
 
 const ClientAddressNotAvailable = {
   name: "ClientAddressNotAvailable",
@@ -298,74 +372,81 @@ const RenderUndefinedEntryError = {
   hint: "Check if the entry is undefined before passing it to `render()`"
 };
 
-function normalizeLF(code) {
-  return code.replace(/\r\n|\r(?!\n)|\n/g, "\n");
+function validateArgs(args) {
+  if (args.length !== 3) return false;
+  if (!args[0] || typeof args[0] !== "object") return false;
+  return true;
+}
+function baseCreateComponent(cb, moduleId, propagation) {
+  const name = moduleId?.split("/").pop()?.replace(".astro", "") ?? "";
+  const fn = (...args) => {
+    if (!validateArgs(args)) {
+      throw new AstroError({
+        ...InvalidComponentArgs,
+        message: InvalidComponentArgs.message(name)
+      });
+    }
+    return cb(...args);
+  };
+  Object.defineProperty(fn, "name", { value: name, writable: false });
+  fn.isAstroComponentFactory = true;
+  fn.moduleId = moduleId;
+  fn.propagation = propagation;
+  return fn;
+}
+function createComponentWithOptions(opts) {
+  const cb = baseCreateComponent(opts.factory, opts.moduleId, opts.propagation);
+  return cb;
+}
+function createComponent(arg1, moduleId, propagation) {
+  if (typeof arg1 === "function") {
+    return baseCreateComponent(arg1, moduleId, propagation);
+  } else {
+    return createComponentWithOptions(arg1);
+  }
 }
 
-function codeFrame(src, loc) {
-  if (!loc || loc.line === undefined || loc.column === undefined) {
-    return "";
-  }
-  const lines = normalizeLF(src).split("\n").map((ln) => ln.replace(/\t/g, "  "));
-  const visibleLines = [];
-  for (let n = -2; n <= 2; n++) {
-    if (lines[loc.line + n]) visibleLines.push(loc.line + n);
-  }
-  let gutterWidth = 0;
-  for (const lineNo of visibleLines) {
-    let w = `> ${lineNo}`;
-    if (w.length > gutterWidth) gutterWidth = w.length;
-  }
-  let output = "";
-  for (const lineNo of visibleLines) {
-    const isFocusedLine = lineNo === loc.line - 1;
-    output += isFocusedLine ? "> " : "  ";
-    output += `${lineNo + 1} | ${lines[lineNo]}
-`;
-    if (isFocusedLine)
-      output += `${Array.from({ length: gutterWidth }).join(" ")}  | ${Array.from({
-        length: loc.column
-      }).join(" ")}^
-`;
-  }
-  return output;
-}
+const ASTRO_VERSION = "5.1.7";
+const REROUTE_DIRECTIVE_HEADER = "X-Astro-Reroute";
+const REWRITE_DIRECTIVE_HEADER_KEY = "X-Astro-Rewrite";
+const REWRITE_DIRECTIVE_HEADER_VALUE = "yes";
+const NOOP_MIDDLEWARE_HEADER = "X-Astro-Noop";
+const ROUTE_TYPE_HEADER = "X-Astro-Route-Type";
+const DEFAULT_404_COMPONENT = "astro-default-404.astro";
+const REROUTABLE_STATUS_CODES = [404, 500];
+const clientAddressSymbol = Symbol.for("astro.clientAddress");
+const originPathnameSymbol = Symbol.for("astro.originPathname");
+const responseSentSymbol = Symbol.for("astro.responseSent");
 
-class AstroError extends Error {
-  loc;
-  title;
-  hint;
-  frame;
-  type = "AstroError";
-  constructor(props, options) {
-    const { name, title, message, stack, location, hint, frame } = props;
-    super(message, options);
-    this.title = title;
-    this.name = name;
-    if (message) this.message = message;
-    this.stack = stack ? stack : this.stack;
-    this.loc = location;
-    this.hint = hint;
-    this.frame = frame;
-  }
-  setLocation(location) {
-    this.loc = location;
-  }
-  setName(name) {
-    this.name = name;
-  }
-  setMessage(message) {
-    this.message = message;
-  }
-  setHint(hint) {
-    this.hint = hint;
-  }
-  setFrame(source, location) {
-    this.frame = codeFrame(source, location);
-  }
-  static is(err) {
-    return err.type === "AstroError";
-  }
+function createAstroGlobFn() {
+  const globHandler = (importMetaGlobResult) => {
+    console.warn(`Astro.glob is deprecated and will be removed in a future major version of Astro.
+Use import.meta.glob instead: https://vitejs.dev/guide/features.html#glob-import`);
+    if (typeof importMetaGlobResult === "string") {
+      throw new AstroError({
+        ...AstroGlobUsedOutside,
+        message: AstroGlobUsedOutside.message(JSON.stringify(importMetaGlobResult))
+      });
+    }
+    let allEntries = [...Object.values(importMetaGlobResult)];
+    if (allEntries.length === 0) {
+      throw new AstroError({
+        ...AstroGlobNoMatch,
+        message: AstroGlobNoMatch.message(JSON.stringify(importMetaGlobResult))
+      });
+    }
+    return Promise.all(allEntries.map((fn) => fn()));
+  };
+  return globHandler;
+}
+function createAstro(site) {
+  return {
+    // TODO: this is no longer necessary for `Astro.site`
+    // but it somehow allows working around caching issues in content collections for some tests
+    site: new URL(site) ,
+    generator: `Astro v${ASTRO_VERSION}`,
+    glob: createAstroGlobFn()
+  };
 }
 
 async function renderEndpoint(mod, context, isPrerendered, logger) {
@@ -414,71 +495,6 @@ Found handlers: ${Object.keys(mod).map((exp) => JSON.stringify(exp)).join(", ")}
     }
   }
   return response;
-}
-
-function validateArgs(args) {
-  if (args.length !== 3) return false;
-  if (!args[0] || typeof args[0] !== "object") return false;
-  return true;
-}
-function baseCreateComponent(cb, moduleId, propagation) {
-  const name = moduleId?.split("/").pop()?.replace(".astro", "") ?? "";
-  const fn = (...args) => {
-    if (!validateArgs(args)) {
-      throw new AstroError({
-        ...InvalidComponentArgs,
-        message: InvalidComponentArgs.message(name)
-      });
-    }
-    return cb(...args);
-  };
-  Object.defineProperty(fn, "name", { value: name, writable: false });
-  fn.isAstroComponentFactory = true;
-  fn.moduleId = moduleId;
-  fn.propagation = propagation;
-  return fn;
-}
-function createComponentWithOptions(opts) {
-  const cb = baseCreateComponent(opts.factory, opts.moduleId, opts.propagation);
-  return cb;
-}
-function createComponent(arg1, moduleId, propagation) {
-  if (typeof arg1 === "function") {
-    return baseCreateComponent(arg1, moduleId, propagation);
-  } else {
-    return createComponentWithOptions(arg1);
-  }
-}
-
-function createAstroGlobFn() {
-  const globHandler = (importMetaGlobResult) => {
-    console.warn(`Astro.glob is deprecated and will be removed in a future major version of Astro.
-Use import.meta.glob instead: https://vitejs.dev/guide/features.html#glob-import`);
-    if (typeof importMetaGlobResult === "string") {
-      throw new AstroError({
-        ...AstroGlobUsedOutside,
-        message: AstroGlobUsedOutside.message(JSON.stringify(importMetaGlobResult))
-      });
-    }
-    let allEntries = [...Object.values(importMetaGlobResult)];
-    if (allEntries.length === 0) {
-      throw new AstroError({
-        ...AstroGlobNoMatch,
-        message: AstroGlobNoMatch.message(JSON.stringify(importMetaGlobResult))
-      });
-    }
-    return Promise.all(allEntries.map((fn) => fn()));
-  };
-  return globHandler;
-}
-function createAstro(site) {
-  return {
-    // TODO: this is no longer necessary for `Astro.site`
-    // but it somehow allows working around caching issues in content collections for some tests
-    site: new URL(site) ,
-    generator: `Astro v${ASTRO_VERSION}`,
-    glob: createAstroGlobFn()
-  };
 }
 
 function isPromise(value) {
@@ -564,11 +580,6 @@ function unescapeHTML(str) {
     }
   }
   return markHTMLString(str);
-}
-
-const AstroJSX = "astro:jsx";
-function isVNode(vnode) {
-  return vnode && typeof vnode === "object" && vnode[AstroJSX];
 }
 
 const RenderInstructionSymbol = Symbol.for("astro:render");
@@ -2616,4 +2627,71 @@ function spreadAttributes(values = {}, _name, { class: scopedClassName } = {}) {
   return markHTMLString(output);
 }
 
-export { NoMatchingStaticPathFound as $, AstroError as A, ROUTE_TYPE_HEADER as B, REROUTE_DIRECTIVE_HEADER as C, DEFAULT_404_COMPONENT as D, ExpectedImage as E, Fragment as F, i18nNoLocaleFoundInPath as G, ResponseSentError as H, IncompatibleDescriptorOptions as I, MiddlewareNoDataOrNextCalled as J, MiddlewareNotAResponse as K, LocalImageUsedWrongly as L, MissingSharp as M, NOOP_MIDDLEWARE_HEADER as N, RewriteWithBodyUsed as O, originPathnameSymbol as P, GetStaticPathsRequired as Q, RenderUndefinedEntryError as R, InvalidGetStaticPathsReturn as S, InvalidGetStaticPathsEntry as T, UnknownContentCollectionError as U, GetStaticPathsExpectedParams as V, GetStaticPathsInvalidRouteParam as W, PageNumberParamNotFound as X, decryptString as Y, createSlotValueFromString as Z, isAstroComponentFactory as _, addAttribute as a, PrerenderDynamicEndpointPathCollide as a0, ReservedSlotName as a1, renderSlotToString as a2, renderJSX as a3, chunkToString as a4, isRenderInstruction as a5, ForbiddenRewrite as a6, SessionStorageSaveError as a7, SessionStorageInitError as a8, LocalsReassigned as a9, AstroResponseHeadersReassigned as aa, PrerenderClientAddressNotAvailable as ab, clientAddressSymbol as ac, ClientAddressNotAvailable as ad, StaticClientAddressNotAvailable as ae, ASTRO_VERSION as af, responseSentSymbol as ag, renderPage as ah, REWRITE_DIRECTIVE_HEADER_KEY as ai, REWRITE_DIRECTIVE_HEADER_VALUE as aj, renderEndpoint as ak, LocalsNotAnObject as al, REROUTABLE_STATUS_CODES as am, createAstro as b, createComponent as c, renderComponent as d, renderSlot as e, renderHead as f, renderTransition as g, decodeKey as h, renderUniqueStylesheet as i, renderScriptElement as j, createHeadAndContent as k, renderScript as l, maybeRenderHead as m, MissingImageDimension as n, UnsupportedImageFormat as o, UnsupportedImageConversion as p, NoImageMetadata as q, renderTemplate as r, FailedToFetchRemoteImageDimensions as s, ExpectedImageOptions as t, unescapeHTML as u, ExpectedNotESMImage as v, InvalidImageService as w, toStyleString as x, ImageMissingAlt as y, spreadAttributes as z };
+const AstroJSX = "astro:jsx";
+const Empty = Symbol("empty");
+const toSlotName = (slotAttr) => slotAttr;
+function isVNode(vnode) {
+  return vnode && typeof vnode === "object" && vnode[AstroJSX];
+}
+function transformSlots(vnode) {
+  if (typeof vnode.type === "string") return vnode;
+  const slots = {};
+  if (isVNode(vnode.props.children)) {
+    const child = vnode.props.children;
+    if (!isVNode(child)) return;
+    if (!("slot" in child.props)) return;
+    const name = toSlotName(child.props.slot);
+    slots[name] = [child];
+    slots[name]["$$slot"] = true;
+    delete child.props.slot;
+    delete vnode.props.children;
+  } else if (Array.isArray(vnode.props.children)) {
+    vnode.props.children = vnode.props.children.map((child) => {
+      if (!isVNode(child)) return child;
+      if (!("slot" in child.props)) return child;
+      const name = toSlotName(child.props.slot);
+      if (Array.isArray(slots[name])) {
+        slots[name].push(child);
+      } else {
+        slots[name] = [child];
+        slots[name]["$$slot"] = true;
+      }
+      delete child.props.slot;
+      return Empty;
+    }).filter((v) => v !== Empty);
+  }
+  Object.assign(vnode.props, slots);
+}
+function markRawChildren(child) {
+  if (typeof child === "string") return markHTMLString(child);
+  if (Array.isArray(child)) return child.map((c) => markRawChildren(c));
+  return child;
+}
+function transformSetDirectives(vnode) {
+  if (!("set:html" in vnode.props || "set:text" in vnode.props)) return;
+  if ("set:html" in vnode.props) {
+    const children = markRawChildren(vnode.props["set:html"]);
+    delete vnode.props["set:html"];
+    Object.assign(vnode.props, { children });
+    return;
+  }
+  if ("set:text" in vnode.props) {
+    const children = vnode.props["set:text"];
+    delete vnode.props["set:text"];
+    Object.assign(vnode.props, { children });
+    return;
+  }
+}
+function createVNode(type, props) {
+  const vnode = {
+    [Renderer]: "astro:jsx",
+    [AstroJSX]: true,
+    type,
+    props: props ?? {}
+  };
+  transformSetDirectives(vnode);
+  transformSlots(vnode);
+  return vnode;
+}
+
+export { decryptString as $, AstroError as A, toStyleString as B, ImageMissingAlt as C, DEFAULT_404_COMPONENT as D, ExpectedImage as E, FailedToFetchRemoteImageDimensions as F, spreadAttributes as G, ROUTE_TYPE_HEADER as H, IncompatibleDescriptorOptions as I, REROUTE_DIRECTIVE_HEADER as J, i18nNoLocaleFoundInPath as K, LocalImageUsedWrongly as L, MissingSharp as M, NOOP_MIDDLEWARE_HEADER as N, ResponseSentError as O, MiddlewareNoDataOrNextCalled as P, MiddlewareNotAResponse as Q, RenderUndefinedEntryError as R, RewriteWithBodyUsed as S, originPathnameSymbol as T, UnknownContentCollectionError as U, GetStaticPathsRequired as V, InvalidGetStaticPathsReturn as W, InvalidGetStaticPathsEntry as X, GetStaticPathsExpectedParams as Y, GetStaticPathsInvalidRouteParam as Z, PageNumberParamNotFound as _, addAttribute as a, createSlotValueFromString as a0, isAstroComponentFactory as a1, NoMatchingStaticPathFound as a2, PrerenderDynamicEndpointPathCollide as a3, ReservedSlotName as a4, renderSlotToString as a5, chunkToString as a6, isRenderInstruction as a7, ForbiddenRewrite as a8, SessionStorageSaveError as a9, SessionStorageInitError as aa, LocalsReassigned as ab, AstroResponseHeadersReassigned as ac, PrerenderClientAddressNotAvailable as ad, clientAddressSymbol as ae, ClientAddressNotAvailable as af, StaticClientAddressNotAvailable as ag, ASTRO_VERSION as ah, responseSentSymbol as ai, renderPage as aj, REWRITE_DIRECTIVE_HEADER_KEY as ak, REWRITE_DIRECTIVE_HEADER_VALUE as al, renderEndpoint as am, LocalsNotAnObject as an, REROUTABLE_STATUS_CODES as ao, createAstro as b, createComponent as c, renderComponent as d, renderSlot as e, renderHead as f, renderTransition as g, decodeKey as h, AstroJSX as i, renderJSX as j, createVNode as k, AstroUserError as l, maybeRenderHead as m, renderUniqueStylesheet as n, renderScriptElement as o, createHeadAndContent as p, renderScript as q, renderTemplate as r, MissingImageDimension as s, UnsupportedImageFormat as t, unescapeHTML as u, UnsupportedImageConversion as v, NoImageMetadata as w, ExpectedImageOptions as x, ExpectedNotESMImage as y, InvalidImageService as z };

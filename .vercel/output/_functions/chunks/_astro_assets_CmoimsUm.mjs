@@ -1,5 +1,5 @@
 import { i as isRemotePath, j as joinPaths } from './path_I7weJv-K.mjs';
-import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, n as MissingImageDimension, o as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, p as UnsupportedImageConversion, q as NoImageMetadata, s as FailedToFetchRemoteImageDimensions, t as ExpectedImageOptions, v as ExpectedNotESMImage, w as InvalidImageService, x as toStyleString, b as createAstro, c as createComponent, y as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, a as addAttribute, z as spreadAttributes } from './astro/server_DB_MCi9a.mjs';
+import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, s as MissingImageDimension, t as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, v as UnsupportedImageConversion, w as NoImageMetadata, F as FailedToFetchRemoteImageDimensions, x as ExpectedImageOptions, y as ExpectedNotESMImage, z as InvalidImageService, B as toStyleString, b as createAstro, c as createComponent, C as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, a as addAttribute, G as spreadAttributes } from './astro/server_Dl_5V8uB.mjs';
 import { D as DEFAULT_HASH_PROPS, a as VALID_SUPPORTED_FORMATS, b as DEFAULT_OUTPUT_FORMAT } from './consts_CJVA2lEV.mjs';
 import * as mime from 'mrmime';
 import 'clsx';
@@ -1224,7 +1224,7 @@ async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
     const { default: service } = await import(
       // @ts-expect-error
-      './sharp_VmPYE29z.mjs'
+      './sharp_BZ1jY55R.mjs'
     ).catch((e) => {
       const error = new AstroError(InvalidImageService);
       error.cause = e;
