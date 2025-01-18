@@ -2,9 +2,11 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
-import icon from "astro-icon";
-
+import mdx from "@astrojs/mdx";
 import vercel from "@astrojs/vercel";
+import { rehypePreButton } from './src/plugins/rehype-pre-button';
+import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis';
+import remarkToc from 'remark-toc';
 
 const SERVER_PORT = 4000;
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
@@ -22,45 +24,25 @@ export default defineConfig({
   server: {
     port: SERVER_PORT
   },
-
   site: BASE_URL,
-
-  integrations: [sitemap(), react(), icon(),
-  tailwind({
-    applyBaseStyles: false,
-  }),
+  integrations: [
+    mdx(),
+    sitemap(),
+    react(),
+    tailwind({
+      applyBaseStyles: false,
+    })
   ],
-
   markdown: {
+    remarkPlugins: [[remarkToc, { heading: 'toc', maxDepth: 3 }]],
+    rehypePlugins: [rehypePreButton, rehypeAccessibleEmojis],
     shikiConfig: {
-      // Choose from Shiki's built-in themes (or add your own)
-      // https://shiki.style/themes
-      theme: 'catppuccin-frappe',
-      themes: {
-        light: 'github-light',
-        dark: 'github-dark',
-      },
-      // Disable the default colors
-      // https://shiki.style/guide/dual-themes#without-default-color
-      // (Added in v4.12.0)
-      defaultColor: false,
-      // Add custom languages
-      // Note: Shiki has countless langs built-in, including .astro!
-      // https://shiki.style/languages
-      langs: [],
-      // Add custom aliases for languages
-      // Map an alias to a Shiki language ID: https://shiki.style/languages#bundled-languages
-      // https://shiki.style/guide/load-lang#custom-language-aliases
-      langAlias: {
-        cjs: "javascript"
-      },
-      // Enable word wrap to prevent horizontal scrolling
-      wrap: true,
-      // Add custom transformers: https://shiki.style/guide/transformers
-      // Find common transformers: https://shiki.style/packages/transformers
-      transformers: [],
-    },
+      theme: 'catppuccin-mocha',
+      wrap: true
+    }
   },
-
+  themes: {
+    default: 'catppuccin-mocha'
+  },
   adapter: vercel()
 });

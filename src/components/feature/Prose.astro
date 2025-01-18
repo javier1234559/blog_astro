@@ -1,0 +1,26 @@
+---
+
+---
+<article
+  class="prose dark:prose-invert
+  prose-h1:font-barlow prose-h1:text-xl
+  prose-a:text-blue-600 prose-p:text-justify prose-img:rounded-xl
+  prose-headings:underline
+  prose-pre:!p-4 prose-pre:!rounded-lg prose-pre:relative
+  container text-left w-full max-w-none">
+  <slot />
+</article>
+
+
+<style is:global>
+  .prose > pre {
+    position: relative;
+  }
+
+  .prose > pre > copy-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+</style>
+

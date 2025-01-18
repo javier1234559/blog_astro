@@ -7,10 +7,10 @@ import siteMetadata from "@/content/sideMetaData";
 import ContentLayout from "@/layouts/ContentLayout.astro";
 import { getCollection, getEntry, render } from "astro:content";
 import moment from "moment";
-import { Prism } from '@astrojs/prism';
+import Prose from "@/components/feature/Prose.astro";
+
 
 export async function getStaticPaths() {
-  // need this for dynamic routes
   const posts: BlogEntry[] = await getCollection("blog");
 
   const filteredPosts = posts
@@ -52,7 +52,6 @@ const metaData = {
   ).toString(),
 };
 
-console.log(headings);
 ---
 
 <ContentLayout>
@@ -85,8 +84,8 @@ console.log(headings);
         </div>
       )
     }
-    <!-- <article class="prose prose-lg max-w-none"> -->
-      <Content />
-    <!-- </article> -->
+       <Prose>
+        <Content />
+        </Prose>
   </section>
 </ContentLayout>
