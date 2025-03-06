@@ -1,0 +1,62 @@
+name: Sync Notion to Markdown
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Cho phép kích hoạt thủ công
+  repository_dispatch: # Nhận request từ Notion webhook
+    types: [notion_publish] # Lắng nghe sự kiện từ webhook
+
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch data from API
+        run: |
+          curl -s https://jsonplaceholder.typicode.com/posts/1 > data.json
+          cat data.json # In ra console để debug
+
+      - name: Convert JSON to Markdown
+        run: |
+          # Cài đặt jq để xử lý JSON
+          sudo apt-get update && sudo apt-get install -y jq
+          
+          # Trích xuất dữ liệu từ JSON
+          userId=$(jq '.userId' data.json)
+          id=$(jq '.id' data.json)
+          title=$(jq -r '.title' data.json)
+          body=$(jq -r '.body' data.json)
+
+          # Tạo thư mục lưu file Markdown
+          mkdir -p markdown_files
+
+          # Định nghĩa file output
+          output_file="markdown_files/post_${id}.md"
+
+          # Ghi nội dung vào file Markdown
+          cat <<EOF > "$output_file"
+---
+userId: $userId
+id: $id
+title: $title
+---
+
+# $title
+
+$body
+EOF
+
+          echo "Markdown file created at $output_file"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add markdown_files/
+          git commit -m "Generated markdown from API"
+          git push
