@@ -1,18 +1,83 @@
 ---
 import siteMetadata from "@/content/sideMetaData";
 import PageLayout from "@/layouts/PageLayout.astro";
-import Hashtags from "@/components/Tags.astro";
 import { TextRevealTW } from "@/components/feature/TextRevealTW";
+import { badgeVariants } from '@/components/ui/badge';
 
 const metaData = {
-  title: 'Project',
+  title: 'Projects',
   description: siteMetadata.description
 };
+
+const projects = [
+  {
+    title: 'Coolmate Shop Clone',
+    description: 'Ecommerce website xây dựng bằng MERN Stack, tích hợp thanh toán qua Momo và VNPay. Website thương mại điện tử với đầy đủ tính năng từ giỏ hàng, đặt hàng đến thanh toán.',
+    link: 'https://github.com/javier1234559/coolmate-shop',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js' ,'Scss', 'Momo', 'VNPay']
+  },
+  {
+    title: 'Weebuns AI',
+    description: 'Nền tảng học tập kết nối 4 kỹ năng với giáo viên trung tâm, tích hợp AI hỗ trợ. Giúp học viên và giáo viên tương tác hiệu quả hơn trong quá trình học tập.',
+    link: 'https://github.com/javier1234559/weebuns-ai',
+    liveDemo: 'https://weebuns-ai.vercel.app/',
+    techStack: ['Next.js', 'Nest.js', 'React', 'Tailwind CSS', 'AI Integration']
+  },
+  {
+    title: 'Cosmos Chain Client',
+    description: 'Client ứng dụng cho phép tương tác với Cosmos blockchain, tích hợp chức năng gửi token và quản lý giao dịch trên chain.',
+    link: 'https://github.com/javier1234559/sto-client',
+    liveDemo: 'https://sto-client.vercel.app',
+    techStack: ['Next.js', 'TypeScript', 'Cosmos SDK', 'Blockchain']
+  },
+  {
+    title: 'Photo & Video App',
+    description: 'Ứng dụng di động được xây dựng bằng Flutter để lưu trữ và quản lý ảnh, video. Tối ưu hiệu suất và trải nghiệm người dùng trên cả iOS và Android.',
+    link: 'https://github.com/javier1234559/photoapp',
+    techStack: ['Flutter', 'Dart']
+  }
+];
 ---
 
-<PageLayout slot="meta" {...metaData}>
-  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh] ">
-    <TextRevealTW as="h1" className='text-3xl mb-4 font-bold uppercase md:text-5xl' content="Projects" />
-    <Hashtags />
+<PageLayout>
+  <div slot="meta" {...metaData} />
+  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
+    <TextRevealTW as="h1" className='text-3xl mb-8 font-bold uppercase md:text-5xl' content="Projects" />
+    
+    <div class="grid gap-6 md:grid-cols-2">
+      {projects.map((project) => (
+        <article class="border rounded-lg p-6 hover:shadow-lg transition-all hover:border-primary">
+          <h3 class="text-xl font-semibold mb-3">{project.title}</h3>
+          <p class="text-gray-600 mb-4">{project.description}</p>
+          
+          <div class="flex flex-wrap gap-2 mb-4">
+            {project.techStack.map((tech) => (
+              <span class={badgeVariants({ variant: "outline" })}>
+                {tech}
+              </span>
+            ))}
+          </div>
+          
+          <div class="flex gap-3">
+            <a 
+              href={project.link} 
+              target="_blank" 
+              class={badgeVariants({ variant: "default" })}
+            >
+              GitHub
+            </a>
+            {project.liveDemo && (
+              <a 
+                href={project.liveDemo} 
+                target="_blank" 
+                class={badgeVariants({ variant: "secondary" })}
+              >
+                Live Demo
+              </a>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
   </section>
 </PageLayout>

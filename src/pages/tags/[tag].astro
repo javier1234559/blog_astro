@@ -1,0 +1,85 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from "@/layouts/PageLayout.astro";
+import PageMeta from "@/components/PageMeta.astro";
+import { badgeVariants } from '@/components/ui/badge';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  
+  // Get unique tags
+  const uniqueTags = new Set(
+    posts.flatMap(post => post.data.categories.map(category => category.name))
+  );
+
+  return Array.from(uniqueTags).map(tag => ({
+    params: { tag },
+    props: { tag }
+  }));
+}
+
+const { tag } = Astro.params;
+
+if (typeof tag !== "string") {
+  throw Error(`tag should be string. Received: ${tag}`);
+}
+
+console.log(tag);
+
+const posts = await getCollection('blog');
+
+// Filter posts that have the matching tag
+const filteredPosts = posts.filter((post) => 
+  post.data.categories.some((category) => category.name === tag)
+);
+
+console.log(filteredPosts.map((post) => post.data.title));
+
+const metaData = {
+  title: `Posts tagged with #${tag}`,
+  description: `All posts tagged with #${tag}`,
+};
+---
+
+<PageLayout>
+  <PageMeta slot="meta" {...metaData} />
+  <main slot="main" class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold mb-8">Bài viết với tag #{tag}</h1>
+      
+      {filteredPosts.length === 0 ? (
+        <p class="text-gray-600">Không tìm thấy bài viết nào với tag này.</p>
+      ) : (
+        <div class="space-y-8">
+          {filteredPosts.map((post) => (
+            <article class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <h2 class="text-2xl font-semibold mb-4">
+                <a href={`/blogs/${post.data.slug}/`} class="hover:text-primary">
+                  {post.data.title}
+                </a>
+              </h2>
+              <p class="text-gray-600 mb-4">{post.data.description}</p>
+              <div class="flex gap-2">
+                {post.data.categories.map((category) => (
+                  <a 
+                    href={`/tags/${category.name}`} 
+                    class={badgeVariants({ variant: "outline" })}
+                  >
+                    #{category.name}
+                  </a>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+      
+      <div class="mt-8">
+        <a href="/tags" class="text-primary hover:underline">
+          ← Quay lại tất cả tags
+        </a>
+      </div>
+    </div>
+  </main>
+</PageLayout>
+

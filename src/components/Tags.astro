@@ -4,13 +4,17 @@ import { getCollection } from 'astro:content';
 
 const posts = await getCollection('blog');
 
-// Extract unique hashtags
+// Extract unique hashtags from category objects
 const allHashtags = Array.from(
-  new Set(posts.flatMap((post) => post.data.hashtags || []))
+  new Set(
+    posts.flatMap((post) => 
+      post.data.categories.map(category => category.name)
+    )
+  )
 );
 ---
 
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-0 py-8">
   <h1 class="text-3xl font-bold mb-6">Tất cả Hashtags</h1>
   <ul class="flex flex-wrap gap-2 mb-8">
     {allHashtags.map((hashtag) => (
@@ -29,7 +33,9 @@ const allHashtags = Array.from(
         <h3 class="text-xl font-semibold mb-4">#{hashtag}</h3>
         <ul class="flex flex-wrap gap-2">
           {posts
-            .filter((post) => post.data.hashtags?.includes(hashtag))
+            .filter((post) => 
+              post.data.categories.some(category => category.name === hashtag)
+            )
             .map((post) => (
               <li>
                 <a href={`/blogs/${post.data.slug}/`} class={badgeVariants({ variant: "outline" })}>

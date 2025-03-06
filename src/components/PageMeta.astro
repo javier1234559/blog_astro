@@ -3,11 +3,12 @@ import { getPageMeta } from "../lib/seo";
 import siteMetadata from "@/content/sideMetaData";
 
 export interface Props {
-  title?: string;
-  description?: string;
+  title: string;
+  description: string;
+  favicon?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, favicon = '/favicon.ico' } = Astro.props;
 
 const { meta, og, twitter } = getPageMeta({
   title: title ||siteMetadata.title,
@@ -21,6 +22,18 @@ const { meta, og, twitter } = getPageMeta({
   contentAuthorTwitterHandle: siteMetadata.twitterHandle,
 });
 ---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content={description} />
+<title>{title}</title>
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href={favicon} />
+<link rel="shortcut icon" type="image/x-icon" href={favicon} />
+<!-- Optional: Add different sizes and formats for better compatibility -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
 <!-- Primary Meta Tags -->
 <title>{meta.title}</title>

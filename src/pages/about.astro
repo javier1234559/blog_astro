@@ -12,12 +12,25 @@ const metaData = {
 ---
 
 <PageLayout>
-  <PageMeta  slot="meta" {...metaData}/>
-  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
-    <TextRevealTW as="h1" className='text-3xl mb-4 font-bold uppercase md:text-5xl' content="About" />
-    <p>
-      Purpose of this blog is to share my learnings and experiences in the field of software development.
-    </p>
+  <PageMeta slot="meta" {...metaData}/>
+  <section slot="main" class="px-6 py-12 max-w-3xl mx-auto min-h-[80vh] flex flex-col items-center justify-center text-center">
+    <TextRevealTW 
+      as="h1" 
+      content="Tại sao lại có blog này?" 
+      className="text-3xl mb-8 font-bold uppercase md:text-5xl leading-10" 
+    />
+    <div class="space-y-6 text-lg">
+      <p>
+        Đây là nơi tôi chia sẻ những quan điểm cá nhân và ghi chép lại hành trình học tập của mình.
+      </p>
+      <p>
+        Mỗi bài viết là một mảnh ghép của kiến thức, từ những ý tưởng hay trong lập trình 
+        đến những bài học về phát triển bản thân.
+      </p>
+      <p class="italic text-gray-600">
+        "Learn. Share. Grow."
+      </p>
+    </div>
   </section>
 </PageLayout>
 
