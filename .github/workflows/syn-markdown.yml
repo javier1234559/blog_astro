@@ -1,0 +1,21 @@
+name: Sync Notion to Markdown
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual triggering via GitHub UI or API
+  repository_dispatch:  # Allows external services to trigger the workflow
+    types: [notion_publish]  # Specify the event type
+
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch data from API
+        run: |
+          curl -s https://jsonplaceholder.typicode.com/posts/1 > data.json
+          cat data.json  # Output to console
