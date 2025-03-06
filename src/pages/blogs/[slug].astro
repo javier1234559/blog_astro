@@ -14,8 +14,7 @@ export async function getStaticPaths() {
   const posts: BlogEntry[] = await getCollection("blog");
 
   const filteredPosts = posts
-    .filter((post) => post.data.draft !== true)
-    .filter((post) => !post.data.external);
+    .filter((post) => !post.data.draft && !post.data.external);
 
   return filteredPosts.map((post) => ({
     params: { slug: post.slug },
@@ -44,7 +43,7 @@ try {
 const metaData = {
   title: entry.data.title,
   description: entry.data.description,
-  publishDate: entry.data.date.toISOString(),
+  publishDate: new Date(entry.data.date).toISOString(),
   pagePath: `/blogs/${slug}`,
   ogImageAbsoluteUrl: new URL(
     siteMetadata.socialBanner,
@@ -65,8 +64,8 @@ const metaData = {
     <dt class="sr-only">Published on</dt>
     <dd class="leading-6 text-gray-500 mb-4 text-subtle">
       Published on:
-      <time data-time={entry.data.date.toISOString()}>
-        {moment(entry.data.date.toISOString()).format("LL")}
+      <time data-time={new Date(entry.data.date).toISOString()}>
+        {moment(new Date(entry.data.date).toISOString()).format("LL")}
       </time>
     </dd>
     <dt></dt>

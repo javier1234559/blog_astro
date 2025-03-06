@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import moment from "moment";
 import { useState } from "react";
 import type { BlogEntry } from "@/content/content.config";
-import {  badgeVariants } from "@/components/ui/badge";
+import { badgeVariants } from "@/components/ui/badge";
 
 export default function BlogList({
   posts,
@@ -13,9 +13,9 @@ export default function BlogList({
 }) {
   const [search, setSearch] = useState("");
 
-  const filteredPosts = posts.filter((post: BlogEntry) => {
+  const filteredPosts: BlogEntry[] = posts.filter((post: BlogEntry) => {
     if (!search) return true;
-    if(post.data.draft) return false;
+    if (post.data.draft) return false;
     return post.data.title?.toLowerCase().includes(search.toLowerCase());
   });
 
@@ -27,8 +27,7 @@ export default function BlogList({
             These are {posts.length} posts that I have written.
           </p>
           <div className="relative w-full">
-            <form action="">
-            </form>
+            <form action=""></form>
             <input
               aria-label="Search articles"
               value={search}
@@ -61,8 +60,10 @@ export default function BlogList({
               <dl>
                 <dt className="sr-only">Published on</dt>
                 <dd className="font-medium leading-6 text-subtle">
-                  <time dateTime={post.data.date.toISOString()}>
-                    {moment(post.data.date.toISOString()).format("LL")}
+                  <time dateTime={new Date(post.data.date).toISOString()}>
+                    {moment(new Date(post.data.date).toISOString()).format(
+                      "LL"
+                    )}
                   </time>
                 </dd>
                 {/* <div className="font-medium leading-6 text-muted">
@@ -72,22 +73,24 @@ export default function BlogList({
               <div className="space-y-3 xl:col-span-3">
                 <div>
                   <h3 className="text-2xl font-bold leading-8">
-                    <a
-                      href={`/blogs/${post.slug}`}
-                      className="text-text"
-                    >
+                    <a href={`/blogs/${post.slug}`} className="text-text">
                       {post.data.title}
                     </a>
                   </h3>
                   <div className="flex flex-wrap gap-3 mt-2 text-sm">
                     {post.data.hashtags?.map((tag) => (
-                      <a href={`/tags/${tag}`} className={badgeVariants({ variant: "outline" })}>
+                      <a
+                        href={`/tags/${tag}`}
+                        className={badgeVariants({ variant: "outline" })}
+                      >
                         {tag}
                       </a>
                     ))}
                   </div>
                 </div>
-                <div className="prose text-subtle">{post.data?.description}</div>
+                <div className="prose text-subtle">
+                  {post.data?.description}
+                </div>
               </div>
             </article>
           </motion.li>
@@ -96,4 +99,3 @@ export default function BlogList({
     </div>
   );
 }
-

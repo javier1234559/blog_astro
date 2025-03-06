@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Cho phép kích hoạt thủ công
-  repository_dispatch: # Nhận request từ Notion webhook
-    types: [notion_publish] # Lắng nghe sự kiện từ webhook
+  workflow_dispatch:
+  repository_dispatch:
+    types: [notion_publish]
 
 jobs:
   fetch_data:
@@ -15,46 +15,25 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch data from API
-        run: |
-          curl -s https://jsonplaceholder.typicode.com/posts/1 > data.json
-          cat data.json # In ra console để debug
-
-      - name: Convert JSON to Markdown
-        run: |
-          # Cài đặt jq để xử lý JSON
-          sudo apt-get update && sudo apt-get install -y jq
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19'
           
-          # Trích xuất dữ liệu từ JSON
-          userId=$(jq '.userId' data.json)
-          id=$(jq '.id' data.json)
-          title=$(jq -r '.title' data.json)
-          body=$(jq -r '.body' data.json)
+      - name: Install dependencies
+        run: yarn install
 
-          # Tạo thư mục lưu file Markdown
-          mkdir -p markdown_files
-
-          # Định nghĩa file output
-          output_file="markdown_files/post_${id}.md"
-
-          # Ghi nội dung vào file Markdown
-          echo "---" > "$output_file"
-          echo "userId: $userId" >> "$output_file"
-          echo "id: $id" >> "$output_file"
-          echo "title: \"$title\"" >> "$output_file"
-          echo "---" >> "$output_file"
-          echo "" >> "$output_file"
-          echo "# $title" >> "$output_file"
-          echo "" >> "$output_file"
-          echo "$body" >> "$output_file"
-
-          echo "Markdown file created at $output_file"
+      - name: Sync Notion to Markdown
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: yarn sync
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add markdown_files/
-          git commit -m "Generated markdown from API"
+          
+          git add .
+          git commit -m "Sync content from Notion" || echo "No changes to commit"
           git push
