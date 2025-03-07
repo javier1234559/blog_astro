@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Câu Chuyện Của Những \"Cỗ Máy Cũ\" Giữa Thời Đại Số"
-description: "Các bộ phim lấy chủ đề về thực trạng xã hội đang chạm tới nhiều người hiện nay"
+description: "Các bộ phim lấy chủ đề về thực trạng xã hội đang chạm tới nhiều người hiện nay Upstream"
 date: "2025-03-06"
 author: "Minh Nhật Nguyễn"
 slug: "cau-chuyen-cua-nhung-co-may-cu-giua-thoi-dai-so"
@@ -19,7 +19,7 @@ Các bộ phim lấy chủ đề về thực trạng xã hội đang chạm tớ
 Nổi bật gần đây chính là bộ phim trung quốc này - “Upsteam” .
 
 
-# **Bối cảnh câu chuyện**
+# Bối cảnh câu chuyện
 
 
 Cao Chí Luỹ, một lập trình viên già, sau hơn hai chục năm cống hiến cho một doanh nghiệp công nghệ, bị sa thải. Anh là trụ cột gia đình, cần kiếm tiền nuôi vợ và con nhỏ, cùng bố mẹ già. Anh cũng cần phải trả góp tiền nhà hàng tháng do mua vay ngân hàng. Khó khăn chồng chất khi anh không thể xin được việc do quá tuổi, và anh không còn cách nào khác phải đi chạy làm shipper. Và từ một kẻ xây dựng hệ thống, giờ anh phải chật vật hạ cái tôi xuống để kiếm đồng tiền từ khách hàng, cũng như xin bí kíp từ những người shipper khác để có thể leo rank thi đấu trong chính hệ thống công nghệ do những người như anh tạo ra.
@@ -53,7 +53,7 @@ Hơn bao giờ hết mình rất muốn sẽ nhận được một cái kết tr
 Tuy nhiên , sản phầm phần mềm ấy mà anh ta hay muốn “tối ưu” ấy sẽ luôn không có hồi kết nó chỉ đơn thuần thay đổi **luật chơi chứ không phá bỏ hệ thống** , các shipper sau khi có được công cụ này sẽ bị đặt thêm giới hạn mới để vượt qua với y như cách mà công nghệ AI hiện nay đang ảnh hưởng đến ngành lập trình và văn phòng vậy . Đây chính là mặt của sự phát triển mà ta phải chấp nhận , liệu phần mềm này của anh có bị đối thủ cạnh tranh không , liệu nó có phải vướng vào các pháp lý khi các con đường được tối ưu hóa ấy thường sẽ không đúng luật một chút vì cái yếu tố gọi là tốc độ giao hàng . Anh ta vẫn đang tiếp tục làm thuê cho công ty phần mềm mới ấy , liệu có chắc rằng công ty này sẽ không thay thế anh ta nếu họ tìm được một người làm được tốt hơn hay không .
 
 
-# **"Cố gắng ắt thành công" – Một giấc mơ nguy hiểm**:
+# "Cố gắng ắt thành công" – Một giấc mơ nguy hiểm:
 
 
 Câu chuyện của Cao Chí Luỹ dù có hậu nhưng vô tình **tô hồng sự khắc nghiệt của thị trường lao động**. Trên thực tế, không phải ai cũng đủ kỹ năng để tạo ra ứng dụng hay tìm lại công việc ổn định. Bộ phim quên mất những người **không có đặc quyền tri thức** như anh.
@@ -62,7 +62,7 @@ Câu chuyện của Cao Chí Luỹ dù có hậu nhưng vô tình **tô hồng 
 Một trong những bình luận mà mình đã gặp được trên reddit .
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/99f35741-92d3-4684-b658-a920274f25fa/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662X77I3MR%2F20250306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250306T100416Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC2jL7Q77mhZ9xPyR%2BJ1YMFVtI7enLtu8ukef5mLlC1bwIgNxRf8MFJ1JwaVh6nn5785Na2ldtnLfUudMYSsjQsHD0q%2FwMIKhAAGgw2Mzc0MjMxODM4MDUiDEBwHCgr1RSc1%2FBaMyrcA9zOxBf%2B1iQ3c7Watp9bcjsh1m8saWuFuWHDuBoxDnO2EuFgg6Sh5jR9GuX8FU8FW8ZHqHyh8YbJPz8QgUdbq3T0v02PatKZ4Kv%2Behriua%2FlONNW%2B87fFPrNYto4RMQ1vrywyxdoIzOAa7lAsqx6YanI2D6%2BmYdkDKRr6Vo5NuqP1lt4y%2FeVJZYmGhAylBGxRTQ%2B%2FKj0j%2B0KT4%2FbnXz9bAY5FpYhLZO1WM1vtfzqDMOK5uKlywYrznxOT4s2qbXECu5O9H1PHZ5GbcJlNfOvAPuhEsu4evi%2F8n5CKDnROO0pjXZvIENFdI%2FoCpwgO7u6vuYARPkdI9Nl2a7EMoPK5Mpod3w%2B012KksBa4W4oskRIC%2B6KRzdcg0jdVBSlH0RV3mBxW7Qczaj9bI%2Fnwsgk6Yoi5eiqjtdPREwMflxa15EqnQO14FIsIH%2FBENsMEL5CmB2PbIlr1JVsivvuPBAh7MNWpX85lo6mt%2BBHEvEkIph02lZPH47Nxyyyi3YEIDi9FOImYTfYAMuggJj%2BThMDtMZJFtzpMqqW8UOYEu3yv2JR9ieeWDdwgor2siDuH0laCakc3eaxtCfzHtMPEpXVLqTjQ%2FVHLBsfE1SnO9JXjH7WdgAHa%2FhZLT%2FEeNgPMJzTpb4GOqUBY9sG74sdKWiQaTOhrCc3qtCf2IDE4nd2copHIdfbwibKoQxfgRSfu6jM0tgtIbUoYACOJTNDFKZTYb2we5%2FkktFQQlrbEj4iGkuSQdIMpPw91nzMxPYIgxw2ZWWWhDbDOtITYCtuBfbtCgYGxL5U5iHchnbSnNCfOuHpuQ8f5XFqZmWJlHuU7mrhUi%2BHhiWagtIDhWp2Lkaw0XUnh9wLo19XjmNG&X-Amz-Signature=4b57ad1988aaf941850f533889159afaf7b66e5e453e6dda0d9e9eb06c45a8df&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/99f35741-92d3-4684-b658-a920274f25fa/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U6665DF3%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T150622Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDDcb%2B%2BEedJ9ubxtslp8qspnf8iWp2AJGBR15SmX3YHugIgDV5lwGZhHZ3dImwvASqakg3vHGM0Fn8ygEba%2Fo%2BGPwYq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDIH2mss1iYn5Gx%2FZwSrcA8qlSClKmO5vJwHlTLpQom5gARU2Z3C88FWXU%2BURJm63G%2FLfBC2BeInwceS28cVM0eeea2q2fP2ILvg5SKzRrr6mbEMotHYyn%2FrKiIbU8e7XlHIAex99RuRHDGwqow03ChVunRJjpHr53GiRjHDn6HO1X1Vso7TvFNgloRlofFyVzJofynyOFS%2Bgw6%2F6WL0pZlBimuxJzuSRioIKXoMYpVWZON5zfARB6hII15IHVGXwb769WSCdfxB%2F71hrJojvqaqgcEhmv39mZlkQFQJ828h7%2Boa%2F6uQM2U8k0jk%2BB5%2BDkMpBVhZWLifGIxaMVSlsILdSGtAWTgham4yFJr9hlnuGYvCFRwFp5rrLwn8Ygrkv14bEavaJghd%2FHxd3p4LLSclDRWwRk2WwLVtrqgS2RBpG8wfG9LruAPREXREfAeC2rJrkjz4hGw0mycNm8a8HYO3sI6AO8n3bZqSizirQAdA9vp9cb2%2BV7PpXiKLVIQtyNt2wX6jO5fYhFO0kckjr8i25bkCN66zTO954cRcXya%2FUKLI%2F6jlvLoN8CFXUs%2BRPxV%2FFG9wGik2knPgWUsMtWNK%2B0KMFAZTJdWDhEAFXHMPb%2Fr4FHygnefUku672e4HHUsyHaG4aqoq%2BiEg5MLP%2Bq74GOqUB8LO35GTCnyBH2Sav8BZ3Tmd0qJPt4KZn5ah1dQFTA41baqi0XiTBu98iY9FGk3OuU7XpobE1XK4OsQUayLuts7hG2is9kGDHWfj53jLeMXsdh8sMMt%2FL5HBNv1Uabke6MVrsigcplUaebjTQEcRK7ukkWOzPzEqs6Xf6U4%2FfEGxXOsPunuBmblh7uFt%2B%2BS4vYd7jq%2Fzg2566vkh0ytvkdC571LbA&X-Amz-Signature=61d5c15c62eb96ad052238dec791036a989617a7971912184cab49f24c3efb05&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Anh bạn này chỉ ra được một số góc nhìn rằng kết phim vẫn đang cố thỏa mãn khát khao được thành công của chúng ta . Cứ cố gắng rồi sẽ tới cái kết có hậu . Nhưng liệu cuộc đời này có dễ dàng như vậy ? 
@@ -87,7 +87,7 @@ Ai cũng có những lúc thất nghiệp và sa cơ như Cao Chí Lũy dù mu�
 Chúng ta sẽ không thể thay đổi được nhiều điều nếu chỉ là một cánh chim bé nhỏ vùng vẫy trong bầu trời rộng lớn , giải pháp vẫn phía trước nếu cùng nhau thực hiện. Cả chiều dài lịch sử của ông cha ta đã đấu tranh để đạt được những thành quả mà ta hưởng như ngày nay . Hiện tại ta liệu cũng đang có thứ đang cần phải đấu tranh ?? 
 
 
-# **Kết luận**
+# Kết luận
 
 
 Vấn đề của Cao Chí Luỹ không thể giải quyết bằng nỗ lực cá nhân hay kết thúc có hậu giản đơn. Nó đòi hỏi **sự thay đổi từ gốc rễ**: phá bỏ định kiến văn hóa, cải cách hệ thống giáo dục, xây dựng mô hình kinh tế công bằng, và quan trọng nhất là **nuôi dưỡng tinh thần đoàn kết**.

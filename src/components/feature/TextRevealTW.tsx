@@ -1,4 +1,4 @@
-import React, { type JSX } from 'react';
+import React, { type JSX } from "react";
 
 interface TextRevealTWProps {
   as?: keyof JSX.IntrinsicElements;
@@ -7,9 +7,9 @@ interface TextRevealTWProps {
 }
 
 export const TextRevealTW: React.FC<TextRevealTWProps> = ({
-  as: Tag = 'p',
+  as: Tag = "p",
   content,
-  className = '',
+  className = "",
   ...rest
 }) => {
   const Component = Tag as keyof JSX.IntrinsicElements;
@@ -17,22 +17,19 @@ export const TextRevealTW: React.FC<TextRevealTWProps> = ({
   return (
     <>
       {/* SEO-friendly hidden text */}
-      <Component 
-        className="sr-only"
-        {...rest}
-      >
+      <Component className="sr-only" {...rest}>
         {content}
       </Component>
 
       {/* Visible animated text */}
-      <Component 
+      <Component
         aria-hidden="true"
         className={`overflow-hidden font-bold ${className}`}
         {...rest}
       >
         {content.match(/./gu)?.map((char, index) => (
           <span
-            className="animate-text-reveal inline-block [animation-fill-mode:backwards]"
+            className="animate-text-reveal inline-block [animation-fill-mode:backwards] leading-8 mt-7"
             key={`${char}-${index}`}
             style={{ animationDelay: `${index * 0.05}s` }}
           >
@@ -42,4 +39,4 @@ export const TextRevealTW: React.FC<TextRevealTWProps> = ({
       </Component>
     </>
   );
-}; 
+};
