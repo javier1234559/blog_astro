@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Giải thích về lập trình và lộ trình học"
-description: "Học lập trình liệu có khó không , bản thân mình mới tiếp cận cũng nghĩ như vậy "
+description: "Học lập trình liệu có khó không , bản thân mình mới tiếp cận cũng nghĩ như vậy . Nhưng đó là khi mình chưa biết cách đơn giản hóa nó"
 date: "2025-03-06"
 author: "Minh Nhật Nguyễn"
 slug: "giai-thich-ve-lap-trinh-va-lo-trinh-hoc"
@@ -12,125 +12,114 @@ categories:
     color: "default"
   - name: "web-dev"
     color: "brown"
-readingTime: "2 min read"
+readingTime: "4 min read"
 ---
 
-# Notion Formatting Guide
+Ok mình sẽ cùng đi qua các câu hỏi mà mình nghĩ nếu mình mới bắt đầu cũng sẽ đặt câu hỏi tương tự như vậy
 
 
-## Basic Text Formatting
+## **1. Lập trình là gì?**
 
 
-**Bold text** - Use for emphasis
+Mình có một ví dụ khá hay đó là hãy tưởng tượng bạn có một con robot ngu ngốc. Nó không biết suy nghĩ, không biết đoán, và chỉ làm đúng những gì bạn bảo. Cách duy nhất để khiến nó hoạt động đúng là viết ra một danh sách các bước thực hiện một nhiệm vụ.
 
+- "Cầm bánh lên."
+- "Đặt vào đĩa"
+- "Đưa cho tôi “
 
-_Italic text_ - Use for subtle emphasis
-
-
-<u>Underlined text</u> - Use for highlighting important points
-
-
-~~Strikethrough text~~ - Use for outdated or incorrect information
-
-
-`Inline code` - Use for technical terms or commands
-
-
-## Headings
-
-
-# Heading 1
-
-
-## Heading 2
-
-
-### Heading 3
-
-
-## Lists
-
-- Bulleted list item 1
-- Bulleted list item 2
-	- Nested bullet point
-	- Another nested point
-1. Numbered list item 1
-2. Numbered list item 2
-	1. Nested numbered item
-
-## Special Blocks
-
-<details>
-<summary>Toggle block - Click to expand</summary>
-
-Hidden content appears here
-
-
-</details>
-
-
-> Callout block - Used for important information or highlights
-
-> Quote block - Used for citations or memorable text
-
-## Task Lists
-
-- [ ] Unchecked task
-- [x] Completed task
-
-## Code Blocks
-
-
-```javascript
-// Example code block
-function hello() {
-    console.log("Hello World!");
+```typescript
+function lấy_bánh() {
+    mở_hộp()
+    nếu (có_bánh) {
+        dùng_tay_gắp_bánh()
+    }
+    trả_về bánh
 }
+
+function đặt_bánh_lên_đĩa(bánh) {
+    nếu (không có đĩa) {
+        lấy_đĩa()
+    }
+    đặt(bánh, lên_đĩa)
+    trả_về đĩa
+}
+
+function đưa_cho_người(dĩa) {
+    đưa(dĩa, cho_người)
+}
+
+// Chạy chương trình:
+bánh = lấy_bánh()
+đĩa = đặt_bánh_lên_đĩa(bánh)
+đưa_cho_người(đĩa)
 ```
 
 
-## Tables
+**⇒ Lập trình là nghệ thuật hướng dẫn máy tính làm việc, từ những tác vụ đơn giản như tính toán đến việc xây dựng một hệ thống lưu thông tin dữ liệu va tạo nên những chức năng lớn hỗ trợ con người như phần mềm** 
 
 
-| Header 1 | Header 2 |
-| -------- | -------- |
-| Cell 1   | Cell 2   |
+## **2. Tại sao từ một đoạn mã có thể tạo ra một chương trình?**
 
 
-## Math Equations dấd
+Máy tính không hiểu ngôn ngữ con người. Nó chỉ hiểu hai trạng thái: **bật (1) và tắt (0)**, vì về bản chất, đó là cách các linh kiện điện tử hoạt động.
+
+- **Ngôn ngữ lập trình** là một cách để con người diễn đạt lệnh mà máy có thể hiểu.
+- **Biên dịch và thông dịch** giúp chuyển đổi mã nguồn thành mã máy.
+- **Hệ điều hành** cung cấp nền tảng để phần mềm có thể chạy trên phần cứng.
+
+## **3. Tại sao lập trình lại quan trọng?**
 
 
-$$
-E = mc^2
-$$
+Từ những thứ xung quanh bạn - điện thoại, website, ATM, xe tự hành - tất cả đều có một phần mềm chạy đằng sau. Không có lập trình, chúng ta vẫn sống trong một thế giới không có internet, không AI, không tự động hóa.
 
 
-## Colored Text
+## **4. Cách suy nghĩ của một lập trình viên**
+
+- **Chia nhỏ vấn đề:** Bất kỳ vấn đề nào cũng có thể phân tách thành những bước nhỏ hơn.
+- **Viết ra quy trình:** Khi làm một việc gì đó, hãy tư duy xem quá trình được tự động hóa như thế nào.
+- **Tư duy logic:** Nếu X thì Y, nếu không thì Z.
+
+## **5. Bài học vỡ lòng: Thành phần cơ bản của một chương trình**
 
 
-Red text
+Một chương trình được xây dựng từ những khối cơ bản:
+
+- **Biến (Variables)** – Lưu trữ dữ liệu.
+- **Cấu trúc điều kiện (If-Else)** – Ra quyết định.
+- **Vòng lặp (Loops)** – Lặp lại một tác vụ.
+- **Hàm (Functions)** – Đóng gói một đoạn mã để tái sử dụng.
+- **Dữ liệu và kiểu dữ liệu (Data Types)** – Quy định cách dữ liệu được xử lý.
+
+## **6. Thuật toán: Cách kết hợp các thành phần để tạo thành chương trình**
+
+- **Thuật toán là gì?** – Một tập hợp các quy tắc để giải quyết vấn đề.
+- **Tại sao thuật toán quan trọng?** – Giúp tối ưu hóa hiệu suất và tài nguyên.
+- **Ví dụ thuật toán đơn giản:** Sắp xếp danh sách số theo thứ tự tăng dần.
+
+## **7. Ngôn ngữ lập trình - Chào mừng đến với thế giới của các dân tộc khác nhau!**
+
+- **Python** - Dễ hiểu, hợp cho người mới bắt đầu.
+- **JavaScript** - Ngôn ngữ làm web.
+- **C++** - Dùng trong game, hệ thống.
+- **SQL** - Dùng để lưu và truy vấn dữ liệu.
+
+## **8. Hành trình trở thành lập trình viên**
+
+1. Học viết mã - bắt đầu với bài tập nhỏ.
+2. Xây dựng dự án của riêng bạn.
+3. Tìm hiểu về kiến trúc phần mềm.
+4. Học các nguyên lý thiết kế hệ thống.
+5. Tham gia các công việc thực tế.
+
+## **9. Lời khuyên cho người mới bắt đầu**
+
+- Hãy hỏi "Tại sao?" với mọi thứ bạn học.
+- Tìm kiếm mentor hoặc cộng đồng.
+- Làm nhiều hơn là học.
+- Hiểu rằng code chỉ là một phần của việc giải quyết vấn đề.
+
+---
 
 
-Blue text
-
-
-Green text
-
-
-## Background Colors
-
-
-Text with yellow background
-
-
-Text with blue background
-
-
-# HLLOO
-
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/daa5d06c-e701-42e3-a5ca-8229a0ad7408/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WNNJJ2R%2F20250306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250306T110443Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFl4EStkA0AabaPKoRQHveHTtfhNk9oYQGUS%2FRUJ1Ey6AiEA8qAByFdS0Jn0BL7fzjvcLVdw4%2BHb4L0BpJkm%2FWJ0LUUq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDI66ObK6v%2Be96v7ADircA%2BQFMWK7iPVbuDWKdSgHZd%2FkU6%2Fa4%2FYlAeSTBUChn0g2I5CH6Os2cHBFIjI1OComhUPw7zPEkdbUMlulXoS0Y3NCw7QXqNefwRn%2BqseClqLic9NRq%2Fm74NmRpxohgMiLgq%2BiYe%2BClhmEO%2FY7wbQhkJFadgmrlw4%2BXR6vW%2BVl0Shs%2BEISSQN9B7srY0qpv9R7HBZ5SCps0HqN4dMkUNohgIqsXBI%2BDIvKy1UtX46Qr04dTLRcnrKfcq2ga1bGSmT6EYN5tHEbkRudsMchGw%2B6KxV3IdFeWlHMFfiW6bZHQ4aCSNRtAo%2FoQ7of5Sr5FFH%2Bm24JnsrGUErhM2ftnA3ZAmi9pTqRnVhHoWQ9LPz%2F760a%2Fyts0Kd23WsnP4e5a0dz2Zn%2Bo4OS5G7UmKd%2BQyX9nmnQouu1ja10dawY15gdT3Y2JhjPCpGhHcSLzXa5Od0pKdynVOQOUETtqqLzXFnRszqINsLeeBoN42M4okMPZJbRdfRkn%2BS3FpLHqafTooVuvRw7awdzo%2FeG6BSqEFGQKCgbie2VhWt8vHenw81xk%2BoDKKphZZudiOaOS5aXG3%2F49M80afsoYsb2dR6nAIcOi%2BFXGs2%2FGeIIjxPxrSuioSAtrsNjsjAEw69M08CtMO%2Fypb4GOqUBSNVGBJTfTobf5rPu0xjkSfElY1gAbKJDpwGPB82uH30kZbaNIsiNrRyltW1HVB5q1XUqTtA%2BGNy14B7teEqbCaG%2BXZo0i%2B1rMGH5JfbzRJUNKmuUMNT8qpNYTTc44hPbmkq3fEB44FcAlz2yinUcaiFAB%2F39I%2FOLDppYzaAa%2BIn5snmriCknffsl58ir7MvDNb3dQ201EDZlLd%2Bmz5V%2FYqYkyaqI&X-Amz-Signature=830f2c63eb5102711fb4c6cc2b7f7dce2a215a074eb61cd0dcb773d1a3c4b9cd&X-Amz-SignedHeaders=host&x-id=GetObject)
-
-
-[video](https://youtu.be/x9yr_-ETw6s?si=1Fk0pU400ADcPokb)
+Bạn đã sẵn sàng bước chân vào thế giới lập trình chưa? Hãy chọn một ngôn ngữ, bắt đầu viết mã và từ từ nhìn ra bức tranh lớn! 🚀
 
