@@ -12,7 +12,7 @@ categories:
     color: "default"
   - name: "web-dev"
     color: "brown"
-readingTime: "24 min read"
+readingTime: "25 min read"
 ---
 
 Học lập trình liệu có khó không , bản thân mình mới tiếp cận cũng nghĩ như vậy . Nhưng đó là khi mình chưa biết cách đơn giản hóa nó
@@ -58,7 +58,7 @@ giveToUser(dish);
 ```
 
 
-**⇒ L**ập trình là nghệ thuật hướng dẫn máy tính làm việc, từ những tác vụ đơn giản như tính toán đến việc xây dựng một hệ thống lưu thông tin dữ liệu va tạo nên những chức năng lớn hỗ trợ con người như phần mềm 
+**⇒** Lập trình là nghệ thuật hướng dẫn máy tính làm việc, từ những tác vụ đơn giản như tính toán đến việc xây dựng một hệ thống lưu thông tin dữ liệu và tạo nên những chức năng lớn hỗ trợ con người như phần mềm 
 
 
 ## **Tại sao từ một đoạn mã có thể tạo ra một chương trình?**
@@ -66,7 +66,7 @@ giveToUser(dish);
 
 Máy tính không hiểu ngôn ngữ con người. Nó chỉ hiểu hai trạng thái: **bật (1) và tắt (0)**, vì về bản chất, đó là cách các linh kiện điện tử hoạt động. Từ trên xuống thì
 
-- **Ngôn ngữ lập trình** là một cách để con người diễn đạt lệnh mà máy có thể hiểu.
+- **Ngôn ngữ lập trình** là một cách để con người diễn đạt lệnh theo quy tắc của biên dịch
 - **Biên dịch và thông dịch** giúp chuyển đổi mã nguồn thành mã máy 0 1 như trên
 - **Hệ điều hành** cung cấp nền tảng để phần mềm có thể chạy trên phần cứng. Giúp phần cứng hiểu được 0 1 nên làm gì
 
@@ -89,11 +89,11 @@ Một robot hoạt động theo nguyên tắc:
 
 1. **Nhận lệnh** (Input).
 2. **Thực hiện hành động từng bước** (Process).
+	- **Cánh tay** để lấy bánh.
 3. **Hoàn thành nhiệm vụ** (Output).
 
 Robot này sẽ có **các thành phần sau**:
 
-- **Cánh tay** để lấy bánh.
 - **Cảm biến** để kiểm tra xem có bánh hay không.
 - Khi tạo xong có thể điều chỉnh cho nó có cảm biến hay không
 
@@ -250,9 +250,9 @@ Một chương trình thường được xây dựng từ những khối cơ b�
 - **Vòng lặp (Loops)** – Lặp lại một tác vụ.
 - **Hàm (Functions)** – Đóng gói một đoạn mã để tái sử dụng.
 - Hay một số phần nâng cao một chút như :
-	- Thư viện : Một chương trình hay gặp đã được đóng gói , chỉ cần tải và sử dụng
-	- Khái niệm về OOP , Design pattern : Cái này là một lĩnh vực nâng cao , nó là cách tổ chức code dễ dùng hơn , dễ hiểu hơn . Giống như việc mình tạo ra class Robot vậy , gom tất cả logic liên quan vào nó thì chỉ lần gọi serveCake() là nó chạy như ý mà mình không cần quan tâm bên trong nhiều nữa
-	- Cấu trúc dữ liệu và thuật toán : Cái này giống như là cách bạn nghĩ ra một cách giải quyết vấn đề thông minh hơn vậy . Bạn cho con Robot một cái đĩa nhỏ và chỉ nó sắp xếp nó ngăn nắp nó sẽ giao nhiều cake hơn cho bạn
+	- **Thư viện** : Một chương trình hay gặp đã được đóng gói , chỉ cần tải và sử dụng
+	- **Khái niệm về OOP , Design pattern** : Cái này là một lĩnh vực nâng cao , nó là cách tổ chức code dễ dùng hơn , dễ hiểu hơn . Giống như việc mình tạo ra class Robot vậy , gom tất cả logic liên quan vào nó thì chỉ lần gọi serveCake() là nó chạy như ý mà mình không cần quan tâm bên trong nhiều nữa
+	- **Cấu trúc dữ liệu và thuật toán** : Cái này giống như là cách bạn nghĩ ra một cách giải quyết vấn đề thông minh hơn vậy . Bạn cho con Robot một cái đĩa nhỏ và chỉ nó sắp xếp nó ngăn nắp nó sẽ giao nhiều cake hơn cho bạn
 
 Dù với ngôn ngữ nào thì chúng cũng đều cần tối thiểu những thành phần này để biểu diễn nên logic của một chương trình .  
 
@@ -266,13 +266,13 @@ Nó thường sẽ được tổng hợp lại với Từ khóa “Language + Ch
 👉 [https://quickref.me/python](https://quickref.me/python)
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/2877319e-3d58-4a12-96b2-5f7450ffaa77/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RADN4TLI%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T152301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCHyRN57edymvxm09jcyrhlMSLkJROJc2PEJ5WiVHnTm0CIQDpGYfHD6N5rFqcIRjRj%2BAFxuCDs09fyC%2BNoWyHpRG8wCr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIM2CaiGbbPnD0UKtYIKtwD%2B88%2Boak8s3CxeFsFmZ5IgMyWNtB%2FTRd%2BtIK4sRLDa4cI3VPLFF5Jf35hOorUolCjd9CrV5U1NUyQaW61EWSgwBrJBKg%2FL6n1Zl5zZXJIS07f9VvciNAko3rQzaXYmcYMao4lEAbtSk6BsBz6%2F2nOoI4mWbmVs7pwgsFyTZ8GKFqeqkgyGEW0DH%2BIh8J0siTgIXCfIfwbmd8ZA3iI29IXvwL0l5jPnIvUzDtOLGyze3MMQ5cPpt%2F8E1XBIQuzHVHThdl0xUSnew%2FYk3jx75cKiqPah%2BprBXphoOHfu5iXEa4G4dBt54gNa88xpDq05qMALYgiKcdWsh23ybtD6ilC0Qnp4X0ZPJiiRtaZg7LutBYYE2DVQFmdODaYg31TCnA92HGCGubX0yICUDbWkpY17gTYwRZ8cQzVFF%2FYQtVu3EIcIvpiV9RFmFMXv2UmXAIji%2FzicegsPz%2BR1wmgM4Sl28Dw5ULH4c7faCrvQAWqYQsn5rUe093eSIo1feTuwUfHf6xL2wrIlIQ20vb4sAH04mF5wTOLWUc2Th9dbhUeOESC6CFMyAZuisiRlEKatnrW1Tf3nyRq9ywe%2FTtwSlRrZxpXm6m19N1hmYJmlHo8kD6Dtr5Tnx5J2Ip0j9Iwsv6rvgY6pgHyw5eMEzCnKrJPJanWJd6mp%2FeYiuEXi28%2FyWNg25%2FREds3kbxuOi8Taq8kyh8nvtrfMnJN0x2oDr6jW4HIkbvDBZgt5ZpdGdHovX7NrLiWmLgRWgBs9sAdieer5B44YO%2B%2FmDwUD3mb8emVnmqTMDG%2FA%2FNJ%2BIMQUsNmnL0yHirsO9PPE7aiiW8KfObDxEw7CUwZmuauowjqazGCCWCXM851jP1npgtJ&X-Amz-Signature=1dc0a2b61844e52a85f5636a6e55bc333a56f31b359c0ba5b53a550b9b6d8ebf&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/2877319e-3d58-4a12-96b2-5f7450ffaa77/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466REBT3QHA%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T161424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIA6%2F1BfqNqnY1CMoNB7BGpnr0UWP%2Bg%2BHXtxDDrctVdIJAiEAkOwaqBl%2B16kHT8ekfqpMAdyRgGyKxbnaImvbislBVa8q%2FwMISRAAGgw2Mzc0MjMxODM4MDUiDPjmLPo9On0Qgyj0MCrcA%2FXMritbGCLk%2BmHaBgWw3hUv5g4yCMk8Xt7VUNzCGn0kejWG%2FG1CFGD1kZdFGUfn6wmoxU%2FCswVlB7M2RIMMgM6JHkZyu7AAeNS8NkyZddlCyD7l9vvE5IhunkVCUP0bx3gnxfnBBAZwztPQIly6ZEhTHNwy2wUmBcn5W%2F4bTBKN1fmbMiOEerFSdjb55fMiGCeCGKT6ZmWRoBPMZjJKRvYiLQ3V355xEsB%2F2VW3YSYK9n85LrtXKlbIWGGBnCorekx9RXiuzB7fo9hum20Gis1bEnvP5dR3aDZtjrunfMcSsZ9oQDfwPf01EVVui6PUGMMrByrZed%2BMdey7erDMq8hrE0hGobKruwO%2Ffij8fwL72ESM5ZfSZPGsEjTrm1tRyxGeyeC4P2IpzOelle09ICO0OhZcZ9Vn8URya840lcSH2P5RYHPy6ArQqgyu1q2xHQMZZk1VI2Rexs2Bp7k89PTI0NmPL1x3m4YMkmRARgGn88H3aJKmo7NaCZkjEWPzYHElJy%2Fb9bZJfVkj39PrOnxeUp3cu8C0W1NrB3zERsNBU1CJYdXzjCJgc%2FHs4EtugVjlLqY3YxNF3dM%2B4y749%2BOHx%2FlKb%2FqsyrLRobjF4E1nlb9yUgyEOZbiKj1xMMmgrL4GOqUBwbWP4sgRC2eybrF6zvEsegghIyBZ%2F9ezeTrKFDFYwxeUTCs7YSjzioHptbfyG6QgBRsefvuAnJWiU4ObvqdrqFyRn1s0N23ZqsA2xeqYjlRU%2FO1h0qNlnArkMflSJHAKXARH0v3YQswY7%2FqjzQ4HM2TmFadEisaRGLGo8ko6IoPtLflBvSuwSGgMNllAhjqCUXtfXhVTGalnJJIh5dr6WFxf6N5A&X-Amz-Signature=f2a59e0a7494d20f5bf6f82b589965aa5c5407c8ed891e798d89e710f9800442&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Ngôn ngữ đầu tiên của mình học chính là C . Một ngôn ngữ giúp xây dựng nền tảng cho các ngôn ngữ hiện đại khác hiện nay. Đó là lý do nó thường được dạy đầu tiên nếu học lập trình ở các trường đại học .
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/6029e7d0-8cc3-41d1-9ea6-680a68a6b712/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RADN4TLI%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T152301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCHyRN57edymvxm09jcyrhlMSLkJROJc2PEJ5WiVHnTm0CIQDpGYfHD6N5rFqcIRjRj%2BAFxuCDs09fyC%2BNoWyHpRG8wCr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIM2CaiGbbPnD0UKtYIKtwD%2B88%2Boak8s3CxeFsFmZ5IgMyWNtB%2FTRd%2BtIK4sRLDa4cI3VPLFF5Jf35hOorUolCjd9CrV5U1NUyQaW61EWSgwBrJBKg%2FL6n1Zl5zZXJIS07f9VvciNAko3rQzaXYmcYMao4lEAbtSk6BsBz6%2F2nOoI4mWbmVs7pwgsFyTZ8GKFqeqkgyGEW0DH%2BIh8J0siTgIXCfIfwbmd8ZA3iI29IXvwL0l5jPnIvUzDtOLGyze3MMQ5cPpt%2F8E1XBIQuzHVHThdl0xUSnew%2FYk3jx75cKiqPah%2BprBXphoOHfu5iXEa4G4dBt54gNa88xpDq05qMALYgiKcdWsh23ybtD6ilC0Qnp4X0ZPJiiRtaZg7LutBYYE2DVQFmdODaYg31TCnA92HGCGubX0yICUDbWkpY17gTYwRZ8cQzVFF%2FYQtVu3EIcIvpiV9RFmFMXv2UmXAIji%2FzicegsPz%2BR1wmgM4Sl28Dw5ULH4c7faCrvQAWqYQsn5rUe093eSIo1feTuwUfHf6xL2wrIlIQ20vb4sAH04mF5wTOLWUc2Th9dbhUeOESC6CFMyAZuisiRlEKatnrW1Tf3nyRq9ywe%2FTtwSlRrZxpXm6m19N1hmYJmlHo8kD6Dtr5Tnx5J2Ip0j9Iwsv6rvgY6pgHyw5eMEzCnKrJPJanWJd6mp%2FeYiuEXi28%2FyWNg25%2FREds3kbxuOi8Taq8kyh8nvtrfMnJN0x2oDr6jW4HIkbvDBZgt5ZpdGdHovX7NrLiWmLgRWgBs9sAdieer5B44YO%2B%2FmDwUD3mb8emVnmqTMDG%2FA%2FNJ%2BIMQUsNmnL0yHirsO9PPE7aiiW8KfObDxEw7CUwZmuauowjqazGCCWCXM851jP1npgtJ&X-Amz-Signature=fceb92e224eb2d50815a0eabbcf64edefd9b7a4b83d27670fc89370bedf6cfba&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/6029e7d0-8cc3-41d1-9ea6-680a68a6b712/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466REBT3QHA%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T161424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIA6%2F1BfqNqnY1CMoNB7BGpnr0UWP%2Bg%2BHXtxDDrctVdIJAiEAkOwaqBl%2B16kHT8ekfqpMAdyRgGyKxbnaImvbislBVa8q%2FwMISRAAGgw2Mzc0MjMxODM4MDUiDPjmLPo9On0Qgyj0MCrcA%2FXMritbGCLk%2BmHaBgWw3hUv5g4yCMk8Xt7VUNzCGn0kejWG%2FG1CFGD1kZdFGUfn6wmoxU%2FCswVlB7M2RIMMgM6JHkZyu7AAeNS8NkyZddlCyD7l9vvE5IhunkVCUP0bx3gnxfnBBAZwztPQIly6ZEhTHNwy2wUmBcn5W%2F4bTBKN1fmbMiOEerFSdjb55fMiGCeCGKT6ZmWRoBPMZjJKRvYiLQ3V355xEsB%2F2VW3YSYK9n85LrtXKlbIWGGBnCorekx9RXiuzB7fo9hum20Gis1bEnvP5dR3aDZtjrunfMcSsZ9oQDfwPf01EVVui6PUGMMrByrZed%2BMdey7erDMq8hrE0hGobKruwO%2Ffij8fwL72ESM5ZfSZPGsEjTrm1tRyxGeyeC4P2IpzOelle09ICO0OhZcZ9Vn8URya840lcSH2P5RYHPy6ArQqgyu1q2xHQMZZk1VI2Rexs2Bp7k89PTI0NmPL1x3m4YMkmRARgGn88H3aJKmo7NaCZkjEWPzYHElJy%2Fb9bZJfVkj39PrOnxeUp3cu8C0W1NrB3zERsNBU1CJYdXzjCJgc%2FHs4EtugVjlLqY3YxNF3dM%2B4y749%2BOHx%2FlKb%2FqsyrLRobjF4E1nlb9yUgyEOZbiKj1xMMmgrL4GOqUBwbWP4sgRC2eybrF6zvEsegghIyBZ%2F9ezeTrKFDFYwxeUTCs7YSjzioHptbfyG6QgBRsefvuAnJWiU4ObvqdrqFyRn1s0N23ZqsA2xeqYjlRU%2FO1h0qNlnArkMflSJHAKXARH0v3YQswY7%2FqjzQ4HM2TmFadEisaRGLGo8ko6IoPtLflBvSuwSGgMNllAhjqCUXtfXhVTGalnJJIh5dr6WFxf6N5A&X-Amz-Signature=0d77f884399d72b15eb86bf7182b6d84b42e4615fb9559a5667d96bd1198f007&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## Sự phát triển của xu hướng lập trình qua các giai đoạn
@@ -388,7 +388,7 @@ Mình vẫn nhớ rõ từ lúc học nghiêm túc đến giờ mình vẫn ghi 
 ### **1. Xác Định Mình Học Để Làm Gì?**
 
 
-⇒ Câu hỏi này không cần phải trả lời ngay , bạn chỉ cần đặt mục tiêu ngắn hạn là được . Lúc mình bắt đầu học lập trình là vì mình có mục tiêu xây dựng cái app pomodoro timer . Nó mục tiêu tạo động lực cho mình học và tiếp với điều 2
+⇒ Câu hỏi này không cần phải trả lời ngay , bạn chỉ cần đặt mục tiêu ngắn hạn là được . Lúc mình bắt đầu học lập trình là vì mình có mục tiêu xây dựng cái app pomodoro timer . Đó là mục tiêu tạo động lực cho mình học và tiếp với điều 2
 
 
 ### **2. Cách Học Duy Nhất: Tò Mò, Thử Sai, Và Xây Dựng**
@@ -409,7 +409,7 @@ Mình vẫn nhớ rõ từ lúc học nghiêm túc đến giờ mình vẫn ghi 
 ⇒  Không học xong rồi mới làm, mà làm để học. Bạn hãy thử làm như mình , chọn 1 sản phẩm mình muốn làm rồi bắt đầu tìm hiểu cách làm ra nó (Cách này vẫn được mình áp dụng)
 
 
-Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web.
+Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web. Ngày xưa mình chia thành các câu hỏi và tìm kiếm . Còn bây giờ bạn có thể dễ dàng hỏi AI
 
 - Tôi cần học kiến thức gì để làm được ? → HTML / CSS / JS
 - À nếu vậy thì HTML nó là cái gì ? → Giải thích được khái niệm
@@ -419,13 +419,13 @@ Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web.
 Kinh nghiệm của mình là khi mình quan tâm hay học bất cứ thứ gì . Hãy tạo một account và follow hết nhưng channel mình tìm được. Việc còn lại thì cứ chờ thuật toán nó mang kiến thức đến cho mình thôi
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/971a0b63-2295-40af-ab88-168bbf8182f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RADN4TLI%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T152301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCHyRN57edymvxm09jcyrhlMSLkJROJc2PEJ5WiVHnTm0CIQDpGYfHD6N5rFqcIRjRj%2BAFxuCDs09fyC%2BNoWyHpRG8wCr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIM2CaiGbbPnD0UKtYIKtwD%2B88%2Boak8s3CxeFsFmZ5IgMyWNtB%2FTRd%2BtIK4sRLDa4cI3VPLFF5Jf35hOorUolCjd9CrV5U1NUyQaW61EWSgwBrJBKg%2FL6n1Zl5zZXJIS07f9VvciNAko3rQzaXYmcYMao4lEAbtSk6BsBz6%2F2nOoI4mWbmVs7pwgsFyTZ8GKFqeqkgyGEW0DH%2BIh8J0siTgIXCfIfwbmd8ZA3iI29IXvwL0l5jPnIvUzDtOLGyze3MMQ5cPpt%2F8E1XBIQuzHVHThdl0xUSnew%2FYk3jx75cKiqPah%2BprBXphoOHfu5iXEa4G4dBt54gNa88xpDq05qMALYgiKcdWsh23ybtD6ilC0Qnp4X0ZPJiiRtaZg7LutBYYE2DVQFmdODaYg31TCnA92HGCGubX0yICUDbWkpY17gTYwRZ8cQzVFF%2FYQtVu3EIcIvpiV9RFmFMXv2UmXAIji%2FzicegsPz%2BR1wmgM4Sl28Dw5ULH4c7faCrvQAWqYQsn5rUe093eSIo1feTuwUfHf6xL2wrIlIQ20vb4sAH04mF5wTOLWUc2Th9dbhUeOESC6CFMyAZuisiRlEKatnrW1Tf3nyRq9ywe%2FTtwSlRrZxpXm6m19N1hmYJmlHo8kD6Dtr5Tnx5J2Ip0j9Iwsv6rvgY6pgHyw5eMEzCnKrJPJanWJd6mp%2FeYiuEXi28%2FyWNg25%2FREds3kbxuOi8Taq8kyh8nvtrfMnJN0x2oDr6jW4HIkbvDBZgt5ZpdGdHovX7NrLiWmLgRWgBs9sAdieer5B44YO%2B%2FmDwUD3mb8emVnmqTMDG%2FA%2FNJ%2BIMQUsNmnL0yHirsO9PPE7aiiW8KfObDxEw7CUwZmuauowjqazGCCWCXM851jP1npgtJ&X-Amz-Signature=2933bd1605630d1d01a3697e3e95254c557549194c034f56f4482fb77e6bad8a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/971a0b63-2295-40af-ab88-168bbf8182f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466REBT3QHA%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T161424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIA6%2F1BfqNqnY1CMoNB7BGpnr0UWP%2Bg%2BHXtxDDrctVdIJAiEAkOwaqBl%2B16kHT8ekfqpMAdyRgGyKxbnaImvbislBVa8q%2FwMISRAAGgw2Mzc0MjMxODM4MDUiDPjmLPo9On0Qgyj0MCrcA%2FXMritbGCLk%2BmHaBgWw3hUv5g4yCMk8Xt7VUNzCGn0kejWG%2FG1CFGD1kZdFGUfn6wmoxU%2FCswVlB7M2RIMMgM6JHkZyu7AAeNS8NkyZddlCyD7l9vvE5IhunkVCUP0bx3gnxfnBBAZwztPQIly6ZEhTHNwy2wUmBcn5W%2F4bTBKN1fmbMiOEerFSdjb55fMiGCeCGKT6ZmWRoBPMZjJKRvYiLQ3V355xEsB%2F2VW3YSYK9n85LrtXKlbIWGGBnCorekx9RXiuzB7fo9hum20Gis1bEnvP5dR3aDZtjrunfMcSsZ9oQDfwPf01EVVui6PUGMMrByrZed%2BMdey7erDMq8hrE0hGobKruwO%2Ffij8fwL72ESM5ZfSZPGsEjTrm1tRyxGeyeC4P2IpzOelle09ICO0OhZcZ9Vn8URya840lcSH2P5RYHPy6ArQqgyu1q2xHQMZZk1VI2Rexs2Bp7k89PTI0NmPL1x3m4YMkmRARgGn88H3aJKmo7NaCZkjEWPzYHElJy%2Fb9bZJfVkj39PrOnxeUp3cu8C0W1NrB3zERsNBU1CJYdXzjCJgc%2FHs4EtugVjlLqY3YxNF3dM%2B4y749%2BOHx%2FlKb%2FqsyrLRobjF4E1nlb9yUgyEOZbiKj1xMMmgrL4GOqUBwbWP4sgRC2eybrF6zvEsegghIyBZ%2F9ezeTrKFDFYwxeUTCs7YSjzioHptbfyG6QgBRsefvuAnJWiU4ObvqdrqFyRn1s0N23ZqsA2xeqYjlRU%2FO1h0qNlnArkMflSJHAKXARH0v3YQswY7%2FqjzQ4HM2TmFadEisaRGLGo8ko6IoPtLflBvSuwSGgMNllAhjqCUXtfXhVTGalnJJIh5dr6WFxf6N5A&X-Amz-Signature=767b83c14fce14f1d5f23c59c86117b84e2dd8b84a8423de120ede9568d01cbb&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ## Lộ trình học lập trình phần mềm ?
 
 
-Lộ trình này mình dành cho đối tượng muốn hiểu rõ để thực sự theo lập trình phần mềm . Nếu bạn không muốn theo đuổi ngành này mà chỉ muốn cưỡi ngựa xem hoa và sợ mất thời. Thì câu trả lời của mình là nó không quá khó đâu , thay vì bạn học cho biết , hãy thử học thực sự nó sẽ giúp bạn có thêm kĩ năng cho thời đại sắp tới ,làm việc hiệu quả hơn trong nhiều lĩnh vực . Lập trình rồi cũng thành kĩ năng làm việc với excel hay ngoại ngữ . Và việc cung cấp lộ trình rõ ràng đầy đủ thì dù bạn không chuyên cũng sẽ biết được chuyên ngành họ đang phải học những lượng kiến thức gì 
+Lộ trình này mình dành cho đối tượng muốn hiểu rõ để thực sự theo lập trình phần mềm . Nếu bạn không muốn theo đuổi ngành này mà chỉ muốn cưỡi ngựa xem hoa và sợ mất thời gian. Thì câu trả lời của mình là nó không quá khó đâu , thay vì bạn học cho biết , hãy thử học thực sự nó sẽ giúp bạn có thêm kĩ năng cho thời đại sắp tới ,làm việc hiệu quả hơn trong nhiều lĩnh vực . Lập trình rồi cũng thành kĩ năng làm việc với excel hay ngoại ngữ . Và việc mình cung cấp lộ trình rõ ràng đầy đủ thì dù bạn không chuyên cũng sẽ biết được chuyên ngành họ đang phải học những lượng kiến thức gì 
 
 
 ## 1. Học lập trình căn bản (Must Have)
@@ -460,10 +460,13 @@ Giải nhiều bài tập hơn
 Viết một chương trình quản lý danh sách số nguyên trong mảng, cho phép **thêm, sửa, xóa** phần tử bằng giao diện console.
 
 
-Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.
+![1741362979472747398490946999238.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/d93526ba-b22c-4b5c-95d8-3a537ef66db4/1741362979472747398490946999238.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TNMFMLOK%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T161425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIFhvJJUKzSj%2FcuLRRckYwNwjEorAU4t5Npu%2FyKntu5l7AiAk2mD1lPjd%2B5%2FoZ0ZkU8nUz7PLtcL1GXweJYWVlwnOTCr%2FAwhIEAAaDDYzNzQyMzE4MzgwNSIMC73zHR3qweDkzY2aKtwDBbjR1dvcLx5SZnRRmuAIQXLWLGytZfi6qZyz7s5OpCuWv5q9CVmpWezpaXT%2BzliXtFyvR5TYtWgBphy7NMVGBPn6T0rCIrzvKRBpuHN8SuT2MsvatfeAD1XU%2BGUpk1Dt%2B6nasFxi1IwAcZSuPREXxYbtRIZFtjiEoSFC6JfSqkQrl8VhMdmKtVMeVnnQvBj6lh0J%2FQYbD9I80jDx2LRcQFwo1rOVB%2FQhDToY0yKg72UmanLluUd2HuTQjl5HbyXzwmmMZ9Cj74D0hMfs%2B%2B%2FyCYcv9s0MBn8FmKUkv30EWhbmNyqSs5LnyYDFX3kvuLUyyDkEwBl%2F75dYvpJbmKS1tsVf9yagvMvqPmETD77xQ9sXz6lHGu58EAkwOTdkUU5C85L3i8uagJw%2BxqEHks1rK5kLfEYcWMvRBeuyGbWIFbvb21A96khTrtUxhKg3m1WDKX5c%2Fapx3VvoV3%2BhuWWaSrS2wc6OeD13VwcC5Qw6VbQputRCpkX%2FJvqZMxmIQG3dQKRzmzDaHfuXk4JrSIwJq8%2B%2BDVXpnkjC%2FpnfkbgdzEnPrhAQklTRTsc7n8js07O3r%2B1vupSdmS7F%2BKRbJKSSjh2Ng7TbrIrZd0rJzz2Un%2Bqj1IRSNRXIJPSMmT0wu5%2BsvgY6pgHgVf0n4YfE6NmGw1vgwEFK9tV7Vhvoty2GO1nd3k1RRhnjIZNERjw55AVNaOTYgbSba9C4GukhGIKLj5wkHXZNtm9bQu9S4FYy6wHbKfftMMtiQu47hRF33oiViiV7C4aD3Y%2FTxeTt4m3ww8TP1x1%2FQ6cx%2BYdOHULHA8OY%2B4kIf7flM8cB9ev4qyxGrwUOuG2jBPxlLsisHfZFKRqMTDLrblY%2BdqLE&X-Amz-Signature=bfae2d06f69f8528a6711b3bf3dea5550ebcf02706f4c483e3e5887d481b32c8&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-Về kinh nghiệm của mình thì lúc bắt đầu mình may mắn tìm được kênh này để học miễn phí C++. Nhiệm vụ của mình chỉ cần đi qua hết bài tập trong đây thôi. Ngoài ra mình recommend đọc một số trang uy tín trên trong giai đoạn này , để hiểu thêm 
+Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới hãy học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.
+
+
+Về kinh nghiệm của mình thì lúc bắt đầu mình may mắn tìm được kênh codelearn để học miễn phí C++. Nhiệm vụ của mình chỉ cần đi qua hết bài tập trong đây thôi. Ngoài ra mình recommend đọc một số trang uy tín trên trong giai đoạn này , để hiểu thêm 
 
 
 ## 2. Học về các concept quan trọng (Should)
@@ -492,14 +495,13 @@ OOP là một phương pháp lập trình cốt lõi trong phát triển phần 
 Website 
 
 - [https://www.youtube.com/watch?v=yBs0ic7pVvk](https://www.youtube.com/watch?v=yBs0ic7pVvk) (Video này giải thích OOP khá dễ hiểu)
-- https://www.youtube.com/watch?v=SiBw7os-_zI (Khóa học OOP toàn diện)
 - Sách: "Clean Code" của Robert C. Martin (Hiểu về cách viết code OOP chất lượng)
 
 **Bài tập thực hành:**
 Phát triển một hệ thống quản lý thư viện đơn giản với các class như Book, Member, Library, sử dụng đầy đủ các tính chất của OOP.
 
 
-Mục tiêu lớn nhất của bài này là bạn có thể viết được một chương trình console đơn giản áp dụng OOP . Nó sẽ là một ứng dụng quản lý đầu tiên . Nhờ chương trình này nó giúp mình hình dung về phần mềm tốt hơn
+Mục tiêu lớn nhất của bài này là bạn có thể viết được một chương trình console đơn giản áp dụng OOP . Nó sẽ là một ứng dụng quản lý đầu tiên , nó sẽ được tổ chức theo thực thể . Nhờ chương trình này nó đã giúp mình hình dung về phần mềm tốt hơn
 
 
 ### b. Cấu trúc dữ liệu và giải thuật
@@ -655,8 +657,8 @@ Hiểu đơn giản:
 
 ### **Luyện tập**
 
-- **HTML/CSS:** Cắt giao diện một trang web đơn giản Video hướng dẫn
-- **HTML/CSS/JS:** Thực hành với project Video hướng dẫn
+- **HTML/CSS:** Cắt giao diện một trang web đơn giản Video hướng dẫn [https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW](https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW)
+- **HTML/CSS/JS:** Thực hành với project Video hướng dẫn https://youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&si=e8jMLOSgQa1S2Efk
 - **Projects nâng cao cho portfolio:**
 	- Landing page cho sản phẩm/dịch vụ
 	- Blog cá nhân với chức năng tìm kiếm và lọc bài viết
@@ -708,6 +710,9 @@ Cơ sở dữ liệu chia làm hai loại chính: SQL (quan hệ) và NoSQL (phi
 - **Thiết kế CSDL cho ứng dụng quản lý sinh viên**
 - **Dùng AI tạo ra nhiều đề bài thực hiện truy vấn phức tạp**
 
+Ở phần này thì kiến thức của nó quan trọng ở các concept và lệnh truy vấn . Bạn phải nắm được các nguyên tắc thiết database làm sao hiệu quả và không trùng lặp dữ liệu để sau này Backend có thể tương tác hiệu quả
+
+
 ### c. Phát triển Web (Back-end)
 
 
@@ -743,6 +748,12 @@ Một Back-end developer cần hiểu sâu về ngôn ngữ lập trình server-
 	- Implement JWT authentication và role-based authorization
 	- Viết middleware xử lý lỗi và validation
 	- Tích hợp cơ sở dữ liệu (SQL hoặc NoSQL)
+
+Nên là được học cuối cùng vì nó đòi hỏi mình phải hiểu về network cũng như thành thạo nhất định với ngôn ngữ lập trình , biết cách tương tác với database .. 
+
+
+Nếu chỉ đơn giản thì BE là chúng ta sẽ thực thi các logic code chính trung gian giữa giao diện và database , nó ẩn chứa đằng sau nhưng lại rất quan trọng vì không thể dễ dàng copy được . Giống như ta có thể thấy nhiều mạng xã hội giống giống nhau nhưng không thể thấy nó thuật toán recommend đúng ý mình xịn như facebook được
+
 
 ## Xây dựng một phần mềm hoàn chỉnh kết hợp Frontend , BackEnd và Database
 
