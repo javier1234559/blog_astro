@@ -1,7 +1,7 @@
 import { Client } from "@notionhq/client";
 import dotenv from "dotenv";
 import { NotionToMarkdown } from "notion-to-md";
-import { formatDate, createSlugFromTitle, calculateReadingTime, generateMarkdownFile, clearContentDirectory } from './utils.js';
+import { formatDate, createSlugFromTitle, calculateReadingTime, generateMarkdownFile, clearContentDirectory, processMarkdownImages, clearImagesDirectory } from './utils.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -111,10 +111,19 @@ export async function getListPost() {
 
 async function main() {
   try {
-    await clearContentDirectory();
+    // Clear both content and images directories
+    await Promise.all([
+      clearContentDirectory(),
+      clearImagesDirectory()
+    ]);
+
     const posts = await getListPost();
     console.log(`Processing ${posts.length} posts...`);
+
     for (const post of posts) {
+      // Process images in content before generating markdown
+      post.content = await processMarkdownImages(post.content);
+
       const result = await generateMarkdownFile(post);
       if (result.success) {
         console.log(`✅ ${result.isNew ? 'Created' : 'Updated'}: ${result.path}`);
@@ -122,9 +131,6 @@ async function main() {
         console.error(`❌ Failed to process ${post.slug}: ${result.error}`);
       }
     }
-
-
-
   } catch (error) {
     console.error('Error in main process:', error);
   }

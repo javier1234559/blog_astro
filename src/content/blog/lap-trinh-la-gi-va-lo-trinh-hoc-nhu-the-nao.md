@@ -12,7 +12,7 @@ categories:
     color: "default"
   - name: "web-dev"
     color: "brown"
-readingTime: "25 min read"
+readingTime: "27 min read"
 ---
 
 Học lập trình liệu có khó không , bản thân mình mới tiếp cận cũng nghĩ như vậy . Nhưng đó là khi mình chưa biết cách đơn giản hóa nó
@@ -266,13 +266,13 @@ Nó thường sẽ được tổng hợp lại với Từ khóa “Language + Ch
 👉 [https://quickref.me/python](https://quickref.me/python)
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/2877319e-3d58-4a12-96b2-5f7450ffaa77/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VDGBACJ%2F20250308%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250308T042255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLXdlc3QtMiJGMEQCIB%2FOmExMXWcf4fT7fvmQEFl%2B1MgleXuMCdS%2Bg7frJfy6AiBrBB3ApXmEb%2F1qQnJV96QjtKR%2FGSHm9DouUyzjJmoFjyr%2FAwhVEAAaDDYzNzQyMzE4MzgwNSIMF4K6a4BR6lrOvdMlKtwDQVkCDiq0finJZKK930MJONaKL%2FOapB50c9c6AH%2FWI8tT13pLH9W28xdBNgZMEb9y8GgcVJnJgWCiihmp3gkpDA8%2B0V79xkXTGl0E%2B5n88yPUr4kpwrRFBu9f3nWg42FrNnohVMWhPaKlu9L7mDAlnCciOniSXDujGsGunlzNdsVLSAJKElbGNZB9C2XK1LaJLPaxdNHvk307f87zE5a0KMbECYAPvY43l7imJ84IxdsiDGD8Xu3lHsfBLuy4JS7ryn1zqd2UJho0JeCGx%2BBD8iOUAH96fX4iiuB71h5zKv3LJAqbrjuM%2BLDToxUtfLj99qLn9nBLuKqqeZNnxnqtS0ndd0oowBizj8uxOs5ZPCyw77MHZbgN%2F1BwgB6cVAmDfwEsJAiNIv8LdOONLkBaKbhbgUnMHyyAUQVOVcTHAVAKVvmuki8dZ4AgDtkvwbWuYBCxE2ULu20b%2FLA%2B6YhtR4%2FL6PVww%2FZEBm4mH5AMvDpMIToHgoorL9RrkwKIyMBqFcB0M9iK7qnvKyuFrNGW%2FGX0RqS2sHiHr9bbxlhMqZ7oNgOYw9MPavzMunGuDjCY5zgS05Ac1en9T6ZcqBAY0%2FqkG8Rcz9fReCW%2FuaMlQ%2FRhr8M1DFh%2FQ20KoP8wyPuuvgY6pgEqOgKP3zWEHh27yNQjaT3C1vCUwKFbb9ACPDhjBszg7Y7yL4iBJ2k70qSof8AqzOQf4gmurZXb7EyPkFLYMAJqPVFGax9aFLQBHGKMT7I32xRUfAfoHNv0LHUFkYqye1yls2NsUXMft4zajVI%2BEG98jpH6QKxsTYKjIm5RnRP9hBwniTR433URawUcCwEtvltMk1Cnp%2B%2B%2FRJvrxQbYkDG9h7eWXbGA&X-Amz-Signature=2f7973d1bdd768804cb7a000e244f14273661467ae7c776645849bf3e389f80b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](/images/blog/4ada599ee4ac1d33e53207879c35c731.png)
 
 
 Ngôn ngữ đầu tiên của mình học chính là C . Một ngôn ngữ giúp xây dựng nền tảng cho các ngôn ngữ hiện đại khác hiện nay. Đó là lý do nó thường được dạy đầu tiên nếu học lập trình ở các trường đại học .
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/6029e7d0-8cc3-41d1-9ea6-680a68a6b712/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VDGBACJ%2F20250308%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250308T042255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLXdlc3QtMiJGMEQCIB%2FOmExMXWcf4fT7fvmQEFl%2B1MgleXuMCdS%2Bg7frJfy6AiBrBB3ApXmEb%2F1qQnJV96QjtKR%2FGSHm9DouUyzjJmoFjyr%2FAwhVEAAaDDYzNzQyMzE4MzgwNSIMF4K6a4BR6lrOvdMlKtwDQVkCDiq0finJZKK930MJONaKL%2FOapB50c9c6AH%2FWI8tT13pLH9W28xdBNgZMEb9y8GgcVJnJgWCiihmp3gkpDA8%2B0V79xkXTGl0E%2B5n88yPUr4kpwrRFBu9f3nWg42FrNnohVMWhPaKlu9L7mDAlnCciOniSXDujGsGunlzNdsVLSAJKElbGNZB9C2XK1LaJLPaxdNHvk307f87zE5a0KMbECYAPvY43l7imJ84IxdsiDGD8Xu3lHsfBLuy4JS7ryn1zqd2UJho0JeCGx%2BBD8iOUAH96fX4iiuB71h5zKv3LJAqbrjuM%2BLDToxUtfLj99qLn9nBLuKqqeZNnxnqtS0ndd0oowBizj8uxOs5ZPCyw77MHZbgN%2F1BwgB6cVAmDfwEsJAiNIv8LdOONLkBaKbhbgUnMHyyAUQVOVcTHAVAKVvmuki8dZ4AgDtkvwbWuYBCxE2ULu20b%2FLA%2B6YhtR4%2FL6PVww%2FZEBm4mH5AMvDpMIToHgoorL9RrkwKIyMBqFcB0M9iK7qnvKyuFrNGW%2FGX0RqS2sHiHr9bbxlhMqZ7oNgOYw9MPavzMunGuDjCY5zgS05Ac1en9T6ZcqBAY0%2FqkG8Rcz9fReCW%2FuaMlQ%2FRhr8M1DFh%2FQ20KoP8wyPuuvgY6pgEqOgKP3zWEHh27yNQjaT3C1vCUwKFbb9ACPDhjBszg7Y7yL4iBJ2k70qSof8AqzOQf4gmurZXb7EyPkFLYMAJqPVFGax9aFLQBHGKMT7I32xRUfAfoHNv0LHUFkYqye1yls2NsUXMft4zajVI%2BEG98jpH6QKxsTYKjIm5RnRP9hBwniTR433URawUcCwEtvltMk1Cnp%2B%2B%2FRJvrxQbYkDG9h7eWXbGA&X-Amz-Signature=4c8c19ceea4ff0fcb5beb3e81a68aca6b6f3ea0a64119d1f321f192cd7762da1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](/images/blog/e17734e68dde523ee102e1717362e10e.png)
 
 
 ## Sự phát triển của xu hướng lập trình qua các giai đoạn
@@ -419,8 +419,39 @@ Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web. Ngày xưa m
 Kinh nghiệm của mình là khi mình quan tâm hay học bất cứ thứ gì . Hãy tạo một account và follow hết nhưng channel mình tìm được. Việc còn lại thì cứ chờ thuật toán nó mang kiến thức đến cho mình thôi
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/971a0b63-2295-40af-ab88-168bbf8182f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667VDGBACJ%2F20250308%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250308T042255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLXdlc3QtMiJGMEQCIB%2FOmExMXWcf4fT7fvmQEFl%2B1MgleXuMCdS%2Bg7frJfy6AiBrBB3ApXmEb%2F1qQnJV96QjtKR%2FGSHm9DouUyzjJmoFjyr%2FAwhVEAAaDDYzNzQyMzE4MzgwNSIMF4K6a4BR6lrOvdMlKtwDQVkCDiq0finJZKK930MJONaKL%2FOapB50c9c6AH%2FWI8tT13pLH9W28xdBNgZMEb9y8GgcVJnJgWCiihmp3gkpDA8%2B0V79xkXTGl0E%2B5n88yPUr4kpwrRFBu9f3nWg42FrNnohVMWhPaKlu9L7mDAlnCciOniSXDujGsGunlzNdsVLSAJKElbGNZB9C2XK1LaJLPaxdNHvk307f87zE5a0KMbECYAPvY43l7imJ84IxdsiDGD8Xu3lHsfBLuy4JS7ryn1zqd2UJho0JeCGx%2BBD8iOUAH96fX4iiuB71h5zKv3LJAqbrjuM%2BLDToxUtfLj99qLn9nBLuKqqeZNnxnqtS0ndd0oowBizj8uxOs5ZPCyw77MHZbgN%2F1BwgB6cVAmDfwEsJAiNIv8LdOONLkBaKbhbgUnMHyyAUQVOVcTHAVAKVvmuki8dZ4AgDtkvwbWuYBCxE2ULu20b%2FLA%2B6YhtR4%2FL6PVww%2FZEBm4mH5AMvDpMIToHgoorL9RrkwKIyMBqFcB0M9iK7qnvKyuFrNGW%2FGX0RqS2sHiHr9bbxlhMqZ7oNgOYw9MPavzMunGuDjCY5zgS05Ac1en9T6ZcqBAY0%2FqkG8Rcz9fReCW%2FuaMlQ%2FRhr8M1DFh%2FQ20KoP8wyPuuvgY6pgEqOgKP3zWEHh27yNQjaT3C1vCUwKFbb9ACPDhjBszg7Y7yL4iBJ2k70qSof8AqzOQf4gmurZXb7EyPkFLYMAJqPVFGax9aFLQBHGKMT7I32xRUfAfoHNv0LHUFkYqye1yls2NsUXMft4zajVI%2BEG98jpH6QKxsTYKjIm5RnRP9hBwniTR433URawUcCwEtvltMk1Cnp%2B%2B%2FRJvrxQbYkDG9h7eWXbGA&X-Amz-Signature=c27d1b6476dbfb63d6e3be3128b4d93cb19ccc658ebc33f29e8a997c66736948&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](/images/blog/4e537b5a19674659ede7f93e9a848b15.png)
 
+
+Các kênh mình đang theo dõi và phù hợp nếu muốn học thêm kiến thức vào mỗi giao đoạn nhất định
+
+- Lập trình căn bản
+	- [https://www.youtube.com/@28tech_](https://www.youtube.com/@28tech_)
+	- [https://www.youtube.com/@F8VNOfficial](https://www.youtube.com/@F8VNOfficial)
+	- [https://www.youtube.com/@KTeam](https://www.youtube.com/@KTeam)
+	- [https://www.youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh)
+	- [https://www.youtube.com/@TechWithTim](https://www.youtube.com/@TechWithTim) (Kênh này chuyên về python)
+	- [https://www.youtube.com/@WesBos/videos](https://www.youtube.com/@WesBos/videos) (Kênh này chuyên về javascript)
+	- [w3schools.com/cpp](http://w3schools.com/cpp) (Trang web này thường giải thích rất ngắn gọn về các topic lập trình cho người mới)
+- Khái niệm quan trọng
+	- OOP
+		- [https://www.youtube.com/watch?v=IcYpk-Kf4Fo](https://www.youtube.com/watch?v=IcYpk-Kf4Fo)
+	- DSA
+		- [https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX](https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX)
+	- OS
+		- [https://www.youtube.com/@LowLevelTV](https://www.youtube.com/@LowLevelTV) (anh này nói về bảo mật cũng như chuyên sâu về OS)
+		- [https://www.youtube.com/@nesoacademy](https://www.youtube.com/@nesoacademy) (Kênh này rất phù hợp cho các kiến thức nền tảng như OS hay Network)
+	- NETWORK
+		- [https://www.youtube.com/@NetworkChuck](https://www.youtube.com/@NetworkChuck)
+		- [https://www.geeksforgeeks.org/basics-computer-networking/](https://www.geeksforgeeks.org/basics-computer-networking/) (Trang này chuyên sâu hơn w3school nhưng rất phù hợp các concept khó )
+- FrontEnd
+	- [https://www.youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia)
+	- [https://www.youtube.com/@WebDevSimplified](https://www.youtube.com/@WebDevSimplified)
+	- [https://www.youtube.com/@KevinPowell/shorts](https://www.youtube.com/@KevinPowell/shorts) (Bậc thầy CSS)
+- Database
+	- [https://www.youtube.com/@LukeBarousse](https://www.youtube.com/@LukeBarousse) (Anh này làm DA nên rất am hiểu về DB)
+- Backend
+	- [https://www.youtube.com/@anonystick](https://www.youtube.com/@anonystick)
+	- [https://www.youtube.com/@ByteByteGo/shorts](https://www.youtube.com/@ByteByteGo/shorts) (Kênh này chuyên về thiết kế hệ thống)
 
 ## Lộ trình học lập trình phần mềm ?
 
@@ -460,7 +491,7 @@ Giải nhiều bài tập hơn
 Viết một chương trình quản lý danh sách số nguyên trong mảng, cho phép **thêm, sửa, xóa** phần tử bằng giao diện console.
 
 
-![1741362979472747398490946999238.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/d93526ba-b22c-4b5c-95d8-3a537ef66db4/1741362979472747398490946999238.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U7OL722G%2F20250308%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250308T042255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLXdlc3QtMiJHMEUCIH%2FU3a%2B8vIn2HvXaxZoOaNc%2FxwLrODusrc9QbgkB3EyvAiEA8MotU%2B6a5m5nL1HiVDOPgIbWrdvfqwzBVMhKp5FeYVYq%2FwMIVRAAGgw2Mzc0MjMxODM4MDUiDDwJv9CHn%2F%2FjySpkWircA4ih%2B4WeUDqQGKM3K7%2BMFcQ3yjUN0Jtl1TCv%2FKTogZB%2FbFehfNBt8MvVW9And7FwJw3Tuekfi1jzfBJEMwpyuUwXDy%2BVW6EJ0FsfIL%2B73nZ6zny6Dh%2FMOvXgwKgAsLeqdIGgVfFRnEIycuGRhRvFUPvUaZykersmNcE%2BQVZlvJrlfLCfk36beteb1HGi92Y51bbUcX0kXZnIGC3Kmv4dfHbXOWhMnKMC%2BvyubgdU9NLqG4UnTWNHKha3E8benD51fbeyoxIn1Q0CmDHUXHz6Ka3Q9oeOb0DEKtg5%2Frcg3usb1yXgIPSGBYUl%2Ft60vt%2FdGCu%2FGk0P%2FNXDrkx%2BjIvsOVWf%2BpSSf5Gi5rrjx2f%2F2sSsEwWVXG%2Bc4mVNOAWYknmSMHnnDdF60sOfbG2094egHUjR57E2%2FUVVrtXETvmojSQKy4idqQMtHVK5WRwdwZltrcANQOEt3SeXziW597OzgofVO9h%2FReY0Av7GDz%2FElqaMnYxYDL2LtHkzSs5JsgyivAaumLsUYW02i43SxmQqYhUmmw9QaAhpI%2FCkqc%2FkVCSU%2FW1qktJZpPJe9aB6f1v56JbtKddq5xFJstWQ2N7uuvg0rqUgl3qeQUI7jIHMmRvDEW5Bh8spuQaxBSwoMKH7rr4GOqUBn5EkHdMemJYV1iYktAsPN4bbd9QRLh3WIZpwP9C6g0YKw9vPamJT66ha3p4FYOqYuYF9Pt4KNMQcER6VaCAdPcMEqhEXxJ2Eo5%2BqEGrqcFph9LT9Xh8FQ0Jdof6pG7a6l2ArlNHcjxSHAwUzLJL6czRTsQupCoWX%2F2ohg93naiRyOZvJDnmG1doenttUlF6gJHHwKF5Hv91T8ORrr8%2F7WI%2Brw23T&X-Amz-Signature=e93b278dc6a491662b61672797cd2b3bb1b4a047fbbfb7ab853384b5b9f0775d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![1741362979472747398490946999238.png](/images/blog/aa64b83f094546bdbe862a52897923af.png)
 
 
 Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới hãy học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.
@@ -495,6 +526,7 @@ OOP là một phương pháp lập trình cốt lõi trong phát triển phần 
 Website 
 
 - [https://www.youtube.com/watch?v=yBs0ic7pVvk](https://www.youtube.com/watch?v=yBs0ic7pVvk) (Video này giải thích OOP khá dễ hiểu)
+- [https://www.youtube.com/watch?v=IcYpk-Kf4Fo](https://www.youtube.com/watch?v=IcYpk-Kf4Fo)
 - Sách: "Clean Code" của Robert C. Martin (Hiểu về cách viết code OOP chất lượng)
 
 **Bài tập thực hành:**
@@ -520,9 +552,15 @@ Mục tiêu lớn nhất của bài này là bạn có thể viết được m�
 
 **Nguồn học:**
 
-- https://visualgo.net/ (Trực quan hóa thuật toán)
-- https://leetcode.com/ (Luyện giải thuật)
-- https://www.hackerrank.com/ (Thực hành với nhiều bài tập)
+
+[https://codelearn.io/learning/cau-truc-du-lieu-va-giai-thuat](https://codelearn.io/learning/cau-truc-du-lieu-va-giai-thuat)
+
+
+Website
+
+- [https://visualgo.net/en](https://visualgo.net/en) (Trực quan hóa thuật toán)
+- [https://leetcode.com/](https://leetcode.com/) (Luyện giải thuật)
+- [https://www.hackerrank.com/](https://www.hackerrank.com/) (Thực hành với nhiều bài tập)
 - Sách: "Introduction to Algorithms" của Cormen, Leiserson, Rivest, và Stein
 
 **Bài tập thực hành:**
@@ -559,15 +597,20 @@ Hệ điều hành là phần mềm nền tảng quản lý tài nguyên phần 
 
 **Nguồn học:**
 
-- https://www.geeksforgeeks.org/operating-systems/
-- https://cs50.harvard.edu/
-- https://www.youtube.com/watch?v=26QPDBe-NB8 (Khóa học OS toàn diện)
+- [https://youtu.be/vBURTt97EkA?si=lDLSBhrc6Y96k1u4](https://youtu.be/vBURTt97EkA?si=lDLSBhrc6Y96k1u4) (Recommend)
+- [https://youtu.be/vLwMl9qK4T8?si=Anwe5-hP1LxXcmve](https://youtu.be/vLwMl9qK4T8?si=Anwe5-hP1LxXcmve) (Giải thích về tiến trình)
+- [https://youtu.be/bbmWOjuFmgA?si=VktFFpytpIQe_YFN](https://youtu.be/bbmWOjuFmgA?si=VktFFpytpIQe_YFN) (File system trong linux)
+
+Website 
+
+- [https://www.geeksforgeeks.org/operating-systems/](https://www.geeksforgeeks.org/operating-systems/)
 
 **Luyện tập:**
 
-- Xây dựng một trình quản lý tiến trình đơn giản với Python
-- Viết script để tự động dọn dẹp bộ nhớ cache trên hệ điều hành Linux
-- Tạo một mini file system giả lập bằng C
+- Bạn hãy nhờ AI đóng vai một chuyên gia về điều hành , hỏi những khái niệm . Khi trả lời được gần hết bạn sẽ nắm được kha khá kiến thức rồi
+
+Kiến thức OS xây dựng nền tảng cho ta biết một hệ điều hành và kiến trúc máy tính hoạt động như nào . Nó rất rộng vì vậy chỉ cần hiểu rõ được ít nhất một chương trình được hệ điều hành xử lý như nào , bộ nhớ lưu trữ ra sao và các hệ thống file trong mỗi hệ điều hành như nào là được
+
 
 ### d. Mạng máy tính (Networking)
 
@@ -578,6 +621,7 @@ Networking là một phần quan trọng giúp các hệ thống giao tiếp v�
 **Kiến thức cần nắm:**
 
 - **Networking cơ bản**:
+	- Mô hình TCP/IP [https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z](https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z)
 	- TCP/IP vs. UDP: Sự khác biệt và ứng dụng
 	- HTTP/HTTPS: Giao thức truyền tải dữ liệu trên web
 	- DNS & Domain: Cách tên miền hoạt động
@@ -592,15 +636,16 @@ Networking là một phần quan trọng giúp các hệ thống giao tiếp v�
 
 **Nguồn học:**
 
-- https://www.cloudflare.com/learning/
-- https://www.geeksforgeeks.org/computer-network-tutorials/
-- https://www.youtube.com/watch?v=qiQR5rTSshw (Networking cho lập trình viên)
+- [https://youtu.be/CRdL1PcherM?si=44ZabgwYwito1Cf8](https://youtu.be/CRdL1PcherM?si=44ZabgwYwito1Cf8)
+- [https://www.youtube.com/watch?v=VwN91x5i25g&list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx](https://www.youtube.com/watch?v=VwN91x5i25g&list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx) (Recommend)
+- [https://www.geeksforgeeks.org/computer-network-tutorials/](https://www.geeksforgeeks.org/computer-network-tutorials/)
 
 **Luyện tập:**
 
-- Xây dựng một server HTTP đơn giản với Node.js
-- Viết script để kiểm tra trạng thái kết nối mạng
-- Cấu hình firewall cơ bản trên Linux
+- Bạn hãy nhờ AI đóng vai một chuyên gia về networking, hỏi những khái niệm . Khi trả lời được gần hết bạn sẽ nắm được kha khá kiến thức rồi
+
+Kiến thức này cũng rất rộng , nhưng nó xây dựng nền tảng cho ta hiểu các máy tính giao tiếp trên internet . Bạn không cần phải đào quá sâu nhưng ít nhất phải nắm được mô hình TCP/IP và vòng đời của một request và response như thế nào 
+
 
 ## 3. Chuyên sâu theo hướng phát triển
 
@@ -645,8 +690,10 @@ Hiểu đơn giản:
 ### **Nguồn học**
 
 - **YouTube**:
-	- [HTML/CSS/JS Crash Course](https://www.youtube.com/watch?v=R6plN3FvzFY&list=PLwJIrGynFq9Ao47UsmLfcKLUFfC27jBQk)
-	- [JS Beginner Course](https://www.youtube.com/watch?v=0SJE9dYdpps&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5)
+	- [HTML/CSS/JS Crash Course](https://www.youtube.com/watch?v=R6plN3FvzFY&list=PLwJIrGynFq9Ao47UsmLfcKLUFfC27jBQk) (F8  Recommend)
+	- [JS Beginner Course](https://www.youtube.com/watch?v=0SJE9dYdpps&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) (F8  Recommend)
+	- [https://www.youtube.com/watch?v=f2EqECiTBL8](https://www.youtube.com/watch?v=f2EqECiTBL8) (Nền tảng của nodejs một runtime giúp xây dựng app với JS)
+	- [https://www.youtube.com/watch?v=RVFAyFWO4go](https://www.youtube.com/watch?v=RVFAyFWO4go) (React Dave Gray)
 - **Trang web**:
 	- [w3schools - HTML](https://www.w3schools.com/html/)
 	- [w3schools - CSS](https://www.w3schools.com/css/default.asp)
@@ -657,8 +704,14 @@ Hiểu đơn giản:
 
 ### **Luyện tập**
 
-- **HTML/CSS:** Cắt giao diện một trang web đơn giản Video hướng dẫn [https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW](https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW)
-- **HTML/CSS/JS:** Thực hành với project Video hướng dẫn https://youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&si=e8jMLOSgQa1S2Efk
+- **HTML/CSS:** Cắt giao diện một trang web đơn giản
+
+	Video hướng dẫn [https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW](https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW)
+
+- **HTML/CSS/JS:** Thực hành với project
+
+	Video hướng dẫn [https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9](https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9)
+
 - **Projects nâng cao cho portfolio:**
 	- Landing page cho sản phẩm/dịch vụ
 	- Blog cá nhân với chức năng tìm kiếm và lọc bài viết
@@ -701,6 +754,7 @@ Cơ sở dữ liệu chia làm hai loại chính: SQL (quan hệ) và NoSQL (phi
 
 - **YouTube**:
 	- [Khóa học MySQL toàn diện](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+	- [https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU](https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU)
 - **Website**:
 	- [w3schools - SQL](https://www.w3schools.com/sql/)
 	- [w3schools - MongoDB](https://www.w3schools.com/mongodb/)
@@ -725,8 +779,9 @@ Một Back-end developer cần hiểu sâu về ngôn ngữ lập trình server-
 
 ### **Kiến thức cần nắm**
 
+- Mô hình MVC :  👉 [https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7](https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7)
 - **Server-side Programming**:
-	- Node.js, Python (Django/Flask), PHP, Java (Spring), Golang
+	- Node.js (Recommend), Python (Django/Flask), PHP, Java (Spring), Golang
 - **API Design**:
 	- RESTful API, GraphQL, API Documentation (Swagger/OpenAPI)
 - **Authentication & Authorization**:
@@ -737,6 +792,8 @@ Một Back-end developer cần hiểu sâu về ngôn ngữ lập trình server-
 ### **Nguồn học**
 
 - **YouTube**:**(Recommend chỉ cần bắt chước theo video thôi)**
+	- [https://swagger.io/resources/articles/best-practices-in-api-design/](https://swagger.io/resources/articles/best-practices-in-api-design/)
+	- [https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB](https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB) (Kiến thức về Restful api)
 	- [Node.js Full Course](https://www.youtube.com/watch?v=fgTGADljAeg)
 - **Website**:
 	- [w3schools - Node.js](https://www.w3schools.com/nodejs/)
@@ -749,7 +806,7 @@ Một Back-end developer cần hiểu sâu về ngôn ngữ lập trình server-
 	- Viết middleware xử lý lỗi và validation
 	- Tích hợp cơ sở dữ liệu (SQL hoặc NoSQL)
 
-Nên là được học cuối cùng vì nó đòi hỏi mình phải hiểu về network cũng như thành thạo nhất định với ngôn ngữ lập trình , biết cách tương tác với database .. 
+Nên được học cuối cùng vì nó đòi hỏi mình phải hiểu về network cũng như thành thạo nhất định với ngôn ngữ lập trình , biết cách tương tác với database .. 
 
 
 Nếu chỉ đơn giản thì BE là chúng ta sẽ thực thi các logic code chính trung gian giữa giao diện và database , nó ẩn chứa đằng sau nhưng lại rất quan trọng vì không thể dễ dàng copy được . Giống như ta có thể thấy nhiều mạng xã hội giống giống nhau nhưng không thể thấy nó thuật toán recommend đúng ý mình xịn như facebook được
@@ -758,11 +815,12 @@ Nếu chỉ đơn giản thì BE là chúng ta sẽ thực thi các logic code c
 ## Xây dựng một phần mềm hoàn chỉnh kết hợp Frontend , BackEnd và Database
 
 
-Bạn nên nắm kiến trúc **MVC** để dễ bảo trì ứng dụng. 👉 [https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7](https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7)
+Bạn nên nắm kiến trúc **MVC** để dễ bảo trì ứng dụng.
 
 
 **Xem các video sau để hình dung về cách xây dựng một ứng dụng e-commerce đơn giản với MERN (React, MongoDB, Express, Node.js)**:
 
+- [https://youtu.be/CvCiNeLnZ00?si=gzSeU_zNfa-y8zWZ](https://youtu.be/CvCiNeLnZ00?si=gzSeU_zNfa-y8zWZ)
 - [MERN Stack Tutorial](https://www.youtube.com/watch?v=7E6um7NGmeE)
 - [MERN Crash Course](https://www.youtube.com/watch?v=hYYd_3Tz6Zo)
 - [MERN E-commerce Project](https://www.youtube.com/watch?v=1NrHkjlWVhM)

@@ -1,8 +1,10 @@
 import { parseISO, isValid } from "date-fns";
 import fs from "fs/promises";
 import path from "path";
+import crypto from 'crypto';
 
 const CONTENT_DIR = path.join(process.cwd(), "src/content/blog");
+const IMAGES_DIR = path.join(process.cwd(), "public/images/blog");
 
 // Utility function to calculate reading time
 export function calculateReadingTime(content) {
@@ -161,4 +163,75 @@ export function formatDate(dateInput) {
     console.warn('Error formatting date:', error);
     return null;
   }
+}
+
+// Function to generate consistent filename from URL
+export function generateImageFilename(imageUrl) {
+  const hash = crypto.createHash('md5').update(imageUrl).digest('hex');
+  const ext = path.extname(new URL(imageUrl).pathname) || '.png';
+  return `${hash}${ext}`;
+}
+
+// Function to download and save image using fetch
+export async function downloadImage(imageUrl, filename) {
+  try {
+    const response = await fetch(imageUrl);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch image: ${response.statusText}`);
+    }
+
+    const buffer = await response.arrayBuffer();
+    const imagePath = path.join(IMAGES_DIR, filename);
+
+    await fs.mkdir(path.dirname(imagePath), { recursive: true });
+    await fs.writeFile(imagePath, Buffer.from(buffer));
+
+    return `/images/blog/${filename}`;
+  } catch (error) {
+    console.error(`Error downloading image ${imageUrl}:`, error);
+    return null;
+  }
+}
+
+// Function to clear images directory
+export async function clearImagesDirectory() {
+  try {
+    await fs.rm(IMAGES_DIR, { recursive: true, force: true });
+    await fs.mkdir(IMAGES_DIR, { recursive: true });
+    return true;
+  } catch (error) {
+    console.error('Error clearing images directory:', error);
+    return false;
+  }
+}
+
+// Function to find and replace image URLs in markdown content
+export async function processMarkdownImages(content) {
+  const imageRegex = /!\[.*?\]\((.*?)\)/g;
+  let newContent = content;
+  const matches = content.matchAll(imageRegex);
+
+  for (const match of matches) {
+    const [fullMatch, imageUrl] = match;
+
+    // Skip if already a local path
+    if (imageUrl.startsWith('/images/')) {
+      continue;
+    }
+
+    try {
+      // Generate filename and download image
+      const filename = generateImageFilename(imageUrl);
+      const localPath = await downloadImage(imageUrl, filename);
+
+      if (localPath) {
+        // Replace URL in markdown
+        newContent = newContent.replace(imageUrl, localPath);
+      }
+    } catch (error) {
+      console.error(`Error processing image ${imageUrl}:`, error);
+    }
+  }
+
+  return newContent;
 }
