@@ -154,14 +154,14 @@ Crypto ra đời với lý tưởng **không phụ thuộc chính phủ**, nhưn
 Chat GPT nghĩ gì vì về quan điểm này  😂 ?
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/25c0f4dd-e972-4eda-9c79-3c88dd119077/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664JROK647%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T161424Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCICltfoz6PVQIryLfpgLC2lS03g9PlOHbRwGL824UHccNAiBZUCMwm3jt0NpUvSiBb0JBwwnXQtAm%2Fb5lwdV9NU6abir%2FAwhJEAAaDDYzNzQyMzE4MzgwNSIMxltmnbymdHGpxvIdKtwDmly02a8uS9b4F3nM1j110LAJl40jmvvfYTIxoT%2F2T6XbaiXb8q%2B7dHKNdzJU0Qq%2Fn2G1dpeepfbNyytd74doNHnzVDIHxWrjk%2BtDlGWlbdU7u40MJG8y1V7GxkVpefEjpbOHvWtI5AjRPlL01H%2F%2Fy2rwJyvEw27pvIAC8sothAwmN0PYzOajbeT9xkGzErh17EQnY9xxstXAa1iCVFmbOmPBetPM%2BaGiCEjhp1feejFQTZFR8AI%2BM4SAVLbHGvs7tFZxOJE0Jicbki2a1FBy7DlhHBSlYtADHuDhq0%2B%2BMaP2unUVT4p9S4ITnkoIRciCCIW9Tq0wIHqORUXUECP%2FT5lhA0M71QivwwPMrMvOCQRqYiOk1Ip0Bl0MfEHtcsNVerrsOUM4kXKpx2QL8WwEhJH%2BgDTxGI9E0dQTTeqjVTrtxIwBjJzWb%2BeslGmAZ0nfIpq2fmtBNtlNTUB6zv2SvaQfSU3i%2ByYrVtGhP7gBWC6wl8BR%2BssrlOZXP9N9Si40IfBSXflrpRO9AiR4CGIaY%2FS8LTNbKWR9uC8ihqK1HvnSpRQJ5WfYCPGgRROGzJgmpY7t%2BIrsyjFdN9oUSY2jUAAPCNLgT79DsTnusb83m7R5QJOst4ggl2IoLCowwJ%2BsvgY6pgELUSp9opedoB80%2FiUnflc1uowEcvv7dB6733nhh62%2BgS7%2FOA5Rw%2BUdZFcDYHUwu7oDiuFOB1RmP0CslN%2Br2x0LNGcTBaYiRt6f20wDiWtmN%2FWn%2BnaJrrzGyW0TacXjwcoyrlnAG64CVIK%2FO7WXWN0SDXFNWBBrYs5hQPR%2F0TipVdpp9LV66HWV%2F%2FuFRErzK0cghqGrYVweiesnIJQ3ymhUepTXd8sY&X-Amz-Signature=43609472cc29bcf47a40ae95b276dc6fc756f6a92d6dd5e374ef12d54d7019c6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/25c0f4dd-e972-4eda-9c79-3c88dd119077/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466V4E5WJPM%2F20250308%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250308T023300Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAoaCXVzLXdlc3QtMiJHMEUCIQDY0HELg04NENt5nkt7GQilk8G9fCq7mr%2FgSmN0YMby3AIgVL%2FPz8mmynPFqyDg%2BfqqqLhiDMltpBoe5GSkfZXgKgQq%2FwMIUxAAGgw2Mzc0MjMxODM4MDUiDC30O00vXa%2Bn63kh1CrcA5u%2BKEIJ3HazUU5S7szOUOtt0bj7NLlLEZ8Uf038e3dqu%2B5xEmK5gHotR2X5rafNkIClZ%2FYbxT0pYGIJ3DwMdGRfzeC1A6sI%2BDMElHPiKB9m8qRBhCoTvp5dIsGhJSS8hI61TTybLNIdgTLGpfgmtKXQvEcwRKEd7gZv3u5Ck9Nbo3Ao4lOq4EYzNtfOH8g8kwe6pjOEXr2GIFUF3Fj%2BRbbW0u7eIVDFIbxzowBIKUcaSIKja3VhNpGk5Mx7MX1ryKrfERib9Ull%2Fv%2FynvDkZ6PF%2F7hTEioWGx4ZbOdKrCdPmvjFGRi6GK14r10yoec3tVpVhGgc6N1TcJ3USOJO%2F2kvg95u4NRkU1kTtqqhMKYxyz%2F6D1pAMehIc8m6B8dgC7Z3PfXtHSBpgJUGeG%2Fr6REpkorHknCpeloPdqIf5k7ABAm%2BceOjiEjif1I5LYtU8WW2qWnmtowkiPrWSocR%2BaD0qOvV%2FATSlHEzBNPlm6PTuwpPaloW0%2FMNstRbdjLuyN6qYVlGuL8kCMfGcPiHtIY994qzTNJhcC06hJh3hSnxVHNw1PiJ84EVNrUTn1DDXt18DA25cutIu5nCawSk0V2rKHy0n38xUD%2FCS7lOUIV1ZlFjjfb32wZy%2F%2BUkMKG9rr4GOqUBIExMHb%2FOXSHtKy7igWENYJc1%2BwutVqQPL1VdCn1BbDn23M0hfUpJdCrb5T0RQdI%2FYFW%2BAYWO56q7iVDmp1F2PljwafKcHwGSyHjhTWYXOX0%2FrjF1UjAf7jUjAXPM%2BLt71qQvVh9Td78wNDLJpyJ6WACg1nq6G5cQYzjuWHy0nsGPGfNP1X%2Bkgw5dXYU%2BbKh4vET3oVEETWI%2BW9WNWVlUDsWWofd2&X-Amz-Signature=16821221e459f162c597ea0f8983969b97dfd024bd807286f564997bfaa24b3d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-Tương lai của crypto vẫn **có thể phát triển, nhưng với điều kiện nó phải đáp ứng một số yếu tố quan trọng**
+Tương lai của crypto vẫn có thể phát triển, nhưng với điều kiện nó phải đáp ứng một số yếu tố quan trọng
 
 - Chính phủ và ngân hàng lớn bắt đầu sử dụng crypto
 
-	⇒ Khi các tổ chức lớn tham gia, crypto **không còn là "một trò chơi tài chính", mà trở thành một phần của nền kinh tế chính thống**.
+	⇒ Khi các tổ chức lớn tham gia, crypto không còn là "một trò chơi tài chính", mà trở thành một phần của nền kinh tế chính thống.
 
 
 # Crypto Trong Viễn Cảnh Không Có Chính Phủ
@@ -172,7 +172,7 @@ Nếu AI đủ mạnh và công nghệ blockchain có thể thay thế hệ th�
 
 ### **1. AI thay thế chính phủ và quản lý xã hội**
 
-- AI đóng vai trò như **"hệ điều hành" của thế giới**, quản lý tài chính, luật pháp, y tế, giáo dục…
+- AI đóng vai trò như **"hệ điều hành"** của thế giới, quản lý tài chính, luật pháp, y tế, giáo dục…
 - Quyết định được đưa ra dựa trên dữ liệu và logic thay vì ý chí con người (không còn tham nhũng, thiên vị).
 - Blockchain có thể là nền tảng giúp đảm bảo minh bạch, nhưng AI sẽ là bộ não kiểm soát mọi thứ.
 
