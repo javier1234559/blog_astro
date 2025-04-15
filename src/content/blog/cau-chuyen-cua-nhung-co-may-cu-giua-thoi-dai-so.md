@@ -62,7 +62,7 @@ Câu chuyện của Cao Chí Luỹ dù có hậu nhưng vô tình **tô hồng 
 Một trong những bình luận mà mình đã gặp được trên reddit .
 
 
-![image.png](/images/blog/9c6e06a0148c62ca4af87b502d3492f4.png)
+![image.png](/images/blog/b0a4b981a72facdfdd5e8a3cdc8b9638.png)
 
 
 Anh bạn này chỉ ra được một số góc nhìn rằng kết phim vẫn đang cố thỏa mãn khát khao được thành công của chúng ta . Cứ cố gắng rồi sẽ tới cái kết có hậu . Nhưng liệu cuộc đời này có dễ dàng như vậy ? 
