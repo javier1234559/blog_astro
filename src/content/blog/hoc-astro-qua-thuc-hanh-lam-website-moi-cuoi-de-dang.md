@@ -269,26 +269,26 @@ Ví dụ
 ```
 
 
-![image.png](/images/blog/1b121c6ecc6dd73839f141a7e23d0f88.png)
+![image.png](/images/blog/b72d515e7a4e88e719766a7d6ecba52a.png)
 
 
 Thì ta sẽ được 
 
 
 
-![image.png](/images/blog/f3670c15c027a8cfde102a615a0a78de.png)
+![image.png](/images/blog/b712213c7705b95f1897f586d8510016.png)
 
 
 Tuy nhiên với định dạng file `ts/js` thì được dùng để chỉ định endpoint . Thường đây sẽ là nơi định nghĩa các function tương tự như các file được đặt bên trong folder `/api` bên nextjs vậy 
 
 
-![image.png](/images/blog/4aacd35cbb3701afe409e191fb060c2f.png)
+![image.png](/images/blog/017e972778bee348eadf17cd184529ec.png)
 
 
 Kết quả 
 
 
-![image.png](/images/blog/73b6904edfe0aa3787a86a621bb3ba05.png)
+![image.png](/images/blog/548a4878003700ee0540c84f734b1c69.png)
 
 
 > 💡 Chi tiết có thể xem tại : [https://docs.astro.build/en/basics/astro-pages/](https://docs.astro.build/en/basics/astro-pages/)
@@ -422,13 +422,13 @@ npm create astro@latest -- --template basics
 Sau khi chạy lệnh trên xong ta tiếp tục yes để tải các packages cần thiết
 
 
-![image.png](/images/blog/37f5aeaeba82c58720c1c8890799f243.png)
+![image.png](/images/blog/f41e87f63ab8012b532df16df8480268.png)
 
 
 Mình tổ chức thư mục trông như thế này 
 
 
-![image.png](/images/blog/7639d166fd94261a0bf1d1473492d332.png)
+![image.png](/images/blog/ff4a2fd26ded81a62a4bff1f028e4e7d.png)
 
 
 Mình chỉ làm một trang duy nhất thôi nên sẽ đặt là `index.astro`
@@ -614,7 +614,7 @@ const ISOString = nextDay.toISOString();
 À có điều thú vị khi phát triển với astro , họ có sẵn một tool bar để check những lỗi tìm ẩn ảnh hưởng đến SEO  của  trang web 
 
 
-![image.png](/images/blog/723ff158a946ec5fc47c0b31611d53c5.png)
+![image.png](/images/blog/44fff9a6de5ab15d1a324a96211da66c.png)
 
 
 Họ cảnh báo mình không nên dùng tại chữ image bên trong alt attribute và nên dùng component `Image` cả astro để tối ưu ảnh 
