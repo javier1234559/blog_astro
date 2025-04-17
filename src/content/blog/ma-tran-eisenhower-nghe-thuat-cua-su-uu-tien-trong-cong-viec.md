@@ -10,7 +10,7 @@ status: "Published"
 categories:
   - name: "life"
     color: "green"
-readingTime: "11 min read"
+readingTime: "12 min read"
 ---
 
 # **Ma trận Eisenhower: Bí quyết quản lý thời gian từ Tổng thống Hoa Kỳ**
@@ -159,6 +159,20 @@ Bây giờ, hãy cùng áp dụng Ma trận Eisenhower vào cuộc sống của 
 	- Đừng cố làm tất cả cùng lúc. Hãy chọn lọc và tập trung.
 4. **Không loại bỏ Ô 4**:
 	- Những thói quen như lướt mạng xã hội có thể âm thầm chiếm thời gian của bạn. Hãy kiểm soát chúng.
+
+## Cách phân biệt và ưu tiên Ô 2 với Ô 3 khi không có ai ủy thác:
+
+1. Ô 2 (Quan trọng & Không khẩn cấp): Đây là việc giúp bạn đạt mục tiêu dài hạn (học kỹ năng, tập thể dục, lập kế hoạch). Ưu tiên cao hơn vì chúng xây dựng tương lai của bạn. Hỏi: “Việc này có giúp mình tiến bộ không?” Nếu có, làm trước.
+2. Ô 3 (Không quan trọng & Khẩn cấp): Đây là việc gấp nhưng ít giá trị (trả lời email vặt, làm việc hành chính). Chỉ làm nếu hậu quả không làm ngay là nghiêm trọng (như mất khách hàng). Hỏi: “Nếu mình trì hoãn việc này, có sao không?” Nếu không sao, gác lại.
+
+Cách làm khi không ủy thác được:
+
+- Làm Ô 3 nhanh gọn (dưới 15 phút, ví dụ: trả email trong 1 lần/ngày).
+- Đặt lịch cố định cho Ô 2 (ví dụ: 30 phút học tối nay) và xem như không thể hủy.
+- Nếu bận, chia nhỏ Ô 2 (học 10 phút/ngày) nhưng không bỏ.
+
+⇒ Khi được xếp vào ô 3 nó là việc cần phải làm thật nhanh , tránh để chiếm quá nhiều thời gian
+
 
 # **Lợi ích lâu dài của Ma trận Eisenhower**
 
