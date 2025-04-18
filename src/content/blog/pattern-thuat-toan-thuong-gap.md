@@ -44,6 +44,10 @@ Thuật toán vốn rất khó và đòi hỏi tư duy , tuy nhiên chúng ta c�
 | 21  | Advanced DP                      | Bitmask, Knuth, Convex Hull Trick...                 | Contest, tối ưu phức tạp cao           |
 
 
+> 💡 Tổng hợp leet code problem theo dạng pattern  
+> [https://docs.google.com/spreadsheets/d/1hwvHbRargzmbErRYGU2cjxf4PR8GTOI-e1R9VqOVQgY/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1hwvHbRargzmbErRYGU2cjxf4PR8GTOI-e1R9VqOVQgY/edit?gid=0#gid=0)
+
+
 ## Brute Force
 
 
@@ -686,7 +690,8 @@ vector<vector<int>> permute(vector<int>& nums) {
 ```c++
 int mostFrequentElement(vector<int>& nums) {
     unordered_map<int, int> freq;
-    for (int num : nums)
+    // use value as key and increase it 
+    for (int num : nums) 
         freq[num]++;
 
     int maxFreq = 0, res = nums[0];
