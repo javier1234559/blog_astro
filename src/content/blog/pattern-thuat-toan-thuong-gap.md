@@ -10,7 +10,7 @@ status: "Published"
 categories:
   - name: "algorithm"
     color: "orange"
-readingTime: "18 min read"
+readingTime: "24 min read"
 ---
 
 Thuật toán vốn rất khó và đòi hỏi tư duy , tuy nhiên chúng ta cần xây dựng một nền tảng căn bản cũng như nắm được các pattern phổ biển để giải quyết các vấn đề nhỏ . Rất may mắn nó đã được tổng hợp bởi những người đi trước giúp ta tiếp cận dễ dàng hơn 
@@ -637,32 +637,87 @@ vector<vector<int>> mergeIntervals(vector<vector<int>>& intervals) {
 - Khi quay lui: **bỏ chọn** phần tử → `used[i] = false`.
 
 ```c++
-void backtrack(vector<int>& nums, vector<bool>& used, vector<int>& path, vector<vector<int>>& res) {
-    if (path.size() == nums.size()) {
-        res.push_back(path);
-        return;
+struct State {
+    vector<int> current_node;
+    vector<bool> visited;
+};
+
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        int n = nums.size();
+        vector<vector<int>> result;
+        stack<State> st;
+        
+        st.push({{},vector<bool>(n,false)}); // it's like stack.push({},{false,false,false}) 
+        
+        while(!st.empty()){
+            State state = st.top(); // select the top from stack and remove it
+            st.pop(); 
+            
+            
+            if(state.current_node.size() == n){ // and the node have full state 
+                result.push_back(state.current_node);
+                continue;
+            }
+            
+            
+            for(int i = 0 ; i < n; i++){ 
+                if(!state.visited[i]){ // if it does visted then 
+                    // make sure to create new copy
+                    vector<int> newState = state.current_node; 
+                    vector<bool> newVisted = state.visited;
+                    
+                    newState.push_back(nums[i]);
+                    newVisted[i] = true;
+                    st.push({newState,newVisted});
+                }
+            }
+        }
+        
+        return result;
+    }
+};
+```
+
+
+Recursive version
+
+
+```c++
+struct State {
+  vector < int > current_node;
+  vector < bool > visited;
+};
+
+class Solution {
+  public:
+
+    void backtrack(vector < vector < int >> & result, vector < int > & nums, State state) { // act this recusive like the and while 
+      if (state.current_node.size() == nums.size()) {
+        result.push_back(state.current_node);
+      }
+
+      for (int i = 0; i < nums.size(); i++) {
+        if (!state.visited[i]) { // if it doesnt visted then
+          // we have to fork new state 
+          State newState = state;
+          newState.current_node.push_back(nums[i]);
+          newState.visited[i] = true;
+
+          backtrack(result, nums, newState); // call the backtrack with new state
+        }
+      }
+
     }
 
-    for (int i = 0; i < nums.size(); i++) {
-        if (used[i]) continue;
-
-        used[i] = true;
-        path.push_back(nums[i]);
-
-        backtrack(nums, used, path, res);
-
-        path.pop_back();       // undo
-        used[i] = false;
-    }
-}
-
-vector<vector<int>> permute(vector<int>& nums) {
-    vector<vector<int>> res;
-    vector<int> path;
-    vector<bool> used(nums.size(), false);
-    backtrack(nums, used, path, res);
-    return res;
-}
+  vector < vector < int >> permute(vector < int > & nums) {
+    State init = {{},vector < bool > (nums.size(), false)};
+    vector < vector < int >> result;
+    backtrack(result, nums, init);
+    return result;
+  }
+};
 ```
 
 
@@ -814,6 +869,171 @@ int bfsShortestPath(int n, vector<vector<int>>& edges, int start, int end) {
     }
 
     return -1; // không tìm thấy
+}
+```
+
+
+## **Recursion (Đệ quy)**
+
+
+### 1. Đặc điểm
+
+- Gọi lại chính nó để giải bài toán bằng cách **chia nhỏ** thành các bài toán con.
+- Mỗi lần gọi thường xử lý một phần nhỏ của bài toán.
+- Điều kiện dừng (**base case**) luôn nằm ở **đầu hàm** để tránh **vòng lặp vô hạn**.
+- Phần **logic xử lý** nằm giữa điều kiện dừng và lời gọi đệ quy tiếp theo.
+- Nếu không có `base case` rõ ràng → gây **Stack Overflow**.
+
+---
+
+
+### 2. Công thức tổng quát
+
+
+```c++
+returnType function(parameters) {
+    if (base case)
+        return base value;
+
+    // xử lý logic hiện tại
+    return recursive call (với giá trị đã tiến gần base case);
+}
+```
+
+
+Ví dụ đơn giản:
+
+
+```c++
+void printArray(vector<int>& arr, int i) {
+    if (i >= arr.size()) return; // base case
+
+    cout << arr[i] << " ";       // xử lý
+    printArray(arr, i + 1);      // gọi tiếp
+}
+```
+
+
+---
+
+
+### 3. **So sánh 2 kiểu triển khai đệ quy**
+
+
+| Cách viết                    | Tình huống phù hợp                                                            | Tình huống không phù hợp                                          |
+| ---------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `void` + biến **tham chiếu** | - Cần cập nhật nhiều biến hoặc mảng ngoài hàm                                 | - Hàm cần xử lý pure logic, dễ test                               |
+|                              | - Làm việc với cấu trúc dữ liệu như tree, graph                               | - Muốn giữ function đơn giản, không có tác dụng phụ (side effect) |
+|                              | - In/log giá trị trong quá trình đệ quy                                       | - Dữ liệu cần được return để tái sử dụng                          |
+| `return` giá trị cộng dồn    | - Tính toán tổng, đếm, logic có kết quả cụ thể (sum, count, true/false, etc.) | - Cần lưu trạng thái phức tạp hoặc nhiều kết quả trung gian       |
+|                              | - Dễ viết hàm nhỏ gọn, dễ test, không phụ thuộc biến ngoài                    | - Kết quả không thể biểu diễn bằng một giá trị duy nhất           |
+|                              | - Thích hợp cho bài toán dạng `divide and conquer`                            | - Trường hợp cần ghi log hoặc thay đổi dữ liệu ở nhiều nơi        |
+
+
+### 4. Ví dụ minh họa
+
+
+**Bài toán:** `countDivisibleBy3Digits(9129)` → trả về số chữ số chia hết cho 3 (ở đây là 9 và 3 → trả về `2`)
+
+
+### Dạng 1 – Tham chiếu
+
+
+```c++
+void countDivisibleBy3Digits(int n, int& count) {
+    if (n == 0) return;
+
+    int digit = n % 10;
+    if (digit % 3 == 0) count++;
+
+    countDivisibleBy3Digits(n / 10, count); // gọi tiếp với số nhỏ hơn
+}
+```
+
+
+### Dạng 2 – Dùng return để cộng dồn
+
+
+```c++
+int countDivisibleBy3Digits(int n) {
+    if (n == 0) return 0;
+
+    int digit = n % 10;
+    int add = (digit % 3 == 0) ? 1 : 0;
+
+    return add + countDivisibleBy3Digits(n / 10); // trả về tổng
+}
+```
+
+
+## **Dynamic Programming (DP)**
+
+
+### 1. Đặc điểm
+
+- Dành cho bài toán có:
+	- **Tính chất con lặp lại**: Bài toán lớn được tạo thành từ các bài toán con giống nhau.
+	- **Tối ưu con (Optimal Substructure)**: Kết quả bài toán lớn phụ thuộc vào kết quả tối ưu của các bài toán con.
+- Ý tưởng chính: **Lưu lại kết quả đã tính**, không tính lại.
+
+### 2. Dạng phổ biến
+
+- **Tối ưu giá trị**: lớn nhất, nhỏ nhất (VD: leo cầu thang ít mệt nhất, lời nhất, rẻ nhất,...)
+- **Đếm số cách**: số cách để làm gì đó (VD: số cách để lên cầu thang, đổi tiền,...)
+- **Chuỗi con / dãy con dài nhất**: (VD: dãy tăng dài nhất, chuỗi con chung dài nhất,...)
+
+---
+
+
+### 3. Hai cách triển khai
+
+
+| **Cách viết**                | **Tình huống phù hợp**                                                                 | **Tình huống không phù hợp**                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Top-down (đệ quy + memo)** | - Code gọn, dễ viết khi bài toán mô tả theo đệ quy  - Không cần tính tất cả trạng thái | - Dữ liệu lớn dễ bị tràn stack  - Khó debug khi nhiều trạng thái phụ thuộc            |
+| **Bottom-up (dùng bảng)**    | - Tối ưu tốc độ  - Tránh tràn stack  - Rõ ràng thứ tự xử lý                            | - Cần hiểu rõ thứ tự cập nhật trạng thái  - Cần thêm biến/bảng lưu giá trị trung gian |
+
+
+### 4. Ví dụ minh họa: **Số cách để leo cầu thang có n bậc**, mỗi lần bước được 1 hoặc 2 bậc.
+
+
+### 🧠 Idea:
+
+
+Muốn đến bậc `n`, ta có thể từ:
+
+- bậc `n-1` bước 1 lần
+- bậc `n-2` bước 2 lần
+
+	=> Tổng số cách đến `n` = cách đến `n-1` + cách đến `n-2`
+
+
+---
+
+
+### Cách 1: **Top-down (đệ quy + memo)**
+
+
+```c++
+int climb(int n, unordered_map<int, int>& memo) {
+    if (n <= 2) return n;
+    if (memo.count(n)) return memo[n];
+    return memo[n] = climb(n - 1, memo) + climb(n - 2, memo);
+}
+```
+
+
+### Cách 2: **Bottom-up (bảng)**
+
+
+```c++
+int climb(int n) {
+    if (n <= 2) return n;
+    vector<int> dp(n + 1);
+    dp[1] = 1; dp[2] = 2;
+    for (int i = 3; i <= n; i++)
+        dp[i] = dp[i - 1] + dp[i - 2];
+    return dp[n];
 }
 ```
 
