@@ -25,7 +25,7 @@ Thuật toán vốn rất khó và đòi hỏi tư duy , tuy nhiên chúng ta c�
 | 2   | Two Pointers                     | Dùng 2 con trỏ để duyệt tối ưu                       | Mảng, chuỗi có sắp xếp                 |
 | 3   | Sliding Window                   | Trượt cửa sổ con (fixed/moving) để tính toán         | Tổng đoạn, subarray thỏa mãn           |
 | 4   | Prefix Sum / Difference Array    | Dùng mảng phụ để tính tổng hoặc cập nhật nhanh       | Truy vấn nhiều lần                     |
-| 5   | **Fast & Slow Pointer**          | 2 con trỏ với tốc độ khác nhau để phát hiện vòng     | Linked list, số học có vòng            |
+| 5   | Fast & Slow Pointer              | 2 con trỏ với tốc độ khác nhau để phát hiện vòng     | Linked list, số học có vòng            |
 | 6   | Binary Search                    | Chia đôi không gian tìm kiếm                         | Tìm phần tử, tối ưu hóa                |
 | 7   | Greedy                           | Luôn chọn phương án tốt nhất hiện tại                | Tối ưu cục bộ (nhanh)                  |
 | 8   | Backtracking                     | Dò tất cả khả năng, quay lui nếu sai                 | Liệt kê, tổ hợp, sudoku                |
