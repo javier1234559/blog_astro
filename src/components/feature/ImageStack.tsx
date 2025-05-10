@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
@@ -61,7 +61,7 @@ const ImageStack = () => {
               className="w-full h-full object-cover"
               draggable="false"
             />
-             <div
+            <div
               className="absolute bottom-2 left-2 text-white text-sm p-2 rounded opacity-50"
               style={{
                 background: "linear-gradient(45deg, #000, #333)",

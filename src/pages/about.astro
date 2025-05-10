@@ -3,7 +3,7 @@ import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import siteMetadata from "@/content/sideMetaData";
 import { TextRevealTW } from "@/components/feature/TextRevealTW";
-
+import MyCVButton from "@/components/feature/MyCVButton";
 const metaData = {
   title: 'About',
   description: siteMetadata.description
@@ -30,6 +30,8 @@ const metaData = {
       <p class="italic text-gray-600">
         "Learn. Share. Grow."
       </p>
+
+      <MyCVButton />
     </div>
   </section>
 </PageLayout>
