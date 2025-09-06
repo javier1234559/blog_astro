@@ -97,5 +97,5 @@ Nghĩa là: bất kỳ request nào đến (dù là `/about`, v.v...)
 đều sẽ được **redirect nội bộ (rewrite)** về `/`, tức là file `index.html`Sau đó, **React Router** sẽ xử lý tiếp phần routing phía client.
 
 
-![image.png](/images/blog/260d3757974b7198feeba1e6cb50fafe.png)
+![image.png](/images/blog/1ff2aea7ca2a8330d1fa1114a12b66f8.png)
 
