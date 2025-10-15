@@ -167,9 +167,6 @@ Không phải mọi cơn bão đều đến để phá hủy;
 có những cơn chỉ đến để **rửa sạch con đường mà mình đã quên.**
 
 
----
-
-
 ## **5. Kết**
 
 
