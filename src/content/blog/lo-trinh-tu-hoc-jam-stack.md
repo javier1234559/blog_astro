@@ -32,7 +32,7 @@ Theo định nghĩa ở trên thì jamstack là một kiến trúc sử dụng 3
 Thuật ngữ này được đặt ra bởi Mathias Biilmann, người đồng sáng lập Netlify.
 
 
-![image.png](/images/blog/0877b218bd7923c8faacacebe92853e4.png)
+![image.png](/images/blog/47907f16b5bcde4d665b1798097841c7.png)
 
 
 # Điểm qua sự khác biệt của nó so với kiến trúc truyền thống
@@ -67,7 +67,7 @@ Ok hãy cùng nhìn lại xem sự khác biệt của nó so với kiến trúc 
 | **Chi phí vận hành**  | Cao (máy chủ mạnh, bảo trì phức tạp) | Thấp hơn (chỉ cần hosting CDN)          |
 
 
-![image.png](/images/blog/aca5c742d2ea45f9e422e01cfae7acce.png)
+![image.png](/images/blog/16222dd1472efe2974a5357b90f7c5ce.png)
 
 
 # Những lợi ích khi sử dụng Jamstack
