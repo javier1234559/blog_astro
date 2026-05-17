@@ -4,7 +4,7 @@ draft: false
 title: "Crypto liệu có thể tạo nên giá trị ?"
 description: "Cryptocurrency (tiền mã hóa) ra đời với mục tiêu tạo ra một hệ thống tài chính phi tập trung, không phụ thuộc vào chính phủ hay ngân hàng trung ương. Tuy nhiên, hơn một thập kỷ sau khi Bitcoin xuất hiện, câu hỏi vẫn còn bỏ ngỏ: Crypto có thực sự tạo nên giá trị hay chỉ là một công cụ đầu cơ?"
 date: "2025-03-06"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "crypto-lieu-co-the-tao-nen-gia-tri"
 status: "Published"
 categories:
@@ -154,7 +154,7 @@ Crypto ra đời với lý tưởng **không phụ thuộc chính phủ**, nhưn
 Chat GPT nghĩ gì vì về quan điểm này  😂 ?
 
 
-![image.png](/images/blog/171e89d62a01f24e3cc98e459eccf748.png)
+![image.png](/images/blog/b2e35c41d11b3caf85ffea42f3836ee7.png)
 
 
 Tương lai của crypto vẫn có thể phát triển, nhưng với điều kiện nó phải đáp ứng một số yếu tố quan trọng

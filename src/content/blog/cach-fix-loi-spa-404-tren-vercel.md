@@ -4,7 +4,7 @@ draft: false
 title: "Cách fix lỗi SPA 404 trên vercel"
 description: "Cách fix lỗi SPA 404 trên vercel . Hiểu rõ nguyên nhân và config đúng chuẩn"
 date: "2025-05-28"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "cach-fix-loi-spa-404-tren-vercel"
 status: "Published"
 categories:
@@ -97,5 +97,5 @@ Nghĩa là: bất kỳ request nào đến (dù là `/about`, v.v...)
 đều sẽ được **redirect nội bộ (rewrite)** về `/`, tức là file `index.html`Sau đó, **React Router** sẽ xử lý tiếp phần routing phía client.
 
 
-![image.png](/images/blog/5beb6d96861c7885a098843013bf4b6e.png)
+![image.png](/images/blog/ae2b3ada2aa9e2d397c4b0480748b732.png)
 

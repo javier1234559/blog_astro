@@ -4,7 +4,7 @@ draft: false
 title: "Tháp Maslow và động lực phát triển của con người "
 description: "Điều gì khiến con người không ngừng tiến hóa, từ những bộ lạc săn bắt nguyên thủy đến các đô thị thông minh hay sứ mệnh chinh phục sao Hỏa? Đằng sau mọi bước tiến là một động lực sâu xa: các nhu cầu của chúng ta, từ việc tìm kiếm thức ăn để sống sót đến khát vọng để lại di sản cho nhân loại."
 date: "2025-04-21"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "thap-maslow-va-dong-luc-phat-trien-cua-con-nguoi"
 status: "Published"
 categories:
@@ -24,7 +24,7 @@ readingTime: "20 min read"
 Được Abraham Maslow giới thiệu vào năm 1943 và mở rộng qua các thập kỷ, **tháp Maslow** mô tả các nhu cầu của con người theo thứ tự phân cấp, từ những yêu cầu cơ bản để tồn tại đến những khát vọng cao cả nhất. Phiên bản đầy đủ nhất bao gồm **8 cấp độ**, phản ánh sự phức tạp của động lực con người. Dưới đây là chi tiết từng cấp, kèm ví dụ minh họa:
 
 
-![image.png](/images/blog/9b01533c912325fb60738bb99f64d2a0.png)
+![image.png](/images/blog/6e82fff8d86734b6bec4b59ef7297cce.png)
 
 1. **Nhu cầu sinh lý (Physiological Needs)**
 	- **Định nghĩa**: Những nhu cầu cơ bản để duy trì sự sống, như thức ăn, nước, không khí, chỗ ở, quần áo, giấc ngủ, và sinh sản.
@@ -65,7 +65,7 @@ readingTime: "20 min read"
 Tháp Maslow không chỉ là một lý thuyết tâm lý mà còn là một bản đồ phản ánh hành trình phát triển của nhân loại. Qua các thời kỳ lịch sử, từ xã hội nguyên thủy đến hiện đại, con người đã dần thỏa mãn các nhu cầu thấp hơn trong tháp, chuyển dịch lao động sang các cấp cao hơn, và hoàn thiện lý thuyết Maslow qua thực tiễn. Hãy cùng khám phá cách các cuộc cách mạng định hình tháp Maslow và lao động.
 
 
-![image.png](/images/blog/6eb8aa8a19ad67bd3c65be1d306613eb.png)
+![image.png](/images/blog/2be37b498c439ab1404c90cd91af7777.png)
 
 
 **Xã hội nguyên thủy: Sinh tồn là trọng tâm**

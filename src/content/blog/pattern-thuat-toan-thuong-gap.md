@@ -4,7 +4,7 @@ draft: false
 title: "Pattern thuật toán thường gặp"
 description: "Các pattern thuật toán phổ biến trong lập trình"
 date: "2025-04-17"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "pattern-thuat-toan-thuong-gap"
 status: "Published"
 categories:

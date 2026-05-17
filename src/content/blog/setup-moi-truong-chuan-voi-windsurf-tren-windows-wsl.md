@@ -4,7 +4,7 @@ draft: false
 title: "Setup môi trường chuẩn với Windsurf trên Windows + WSL"
 description: "Setup môi trường chuẩn với Windsurf trên Windows + WSL"
 date: "2025-09-07"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "setup-moi-truong-chuan-voi-windsurf-tren-windows-wsl"
 status: "Published"
 categories:

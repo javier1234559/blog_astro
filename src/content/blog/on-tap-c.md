@@ -4,7 +4,7 @@ draft: false
 title: "Ôn tập C++"
 description: "Ôn tập C++ fundamental"
 date: "2024-09-17"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "on-tap-c"
 status: "Published"
 categories:

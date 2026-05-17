@@ -4,7 +4,7 @@ draft: false
 title: "Lý thuyết Dow"
 description: "Lý thuyết Dow (Dow Theory) là một trong những nền tảng cơ bản của phân tích kỹ thuật trong thị trường tài chính"
 date: "2025-02-20"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "ly-thuyet-dow"
 status: "Published"
 categories:

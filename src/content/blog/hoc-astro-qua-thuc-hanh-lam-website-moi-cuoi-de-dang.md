@@ -4,7 +4,7 @@ draft: false
 title: "Học Astro Qua Thực Hành: Làm Website Mời Cười Dễ Dàng"
 description: "Học Astro Qua Thực Hành: Làm Website Mời Cười Dễ Dàng"
 date: "2025-03-06"
-author: "Minh Nhật Nguyễn"
+author: "Javier"
 slug: "hoc-astro-qua-thuc-hanh-lam-website-moi-cuoi-de-dang"
 status: "Published"
 categories:
@@ -269,26 +269,26 @@ Ví dụ
 ```
 
 
-![image.png](/images/blog/a3cfb149676ce2cb914adcee89d84a83.png)
+![image.png](/images/blog/f933e7496a974cb13575c33e54da138a.png)
 
 
 Thì ta sẽ được 
 
 
 
-![image.png](/images/blog/3d7c38b71541bb95075547faab9aa966.png)
+![image.png](/images/blog/623030030334eb3e7a450d7844e5a998.png)
 
 
 Tuy nhiên với định dạng file `ts/js` thì được dùng để chỉ định endpoint . Thường đây sẽ là nơi định nghĩa các function tương tự như các file được đặt bên trong folder `/api` bên nextjs vậy 
 
 
-![image.png](/images/blog/20a1d5fc8987f844325fe754021aa6e7.png)
+![image.png](/images/blog/efecf81403592bf1116e4596150f2b17.png)
 
 
 Kết quả 
 
 
-![image.png](/images/blog/b4829f858e73f264983420096f621109.png)
+![image.png](/images/blog/beb8bfa32fe693c07c0ca7905d5721bf.png)
 
 
 > 💡 Chi tiết có thể xem tại : [https://docs.astro.build/en/basics/astro-pages/](https://docs.astro.build/en/basics/astro-pages/)
@@ -422,13 +422,13 @@ npm create astro@latest -- --template basics
 Sau khi chạy lệnh trên xong ta tiếp tục yes để tải các packages cần thiết
 
 
-![image.png](/images/blog/e4d4980d8be70fc4dd6d934003dd0362.png)
+![image.png](/images/blog/b2e6d24b2af5fd16dd8e5f49ef32ca3d.png)
 
 
 Mình tổ chức thư mục trông như thế này 
 
 
-![image.png](/images/blog/1d7d3ae1296615839f29c9582ddc8e9a.png)
+![image.png](/images/blog/8a8289b5f9ca3a58c53429a72048ae70.png)
 
 
 Mình chỉ làm một trang duy nhất thôi nên sẽ đặt là `index.astro`
@@ -614,7 +614,7 @@ const ISOString = nextDay.toISOString();
 À có điều thú vị khi phát triển với astro , họ có sẵn một tool bar để check những lỗi tìm ẩn ảnh hưởng đến SEO  của  trang web 
 
 
-![image.png](/images/blog/e169188ec725cfcc89dce4cd2ed5e0d5.png)
+![image.png](/images/blog/50bccb6441f6e8771f35af00f579cdb7.png)
 
 
 Họ cảnh báo mình không nên dùng tại chữ image bên trong alt attribute và nên dùng component `Image` cả astro để tối ưu ảnh 
