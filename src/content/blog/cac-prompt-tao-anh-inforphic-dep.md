@@ -2,10 +2,16 @@
 external: false
 draft: false
 title: "Các prompt tạo ảnh inforphic đẹp"
+description: "Các dùng rất đơn giản chỉ cần thay đổi nội dung và chọn style vào template sau"
 date: "2026-06-20"
 author: "Javier"
 slug: "cac-prompt-tao-anh-inforphic-dep"
 status: "Published"
+categories:
+  - name: "ai"
+    color: "red"
+  - name: "prompt"
+    color: "purple"
 readingTime: "7 min read"
 ---
 
@@ -15,7 +21,7 @@ readingTime: "7 min read"
 Các dùng rất đơn giản chỉ cần thay đổi nội dung và chọn style vào template sau → mở 1 chat hoàn toàn mới trên gemini chọn tạo ảnh và paste prompt đầy đủ
 
 
-![image.png](/images/blog/ee0c4c81fc3606cea4b2e6b9e88c67b4.png)
+![image.png](/images/blog/a8d431564cac642fcbd4864f60fc1aac.png)
 
 
 ```json
@@ -49,7 +55,7 @@ Transform the content above into this style
 # SketchFrame Style
 
 
-![image.png](/images/blog/3d2388fd56da4348469a2a9d136c3a4e.png)
+![image.png](/images/blog/2d79f2bedb8a039d451a04a863a8ab44.png)
 
 
 ```json
@@ -213,7 +219,7 @@ Tags:
 # Canvas Notes
 
 
-![image.png](/images/blog/d4acd244a767be4928f318bd0c7c2e44.png)
+![image.png](/images/blog/bc4eede9ec3b789b36efdce39a14e272.png)
 
 
 ```json
@@ -369,7 +375,7 @@ Tags:
 # Marker Atlas
 
 
-![image.png](/images/blog/640891fc1bf1b7479bfe7bccf1ef8940.png)
+![image.png](/images/blog/4f503fe059af3e3953a9ae90cdc73f2a.png)
 
 
 ```json
