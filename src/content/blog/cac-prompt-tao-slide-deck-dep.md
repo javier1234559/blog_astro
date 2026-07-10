@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Các prompt tạo slide deck đẹp"
-date: "2026-06-18"
+date: "2026-06-19"
 author: "Javier"
 slug: "cac-prompt-tao-slide-deck-dep"
 status: "Published"
@@ -18,7 +18,7 @@ readingTime: "9 min read"
 Các dùng rất đơn giản chỉ cần thay đổi nội dung và chọn style vào template sau → mở 1 chat hoàn toàn mới trên gemini chọn tạo ảnh và paste prompt đầy đủ
 
 
-![image.png](/images/blog/d0f4dd5a2ffe34f646c200755565e6c2.png)
+![image.png](/images/blog/6094d965202094a8df55c46979143bd2.png)
 
 
 ```json
@@ -45,7 +45,7 @@ Transform the content above into this style
 # SketchFrame Style
 
 
-![image.png](/images/blog/18c3873f9c12d1f93b490136fed6f909.png)
+![image.png](/images/blog/1436fa80b4fb7fd21920c91bfdbdcf6d.png)
 
 
 ```json
@@ -257,7 +257,7 @@ Preferred Iconography:
 # Canvas Notes
 
 
-![image.png](/images/blog/3246f925a05451b4f6286e28e206e1a2.png)
+![image.png](/images/blog/a01d77c7af87aecc553f85657cbbda51.png)
 
 
 ```json
@@ -458,7 +458,7 @@ Preferred Iconography:
 # Marker Atlas
 
 
-![image.png](/images/blog/db70dfb74dddb7a10d944128872746e0.png)
+![image.png](/images/blog/d1fcbed99e8cbc5c4bb531f858a9f2f9.png)
 
 
 ```json

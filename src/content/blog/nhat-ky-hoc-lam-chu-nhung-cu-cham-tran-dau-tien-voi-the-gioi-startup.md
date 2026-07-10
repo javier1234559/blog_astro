@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Nhật Ký Học Làm Chủ: Những Cú \"Chạm Trán\" Đầu Tiên Với Thế Giới Startup"
-date: "2026-07-01"
+date: "2026-07-02"
 author: "Javier"
 slug: "nhat-ky-hoc-lam-chu-nhung-cu-cham-tran-dau-tien-voi-the-gioi-startup"
 status: "Published"
