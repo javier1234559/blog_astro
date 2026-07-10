@@ -3,7 +3,7 @@ import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import siteMetadata from "@/content/sideMetaData";
 import { TextRevealTW } from "@/components/feature/TextRevealTW";
-import MyCVButton from "@/components/feature/MyCVButton";
+// import MyCVButton from "@/components/feature/MyCVButton";
 const metaData = {
   title: 'About',
   description: siteMetadata.description
@@ -15,6 +15,7 @@ const metaData = {
   <PageMeta slot="meta" {...metaData}/>
   <section slot="main" class="px-6 py-12 max-w-3xl mx-auto min-h-[80vh] flex flex-col items-center justify-center text-center">
     <TextRevealTW 
+      client:load
       as="h1" 
       content="Tại sao lại có blog này?" 
       className="text-3xl mb-8 font-bold uppercase md:text-5xl leading-10" 
@@ -31,7 +32,7 @@ const metaData = {
         "Learn. Share. Grow."
       </p>
 
-      <MyCVButton />
+      <!-- <MyCVButton /> -->
     </div>
   </section>
 </PageLayout>

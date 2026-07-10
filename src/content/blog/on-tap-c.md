@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Ôn tập C++"
 description: "Ôn tập C++ fundamental"
-date: "2024-09-17"
+date: "2024-09-16"
 author: "Javier"
 slug: "on-tap-c"
 status: "Published"

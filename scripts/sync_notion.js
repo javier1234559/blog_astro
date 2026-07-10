@@ -65,21 +65,18 @@ export const extractPosts = async (response) => {
         draft: false
       };
 
-      // Validate required fields and set draft status
-      if (!post.description || !post.date || !post.author || !content) {
-        try {
-          post.date = formatDate(post.date);
-        } catch (error) {
-          console.log(error);
-        }
+      // Only hide posts that are not Published in Notion
+      post.draft = post.status === 'Draft' || post.status === 'Editing';
 
-        post.draft = true;
-        console.warn(`Post "${title}" marked as draft due to missing required fields`);
+      if (!post.description || !post.date || !post.author || !content) {
+        console.warn(
+          `Post "${title}" is missing recommended fields (description, date, author, or content) but will remain ${post.draft ? 'hidden' : 'visible'} based on Notion status "${post.status}"`
+        );
       }
 
-      // Set draft status based on Notion status
-      if (post.status === 'Draft' || post.status === 'Editing') {
-        post.draft = true;
+      const formattedDate = formatDate(post.date);
+      if (formattedDate) {
+        post.date = formattedDate.toISOString().slice(0, 10);
       }
 
       post.readingTime = calculateReadingTime(post.content);
@@ -94,16 +91,25 @@ export const extractPosts = async (response) => {
 
 export async function getListPost() {
   const databaseId = process.env.NOTION_DATABASE_ID || "";
-  const response = await notion.databases.query({
-    database_id: databaseId,
-    filter: {
-      property: "Status",
-      status: {
-        equals: "Published",
+  const posts = [];
+  let cursor;
+
+  do {
+    const response = await notion.databases.query({
+      database_id: databaseId,
+      filter: {
+        property: "Status",
+        status: {
+          equals: "Published",
+        },
       },
-    },
-  });
-  const posts = await extractPosts(response);
+      start_cursor: cursor,
+    });
+
+    posts.push(...(await extractPosts(response)));
+    cursor = response.has_more ? response.next_cursor : undefined;
+  } while (cursor);
+
   return posts;
 }
 

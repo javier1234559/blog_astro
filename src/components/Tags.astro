@@ -2,13 +2,13 @@
 import { badgeVariants } from '@/components/ui/badge';
 import { getCollection } from 'astro:content';
 
-const posts = await getCollection('blog');
+const posts = (await getCollection('blog')).filter((post) => post.data.draft !== true);
 
 // Extract unique hashtags from category objects
 const allHashtags = Array.from(
   new Set(
-    posts.flatMap((post) => 
-      post.data.categories.map(category => category.name)
+    posts.flatMap((post) =>
+      (post.data.categories ?? []).map((category) => category.name)
     )
   )
 );
@@ -33,8 +33,10 @@ const allHashtags = Array.from(
         <h3 class="text-xl font-semibold mb-4">#{hashtag}</h3>
         <ul class="flex flex-wrap gap-2">
           {posts
-            .filter((post) => 
-              post.data.categories.some(category => category.name === hashtag)
+            .filter((post) =>
+              (post.data.categories ?? []).some(
+                (category) => category.name === hashtag
+              )
             )
             .map((post) => (
               <li>

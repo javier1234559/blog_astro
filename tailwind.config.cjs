@@ -60,6 +60,7 @@ module.exports = {
 			//animate
 			animation: {
 				"text-reveal": "text-reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s",
+				"title-word": "title-word 0.65s cubic-bezier(0.22, 1, 0.36, 1) backwards",
 			},
 			keyframes: {
 				"text-reveal": {
@@ -68,6 +69,16 @@ module.exports = {
 					},
 					"100%": {
 						transform: "translate(0, 0)",
+					},
+				},
+				"title-word": {
+					"0%": {
+						opacity: "0",
+						transform: "translateY(110%)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateY(0)",
 					},
 				},
 			},

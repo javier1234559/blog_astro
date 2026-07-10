@@ -5,11 +5,13 @@ import PageMeta from "@/components/PageMeta.astro";
 import { badgeVariants } from '@/components/ui/badge';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = (await getCollection('blog')).filter((post) => post.data.draft !== true);
   
   // Get unique tags
   const uniqueTags = new Set(
-    posts.flatMap(post => post.data.categories.map(category => category.name))
+    posts.flatMap((post) =>
+      (post.data.categories ?? []).map((category) => category.name)
+    )
   );
 
   return Array.from(uniqueTags).map(tag => ({
@@ -26,11 +28,11 @@ if (typeof tag !== "string") {
 
 console.log(tag);
 
-const posts = await getCollection('blog');
+const posts = (await getCollection('blog')).filter((post) => post.data.draft !== true);
 
 // Filter posts that have the matching tag
-const filteredPosts = posts.filter((post) => 
-  post.data.categories.some((category) => category.name === tag)
+const filteredPosts = posts.filter((post) =>
+  (post.data.categories ?? []).some((category) => category.name === tag)
 );
 
 console.log(filteredPosts.map((post) => post.data.title));
@@ -60,7 +62,7 @@ const metaData = {
               </h2>
               <p class="text-gray-600 mb-4">{post.data.description}</p>
               <div class="flex gap-2">
-                {post.data.categories.map((category) => (
+                {(post.data.categories ?? []).map((category) => (
                   <a 
                     href={`/tags/${category.name}`} 
                     class={badgeVariants({ variant: "outline" })}

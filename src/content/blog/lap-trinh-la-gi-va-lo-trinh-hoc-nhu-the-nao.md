@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Lập trình là gì và lộ trình học như thế nào ?"
 description: "Lập trình là gì? Học lập trình liệu có khó không , bản thân mình mới tiếp cận cũng nghĩ như vậy . Nhưng đó là khi mình chưa biết cách đơn giản hóa nó"
-date: "2025-03-06"
+date: "2025-03-05"
 author: "Javier"
 slug: "lap-trinh-la-gi-va-lo-trinh-hoc-nhu-the-nao"
 status: "Published"
@@ -266,13 +266,13 @@ Nó thường sẽ được tổng hợp lại với Từ khóa “Language + Ch
 👉 [https://quickref.me/python](https://quickref.me/python)
 
 
-![image.png](/images/blog/f8ac8060863431806661b97b48821490.png)
+![image.png](/images/blog/29da33b341559d97796f54b826f94345.png)
 
 
 Ngôn ngữ đầu tiên của mình học chính là C . Một ngôn ngữ giúp xây dựng nền tảng cho các ngôn ngữ hiện đại khác hiện nay. Đó là lý do nó thường được dạy đầu tiên nếu học lập trình ở các trường đại học .
 
 
-![image.png](/images/blog/9bf92cbbb3435b4b198619ef2eafd8f2.png)
+![image.png](/images/blog/d04928293b03172270b0b4076cfdec7d.png)
 
 
 ## Sự phát triển của xu hướng lập trình qua các giai đoạn
@@ -419,7 +419,7 @@ Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web. Ngày xưa m
 Kinh nghiệm của mình là khi mình quan tâm hay học bất cứ thứ gì . Hãy tạo một account và follow hết nhưng channel mình tìm được. Việc còn lại thì cứ chờ thuật toán nó mang kiến thức đến cho mình thôi
 
 
-![image.png](/images/blog/e4b1986050ac313d8e5bf69ee045e5e6.png)
+![image.png](/images/blog/bdc99d9ec64868806a5260444909a96a.png)
 
 
 Các kênh mình đang theo dõi và phù hợp nếu muốn học thêm kiến thức vào mỗi giao đoạn nhất định
@@ -491,7 +491,7 @@ Giải nhiều bài tập hơn
 Viết một chương trình quản lý danh sách số nguyên trong mảng, cho phép **thêm, sửa, xóa** phần tử bằng giao diện console.
 
 
-![1741362979472747398490946999238.png](/images/blog/5b14b9ba5474093ebf6dda12d49e3d1b.png)
+![1741362979472747398490946999238.png](/images/blog/b1f8ce39d757c40f152b66d784343aeb.png)
 
 
 Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới hãy học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.

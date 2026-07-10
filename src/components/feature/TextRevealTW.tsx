@@ -13,27 +13,30 @@ export const TextRevealTW: React.FC<TextRevealTWProps> = ({
   ...rest
 }) => {
   const Component = Tag as keyof JSX.IntrinsicElements;
+  const words = content.trim().split(/\s+/);
 
   return (
     <>
-      {/* SEO-friendly hidden text */}
       <Component className="sr-only" {...rest}>
         {content}
       </Component>
 
-      {/* Visible animated text */}
       <Component
         aria-hidden="true"
-        className={`overflow-hidden font-bold ${className}`}
+        className={`font-bold ${className}`}
         {...rest}
       >
-        {content.match(/./gu)?.map((char, index) => (
+        {words.map((word, index) => (
           <span
-            className="animate-text-reveal inline-block [animation-fill-mode:backwards] leading-8 mt-7"
-            key={`${char}-${index}`}
-            style={{ animationDelay: `${index * 0.05}s` }}
+            key={`${word}-${index}`}
+            className="inline-block overflow-hidden align-bottom pb-[0.08em] mr-[0.28em] last:mr-0"
           >
-            {char === " " ? "\u00A0" : char}
+            <span
+              className="inline-block whitespace-nowrap animate-title-word [animation-fill-mode:backwards]"
+              style={{ animationDelay: `${index * 0.07}s` }}
+            >
+              {word}
+            </span>
           </span>
         ))}
       </Component>

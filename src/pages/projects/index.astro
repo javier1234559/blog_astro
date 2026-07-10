@@ -1,6 +1,7 @@
 ---
 import siteMetadata from "@/content/sideMetaData";
 import PageLayout from "@/layouts/PageLayout.astro";
+import PageMeta from "@/components/PageMeta.astro";
 import { TextRevealTW } from "@/components/feature/TextRevealTW";
 import { badgeVariants } from '@/components/ui/badge';
 
@@ -9,75 +10,167 @@ const metaData = {
   description: siteMetadata.description
 };
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  techStack: string[];
+  link?: string;
+  liveDemo?: string;
+};
+
+const clientProjects: Project[] = [
+  {
+    title: 'Cyndi Real Estate',
+    description:
+      'Website portfolio cho môi giới bất động sản, tích hợp MLS/IDX giúp khách hàng tìm kiếm bất động sản địa phương một cách trực quan và nhanh chóng.',
+    techStack: ['Next.js', 'MLS/IDX', 'MapBox', 'TypeScript'],
+  },
+  {
+    title: 'Fidelity Anna Bot',
+    description:
+      'Chatbot AI tự động trả lời tin nhắn đến từ nhiều kênh với ngữ cảnh thống nhất.',
+    techStack: ['Chatbot', 'n8n', 'HubSpot', 'Twilio', 'Outlook', 'Chatwoot', 'Slack'],
+  },
+  {
+    title: 'Outreach Automation',
+    description:
+      'Hệ thống automation kết nối LinkedIn, gửi cold email và follow-up cho danh sách lead từ Apollo.',
+    techStack: ['n8n', 'Apollo', 'Instantly', 'Brevo', 'CRM', 'HeyReach'],
+  },
+];
+
+const internalProjects: Project[] = [
+  {
+    title: 'AAA Website',
+    description:
+      'Website chính thức của công ty — điểm đến công khai cho thương hiệu, dịch vụ và thông tin liên hệ.',
+    techStack: ['Next.js', 'GSAP', 'Payload CMS'],
+  },
+  {
+    title: 'PipelineIQ',
+    description:
+      'Ứng dụng nhận pain point từ lead, phân tích và đưa ra gợi ý phù hợp — hỗ trợ team sales hiểu nhu cầu khách hàng nhanh hơn.',
+    techStack: ['n8n', 'Apify', 'Next.js', 'OpenAI', 'Linkup'],
+  },
+];
+
+const sideProjects: Project[] = [
+  {
+    title: 'Echo',
+    description:
+      'Telegram bot giúp lưu trữ nội dung để xem lại sau — chỉ cần paste link video từ mạng xã hội kèm mô tả ngắn, bot sẽ ghi chép phần còn lại theo cấu trúc TL;DR. Hữu ích để xây dựng knowledge base cá nhân từ nội dung đã lướt.',
+    link: 'https://github.com/javier1234559/echo',
+    techStack: ['Telegram Bot', 'NextUI', 'Supabase', 'OpenAI'],
+  },
   {
     title: 'Coolmate Shop Clone',
-    description: 'Ecommerce website xây dựng bằng MERN Stack, tích hợp thanh toán qua Momo và VNPay. Website thương mại điện tử với đầy đủ tính năng từ giỏ hàng, đặt hàng đến thanh toán.',
+    description:
+      'Ecommerce website xây dựng bằng MERN Stack, tích hợp thanh toán qua Momo và VNPay. Website thương mại điện tử với đầy đủ tính năng từ giỏ hàng, đặt hàng đến thanh toán.',
     link: 'https://github.com/javier1234559/coolmate-shop',
-    techStack: ['MongoDB', 'Express', 'React', 'Node.js' ,'Scss', 'Momo', 'VNPay']
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Scss', 'Momo', 'VNPay'],
   },
   {
     title: 'Weebuns AI',
-    description: 'Nền tảng học tập kết nối 4 kỹ năng với giáo viên trung tâm, tích hợp AI hỗ trợ. Giúp học viên và giáo viên tương tác hiệu quả hơn trong quá trình học tập.',
+    description:
+      'Nền tảng học tập kết nối 4 kỹ năng với giáo viên trung tâm, tích hợp AI hỗ trợ. Giúp học viên và giáo viên tương tác hiệu quả hơn trong quá trình học tập.',
     link: 'https://github.com/javier1234559/weebuns-ai',
     liveDemo: 'https://weebuns-ai.vercel.app/',
-    techStack: ['Next.js', 'Nest.js', 'React', 'Tailwind CSS', 'AI Integration']
+    techStack: ['Next.js', 'Nest.js', 'React', 'Tailwind CSS', 'AI Integration'],
   },
   {
     title: 'Cosmos Chain Client',
-    description: 'Client ứng dụng cho phép tương tác với Cosmos blockchain, tích hợp chức năng gửi token và quản lý giao dịch trên chain.',
+    description:
+      'Client ứng dụng cho phép tương tác với Cosmos blockchain, tích hợp chức năng gửi token và quản lý giao dịch trên chain.',
     link: 'https://github.com/javier1234559/sto-client',
     liveDemo: 'https://sto-client.vercel.app',
-    techStack: ['Next.js', 'TypeScript', 'Cosmos SDK', 'Blockchain']
+    techStack: ['Next.js', 'TypeScript', 'Cosmos SDK', 'Blockchain'],
   },
   {
     title: 'Photo & Video App',
-    description: 'Ứng dụng di động được xây dựng bằng Flutter để lưu trữ và quản lý ảnh, video. Tối ưu hiệu suất và trải nghiệm người dùng trên cả iOS và Android.',
+    description:
+      'Ứng dụng di động được xây dựng bằng Flutter để lưu trữ và quản lý ảnh, video. Tối ưu hiệu suất và trải nghiệm người dùng trên cả iOS và Android.',
     link: 'https://github.com/javier1234559/photoapp',
-    techStack: ['Flutter', 'Dart']
-  }
+    techStack: ['Flutter', 'Dart'],
+  },
+];
+
+const projectSections = [
+  {
+    title: 'Client & Professional',
+    description:
+      'Các dự án client và giải pháp chuyên nghiệp — từ website, chatbot đến automation outreach.',
+    projects: clientProjects,
+  },
+  {
+    title: 'Internal Tools',
+    description: 'Giải pháp nội bộ hỗ trợ công việc sales và vận hành.',
+    projects: internalProjects,
+  },
+  {
+    title: 'Side Projects',
+    description: 'Các project cá nhân và thử nghiệm.',
+    projects: sideProjects,
+  },
 ];
 ---
 
 <PageLayout>
-  <div slot="meta" {...metaData} />
+  <PageMeta slot="meta" {...metaData} />
   <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
-    <TextRevealTW as="h1" className='text-3xl mb-8 font-bold uppercase md:text-5xl' content="Projects" />
-    
-    <div class="grid gap-6 md:grid-cols-2">
-      {projects.map((project) => (
-        <article class="border rounded-lg p-6 hover:shadow-lg transition-all hover:border-primary">
-          <h3 class="text-xl font-semibold mb-3">{project.title}</h3>
-          <p class="text-gray-600 mb-4">{project.description}</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            {project.techStack.map((tech) => (
-              <span class={badgeVariants({ variant: "outline" })}>
-                {tech}
-              </span>
+    <TextRevealTW
+      client:load
+      as="h1"
+      className="text-3xl mb-8 font-bold uppercase md:text-5xl"
+      content="Projects"
+    />
+
+    {
+      projectSections.map((section) => (
+        <div class="mb-14 last:mb-0">
+          <h2 class="text-2xl font-bold mb-2">{section.title}</h2>
+          <p class="text-gray-600 mb-6">{section.description}</p>
+
+          <div class="grid gap-6 md:grid-cols-2">
+            {section.projects.map((project) => (
+              <article class="border rounded-lg p-6 hover:shadow-lg transition-all hover:border-primary">
+                <h3 class="text-xl font-semibold mb-3">{project.title}</h3>
+                <p class="text-gray-600 mb-4">{project.description}</p>
+
+                <div class="flex flex-wrap gap-2 mb-4">
+                  {project.techStack.map((tech) => (
+                    <span class={badgeVariants({ variant: "outline" })}>{tech}</span>
+                  ))}
+                </div>
+
+                {(project.link || project.liveDemo) && (
+                  <div class="flex gap-3">
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class={badgeVariants({ variant: "default" })}
+                      >
+                        GitHub
+                      </a>
+                    )}
+                    {project.liveDemo && (
+                      <a
+                        href={project.liveDemo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class={badgeVariants({ variant: "secondary" })}
+                      >
+                        Live Demo
+                      </a>
+                    )}
+                  </div>
+                )}
+              </article>
             ))}
           </div>
-          
-          <div class="flex gap-3">
-            <a 
-              href={project.link} 
-              target="_blank" 
-              class={badgeVariants({ variant: "default" })}
-            >
-              GitHub
-            </a>
-            {project.liveDemo && (
-              <a 
-                href={project.liveDemo} 
-                target="_blank" 
-                class={badgeVariants({ variant: "secondary" })}
-              >
-                Live Demo
-              </a>
-            )}
-          </div>
-        </article>
-      ))}
-    </div>
+        </div>
+      ))
+    }
   </section>
 </PageLayout>

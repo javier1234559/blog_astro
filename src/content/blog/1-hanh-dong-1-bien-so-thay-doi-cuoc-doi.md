@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "1% Hành Động – 1 Biến Số Thay Đổi Cuộc Đời"
 description: "\nCó lẽ ai rồi cũng đến giai đoạn bắt đầu tự hỏi:\n“Mình đang đi đúng hướng không?”\nKhi cuộc sống không còn quá tệ, nhưng cũng chẳng đủ khiến mình thấy an yên , chúng ta nên làm gì để luôn phát triển ?"
-date: "2025-10-15"
+date: "2025-10-14"
 author: "Javier"
 slug: "1-hanh-dong-1-bien-so-thay-doi-cuoc-doi"
 status: "Published"
@@ -143,7 +143,7 @@ nhưng cảm giác sống động đó – nó khiến mình biết rằng **mì
 “Dù nhỏ thôi, nhưng mình vẫn còn muốn sống tốt hơn hôm qua.”
 
 
-![image.png](/images/blog/61e67825d49d302ec4066cb215477278.png)
+![image.png](/images/blog/f540368d6fd1bcd8a18ae8df8a46f28b.png)
 
 
 ## **4. Bình tĩnh trước khi bão đến**

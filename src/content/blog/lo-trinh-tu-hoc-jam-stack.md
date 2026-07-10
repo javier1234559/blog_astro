@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Lộ trình tự học Jamstack - kiến trúc xây dựng web hiện đại"
 description: "Lộ trình tự học Jamstack"
-date: "2025-03-06"
+date: "2025-03-05"
 author: "Javier"
 slug: "lo-trinh-tu-hoc-jam-stack"
 status: "Published"
@@ -32,7 +32,7 @@ Theo định nghĩa ở trên thì jamstack là một kiến trúc sử dụng 3
 Thuật ngữ này được đặt ra bởi Mathias Biilmann, người đồng sáng lập Netlify.
 
 
-![image.png](/images/blog/23fcb04a7625623da9bbf0f22451ef52.png)
+![image.png](/images/blog/11c53bb7757a1a452bbf1e7db18b2b57.png)
 
 
 # Điểm qua sự khác biệt của nó so với kiến trúc truyền thống
@@ -67,7 +67,7 @@ Ok hãy cùng nhìn lại xem sự khác biệt của nó so với kiến trúc 
 | **Chi phí vận hành**  | Cao (máy chủ mạnh, bảo trì phức tạp) | Thấp hơn (chỉ cần hosting CDN)          |
 
 
-![image.png](/images/blog/1a8fafb8955b7220a9ef29f4135a15b7.png)
+![image.png](/images/blog/c1dc6a7ab5b61be4e37fb4e0be167bee.png)
 
 
 # Những lợi ích khi sử dụng Jamstack

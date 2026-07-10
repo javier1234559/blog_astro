@@ -14,12 +14,13 @@ const BlogSchema = z.object({
   categories: z
     .array(
       z.object({
-        id: z.string(),
+        id: z.string().optional(),
         name: z.string(),
-        color: z.string(),
+        color: z.string().optional(),
       })
     )
     .optional(),
+  readingTime: z.string().optional(),
   content: z.string().optional(),
   hashtags: z.array(z.string()).optional(),
 });

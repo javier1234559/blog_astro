@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Pattern thuật toán thường gặp"
 description: "Các pattern thuật toán phổ biến trong lập trình"
-date: "2025-04-17"
+date: "2025-04-16"
 author: "Javier"
 slug: "pattern-thuat-toan-thuong-gap"
 status: "Published"

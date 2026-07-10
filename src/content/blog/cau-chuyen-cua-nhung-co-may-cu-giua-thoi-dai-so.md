@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Câu Chuyện Của Những \"Cỗ Máy Cũ\" Giữa Thời Đại Số"
 description: "Các bộ phim lấy chủ đề về thực trạng xã hội đang chạm tới nhiều người hiện nay Upstream"
-date: "2025-03-06"
+date: "2025-03-05"
 author: "Javier"
 slug: "cau-chuyen-cua-nhung-co-may-cu-giua-thoi-dai-so"
 status: "Published"
@@ -62,7 +62,7 @@ Câu chuyện của Cao Chí Luỹ dù có hậu nhưng vô tình **tô hồng 
 Một trong những bình luận mà mình đã gặp được trên reddit .
 
 
-![image.png](/images/blog/c210cb091ff9f9ae2151bb8ba2b8c6a7.png)
+![image.png](/images/blog/12ddb0356068eae5fcc1045e9d35e06d.png)
 
 
 Anh bạn này chỉ ra được một số góc nhìn rằng kết phim vẫn đang cố thỏa mãn khát khao được thành công của chúng ta . Cứ cố gắng rồi sẽ tới cái kết có hậu . Nhưng liệu cuộc đời này có dễ dàng như vậy ? 

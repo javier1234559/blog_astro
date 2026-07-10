@@ -1,5 +1,6 @@
 ---
 import { TextRevealTW } from '@/components/feature/TextRevealTW';
+import HeroGreeting from '@/components/feature/HeroGreeting';
 import { Image } from 'astro:assets';
 
 const socials = [
@@ -37,8 +38,8 @@ const socials = [
 ---
 
 <div class="space-y-6">
-  <TextRevealTW as="h1" className='text-2xl' content="Hi there 👋! My name is Nhat nguyen " />
-  <TextRevealTW as="h2" className='text-5xl font-bold' content="Fullstack Developer" />
+  <HeroGreeting client:load />
+  <TextRevealTW client:load as="h2" className='text-5xl font-bold' content="Fullstack Developer" />
   <p class="text-gray-600 max-w-xl fade-up-animate ">
     a Vietnamese guy studying Information Technology at the HCMUTE University of
     Technology and Education. I'm a journalist, designer, and engineer with a
@@ -65,7 +66,6 @@ const socials = [
     ))}
   </div>
 </div>
-
 
 <style>
   @keyframes fadeUp {
