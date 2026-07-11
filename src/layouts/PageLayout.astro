@@ -24,9 +24,9 @@ import { fade } from 'astro:transitions';
     <ClientRouter />
   </head>
   <ProgressScroll client:load />
-  <body class="text-text-body bg-bg-body container mx-auto px-4 sm:px-8" transition:animate={fade({ duration: '0.8s' })}>
+  <body class="text-text-body bg-bg-body container mx-auto px-4 sm:px-8">
     <Header />
-    <main id="main" transition:animate="fade">
+    <main id="main" transition:animate={fade({ duration: '0.2s' })}>
       <slot name="main" />
     </main>
     <Footer />

@@ -1,6 +1,4 @@
 ---
-export const prerender = false;
-
 import BlogList from "@/components/feature/BlogList";
 import { TextRevealTW } from "@/components/feature/TextRevealTW";
 import PageMeta from "@/components/PageMeta.astro";
@@ -24,17 +22,12 @@ const sortedPosts = posts
       new Date(a.data.date).valueOf()
   );
 
-const pageParam = Astro.url.searchParams.get("page");
-const parsedPage = Number(pageParam);
-const initialPage =
-  Number.isInteger(parsedPage) && parsedPage > 0 ? parsedPage : 1;
-
 ---
 
 <PageLayout>
   <PageMeta slot="meta" {...metaData}/>
   <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
     <TextRevealTW client:load as="h1" className='text-3xl mb-4 font-bold uppercase md:text-5xl' content="Blogs" />
-    <BlogList client:load name="Blogs" posts={sortedPosts} initialPage={initialPage} />
+    <BlogList client:load name="Blogs" posts={sortedPosts} />
   </section>
 </PageLayout>

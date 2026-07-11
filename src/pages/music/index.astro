@@ -1,0 +1,145 @@
+---
+export const prerender = false;
+
+import PageLayout from "@/layouts/PageLayout.astro";
+import PageMeta from "@/components/PageMeta.astro";
+import { TextRevealTW } from "@/components/feature/TextRevealTW";
+import {
+  getFavoriteTracks,
+  getPlaylists,
+  isYoutubeConfigured,
+} from "@/lib/youtube";
+
+const metaData = {
+  title: "Music",
+  description: "Favorites and playlists from my YouTube Music listening.",
+};
+
+const configured = isYoutubeConfigured();
+const favorites = configured ? await getFavoriteTracks(5) : [];
+const playlists = configured ? await getPlaylists(12) : [];
+---
+
+<PageLayout>
+  <PageMeta slot="meta" {...metaData} />
+  <section slot="main" class="px-6 py-12 max-w-7xl mx-auto min-h-[80vh]">
+    <TextRevealTW
+      client:load
+      as="h1"
+      className="text-3xl mb-6 font-bold uppercase md:text-5xl"
+      content="Music"
+    />
+
+    <div class="max-w-2xl mb-12 space-y-4">
+      <p class="text-lg text-gray-600">
+        A small shelf of songs and playlists I keep coming back to on YouTube
+        Music.
+      </p>
+      <blockquote class="border-l-2 border-black pl-4 italic text-gray-600">
+        "Music is the shorthand of emotion" — Leo Tolstoy
+      </blockquote>
+    </div>
+
+    {
+      !configured && (
+        <p class="text-gray-600 mb-12">
+          Add <code>YOUTUBE_API_KEY</code> and playlist/channel IDs to your
+          environment to load music here.
+        </p>
+      )
+    }
+
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-1">Recently Played</h2>
+      <p class="text-gray-600 mb-6">Top tracks I keep on repeat.</p>
+
+      {
+        favorites.length === 0 ? (
+          <p class="text-gray-500">No favorites loaded yet.</p>
+        ) : (
+          <ul class="space-y-2">
+            {favorites.map((track) => (
+              <li>
+                <a
+                  href={track.musicUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group flex items-center gap-4 rounded-2xl bg-gray-100 hover:bg-gray-200 p-3 transition-colors"
+                >
+                  <div class="relative w-14 h-14 shrink-0 rounded-xl overflow-hidden">
+                    {track.thumbnail ? (
+                      <img
+                        src={track.thumbnail}
+                        alt=""
+                        class="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div class="w-full h-full bg-gray-300" />
+                    )}
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <svg
+                        class="w-5 h-5 text-white"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="min-w-0 flex-1">
+                    <p class="font-semibold truncate">{track.title}</p>
+                    <p class="text-sm text-gray-500 truncate">{track.artist}</p>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </div>
+
+    <div>
+      <h2 class="text-2xl font-bold mb-1">Playlists</h2>
+      <p class="text-gray-600 mb-6">Collections from my YouTube Music library.</p>
+
+      {
+        playlists.length === 0 ? (
+          <p class="text-gray-500">No playlists loaded yet.</p>
+        ) : (
+          <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+            {playlists.map((playlist) => (
+              <a
+                href={playlist.musicUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group relative block aspect-square rounded-2xl overflow-hidden unset"
+              >
+                {playlist.thumbnail ? (
+                  <img
+                    src={playlist.thumbnail}
+                    alt=""
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div class="w-full h-full bg-gray-300" />
+                )}
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent" />
+                <div class="absolute inset-x-0 bottom-0 p-4">
+                  <h3 class="text-white font-semibold leading-tight line-clamp-2">
+                    {playlist.title}
+                  </h3>
+                  <p class="text-white/70 text-sm mt-1">
+                    {playlist.itemCount} tracks
+                  </p>
+                </div>
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </div>
+  </section>
+</PageLayout>

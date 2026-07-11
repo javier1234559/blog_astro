@@ -25,6 +25,10 @@ export default defineConfig({
     port: SERVER_PORT
   },
   site: BASE_URL,
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: "hover"
+  },
   integrations: [
     mdx(),
     sitemap(),

@@ -15,7 +15,7 @@ import navLinks from "@/content/NavLinks";
     {
       navLinks.map((item) => (
         <li >
-          <a href={item.href} class="hover:text-gray-600 lowercase text-lg">
+          <a href={item.href} class="hover:text-gray-600 lowercase text-lg" data-astro-prefetch>
             {item.title}
           </a>
         </li>
