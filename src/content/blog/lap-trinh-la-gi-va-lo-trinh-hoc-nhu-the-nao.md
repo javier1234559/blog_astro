@@ -266,13 +266,13 @@ Nó thường sẽ được tổng hợp lại với Từ khóa “Language + Ch
 👉 [https://quickref.me/python](https://quickref.me/python)
 
 
-![image.png](/images/blog/284d6d7eb1211d632b20bfc60b352f7d.png)
+![image.png](/images/blog/2c48d2cd4a85bcab560836e69505d2ee.png)
 
 
 Ngôn ngữ đầu tiên của mình học chính là C . Một ngôn ngữ giúp xây dựng nền tảng cho các ngôn ngữ hiện đại khác hiện nay. Đó là lý do nó thường được dạy đầu tiên nếu học lập trình ở các trường đại học .
 
 
-![image.png](/images/blog/368330942c9fcd8c05e00fca3a0d0ef2.png)
+![image.png](/images/blog/a19b0c0397e499d2c115a571a87e8979.png)
 
 
 ## Sự phát triển của xu hướng lập trình qua các giai đoạn
@@ -419,7 +419,7 @@ Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web. Ngày xưa m
 Kinh nghiệm của mình là khi mình quan tâm hay học bất cứ thứ gì . Hãy tạo một account và follow hết nhưng channel mình tìm được. Việc còn lại thì cứ chờ thuật toán nó mang kiến thức đến cho mình thôi
 
 
-![image.png](/images/blog/9ed2df131b59400ab045ab8e5684fb9d.png)
+![image.png](/images/blog/0acfe44d1acaadd741fe9895c4e13470.png)
 
 
 Các kênh mình đang theo dõi và phù hợp nếu muốn học thêm kiến thức vào mỗi giao đoạn nhất định
@@ -491,7 +491,7 @@ Giải nhiều bài tập hơn
 Viết một chương trình quản lý danh sách số nguyên trong mảng, cho phép **thêm, sửa, xóa** phần tử bằng giao diện console.
 
 
-![1741362979472747398490946999238.png](/images/blog/f6f6287c3937a324ac14e6a23f9e9ed0.png)
+![1741362979472747398490946999238.png](/images/blog/4d72c08ca90672a85946190cd838d720.png)
 
 
 Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới hãy học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.
