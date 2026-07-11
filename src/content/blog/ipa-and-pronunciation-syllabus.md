@@ -2,6 +2,7 @@
 external: false
 draft: false
 title: "IPA and Pronunciation Syllabus"
+description: "IPA và phát âm được chia thành 2 phần chính:\n• "
 date: "2026-07-11"
 author: "Javier"
 slug: "ipa-and-pronunciation-syllabus"
@@ -105,6 +106,12 @@ IPA & PHÁT ÂM
 	- Nguyên âm (Vowels)
 	- Phụ âm (Consonants)
 > **Nhớ:** Sound = viên gạch tạo nên từ.
+
+Có thể dựa vào bảng IPA nổi tiếng sau để dò nhanh loại âm 
+
+
+![image.png](/images/blog/84fe6ea00f72bfe3fdf1e21892efd40b.png)
+
 
 ## 1.1. Nguyên âm (Vowels)
 
