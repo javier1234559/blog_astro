@@ -24,7 +24,7 @@ readingTime: "20 min read"
 Được Abraham Maslow giới thiệu vào năm 1943 và mở rộng qua các thập kỷ, **tháp Maslow** mô tả các nhu cầu của con người theo thứ tự phân cấp, từ những yêu cầu cơ bản để tồn tại đến những khát vọng cao cả nhất. Phiên bản đầy đủ nhất bao gồm **8 cấp độ**, phản ánh sự phức tạp của động lực con người. Dưới đây là chi tiết từng cấp, kèm ví dụ minh họa:
 
 
-![image.png](/images/blog/05e864962dd73eb70f95616ecece176f.png)
+![image.png](/images/blog/d40966bc2a403c8d5b93d0a8c6cb37f8.png)
 
 1. **Nhu cầu sinh lý (Physiological Needs)**
 	- **Định nghĩa**: Những nhu cầu cơ bản để duy trì sự sống, như thức ăn, nước, không khí, chỗ ở, quần áo, giấc ngủ, và sinh sản.
@@ -65,7 +65,7 @@ readingTime: "20 min read"
 Tháp Maslow không chỉ là một lý thuyết tâm lý mà còn là một bản đồ phản ánh hành trình phát triển của nhân loại. Qua các thời kỳ lịch sử, từ xã hội nguyên thủy đến hiện đại, con người đã dần thỏa mãn các nhu cầu thấp hơn trong tháp, chuyển dịch lao động sang các cấp cao hơn, và hoàn thiện lý thuyết Maslow qua thực tiễn. Hãy cùng khám phá cách các cuộc cách mạng định hình tháp Maslow và lao động.
 
 
-![image.png](/images/blog/a87d269919a4c851d868f2caae3d9de4.png)
+![image.png](/images/blog/72d2f354d591c52f73990b3c2348b950.png)
 
 
 **Xã hội nguyên thủy: Sinh tồn là trọng tâm**

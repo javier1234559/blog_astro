@@ -143,7 +143,7 @@ nhưng cảm giác sống động đó – nó khiến mình biết rằng **mì
 “Dù nhỏ thôi, nhưng mình vẫn còn muốn sống tốt hơn hôm qua.”
 
 
-![image.png](/images/blog/a878a2e6ad074fabe4f771ccfebe565f.png)
+![image.png](/images/blog/3df475776826bd9db49179b36c35ac30.png)
 
 
 ## **4. Bình tĩnh trước khi bão đến**
