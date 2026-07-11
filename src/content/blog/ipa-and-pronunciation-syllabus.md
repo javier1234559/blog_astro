@@ -110,7 +110,13 @@ IPA & PHÁT ÂM
 Có thể dựa vào bảng IPA nổi tiếng sau để dò nhanh loại âm 
 
 
-![image.png](/images/blog/84fe6ea00f72bfe3fdf1e21892efd40b.png)
+![image.png](/images/blog/4ef415361621b7b7be9c7db95954fec2.png)
+
+
+và youtube playlist để follow
+
+
+[video](https://www.youtube.com/watch?v=X5fvFsX2X_4&list=PL8PAVcRrUiZfGFwp3Ohmzm7EHtZV4e-tH)
 
 
 ## 1.1. Nguyên âm (Vowels)
