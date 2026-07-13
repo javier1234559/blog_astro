@@ -19,7 +19,7 @@ readingTime: "9 min read"
 Các dùng rất đơn giản chỉ cần thay đổi nội dung và chọn style vào template sau → mở 1 chat hoàn toàn mới trên gemini chọn tạo ảnh và paste prompt đầy đủ
 
 
-![image.png](/images/blog/06f8fa9f599e986b2b7d9be04de5b102.png)
+![image.png](/images/blog/d3d5238d70bf5a343d290c37ba7a92a5.png)
 
 
 ```json
@@ -46,7 +46,7 @@ Transform the content above into this style
 # SketchFrame Style
 
 
-![image.png](/images/blog/af865b5f80b734b832b2640652e4c3db.png)
+![image.png](/images/blog/7a539fa637f6bcf95aa136da5346d726.png)
 
 
 ```json
@@ -258,7 +258,7 @@ Preferred Iconography:
 # Canvas Notes
 
 
-![image.png](/images/blog/c00453d7afee89f6d9c2c9f584ccf578.png)
+![image.png](/images/blog/e0a36faa2918abed56cf24b0d9b6d97c.png)
 
 
 ```json
@@ -459,7 +459,7 @@ Preferred Iconography:
 # Marker Atlas
 
 
-![image.png](/images/blog/72a76548c4c92ac2998de68fb3852f3b.png)
+![image.png](/images/blog/a5501087b8c4a113a1388542235fd2f0.png)
 
 
 ```json

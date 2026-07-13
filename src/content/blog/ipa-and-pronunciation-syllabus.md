@@ -110,7 +110,7 @@ IPA & PHÁT ÂM
 Có thể dựa vào bảng IPA nổi tiếng sau để dò nhanh loại âm 
 
 
-![image.png](/images/blog/1efff40605ec2fc5255e1477e90ee4a9.png)
+![image.png](/images/blog/23a2ce4f07526d2c612905eb9850d4bc.png)
 
 
 và youtube playlist để follow
@@ -843,6 +843,7 @@ INTONATION
 
 - **Là gì?**
 	- Các âm và từ yếu được nói nhanh hơn giữa những stressed beats.
+		- Chúng ta có thể hiểu những âm in HOA vì đó nội dung chính , còn lại chỉ là phụ
 - **Ví dụ**
 	- `The CATS will EAT the FISH.`
 	- `the`, `will`, `the` được nén.
