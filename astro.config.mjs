@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import vercel from "@astrojs/vercel";
 import { rehypePreButton } from './src/plugins/rehype-pre-button';
+import { rehypeYoutubeVideoLinks } from './src/plugins/rehype-youtube-video-links';
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis';
 import remarkToc from 'remark-toc';
 
@@ -39,7 +40,7 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [[remarkToc, { heading: 'toc', maxDepth: 3 }]],
-    rehypePlugins: [rehypePreButton, rehypeAccessibleEmojis],
+    rehypePlugins: [rehypeYoutubeVideoLinks, rehypePreButton, rehypeAccessibleEmojis],
     shikiConfig: {
       theme: 'catppuccin-mocha',
       wrap: true
