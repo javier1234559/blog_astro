@@ -503,24 +503,24 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 Bây giờ để nâng cao thì chúng ta sẽ tạo một `buildPathName` function giúp nhận vào tên đường dẫn file và đặt tên theo cách nguyên tắc sau 
 
 1. **Index routes**:
-	- `src/pages/index.tsx` → `/`
-	- `src/pages/posts/index.tsx` → `/posts`
+    - `src/pages/index.tsx` → `/`
+    - `src/pages/posts/index.tsx` → `/posts`
 2. **Nested routes**:
-	- `src/pages/posts/topic.tsx` → `/posts/topic`
+    - `src/pages/posts/topic.tsx` → `/posts/topic`
 3. **Dynamic routes**:
-	- `src/pages/posts/[slug].tsx` → `/posts/:slug`
-	- `src/pages/[user]/settings.tsx` → `/:user/settings`
-	- `src/pages/posts/[...all].tsx` → `/posts/*`
+    - `src/pages/posts/[slug].tsx` → `/posts/:slug`
+    - `src/pages/[user]/settings.tsx` → `/:user/settings`
+    - `src/pages/posts/[...all].tsx` → `/posts/*`
 4. **Layout routes**:
-	- `src/pages/layout.tsx` → layout cho tất cả các route bắt đầu từ `/`
+    - `src/pages/layout.tsx` → layout cho tất cả các route bắt đầu từ `/`
 5. **Skip folder**:
-	- `src/pages/(admin)/post.tsx` → `/post` (bỏ qua folder `(admin)`)
+    - `src/pages/(admin)/post.tsx` → `/post` (bỏ qua folder `(admin)`)
 6. **Skip prefix** **`_`**:
-	- `src/pages/_components.tsx` → Không tạo route cho `_components`
+    - `src/pages/_components.tsx` → Không tạo route cho `_components`
 7. **not-found.tsx**:
-	- `src/pages/post/not-found.tsx` → Được sử dụng cuối cùng cho `/post/*`
+    - `src/pages/post/not-found.tsx` → Được sử dụng cuối cùng cho `/post/*`
 8. **error.tsx**:
-	- `src/pages/post/error.tsx` → Được sử dụng cho lỗi của `/post/*`
+    - `src/pages/post/error.tsx` → Được sử dụng cho lỗi của `/post/*`
 
 ## 1. **sortRoutes**
 

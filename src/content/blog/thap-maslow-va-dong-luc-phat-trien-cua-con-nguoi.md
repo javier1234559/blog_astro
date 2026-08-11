@@ -24,40 +24,40 @@ readingTime: "20 min read"
 Được Abraham Maslow giới thiệu vào năm 1943 và mở rộng qua các thập kỷ, **tháp Maslow** mô tả các nhu cầu của con người theo thứ tự phân cấp, từ những yêu cầu cơ bản để tồn tại đến những khát vọng cao cả nhất. Phiên bản đầy đủ nhất bao gồm **8 cấp độ**, phản ánh sự phức tạp của động lực con người. Dưới đây là chi tiết từng cấp, kèm ví dụ minh họa:
 
 
-![image.png](/images/blog/bec613f676cdd04942a328a68a766595.png)
+![image.png](/images/blog/5c131ac970e9225998d27589f877994a.png)
 
 1. **Nhu cầu sinh lý (Physiological Needs)**
-	- **Định nghĩa**: Những nhu cầu cơ bản để duy trì sự sống, như thức ăn, nước, không khí, chỗ ở, quần áo, giấc ngủ, và sinh sản.
-	- **Ví dụ**: Một người lao động làm việc cả ngày để mua thực phẩm, hoặc một gia đình xây ngôi nhà tranh để che mưa nắng.
-	- **Ý nghĩa**: Đây là nền tảng. Không có thức ăn hay chỗ ở, con người không thể nghĩ đến những mục tiêu cao hơn.
+    - **Định nghĩa**: Những nhu cầu cơ bản để duy trì sự sống, như thức ăn, nước, không khí, chỗ ở, quần áo, giấc ngủ, và sinh sản.
+    - **Ví dụ**: Một người lao động làm việc cả ngày để mua thực phẩm, hoặc một gia đình xây ngôi nhà tranh để che mưa nắng.
+    - **Ý nghĩa**: Đây là nền tảng. Không có thức ăn hay chỗ ở, con người không thể nghĩ đến những mục tiêu cao hơn.
 2. **Nhu cầu an toàn (Safety Needs)**
-	- **Định nghĩa**: Mong muốn có sự ổn định và an toàn, bao gồm an toàn thể chất (khỏi chiến tranh, bệnh tật), tài chính (việc làm, thu nhập), và xã hội (pháp luật, trật tự).
-	- **Ví dụ**: Một gia đình tiết kiệm tiền để mua bảo hiểm y tế, hoặc một cộng đồng xây tường thành để chống giặc.
-	- **Ý nghĩa**: Khi đã no đủ, con người cần cảm giác an tâm để xây dựng cuộc sống bền vững.
+    - **Định nghĩa**: Mong muốn có sự ổn định và an toàn, bao gồm an toàn thể chất (khỏi chiến tranh, bệnh tật), tài chính (việc làm, thu nhập), và xã hội (pháp luật, trật tự).
+    - **Ví dụ**: Một gia đình tiết kiệm tiền để mua bảo hiểm y tế, hoặc một cộng đồng xây tường thành để chống giặc.
+    - **Ý nghĩa**: Khi đã no đủ, con người cần cảm giác an tâm để xây dựng cuộc sống bền vững.
 3. **Nhu cầu xã hội (Love and Belonging Needs)**
-	- **Định nghĩa**: Khát khao được gắn kết với người khác qua tình bạn, tình yêu, gia đình, hoặc cộng đồng.
-	- **Ví dụ**: Một thiếu niên tham gia đội bóng đá trường để kết bạn, hoặc một cặp đôi tổ chức đám cưới để củng cố tình yêu.
-	- **Ý nghĩa**: Con người là sinh vật xã hội, cần cảm giác thuộc về để hạnh phúc và ổn định tinh thần.
+    - **Định nghĩa**: Khát khao được gắn kết với người khác qua tình bạn, tình yêu, gia đình, hoặc cộng đồng.
+    - **Ví dụ**: Một thiếu niên tham gia đội bóng đá trường để kết bạn, hoặc một cặp đôi tổ chức đám cưới để củng cố tình yêu.
+    - **Ý nghĩa**: Con người là sinh vật xã hội, cần cảm giác thuộc về để hạnh phúc và ổn định tinh thần.
 4. **Nhu cầu tôn trọng (Esteem Needs)**
-	- **Định nghĩa**: Cần tự trọng (tự tin, giá trị bản thân) và sự công nhận từ người khác (địa vị, thành tựu, danh tiếng).
-	- **Ví dụ**: Một nhân viên phấn đấu để được thăng chức quản lý, hoặc một học sinh tự hào khi nhận giải thưởng học tập.
-	- **Ý nghĩa**: Sự công nhận và tự tin giúp con người khẳng định giá trị trong xã hội.
+    - **Định nghĩa**: Cần tự trọng (tự tin, giá trị bản thân) và sự công nhận từ người khác (địa vị, thành tựu, danh tiếng).
+    - **Ví dụ**: Một nhân viên phấn đấu để được thăng chức quản lý, hoặc một học sinh tự hào khi nhận giải thưởng học tập.
+    - **Ý nghĩa**: Sự công nhận và tự tin giúp con người khẳng định giá trị trong xã hội.
 5. **Nhu cầu nhận thức (Cognitive Needs)**
-	- **Định nghĩa**: Mong muốn tìm hiểu, khám phá, và hiểu biết về thế giới qua học tập, nghiên cứu, hoặc tư duy phản biện.
-	- **Ví dụ**: Một sinh viên học vật lý để hiểu nguồn gốc vũ trụ, hoặc một người lớn tuổi tham gia khóa học lịch sử vì tò mò.
-	- **Ý nghĩa**: Tri thức mở rộng tầm nhìn, nuôi dưỡng trí tuệ và sự sáng tạo.
+    - **Định nghĩa**: Mong muốn tìm hiểu, khám phá, và hiểu biết về thế giới qua học tập, nghiên cứu, hoặc tư duy phản biện.
+    - **Ví dụ**: Một sinh viên học vật lý để hiểu nguồn gốc vũ trụ, hoặc một người lớn tuổi tham gia khóa học lịch sử vì tò mò.
+    - **Ý nghĩa**: Tri thức mở rộng tầm nhìn, nuôi dưỡng trí tuệ và sự sáng tạo.
 6. **Nhu cầu thẩm mỹ (Aesthetic Needs)**
-	- **Định nghĩa**: Khát khao thưởng thức và tạo ra cái đẹp, sự cân bằng, hài hòa qua nghệ thuật, thiên nhiên, âm nhạc, hoặc thiết kế.
-	- **Ví dụ**: Một họa sĩ vẽ bức tranh phong cảnh để tìm niềm vui, hoặc một người đi du lịch để ngắm bình minh trên núi.
-	- **Ý nghĩa**: Cái đẹp mang lại sự hài hòa tinh thần và cảm hứng sống.
+    - **Định nghĩa**: Khát khao thưởng thức và tạo ra cái đẹp, sự cân bằng, hài hòa qua nghệ thuật, thiên nhiên, âm nhạc, hoặc thiết kế.
+    - **Ví dụ**: Một họa sĩ vẽ bức tranh phong cảnh để tìm niềm vui, hoặc một người đi du lịch để ngắm bình minh trên núi.
+    - **Ý nghĩa**: Cái đẹp mang lại sự hài hòa tinh thần và cảm hứng sống.
 7. **Nhu cầu tự thể hiện (Self-Actualization Needs)**
-	- **Định nghĩa**: Mong muốn phát triển tối đa tiềm năng, sống đúng với giá trị cá nhân, và theo đuổi các mục tiêu sáng tạo, ý nghĩa.
-	- **Ví dụ**: Một nhà văn dành cả đời viết tiểu thuyết để thể hiện thế giới quan, hoặc một doanh nhân khởi nghiệp để hiện thực hóa ý tưởng về sản phẩm bền vững.
-	- **Ý nghĩa**: Đây là trạng thái con người trở thành phiên bản tốt nhất của chính mình, theo đuổi đam mê vì động lực nội tại.
+    - **Định nghĩa**: Mong muốn phát triển tối đa tiềm năng, sống đúng với giá trị cá nhân, và theo đuổi các mục tiêu sáng tạo, ý nghĩa.
+    - **Ví dụ**: Một nhà văn dành cả đời viết tiểu thuyết để thể hiện thế giới quan, hoặc một doanh nhân khởi nghiệp để hiện thực hóa ý tưởng về sản phẩm bền vững.
+    - **Ý nghĩa**: Đây là trạng thái con người trở thành phiên bản tốt nhất của chính mình, theo đuổi đam mê vì động lực nội tại.
 8. **Nhu cầu siêu việt (Transcendence Needs)**
-	- **Định nghĩa**: Vượt qua cái tôi cá nhân để giúp đỡ người khác, cống hiến cho nhân loại, hoặc tìm kiếm ý nghĩa tâm linh, như từ thiện, bảo vệ môi trường, hoặc giác ngộ.
-	- **Ví dụ**: Một nhà từ thiện xây trường học cho trẻ em nghèo, hoặc một nhà sư thiền định để đạt giác ngộ và hướng dẫn người khác.
-	- **Ý nghĩa**: Đây là cấp cao nhất, nơi con người sống vì mục đích lớn hơn, vượt qua lợi ích cá nhân.
+    - **Định nghĩa**: Vượt qua cái tôi cá nhân để giúp đỡ người khác, cống hiến cho nhân loại, hoặc tìm kiếm ý nghĩa tâm linh, như từ thiện, bảo vệ môi trường, hoặc giác ngộ.
+    - **Ví dụ**: Một nhà từ thiện xây trường học cho trẻ em nghèo, hoặc một nhà sư thiền định để đạt giác ngộ và hướng dẫn người khác.
+    - **Ý nghĩa**: Đây là cấp cao nhất, nơi con người sống vì mục đích lớn hơn, vượt qua lợi ích cá nhân.
 
 # **Tháp Maslow và lịch sử phát triển của loài người**
 
@@ -65,7 +65,7 @@ readingTime: "20 min read"
 Tháp Maslow không chỉ là một lý thuyết tâm lý mà còn là một bản đồ phản ánh hành trình phát triển của nhân loại. Qua các thời kỳ lịch sử, từ xã hội nguyên thủy đến hiện đại, con người đã dần thỏa mãn các nhu cầu thấp hơn trong tháp, chuyển dịch lao động sang các cấp cao hơn, và hoàn thiện lý thuyết Maslow qua thực tiễn. Hãy cùng khám phá cách các cuộc cách mạng định hình tháp Maslow và lao động.
 
 
-![image.png](/images/blog/2c6ffcbf2e8e9aede6a0c202df0f765a.png)
+![image.png](/images/blog/a8b83adfa0a7cc1415248134bcbd376a.png)
 
 
 **Xã hội nguyên thủy: Sinh tồn là trọng tâm**
@@ -147,10 +147,10 @@ AI hiện tác động mạnh đến dịch vụ hơn là công nghiệp (sản 
 AI đang thay thế các công việc dịch vụ lặp lại, như chăm sóc khách hàng (chatbot), nhập liệu, hoặc phân tích dữ liệu cơ bản. Theo Diễn đàn Kinh tế Thế giới (2023), 25% việc làm toàn cầu, chủ yếu trong dịch vụ, có nguy cơ bị tự động hóa trong thập kỷ tới. Điều này buộc lao động dịch vụ chuyển dịch:
 
 - **Lên các cấp cao hơn** trong tháp Maslow:
-	- **Nhu cầu nhận thức (Cấp 5)**: Chuyển sang công việc đòi hỏi tư duy, như quản lý nội dung số hoặc tư vấn khách hàng chuyên sâu. Ví dụ, một nhân viên chăm sóc khách hàng học kỹ năng quản lý mạng xã hội để trở thành chuyên viên truyền thông.
-	- **Nhu cầu thẩm mỹ (Cấp 6)**: Theo đuổi sáng tạo, như thiết kế giao diện người dùng hoặc sản xuất video quảng cáo, phục vụ nhu cầu cái đẹp.
-	- **Nhu cầu tự thể hiện (Cấp 7)**: Khởi nghiệp hoặc sáng tác, như mở cửa hàng trực tuyến hoặc tạo nội dung giáo dục, để sống đúng đam mê.
-	- **Nhu cầu siêu việt (Cấp 8)**: Làm việc cống hiến, như tham gia dự án giáo dục cộng đồng hoặc nghiên cứu môi trường, để phục vụ xã hội.
+    - **Nhu cầu nhận thức (Cấp 5)**: Chuyển sang công việc đòi hỏi tư duy, như quản lý nội dung số hoặc tư vấn khách hàng chuyên sâu. Ví dụ, một nhân viên chăm sóc khách hàng học kỹ năng quản lý mạng xã hội để trở thành chuyên viên truyền thông.
+    - **Nhu cầu thẩm mỹ (Cấp 6)**: Theo đuổi sáng tạo, như thiết kế giao diện người dùng hoặc sản xuất video quảng cáo, phục vụ nhu cầu cái đẹp.
+    - **Nhu cầu tự thể hiện (Cấp 7)**: Khởi nghiệp hoặc sáng tác, như mở cửa hàng trực tuyến hoặc tạo nội dung giáo dục, để sống đúng đam mê.
+    - **Nhu cầu siêu việt (Cấp 8)**: Làm việc cống hiến, như tham gia dự án giáo dục cộng đồng hoặc nghiên cứu môi trường, để phục vụ xã hội.
 - **Quay lại tầng thấp (hiếm gặp)**: Một số lao động có thể chuyển sang công nghiệp/nông nghiệp cải tiến, như vận hành hệ thống nông nghiệp thông minh do nhu cầu thiếu hụt do đã chuyển qua dịch vụ quá nhiều , nhưng xu hướng chính là lên cấp cao hơn.
 
 **Thách thức**: Chuyển dịch đòi hỏi tái đào tạo kỹ năng. Chính phủ và doanh nghiệp cần hỗ trợ giáo dục và phúc lợi để tránh lao động mắc kẹt ở nhu cầu sinh lý hoặc an toàn.

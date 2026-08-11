@@ -32,7 +32,7 @@ Theo định nghĩa ở trên thì jamstack là một kiến trúc sử dụng 3
 Thuật ngữ này được đặt ra bởi Mathias Biilmann, người đồng sáng lập Netlify.
 
 
-![image.png](/images/blog/be2afa28999e9d8ba6dd100dfe1ebfdd.png)
+![image.png](/images/blog/8636242cf97377c3e21814213dc7cfc8.png)
 
 
 # Điểm qua sự khác biệt của nó so với kiến trúc truyền thống
@@ -45,8 +45,8 @@ Ok hãy cùng nhìn lại xem sự khác biệt của nó so với kiến trúc 
 
 - Các trang web thường dựa vào **máy chủ backend** để xử lý và render nội dung động.
 - Mỗi lần người dùng truy cập, trang web phải thực hiện các bước:
-	- Gửi request đến server.
-	- Server xử lý request, kết nối với cơ sở dữ liệu, và trả lại HTML được render.
+    - Gửi request đến server.
+    - Server xử lý request, kết nối với cơ sở dữ liệu, và trả lại HTML được render.
 - Điều này dẫn đến phụ thuộc nặng vào backend, tốc độ tải trang bị ảnh hưởng bởi số lượng người dùng và tài nguyên máy chủ.
 
 **Kiến trúc Jamstack (Decoupled Architecture):**
@@ -67,7 +67,7 @@ Ok hãy cùng nhìn lại xem sự khác biệt của nó so với kiến trúc 
 | **Chi phí vận hành**  | Cao (máy chủ mạnh, bảo trì phức tạp) | Thấp hơn (chỉ cần hosting CDN)          |
 
 
-![image.png](/images/blog/a54f78526a56c34425935ccface86d28.png)
+![image.png](/images/blog/d58a2365de3bef8d11ee96bf1ec64b8e.png)
 
 
 # Những lợi ích khi sử dụng Jamstack
@@ -76,18 +76,18 @@ Ok hãy cùng nhìn lại xem sự khác biệt của nó so với kiến trúc 
 Ta có thể kể đến lợi ích khi sử dụng kiến trúc này như 
 
 1. **Giảm độ phức tạp của hệ thống:**
-	- Jamstack loại bỏ sự phụ thuộc vào server-side rendering, giảm thiểu các lỗi tiềm năng trong quá trình xử lý backend.
+    - Jamstack loại bỏ sự phụ thuộc vào server-side rendering, giảm thiểu các lỗi tiềm năng trong quá trình xử lý backend.
 2. **Bảo mật cao hơn:**
-	- Vì không có máy chủ trực tiếp xử lý request, Jamstack giảm thiểu nguy cơ tấn công như SQL Injection hay DDoS.
-	- Các API được bảo vệ riêng lẻ và có thể kiểm soát chặt chẽ.
+    - Vì không có máy chủ trực tiếp xử lý request, Jamstack giảm thiểu nguy cơ tấn công như SQL Injection hay DDoS.
+    - Các API được bảo vệ riêng lẻ và có thể kiểm soát chặt chẽ.
 3. **Khả năng mở rộng vượt trội:**
-	- Khi lưu trữ trên CDN, các file tĩnh có thể được phân phối trên toàn cầu, giúp website chịu tải tốt hơn với lượng truy cập lớn.
+    - Khi lưu trữ trên CDN, các file tĩnh có thể được phân phối trên toàn cầu, giúp website chịu tải tốt hơn với lượng truy cập lớn.
 4. **Hiệu suất vượt trội:**
-	- Tốc độ tải trang nhanh do nội dung được phục vụ trực tiếp từ CDN mà không cần xử lý server-side.
+    - Tốc độ tải trang nhanh do nội dung được phục vụ trực tiếp từ CDN mà không cần xử lý server-side.
 5. **Chi phí hợp lý:**
-	- Với Jamstack, chúng ta chỉ cần trả phí hosting tĩnh (như Netlify, Vercel) thay vì phải duy trì server backend , thường thì sẽ nhiều bên cung cấp miễn phí
+    - Với Jamstack, chúng ta chỉ cần trả phí hosting tĩnh (như Netlify, Vercel) thay vì phải duy trì server backend , thường thì sẽ nhiều bên cung cấp miễn phí
 6. Phát triển nhanh hơn
-	- Việc tích hợp sẽ nhanh chóng hơn khi sử dụng các dịch vụ thường gặp như xác thực (Auth0, Firebase), quản trị nội dung (Contentful, Prismic), hệ thống bán hàng (Snipcart, Shopify), và thanh toán (Stripe, PayPal). Điều này giúp rút ngắn thời gian phát triển, giảm khối lượng công việc cần thiết và tăng khả năng tập trung vào xây dựng trải nghiệm người dùng
+    - Việc tích hợp sẽ nhanh chóng hơn khi sử dụng các dịch vụ thường gặp như xác thực (Auth0, Firebase), quản trị nội dung (Contentful, Prismic), hệ thống bán hàng (Snipcart, Shopify), và thanh toán (Stripe, PayPal). Điều này giúp rút ngắn thời gian phát triển, giảm khối lượng công việc cần thiết và tăng khả năng tập trung vào xây dựng trải nghiệm người dùng
 
 # Bất lợi của nó là gì ?
 
@@ -95,13 +95,13 @@ Ta có thể kể đến lợi ích khi sử dụng kiến trúc này như
 Tuy Jamstack có nhiều lợi ích, nhưng nó vẫn tồn tại một số nhược điểm khiến nó không thể thay thế được kiến trúc truyền thống như
 
 1. **Không phù hợp với mọi loại dự án:**
-	- Với các ứng dụng yêu cầu xử lý phức tạp, nhiều tính năng realtime (như ứng dụng ngân hàng, quản lý dữ liệu lớn), Jamstack có thể không phải là lựa chọn tối ưu.
+    - Với các ứng dụng yêu cầu xử lý phức tạp, nhiều tính năng realtime (như ứng dụng ngân hàng, quản lý dữ liệu lớn), Jamstack có thể không phải là lựa chọn tối ưu.
 2. **Phụ thuộc vào bên thứ ba:**
-	- Hầu hết các tính năng động trong Jamstack phụ thuộc vào các API và dịch vụ bên thứ ba (như Auth0, Firebase), điều này có thể gây ra rủi ro khi các dịch vụ này gặp sự cố.
+    - Hầu hết các tính năng động trong Jamstack phụ thuộc vào các API và dịch vụ bên thứ ba (như Auth0, Firebase), điều này có thể gây ra rủi ro khi các dịch vụ này gặp sự cố.
 3. **Chi phí API tăng cao:**
-	- Nếu ứng dụng của có lượng truy cập lớn, chi phí sử dụng các API trả phí có thể tăng đáng kể.
+    - Nếu ứng dụng của có lượng truy cập lớn, chi phí sử dụng các API trả phí có thể tăng đáng kể.
 4. **Đòi hỏi kỹ năng phát triển frontend tốt:**
-	- Cần kiến thức về JavaScript, các framework frontend (React, Vue, Svelte) và cách tối ưu trải nghiệm người dùng.
+    - Cần kiến thức về JavaScript, các framework frontend (React, Vue, Svelte) và cách tối ưu trải nghiệm người dùng.
 
 Yeah , không giải pháp nào là hoàn hảo cả nếu vậy thì
 
@@ -164,22 +164,22 @@ Mọi người có thể xem thêm tại đây: [Jamstack Generators](https://ja
 Một trong những đặc điểm của Jamstack là việc sử dụng các API bên ngoài để xử lý các tác vụ động. Dưới đây là một số dịch vụ phổ biến mà mọi người có thể tích hợp vào dự án của mình:
 
 - **Headless CMS**: Các hệ thống quản lý nội dung headless frontend, theo tìm hiểu của mình cũng có rất nhiều nhưng nổi bật có thể kể đến ví dụ như:
-	- **Prismic**, **Contentful**, **Sanity**: Headless CMS Saas nhưng họ cũng có những gói miễn phí đủ để trải nghiệm dịch vụ của họ.
-	- **Directus**, **PayloadCMS**, **Ghost**, **Strapi**: Cũng là Headless CMS nhưng opensource dành cho ai muốn lựa chọn self-host.
-	- **WordPress + GraphQL**: Vẫn là opensource quốc dân nhưng có thể hỗ trợ headless với GraphQL hoặc Restful.
+    - **Prismic**, **Contentful**, **Sanity**: Headless CMS Saas nhưng họ cũng có những gói miễn phí đủ để trải nghiệm dịch vụ của họ.
+    - **Directus**, **PayloadCMS**, **Ghost**, **Strapi**: Cũng là Headless CMS nhưng opensource dành cho ai muốn lựa chọn self-host.
+    - **WordPress + GraphQL**: Vẫn là opensource quốc dân nhưng có thể hỗ trợ headless với GraphQL hoặc Restful.
 
-	Mọi người có thể xem thêm tại đây: [Jamstack Headless CMS](https://jamstack.org/headless-cms/) 🔍.
+    Mọi người có thể xem thêm tại đây: [Jamstack Headless CMS](https://jamstack.org/headless-cms/) 🔍.
 
 - **Authentication**: Các dịch vụ giúp xác thực người dùng, ví dụ:
-	- **Firebase Auth**, **Auth0**.
+    - **Firebase Auth**, **Auth0**.
 - **Thanh toán**: Các dịch vụ hỗ trợ thanh toán trực tuyến, ví dụ:
-	- **Stripe**
+    - **Stripe**
 - **Thương mại điện tử**: Các nền tảng hỗ trợ xây dựng cửa hàng trực tuyến, ví dụ:
-	- **Shopify**, **MedusaJS**, **VueStorefront**, **Snipcart**.
+    - **Shopify**, **MedusaJS**, **VueStorefront**, **Snipcart**.
 - **Tìm kiếm**: Công cụ giúp tối ưu hóa tìm kiếm trên website, ví dụ:
-	- **Algolia**, **Bonsai**, **Clouds**.
+    - **Algolia**, **Bonsai**, **Clouds**.
 - **Comment**: Các dịch vụ bình luận giúp tăng tính tương tác, ví dụ:
-	- **SlickComment**, **Disqus**, **Utteranc.es**, **Isso-comments.de**.
+    - **SlickComment**, **Disqus**, **Utteranc.es**, **Isso-comments.de**.
 
 ### 3. **Tích hợp JavaScript để thêm chức năng động:**
 

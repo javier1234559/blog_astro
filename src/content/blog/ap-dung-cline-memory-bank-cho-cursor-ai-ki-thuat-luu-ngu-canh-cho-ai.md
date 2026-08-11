@@ -30,66 +30,66 @@ Cline Memory Bank là một kỹ thuật thông minh giúp AI duy trì ngữ c�
 Cline Memory Bank là hệ thống các tệp Markdown lưu trữ thông tin dự án theo cách có tổ chức. AI đọc các tệp này mỗi khi bắt đầu phiên làm việc và cập nhật khi có thay đổi. Dưới đây là các tệp chính:
 
 - **projectbrief.md**
-	- **Giải thích**: Tài liệu nền tảng, chứa mục tiêu và phạm vi dự án.
-	- **Ví dụ**:
+    - **Giải thích**: Tài liệu nền tảng, chứa mục tiêu và phạm vi dự án.
+    - **Ví dụ**:
 
-		```plain text
-		# Project Brief
-		Xây dựng nền tảng học tập với NestJS backend và Next.js frontend.
-		- Mục tiêu: Hỗ trợ giáo viên đăng bài tập, học sinh làm bài.
-		- Phạm vi: API REST, giao diện responsive.
-		```
+        ```plain text
+        # Project Brief
+        Xây dựng nền tảng học tập với NestJS backend và Next.js frontend.
+        - Mục tiêu: Hỗ trợ giáo viên đăng bài tập, học sinh làm bài.
+        - Phạm vi: API REST, giao diện responsive.
+        ```
 
 - **productContext.md**
-	- **Giải thích**: Lý do dự án tồn tại và cách nó hoạt động.
-	- **Ví dụ**:
+    - **Giải thích**: Lý do dự án tồn tại và cách nó hoạt động.
+    - **Ví dụ**:
 
-		```plain text
-		# Product Context
-		- Vấn đề: Học sinh cần luyện tập kỹ năng tiếng Anh.
-		- Giải pháp: Bài tập đa dạng theo kỹ năng (listening, reading...).
-		```
+        ```plain text
+        # Product Context
+        - Vấn đề: Học sinh cần luyện tập kỹ năng tiếng Anh.
+        - Giải pháp: Bài tập đa dạng theo kỹ năng (listening, reading...).
+        ```
 
 - **activeContext.md**
-	- **Giải thích**: Trạng thái hiện tại và bước tiếp theo.
-	- **Ví dụ**:
+    - **Giải thích**: Trạng thái hiện tại và bước tiếp theo.
+    - **Ví dụ**:
 
-		```plain text
-		# Active Context
-		- Đang làm: API đăng nhập.
-		- Tiếp theo: Trang dashboard học sinh.
-		```
+        ```plain text
+        # Active Context
+        - Đang làm: API đăng nhập.
+        - Tiếp theo: Trang dashboard học sinh.
+        ```
 
 - **systemPatterns.md**
-	- **Giải thích**: Kiến trúc hệ thống và mẫu mã hóa.
-	- **Ví dụ**:
+    - **Giải thích**: Kiến trúc hệ thống và mẫu mã hóa.
+    - **Ví dụ**:
 
-		```plain text
-		# System Patterns
-		- NestJS: Dùng DI, DTO cho API.
-		- Next.js: Trang động với getServerSideProps.
-		```
+        ```plain text
+        # System Patterns
+        - NestJS: Dùng DI, DTO cho API.
+        - Next.js: Trang động với getServerSideProps.
+        ```
 
 - **techContext.md**
-	- **Giải thích**: Công nghệ và công cụ sử dụng.
-	- **Ví dụ**:
+    - **Giải thích**: Công nghệ và công cụ sử dụng.
+    - **Ví dụ**:
 
-		```plain text
-		# Tech Context
-		- Backend: NestJS, Prisma, PostgreSQL.
-		- Frontend: Next.js, Tailwind CSS.
-		```
+        ```plain text
+        # Tech Context
+        - Backend: NestJS, Prisma, PostgreSQL.
+        - Frontend: Next.js, Tailwind CSS.
+        ```
 
 - **progress.md**
-	- **Giải thích**: Tiến độ và vấn đề hiện tại.
-	- **Ví dụ**:
+    - **Giải thích**: Tiến độ và vấn đề hiện tại.
+    - **Ví dụ**:
 
-		```plain text
-		# Progress
-		- Hoàn thành: API /lessons.
-		- Còn lại: Trang đăng nhập.
-		- Vấn đề: Xử lý lỗi 500 ở endpoint /users.
-		```
+        ```plain text
+        # Progress
+        - Hoàn thành: API /lessons.
+        - Còn lại: Trang đăng nhập.
+        - Vấn đề: Xử lý lỗi 500 ở endpoint /users.
+        ```
 
 
 # **Sử dụng chính Cursor để tạo ra Memory Bank**
@@ -244,38 +244,38 @@ Prompt hướng dẫn Cursor trở thành một kỹ sư phần mềm thông min
 
 - **Tóm tắt**: Cursor đọc toàn bộ Memory Bank (6 tệp Markdown) khi bắt đầu mỗi nhiệm vụ, tạo tệp nếu chưa có, và cập nhật khi có thay đổi lớn hoặc khi bạn yêu cầu "update memory bank". Nó cũng học hỏi qua `.cursorrules.`
 - **Tạo và xem xét dự án**:
-	- Cursor tạo các tệp như `projectbrief.md` nếu thiếu, dựa trên thông tin bạn cung cấp hoặc dự án hiện tại.
-	- Nó xem xét dự án bằng cách đọc Memory Bank để hiểu mục tiêu, trạng thái, và cách viết mã phù hợp.
+    - Cursor tạo các tệp như `projectbrief.md` nếu thiếu, dựa trên thông tin bạn cung cấp hoặc dự án hiện tại.
+    - Nó xem xét dự án bằng cách đọc Memory Bank để hiểu mục tiêu, trạng thái, và cách viết mã phù hợp.
 - **Plan Mode và Act Mode**:
-	- **Plan Mode**: Lập kế hoạch trước khi làm, đọc Memory Bank, đề xuất cách tiếp cận (ví dụ: "Tôi sẽ tạo API /login với NestJS, dùng JWT"). Dùng khi bạn cần Cursor suy nghĩ trước.
-	- **Act Mode**: Thực thi nhiệm vụ, viết mã, và cập nhật Memory Bank (ví dụ: thêm endpoint và ghi vào `progress.md`). Dùng khi bạn muốn Cursor làm ngay.
+    - **Plan Mode**: Lập kế hoạch trước khi làm, đọc Memory Bank, đề xuất cách tiếp cận (ví dụ: "Tôi sẽ tạo API /login với NestJS, dùng JWT"). Dùng khi bạn cần Cursor suy nghĩ trước.
+    - **Act Mode**: Thực thi nhiệm vụ, viết mã, và cập nhật Memory Bank (ví dụ: thêm endpoint và ghi vào `progress.md`). Dùng khi bạn muốn Cursor làm ngay.
 - **Cách dùng**: Thêm dòng sau vào đầu yêu cầu để chọn mode khi prompt
 
-	```plain text
-	Important: Use Plan Mode
-	```
+    ```plain text
+    Important: Use Plan Mode
+    ```
 
 
-	```plain text
-	Important: Use Act Mode
-	```
+    ```plain text
+    Important: Use Act Mode
+    ```
 
 
 **Ví dụ sử dụng**
 
 - **Plan Mode**: Cursor trả lời: "Tôi đề xuất tạo trang /login với form Tailwind và API route `/api/login` dùng JWT. Bạn đồng ý không?"
 
-	```plain text
-	Important: Use Plan Mode
-	Thêm tính năng đăng nhập vào Next.js app.
-	```
+    ```plain text
+    Important: Use Plan Mode
+    Thêm tính năng đăng nhập vào Next.js app.
+    ```
 
 - **Act Mode**: Cursor tạo mã trong LessonsController, cập nhật [`progress.md`](http://progress.md/) với "Added GET `/lessons` endpoint".
 
-	```plain text
-	Important: Use Act Mode
-	Thêm endpoint GET /lessons vào NestJS.
-	```
+    ```plain text
+    Important: Use Act Mode
+    Thêm endpoint GET /lessons vào NestJS.
+    ```
 
 
 # Kết luận

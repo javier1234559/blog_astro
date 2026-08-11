@@ -102,15 +102,15 @@ Bitcoin là một dự án **mã nguồn mở**, nghĩa là bất kỳ ai cũng 
 **Tại sao đào Bitcoin ngày càng khó hơn?**
 
 1. **Cơ chế điều chỉnh độ khó** (Difficulty Adjustment):
-	- Bitcoin điều chỉnh độ khó sau mỗi **2,016 khối** (khoảng 2 tuần), đảm bảo thời gian tạo một khối trung bình luôn là **10 phút**.
-	- Nếu nhiều người tham gia đào hơn → độ khó tăng lên → cần nhiều sức mạnh tính toán hơn để trung hòa
+    - Bitcoin điều chỉnh độ khó sau mỗi **2,016 khối** (khoảng 2 tuần), đảm bảo thời gian tạo một khối trung bình luôn là **10 phút**.
+    - Nếu nhiều người tham gia đào hơn → độ khó tăng lên → cần nhiều sức mạnh tính toán hơn để trung hòa
 2. **Giảm phần thưởng khối (Halving):**
-	- Cứ **4 năm một lần**, phần thưởng Bitcoin cho mỗi khối được giảm một nửa.
-	- Ban đầu (2009), phần thưởng là **50 BTC/khối**, hiện tại (2024) chỉ còn **3.125 BTC/khối**.
+    - Cứ **4 năm một lần**, phần thưởng Bitcoin cho mỗi khối được giảm một nửa.
+    - Ban đầu (2009), phần thưởng là **50 BTC/khối**, hiện tại (2024) chỉ còn **3.125 BTC/khối**.
 3. **Cạnh tranh ngày càng cao:**
-	- Ban đầu, mọi người có thể đào Bitcoin bằng CPU.
-	- Sau đó, GPU (card đồ họa) mạnh hơn được sử dụng.
-	- Ngày nay, hầu hết Bitcoin được đào bằng **ASIC** (chip chuyên dụng) có sức mạnh tính toán cực cao.
+    - Ban đầu, mọi người có thể đào Bitcoin bằng CPU.
+    - Sau đó, GPU (card đồ họa) mạnh hơn được sử dụng.
+    - Ngày nay, hầu hết Bitcoin được đào bằng **ASIC** (chip chuyên dụng) có sức mạnh tính toán cực cao.
 
 # Giá Trị Của Crypto hay Blockchain dưới Góc Nhìn Kinh Tế
 
@@ -154,14 +154,14 @@ Crypto ra đời với lý tưởng **không phụ thuộc chính phủ**, nhưn
 Chat GPT nghĩ gì vì về quan điểm này  😂 ?
 
 
-![image.png](/images/blog/1b44ead5d42c10c1999347805c151774.png)
+![image.png](/images/blog/e1a960d9e1b710dded32ea6527c39539.png)
 
 
 Tương lai của crypto vẫn có thể phát triển, nhưng với điều kiện nó phải đáp ứng một số yếu tố quan trọng
 
 - Chính phủ và ngân hàng lớn bắt đầu sử dụng crypto
 
-	⇒ Khi các tổ chức lớn tham gia, crypto không còn là "một trò chơi tài chính", mà trở thành một phần của nền kinh tế chính thống.
+    ⇒ Khi các tổ chức lớn tham gia, crypto không còn là "một trò chơi tài chính", mà trở thành một phần của nền kinh tế chính thống.
 
 
 # Crypto Trong Viễn Cảnh Không Có Chính Phủ

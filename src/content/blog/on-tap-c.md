@@ -441,23 +441,23 @@ C++ STL không hỗ trợ `tree` & `graph` sẵn. Thường bạn sẽ:
 
 - **Tree**: tự tạo struct `Node`, khai báo con trái/phải
 
-	```c++
-	struct TreeNode {
-	    int val;
-	    TreeNode* left;
-	    TreeNode* right;
-	};
-	```
+    ```c++
+    struct TreeNode {
+        int val;
+        TreeNode* left;
+        TreeNode* right;
+    };
+    ```
 
 - **Graph**: dùng `vector<vector<int>>` hoặc `unordered_map<int, vector<int>>` để mô phỏng adjacency list
 
-	```c++
-	int n = 5;
-	vector<vector<int>> adj(n); // đồ thị vô hướng
-	
-	adj[0].push_back(1);
-	adj[1].push_back(0);
-	```
+    ```c++
+    int n = 5;
+    vector<vector<int>> adj(n); // đồ thị vô hướng
+    
+    adj[0].push_back(1);
+    adj[1].push_back(0);
+    ```
 
 
 Để đáp ứng yêu cầu của bạn, mình sẽ cung cấp một cách **cài đặt đầy đủ các cấu trúc dữ liệu** cho **Tree (Cây nhị phân), Linked List (Danh sách liên kết) và Graph (Đồ thị)**, kèm theo các phép **CRUD** (Create, Read, Update, Delete) và các thuật toán **duyệt** phổ biến như **Pre-order**, **In-order**, **Post-order** cho cây nhị phân và **DFS**, **BFS** cho đồ thị.

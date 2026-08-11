@@ -163,12 +163,12 @@ Có thể trong template ở trên bạn sẽ gặp vài syntax khó hiểu , đ
 Template directives là các thuộc tính đặc biệt trong HTML, có thể sử dụng trong file `.astro` và một số file `.mdx`. Chúng được dùng để điều khiển hành vi của các phần tử hoặc component.
 
 - **Mục đích**:
-	- Giúp ta tận dụng được các tính năng biên dịch tiện lợi (ví dụ: `class:list` thay vì `class`).
-	- Ra lệnh cho Astro compiler thực hiện các tác vụ đặc biệt (như hydrate với `client:load`).
+    - Giúp ta tận dụng được các tính năng biên dịch tiện lợi (ví dụ: `class:list` thay vì `class`).
+    - Ra lệnh cho Astro compiler thực hiện các tác vụ đặc biệt (như hydrate với `client:load`).
 - **Quy tắc**:
-	1. Phải có dấu hai chấm `:` trong tên (ví dụ: `client:load`).
-	2. Phải hiển thị rõ với trình biên dịch (không ẩn trong thuộc tính khác như `{...attr}`).
-	3. Một số directive có thể nhận giá trị tùy chỉnh (như mảng hoặc đối tượng).
+    1. Phải có dấu hai chấm `:` trong tên (ví dụ: `client:load`).
+    2. Phải hiển thị rõ với trình biên dịch (không ẩn trong thuộc tính khác như `{...attr}`).
+    3. Một số directive có thể nhận giá trị tùy chỉnh (như mảng hoặc đối tượng).
 
 ### **Các Directive Thường Gặp trong Astro**
 
@@ -176,62 +176,62 @@ Template directives là các thuộc tính đặc biệt trong HTML, có thể s
 Astro directives là các thuộc tính đặc biệt được sử dụng trên các thẻ HTML hoặc component để điều khiển cách chúng hoạt động trong trình duyệt hoặc trên server. Dưới đây là một số directive phổ biến:
 
 1. **`client:load`**
-	- Kích hoạt hydration ngay sau khi trang tải xong.
-	- Dùng để thêm JavaScript tương tác vào các component trên client.
+    - Kích hoạt hydration ngay sau khi trang tải xong.
+    - Dùng để thêm JavaScript tương tác vào các component trên client.
 
-	```plain text
-	<MyComponent client:load />
-	```
+    ```plain text
+    <MyComponent client:load />
+    ```
 
 2. **`client:visible`**
-	- Chỉ hydrate component khi nó xuất hiện trong khung nhìn của người dùng (lazy load).
-	- Giúp tối ưu hiệu năng bằng cách trì hoãn tải các component không cần thiết.
+    - Chỉ hydrate component khi nó xuất hiện trong khung nhìn của người dùng (lazy load).
+    - Giúp tối ưu hiệu năng bằng cách trì hoãn tải các component không cần thiết.
 
-	```plain text
-	<MyComponent client:visible />
-	```
+    ```plain text
+    <MyComponent client:visible />
+    ```
 
 3. **`client:idle`**
-	- Kích hoạt hydration khi trình duyệt ở trạng thái "nhàn rỗi" (idle).
-	- Thích hợp cho các component ít quan trọng và không cần tải ngay lập tức.
+    - Kích hoạt hydration khi trình duyệt ở trạng thái "nhàn rỗi" (idle).
+    - Thích hợp cho các component ít quan trọng và không cần tải ngay lập tức.
 
-	```plain text
-	<MyComponent client:idle={{timeout: 500}} />
-	```
+    ```plain text
+    <MyComponent client:idle={{timeout: 500}} />
+    ```
 
 4. **`client:only`**
-	- Chỉ tải và hydrate một component từ framework UI cụ thể như React, Vue, hoặc Svelte.
-	- Thường dùng khi ta muốn component chỉ được render bởi framework UI.
+    - Chỉ tải và hydrate một component từ framework UI cụ thể như React, Vue, hoặc Svelte.
+    - Thường dùng khi ta muốn component chỉ được render bởi framework UI.
 
-	```plain text
-	<ReactComponent client:only="react" />
-	```
+    ```plain text
+    <ReactComponent client:only="react" />
+    ```
 
 5. **`server:defer`**
-	- Trì hoãn việc render một component đến khi dữ liệu hoặc nội dung sẵn sàng, không làm chậm quá trình tải trang.
-	- Có thể cung cấp nội dung fallback trong thời gian chờ. Thường sẽ dùng cho hiển thị avatar
+    - Trì hoãn việc render một component đến khi dữ liệu hoặc nội dung sẵn sàng, không làm chậm quá trình tải trang.
+    - Có thể cung cấp nội dung fallback trong thời gian chờ. Thường sẽ dùng cho hiển thị avatar
 
-	```plain text
-	<MyComponent server:defer>
-	  <p slot="fallback">Đang tải...</p>
-	</MyComponent>
-	```
+    ```plain text
+    <MyComponent server:defer>
+      <p slot="fallback">Đang tải...</p>
+    </MyComponent>
+    ```
 
 6. **`set:html`**
-	- Dùng để chèn nội dung HTML trực tiếp từ một chuỗi.
-	- Chú ý: Không nên sử dụng với nội dung không tin cậy để tránh lỗi bảo mật XSS.
+    - Dùng để chèn nội dung HTML trực tiếp từ một chuỗi.
+    - Chú ý: Không nên sử dụng với nội dung không tin cậy để tránh lỗi bảo mật XSS.
 
-	```plain text
-	<div set:html={rawHtmlContent}></div>
-	```
+    ```plain text
+    <div set:html={rawHtmlContent}></div>
+    ```
 
 7. **`class:list`**
-	- Tạo danh sách các class CSS một cách động từ chuỗi, mảng hoặc đối tượng.
-	- Hữu ích khi ta cần thêm hoặc loại bỏ class dựa trên trạng thái.
+    - Tạo danh sách các class CSS một cách động từ chuỗi, mảng hoặc đối tượng.
+    - Hữu ích khi ta cần thêm hoặc loại bỏ class dựa trên trạng thái.
 
-	```plain text
-	<div class:list={["class1", { active: isActive }]}></div>
-	```
+    ```plain text
+    <div class:list={["class1", { active: isActive }]}></div>
+    ```
 
 
 > 💡 Chi tiết tại : [https://docs.astro.build/en/basics/astro-components/](https://docs.astro.build/en/basics/astro-components/)
@@ -269,26 +269,26 @@ Ví dụ
 ```
 
 
-![image.png](/images/blog/29f2379350534a2a280a626c031ffb8a.png)
+![image.png](/images/blog/181fb545aad7e055e30cac7b82110d5b.png)
 
 
 Thì ta sẽ được 
 
 
 
-![image.png](/images/blog/83da981b2ad2b5e9aeb6e612ff72127d.png)
+![image.png](/images/blog/5612bd20b562b1fee3c0cb08cecca964.png)
 
 
 Tuy nhiên với định dạng file `ts/js` thì được dùng để chỉ định endpoint . Thường đây sẽ là nơi định nghĩa các function tương tự như các file được đặt bên trong folder `/api` bên nextjs vậy 
 
 
-![image.png](/images/blog/441e46abc737594f6934a85d49acffa0.png)
+![image.png](/images/blog/915b937d47fa93d8dcd7b73c4c663af5.png)
 
 
 Kết quả 
 
 
-![image.png](/images/blog/4b1ed66cb862d5394cf4cdf433f681a4.png)
+![image.png](/images/blog/11026c9acd9bec709df9e64df38c0612.png)
 
 
 > 💡 Chi tiết có thể xem tại : [https://docs.astro.build/en/basics/astro-pages/](https://docs.astro.build/en/basics/astro-pages/)
@@ -300,12 +300,12 @@ Kết quả
 Đây là thành phần quan trọng hỗ trợ tái sử dụng để tạo cấu trúc giao diện chung như header, thanh điều hướng, footer.
 
 - **Đặc điểm chính**:
-	- Bao gồm các thẻ cấu thành trang hoàn chỉnh html như  (`<html>`, `<head>`, `<body>`).
-	- Chúng ta có thể sử dụng `<slot />` để chèn nội dung riêng của từng trang.
-	- Có thể nhận props, import các thành phần khác, và bao gồm các script phía client.
+    - Bao gồm các thẻ cấu thành trang hoàn chỉnh html như  (`<html>`, `<head>`, `<body>`).
+    - Chúng ta có thể sử dụng `<slot />` để chèn nội dung riêng của từng trang.
+    - Có thể nhận props, import các thành phần khác, và bao gồm các script phía client.
 - **Yêu cầu cấu trúc**:
-	- `<html>` phải là thành phần cha của tất cả các thành phần khác trong layout đầy đủ.
-	- `<style>` và `<script>` phải nằm trong thẻ `<html>`. Thay vì đặt ngắn gọn bên ngoài như pages hay astro component khác
+    - `<html>` phải là thành phần cha của tất cả các thành phần khác trong layout đầy đủ.
+    - `<style>` và `<script>` phải nằm trong thẻ `<html>`. Thay vì đặt ngắn gọn bên ngoài như pages hay astro component khác
 - **Vị trí đặt file**: Thường đặt trong `src/layouts`, nhưng có thể đặt ở bất kỳ đâu hoặc cùng vị trí với các trang, sử dụng tiền tố `_` để phân biệt.
 
 Cách sử dụng `<slot/>` 
@@ -422,13 +422,13 @@ npm create astro@latest -- --template basics
 Sau khi chạy lệnh trên xong ta tiếp tục yes để tải các packages cần thiết
 
 
-![image.png](/images/blog/075f12a2a1629de93a87f719bececcc5.png)
+![image.png](/images/blog/2589df24236615c2ff2848359f126b3a.png)
 
 
 Mình tổ chức thư mục trông như thế này 
 
 
-![image.png](/images/blog/4f1ba8d2482ab7fdd431684b91a96b06.png)
+![image.png](/images/blog/60c4aceab9b6e455f2c152b81b13735a.png)
 
 
 Mình chỉ làm một trang duy nhất thôi nên sẽ đặt là `index.astro`
@@ -614,7 +614,7 @@ const ISOString = nextDay.toISOString();
 À có điều thú vị khi phát triển với astro , họ có sẵn một tool bar để check những lỗi tìm ẩn ảnh hưởng đến SEO  của  trang web 
 
 
-![image.png](/images/blog/32beea6e68d097cc0ba9b26b5810409a.png)
+![image.png](/images/blog/c367edef68d365648c7a08e8e176855b.png)
 
 
 Họ cảnh báo mình không nên dùng tại chữ image bên trong alt attribute và nên dùng component `Image` cả astro để tối ưu ảnh 

@@ -89,7 +89,7 @@ Một robot hoạt động theo nguyên tắc:
 
 1. **Nhận lệnh** (Input).
 2. **Thực hiện hành động từng bước** (Process).
-	- **Cánh tay** để lấy bánh.
+    - **Cánh tay** để lấy bánh.
 3. **Hoàn thành nhiệm vụ** (Output).
 
 Robot này sẽ có **các thành phần sau**:
@@ -250,9 +250,9 @@ Một chương trình thường được xây dựng từ những khối cơ b�
 - **Vòng lặp (Loops)** – Lặp lại một tác vụ.
 - **Hàm (Functions)** – Đóng gói một đoạn mã để tái sử dụng.
 - Hay một số phần nâng cao một chút như :
-	- **Thư viện** : Một chương trình hay gặp đã được đóng gói , chỉ cần tải và sử dụng
-	- **Khái niệm về OOP , Design pattern** : Cái này là một lĩnh vực nâng cao , nó là cách tổ chức code dễ dùng hơn , dễ hiểu hơn . Giống như việc mình tạo ra class Robot vậy , gom tất cả logic liên quan vào nó thì chỉ lần gọi serveCake() là nó chạy như ý mà mình không cần quan tâm bên trong nhiều nữa
-	- **Cấu trúc dữ liệu và thuật toán** : Cái này giống như là cách bạn nghĩ ra một cách giải quyết vấn đề thông minh hơn vậy . Bạn cho con Robot một cái đĩa nhỏ và chỉ nó sắp xếp nó ngăn nắp nó sẽ giao nhiều cake hơn cho bạn
+    - **Thư viện** : Một chương trình hay gặp đã được đóng gói , chỉ cần tải và sử dụng
+    - **Khái niệm về OOP , Design pattern** : Cái này là một lĩnh vực nâng cao , nó là cách tổ chức code dễ dùng hơn , dễ hiểu hơn . Giống như việc mình tạo ra class Robot vậy , gom tất cả logic liên quan vào nó thì chỉ lần gọi serveCake() là nó chạy như ý mà mình không cần quan tâm bên trong nhiều nữa
+    - **Cấu trúc dữ liệu và thuật toán** : Cái này giống như là cách bạn nghĩ ra một cách giải quyết vấn đề thông minh hơn vậy . Bạn cho con Robot một cái đĩa nhỏ và chỉ nó sắp xếp nó ngăn nắp nó sẽ giao nhiều cake hơn cho bạn
 
 Dù với ngôn ngữ nào thì chúng cũng đều cần tối thiểu những thành phần này để biểu diễn nên logic của một chương trình .  
 
@@ -266,108 +266,108 @@ Nó thường sẽ được tổng hợp lại với Từ khóa “Language + Ch
 👉 [https://quickref.me/python](https://quickref.me/python)
 
 
-![image.png](/images/blog/40b249d2345ae02ff3b913a979190aee.png)
+![image.png](/images/blog/1d1c3c0a93d157944db68e0db451b593.png)
 
 
 Ngôn ngữ đầu tiên của mình học chính là C . Một ngôn ngữ giúp xây dựng nền tảng cho các ngôn ngữ hiện đại khác hiện nay. Đó là lý do nó thường được dạy đầu tiên nếu học lập trình ở các trường đại học .
 
 
-![image.png](/images/blog/33b8cd06893426199b3f0ad403e759f6.png)
+![image.png](/images/blog/18b20aaf014489c1d2cf502cffa868aa.png)
 
 
 ## Sự phát triển của xu hướng lập trình qua các giai đoạn
 
 1. **Lập trình thủ tục (Procedural - C, Pascal)**
-	- Code được tổ chức thành các hàm gọi lẫn nhau, tập trung vào luồng điều khiển.
-	- Dễ hiểu, trực quan nhưng dễ rối khi dự án lớn, khó tái sử dụng và mở rộng.
+    - Code được tổ chức thành các hàm gọi lẫn nhau, tập trung vào luồng điều khiển.
+    - Dễ hiểu, trực quan nhưng dễ rối khi dự án lớn, khó tái sử dụng và mở rộng.
 
-	```javascript
-	#include <stdio.h>
-	
-	void sayHello() {
-	    printf("Hello, World!\n");
-	}
-	
-	int main() {
-	    sayHello();
-	    return 0;
-	}
-	```
+    ```javascript
+    #include <stdio.h>
+    
+    void sayHello() {
+        printf("Hello, World!\n");
+    }
+    
+    int main() {
+        sayHello();
+        return 0;
+    }
+    ```
 
 2. **Lập trình hướng đối tượng (OOP - C++, Java, Python, C#)**
-	- Dữ liệu và hành vi được đóng gói trong các đối tượng, giúp tổ chức tốt hơn.
-	- Giải quyết vấn đề quản lý code nhưng có thể phức tạp do kế thừa và phụ thuộc chéo.
+    - Dữ liệu và hành vi được đóng gói trong các đối tượng, giúp tổ chức tốt hơn.
+    - Giải quyết vấn đề quản lý code nhưng có thể phức tạp do kế thừa và phụ thuộc chéo.
 
-	```javascript
-	class Robot:
-	    def __init__(self, name):
-	        self.name = name
-	
-	    def greet(self):
-	        print(f"Hello, I am {self.name}!")
-	
-	robo = Robot("Robo1")
-	robo.greet()
-	```
+    ```javascript
+    class Robot:
+        def __init__(self, name):
+            self.name = name
+    
+        def greet(self):
+            print(f"Hello, I am {self.name}!")
+    
+    robo = Robot("Robo1")
+    robo.greet()
+    ```
 
 3. **Lập trình hướng chức năng (Functional - Lisp, Haskell, Scala, JavaScript - FP)**
-	- Hạn chế trạng thái và tác dụng phụ, ưu tiên hàm thuần túy, giúp dễ kiểm soát luồng dữ liệu.
-	- Hiệu quả trong xử lý song song, nhưng khó tiếp cận nếu quen với tư duy OOP.
+    - Hạn chế trạng thái và tác dụng phụ, ưu tiên hàm thuần túy, giúp dễ kiểm soát luồng dữ liệu.
+    - Hiệu quả trong xử lý song song, nhưng khó tiếp cận nếu quen với tư duy OOP.
 
-	```javascript
-	const add = (a, b) => a + b;
-	console.log(add(2, 3)); // 5
-	```
+    ```javascript
+    const add = (a, b) => a + b;
+    console.log(add(2, 3)); // 5
+    ```
 
 4. **Lập trình hướng module (Modular - ES Modules, CommonJS, Rust, Go)**
-	- Chia code thành các module độc lập, dễ quản lý và tái sử dụng.
-	- Tránh sự rối rắm của OOP và giúp tổ chức code chặt chẽ hơn.
+    - Chia code thành các module độc lập, dễ quản lý và tái sử dụng.
+    - Tránh sự rối rắm của OOP và giúp tổ chức code chặt chẽ hơn.
 
-	**📂 math_utils.py**
-
-
-	```python
-	def add(a, b):
-	    return a + b
-	```
+    **📂 math_utils.py**
 
 
-	**📂 main.py**
+    ```python
+    def add(a, b):
+        return a + b
+    ```
 
 
-	```python
-	from math_utils import add
-	
-	print(add(3, 4))  # 7
-	```
+    **📂 main.py**
+
+
+    ```python
+    from math_utils import add
+    
+    print(add(3, 4))  # 7
+    ```
 
 5. **Lập trình hướng thành phần (Component-based - React, Vue, Svelte, Web Components)**
-	- Mọi thứ được chia nhỏ thành các thành phần có thể tái sử dụng và kết hợp.
-	- Giúp xây dựng UI và hệ thống lớn dễ dàng hơn, đặc biệt là trong web và mobile.
+    - Mọi thứ được chia nhỏ thành các thành phần có thể tái sử dụng và kết hợp.
+    - Giúp xây dựng UI và hệ thống lớn dễ dàng hơn, đặc biệt là trong web và mobile.
 
-	```javascript
-	function Button({ label }) {
-	  return <button>{label}</button>;
-	}
-	
-	export default Button;
-	```
+    ```javascript
+    function Button({ label }) {
+      return <button>{label}</button>;
+    }
+    
+    export default Button;
+    ```
 
 6. **Lập trình hướng AI (AI-driven development - Wasp, LangChain, Haystack, AutoGPT)**
-	- Sử dụng AI để tự động hóa quy trình phát triển, giảm lượng code thủ công.
-	- Tích hợp AI vào ứng dụng dễ dàng bằng cách chỉ định các hành vi thông qua **prompt** hoặc **cấu hình đơn giản**.
-	- Dẫn đến mô hình phát triển **prompt-driven** thay vì code-driven.
+    - Sử dụng AI để tự động hóa quy trình phát triển, giảm lượng code thủ công.
+    - Tích hợp AI vào ứng dụng dễ dàng bằng cách chỉ định các hành vi thông qua **prompt** hoặc **cấu hình đơn giản**.
+    - Dẫn đến mô hình phát triển **prompt-driven** thay vì code-driven.
 
-	```javascript
-	from langchain.chat_models import ChatOpenAI
-	
-	llm = ChatOpenAI(model_name="gpt-4")
-	response = llm.predict("Summarize this article in one paragraph.")
-	print(response)
-	```
+    ```javascript
+    from langchain.chat_models import ChatOpenAI
+    
+    llm = ChatOpenAI(model_name="gpt-4")
+    response = llm.predict("Summarize this article in one paragraph.")
+    print(response)
+    ```
 
 
-	Phương pháp này rất tiềm năng , nhưng vẫn đang phát triển , có thể nó là xu hướng nếu tương lai AI trở nên nhẹ và ít tốn kém hơn
+    Phương pháp này rất tiềm năng , nhưng vẫn đang phát triển , có thể nó là xu hướng nếu tương lai AI trở nên nhẹ và ít tốn kém hơn
 
 
 # **Hành trình tự học lập trình như thế nào**
@@ -419,39 +419,39 @@ Ví dụ : Bạn muốn làm một phần mềm ghi chú trên web. Ngày xưa m
 Kinh nghiệm của mình là khi mình quan tâm hay học bất cứ thứ gì . Hãy tạo một account và follow hết nhưng channel mình tìm được. Việc còn lại thì cứ chờ thuật toán nó mang kiến thức đến cho mình thôi
 
 
-![image.png](/images/blog/9d0b8a9186370bd622fb955b70b6b873.png)
+![image.png](/images/blog/7c815b5246255a62f323486f8a01db11.png)
 
 
 Các kênh mình đang theo dõi và phù hợp nếu muốn học thêm kiến thức vào mỗi giao đoạn nhất định
 
 - Lập trình căn bản
-	- [https://www.youtube.com/@28tech_](https://www.youtube.com/@28tech_)
-	- [https://www.youtube.com/@F8VNOfficial](https://www.youtube.com/@F8VNOfficial)
-	- [https://www.youtube.com/@KTeam](https://www.youtube.com/@KTeam)
-	- [https://www.youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh)
-	- [https://www.youtube.com/@TechWithTim](https://www.youtube.com/@TechWithTim) (Kênh này chuyên về python)
-	- [https://www.youtube.com/@WesBos/videos](https://www.youtube.com/@WesBos/videos) (Kênh này chuyên về javascript)
-	- [w3schools.com/cpp](http://w3schools.com/cpp) (Trang web này thường giải thích rất ngắn gọn về các topic lập trình cho người mới)
+    - [https://www.youtube.com/@28tech_](https://www.youtube.com/@28tech_)
+    - [https://www.youtube.com/@F8VNOfficial](https://www.youtube.com/@F8VNOfficial)
+    - [https://www.youtube.com/@KTeam](https://www.youtube.com/@KTeam)
+    - [https://www.youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh)
+    - [https://www.youtube.com/@TechWithTim](https://www.youtube.com/@TechWithTim) (Kênh này chuyên về python)
+    - [https://www.youtube.com/@WesBos/videos](https://www.youtube.com/@WesBos/videos) (Kênh này chuyên về javascript)
+    - [w3schools.com/cpp](http://w3schools.com/cpp) (Trang web này thường giải thích rất ngắn gọn về các topic lập trình cho người mới)
 - Khái niệm quan trọng
-	- OOP
-		- [https://www.youtube.com/watch?v=IcYpk-Kf4Fo](https://www.youtube.com/watch?v=IcYpk-Kf4Fo)
-	- DSA
-		- [https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX](https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX)
-	- OS
-		- [https://www.youtube.com/@LowLevelTV](https://www.youtube.com/@LowLevelTV) (anh này nói về bảo mật cũng như chuyên sâu về OS)
-		- [https://www.youtube.com/@nesoacademy](https://www.youtube.com/@nesoacademy) (Kênh này rất phù hợp cho các kiến thức nền tảng như OS hay Network)
-	- NETWORK
-		- [https://www.youtube.com/@NetworkChuck](https://www.youtube.com/@NetworkChuck)
-		- [https://www.geeksforgeeks.org/basics-computer-networking/](https://www.geeksforgeeks.org/basics-computer-networking/) (Trang này chuyên sâu hơn w3school nhưng rất phù hợp các concept khó )
+    - OOP
+        - [https://www.youtube.com/watch?v=IcYpk-Kf4Fo](https://www.youtube.com/watch?v=IcYpk-Kf4Fo)
+    - DSA
+        - [https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX](https://youtu.be/CBYHwZcbD-s?si=XK4v9PNf3ggCk5DX)
+    - OS
+        - [https://www.youtube.com/@LowLevelTV](https://www.youtube.com/@LowLevelTV) (anh này nói về bảo mật cũng như chuyên sâu về OS)
+        - [https://www.youtube.com/@nesoacademy](https://www.youtube.com/@nesoacademy) (Kênh này rất phù hợp cho các kiến thức nền tảng như OS hay Network)
+    - NETWORK
+        - [https://www.youtube.com/@NetworkChuck](https://www.youtube.com/@NetworkChuck)
+        - [https://www.geeksforgeeks.org/basics-computer-networking/](https://www.geeksforgeeks.org/basics-computer-networking/) (Trang này chuyên sâu hơn w3school nhưng rất phù hợp các concept khó )
 - FrontEnd
-	- [https://www.youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia)
-	- [https://www.youtube.com/@WebDevSimplified](https://www.youtube.com/@WebDevSimplified)
-	- [https://www.youtube.com/@KevinPowell/shorts](https://www.youtube.com/@KevinPowell/shorts) (Bậc thầy CSS)
+    - [https://www.youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia)
+    - [https://www.youtube.com/@WebDevSimplified](https://www.youtube.com/@WebDevSimplified)
+    - [https://www.youtube.com/@KevinPowell/shorts](https://www.youtube.com/@KevinPowell/shorts) (Bậc thầy CSS)
 - Database
-	- [https://www.youtube.com/@LukeBarousse](https://www.youtube.com/@LukeBarousse) (Anh này làm DA nên rất am hiểu về DB)
+    - [https://www.youtube.com/@LukeBarousse](https://www.youtube.com/@LukeBarousse) (Anh này làm DA nên rất am hiểu về DB)
 - Backend
-	- [https://www.youtube.com/@anonystick](https://www.youtube.com/@anonystick)
-	- [https://www.youtube.com/@ByteByteGo/shorts](https://www.youtube.com/@ByteByteGo/shorts) (Kênh này chuyên về thiết kế hệ thống)
+    - [https://www.youtube.com/@anonystick](https://www.youtube.com/@anonystick)
+    - [https://www.youtube.com/@ByteByteGo/shorts](https://www.youtube.com/@ByteByteGo/shorts) (Kênh này chuyên về thiết kế hệ thống)
 
 ## Lộ trình học lập trình phần mềm ?
 
@@ -491,7 +491,7 @@ Giải nhiều bài tập hơn
 Viết một chương trình quản lý danh sách số nguyên trong mảng, cho phép **thêm, sửa, xóa** phần tử bằng giao diện console.
 
 
-![1741362979472747398490946999238.png](/images/blog/a48c58274669cba3a422d5a216d5d8f5.png)
+![1741362979472747398490946999238.png](/images/blog/b592be325e32a661e7a402a5647dba50.png)
 
 
 Cái này chỉ cần 1 2 tuần là bạn đã nắm được thành phần cơ bản của C++ rồi. Mình ưu tiên cho người mới hãy học C/C++ vì sau này qua Javascript hay Python đều rất dễ với cả do 2 ngôn ngữ này thường bỏ qua kiểu dữ liệu, cái này khá nguy hiểm cho người mới.
@@ -579,21 +579,21 @@ Hệ điều hành là phần mềm nền tảng quản lý tài nguyên phần 
 **Kiến thức cần nắm:**
 
 - **Quản lý tiến trình**:
-	- Process vs. Thread: Sự khác biệt và ứng dụng
-	- Multi-threading & Concurrency: Xử lý đồng thời
-	- Scheduling Algorithms: Các thuật toán lập lịch CPU
+    - Process vs. Thread: Sự khác biệt và ứng dụng
+    - Multi-threading & Concurrency: Xử lý đồng thời
+    - Scheduling Algorithms: Các thuật toán lập lịch CPU
 - **Quản lý bộ nhớ**:
-	- Paging & Segmentation: Quản lý bộ nhớ ảo
-	- Virtual Memory: Bộ nhớ ảo và swapping
-	- Garbage Collection: Dọn dẹp bộ nhớ tự động
+    - Paging & Segmentation: Quản lý bộ nhớ ảo
+    - Virtual Memory: Bộ nhớ ảo và swapping
+    - Garbage Collection: Dọn dẹp bộ nhớ tự động
 - **File System**:
-	- Hệ thống tập tin: FAT32, NTFS, EXT4
-	- File Permissions: Phân quyền truy cập
-	- Disk Management: Quản lý ổ đĩa
+    - Hệ thống tập tin: FAT32, NTFS, EXT4
+    - File Permissions: Phân quyền truy cập
+    - Disk Management: Quản lý ổ đĩa
 - **Networking cơ bản trên OS**:
-	- TCP/IP Stack: Cách hệ điều hành giao tiếp qua mạng
-	- Socket Programming: Giao tiếp giữa các tiến trình qua mạng
-	- Firewall & Security: Cấu hình bảo mật hệ điều hành
+    - TCP/IP Stack: Cách hệ điều hành giao tiếp qua mạng
+    - Socket Programming: Giao tiếp giữa các tiến trình qua mạng
+    - Firewall & Security: Cấu hình bảo mật hệ điều hành
 
 **Nguồn học:**
 
@@ -621,18 +621,18 @@ Networking là một phần quan trọng giúp các hệ thống giao tiếp v�
 **Kiến thức cần nắm:**
 
 - **Networking cơ bản**:
-	- Mô hình TCP/IP [https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z](https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z)
-	- TCP/IP vs. UDP: Sự khác biệt và ứng dụng
-	- HTTP/HTTPS: Giao thức truyền tải dữ liệu trên web
-	- DNS & Domain: Cách tên miền hoạt động
+    - Mô hình TCP/IP [https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z](https://viblo.asia/p/tim-hieu-co-ban-ve-mo-hinh-tcpip-RQqKLkJp57z)
+    - TCP/IP vs. UDP: Sự khác biệt và ứng dụng
+    - HTTP/HTTPS: Giao thức truyền tải dữ liệu trên web
+    - DNS & Domain: Cách tên miền hoạt động
 - **Network Security**:
-	- TLS/SSL: Cách mã hóa dữ liệu trên internet
-	- Firewall: Cấu hình và bảo vệ mạng
-	- VPN: Cách hoạt động và bảo mật khi truy cập từ xa
+    - TLS/SSL: Cách mã hóa dữ liệu trên internet
+    - Firewall: Cấu hình và bảo vệ mạng
+    - VPN: Cách hoạt động và bảo mật khi truy cập từ xa
 - **Networking nâng cao**:
-	- Load Balancing: Phân phối tải giữa nhiều server
-	- CDN (Content Delivery Network): Tăng tốc độ tải trang
-	- Proxy & Reverse Proxy: Ứng dụng trong bảo mật và caching
+    - Load Balancing: Phân phối tải giữa nhiều server
+    - CDN (Content Delivery Network): Tăng tốc độ tải trang
+    - Proxy & Reverse Proxy: Ứng dụng trong bảo mật và caching
 
 **Nguồn học:**
 
@@ -668,54 +668,54 @@ Hiểu đơn giản:
 ### **Kiến thức cần nắm**
 
 - **HTML/CSS**: Nền tảng của mọi trang web
-	- HTML: Tạo cấu trúc và tổ chức nội dung
-	- CSS: Định dạng và tạo phong cách trực quan
-	- CSS Flexbox & Grid: Hệ thống bố cục hiện đại
-	- CSS Animation: Tạo hiệu ứng chuyển động
+    - HTML: Tạo cấu trúc và tổ chức nội dung
+    - CSS: Định dạng và tạo phong cách trực quan
+    - CSS Flexbox & Grid: Hệ thống bố cục hiện đại
+    - CSS Animation: Tạo hiệu ứng chuyển động
 - **JavaScript**: Ngôn ngữ lập trình cho web
-	- Cú pháp cơ bản và ES6+
-	- DOM Manipulation: Thao tác với HTML qua JavaScript
-	- Fetch API / AJAX: Giao tiếp với server
-	- Event Handling: Xử lý tương tác người dùng
-	- Local Storage: Lưu trữ dữ liệu phía client
+    - Cú pháp cơ bản và ES6+
+    - DOM Manipulation: Thao tác với HTML qua JavaScript
+    - Fetch API / AJAX: Giao tiếp với server
+    - Event Handling: Xử lý tương tác người dùng
+    - Local Storage: Lưu trữ dữ liệu phía client
 - **Frameworks Front-end**: (Nâng cao)
-	- React: Thư viện JavaScript phổ biến nhất hiện nay
-	- Vue.js: Framework tiến bộ, dễ học
-	- Angular: Framework toàn diện với TypeScript
+    - React: Thư viện JavaScript phổ biến nhất hiện nay
+    - Vue.js: Framework tiến bộ, dễ học
+    - Angular: Framework toàn diện với TypeScript
 - **Responsive Design**:
-	- Mobile-first approach: Thiết kế tối ưu cho di động trước
-	- Media Queries: CSS điều chỉnh layout theo kích thước màn hình
-	- Viewport: Đảm bảo hiển thị đúng trên mọi thiết bị
+    - Mobile-first approach: Thiết kế tối ưu cho di động trước
+    - Media Queries: CSS điều chỉnh layout theo kích thước màn hình
+    - Viewport: Đảm bảo hiển thị đúng trên mọi thiết bị
 
 ### **Nguồn học**
 
 - **YouTube**:
-	- [HTML/CSS/JS Crash Course](https://www.youtube.com/watch?v=R6plN3FvzFY&list=PLwJIrGynFq9Ao47UsmLfcKLUFfC27jBQk) (F8  Recommend)
-	- [JS Beginner Course](https://www.youtube.com/watch?v=0SJE9dYdpps&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) (F8  Recommend)
-	- [https://www.youtube.com/watch?v=f2EqECiTBL8](https://www.youtube.com/watch?v=f2EqECiTBL8) (Nền tảng của nodejs một runtime giúp xây dựng app với JS)
-	- [https://www.youtube.com/watch?v=RVFAyFWO4go](https://www.youtube.com/watch?v=RVFAyFWO4go) (React Dave Gray)
+    - [HTML/CSS/JS Crash Course](https://www.youtube.com/watch?v=R6plN3FvzFY&list=PLwJIrGynFq9Ao47UsmLfcKLUFfC27jBQk) (F8  Recommend)
+    - [JS Beginner Course](https://www.youtube.com/watch?v=0SJE9dYdpps&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) (F8  Recommend)
+    - [https://www.youtube.com/watch?v=f2EqECiTBL8](https://www.youtube.com/watch?v=f2EqECiTBL8) (Nền tảng của nodejs một runtime giúp xây dựng app với JS)
+    - [https://www.youtube.com/watch?v=RVFAyFWO4go](https://www.youtube.com/watch?v=RVFAyFWO4go) (React Dave Gray)
 - **Trang web**:
-	- [w3schools - HTML](https://www.w3schools.com/html/)
-	- [w3schools - CSS](https://www.w3schools.com/css/default.asp)
-	- [w3schools - JavaScript](https://www.w3schools.com/js/default.asp)
+    - [w3schools - HTML](https://www.w3schools.com/html/)
+    - [w3schools - CSS](https://www.w3schools.com/css/default.asp)
+    - [w3schools - JavaScript](https://www.w3schools.com/js/default.asp)
 - **Trang tiếng Anh (chuyên sâu hơn)**:
-	- [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript)
-	- [JavaScript.info](https://javascript.info/)
+    - [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript)
+    - [JavaScript.info](https://javascript.info/)
 
 ### **Luyện tập**
 
 - **HTML/CSS:** Cắt giao diện một trang web đơn giản
 
-	Video hướng dẫn [https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW](https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW)
+    Video hướng dẫn [https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW](https://youtube.com/playlist?list=PL_-VfJajZj0VD-wR7KbAcpnP286g1eV87&si=jYDleoQLtzvuwygW)
 
 - **HTML/CSS/JS:** Thực hành với project
 
-	Video hướng dẫn [https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9](https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9)
+    Video hướng dẫn [https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9](https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9)
 
 - **Projects nâng cao cho portfolio:**
-	- Landing page cho sản phẩm/dịch vụ
-	- Blog cá nhân với chức năng tìm kiếm và lọc bài viết
-	- Ứng dụng Todo-list với khả năng lưu trữ dữ liệu
+    - Landing page cho sản phẩm/dịch vụ
+    - Blog cá nhân với chức năng tìm kiếm và lọc bài viết
+    - Ứng dụng Todo-list với khả năng lưu trữ dữ liệu
 
 Phần này nếu học hết các phần mình nghĩ là cũng sẽ mất 2 tháng . Bạn sẽ quen với cách tạo một giao diện web với HTML/CSS/JS . Khi học xong thì bạn có thể học tiếp một UI component giúp phát triển project theo hướng component , xu hướng hiện nay . Nhưng hãy nhớ không đốt cháy giai đoạn , hiểu được căn bản học qua UI component chỉ mất 1 tuần thôi , mình chắc chắn
 
@@ -733,31 +733,31 @@ Cơ sở dữ liệu chia làm hai loại chính: SQL (quan hệ) và NoSQL (phi
 ### **Kiến thức cần nắm**
 
 - **SQL cơ bản**:
-	- SELECT, INSERT, UPDATE, DELETE
-	- JOIN, GROUP BY, HAVING
-	- Subqueries và Views
+    - SELECT, INSERT, UPDATE, DELETE
+    - JOIN, GROUP BY, HAVING
+    - Subqueries và Views
 - **Hệ quản trị CSDL**:
-	- MySQL, PostgreSQL (SQL phổ biến)
-	- SQLite (CSDL nhẹ)
-	- MongoDB (NoSQL dựa trên document)
-	- Redis (Key-value, cache hiệu suất cao)
+    - MySQL, PostgreSQL (SQL phổ biến)
+    - SQLite (CSDL nhẹ)
+    - MongoDB (NoSQL dựa trên document)
+    - Redis (Key-value, cache hiệu suất cao)
 - **Database Design**:
-	- ERD (Entity-Relationship Diagram)
-	- Normalization (1NF, 2NF, 3NF)
-	- Indexes, Constraints
+    - ERD (Entity-Relationship Diagram)
+    - Normalization (1NF, 2NF, 3NF)
+    - Indexes, Constraints
 - **Transaction & ACID** (Nâng cao)
 - **ORM (Object-Relational Mapping)** (Nâng cao)
-	- Sequelize (Node.js)
-	- Mongoose (MongoDB)
+    - Sequelize (Node.js)
+    - Mongoose (MongoDB)
 
 ### **Nguồn học**
 
 - **YouTube**:
-	- [Khóa học MySQL toàn diện](https://www.youtube.com/watch?v=7S_tz1z_5bA)
-	- [https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU](https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU)
+    - [Khóa học MySQL toàn diện](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+    - [https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU](https://youtu.be/ofme2o29ngU?si=NLiM5ntqxfQctpqU)
 - **Website**:
-	- [w3schools - SQL](https://www.w3schools.com/sql/)
-	- [w3schools - MongoDB](https://www.w3schools.com/mongodb/)
+    - [w3schools - SQL](https://www.w3schools.com/sql/)
+    - [w3schools - MongoDB](https://www.w3schools.com/mongodb/)
 
 ### **Bài tập thực hành**
 
@@ -781,30 +781,30 @@ Một Back-end developer cần hiểu sâu về ngôn ngữ lập trình server-
 
 - Mô hình MVC :  👉 [https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7](https://viblo.asia/p/tim-hieu-mo-hinh-mvc-danh-cho-nguoi-moi-bat-dau-cau-truc-va-vi-du-V3m5WLDyKO7)
 - **Server-side Programming**:
-	- Node.js (Recommend), Python (Django/Flask), PHP, Java (Spring), Golang
+    - Node.js (Recommend), Python (Django/Flask), PHP, Java (Spring), Golang
 - **API Design**:
-	- RESTful API, GraphQL, API Documentation (Swagger/OpenAPI)
+    - RESTful API, GraphQL, API Documentation (Swagger/OpenAPI)
 - **Authentication & Authorization**:
-	- JWT, OAuth 2.0, Role-based Access Control
+    - JWT, OAuth 2.0, Role-based Access Control
 - **Server Architecture**:
-	- Monolithic, Microservices, Serverless, Event-driven
+    - Monolithic, Microservices, Serverless, Event-driven
 
 ### **Nguồn học**
 
 - **YouTube**:**(Recommend chỉ cần bắt chước theo video thôi)**
-	- [https://swagger.io/resources/articles/best-practices-in-api-design/](https://swagger.io/resources/articles/best-practices-in-api-design/)
-	- [https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB](https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB) (Kiến thức về Restful api)
-	- [Node.js Full Course](https://www.youtube.com/watch?v=fgTGADljAeg)
+    - [https://swagger.io/resources/articles/best-practices-in-api-design/](https://swagger.io/resources/articles/best-practices-in-api-design/)
+    - [https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB](https://youtu.be/-mN3VyJuCjM?si=ooonbcKReC_1WMKB) (Kiến thức về Restful api)
+    - [Node.js Full Course](https://www.youtube.com/watch?v=fgTGADljAeg)
 - **Website**:
-	- [w3schools - Node.js](https://www.w3schools.com/nodejs/)
+    - [w3schools - Node.js](https://www.w3schools.com/nodejs/)
 
 **Bài tập thực hành:**
 
 - Tạo một RESTful API hoàn chỉnh:
-	- Xây dựng API quản lý công việc với CRUD operations
-	- Implement JWT authentication và role-based authorization
-	- Viết middleware xử lý lỗi và validation
-	- Tích hợp cơ sở dữ liệu (SQL hoặc NoSQL)
+    - Xây dựng API quản lý công việc với CRUD operations
+    - Implement JWT authentication và role-based authorization
+    - Viết middleware xử lý lỗi và validation
+    - Tích hợp cơ sở dữ liệu (SQL hoặc NoSQL)
 
 Nên được học cuối cùng vì nó đòi hỏi mình phải hiểu về network cũng như thành thạo nhất định với ngôn ngữ lập trình , biết cách tương tác với database .. 
 

@@ -105,23 +105,23 @@ Bây giờ, hãy cùng áp dụng Ma trận Eisenhower vào cuộc sống của 
 - Lấy một tờ giấy, ứng dụng ghi chú (như Notion, Todoist), hoặc bảng tính.
 - Viết ra mọi nhiệm vụ bạn cần làm trong ngày hoặc tuần, không cần sắp xếp ngay.
 - Ví dụ:
-	- Nộp báo cáo tài chính trước 17h.
-	- Trả lời email từ đồng nghiệp.
-	- Tập gym.
-	- Xem phim mới trên Netflix.
-	- Học khóa lập trình.
-	- Gọi điện xác nhận hợp đồng với khách hàng.
+    - Nộp báo cáo tài chính trước 17h.
+    - Trả lời email từ đồng nghiệp.
+    - Tập gym.
+    - Xem phim mới trên Netflix.
+    - Học khóa lập trình.
+    - Gọi điện xác nhận hợp đồng với khách hàng.
 
 **Bước 2: Phân loại công việc vào 4 ô**
 
 - Đánh giá mỗi nhiệm vụ bằng hai câu hỏi:
-	- **Có quan trọng không?** (Liên quan đến mục tiêu dài hạn của bạn?)
-	- **Có khẩn cấp không?** (Cần làm ngay hay có thời hạn gấp?)
+    - **Có quan trọng không?** (Liên quan đến mục tiêu dài hạn của bạn?)
+    - **Có khẩn cấp không?** (Cần làm ngay hay có thời hạn gấp?)
 - Đặt nhiệm vụ vào ô phù hợp. Ví dụ trên sẽ được phân loại như sau:
-	- **Ô 1**: Nộp báo cáo tài chính, gọi điện xác nhận hợp đồng.
-	- **Ô 2**: Học khóa lập trình, tập gym.
-	- **Ô 3**: Trả lời email từ đồng nghiệp.
-	- **Ô 4**: Xem phim mới trên Netflix.
+    - **Ô 1**: Nộp báo cáo tài chính, gọi điện xác nhận hợp đồng.
+    - **Ô 2**: Học khóa lập trình, tập gym.
+    - **Ô 3**: Trả lời email từ đồng nghiệp.
+    - **Ô 4**: Xem phim mới trên Netflix.
 
 **Bước 3: Xử lý công việc theo ưu tiên**
 
@@ -133,36 +133,36 @@ Bây giờ, hãy cùng áp dụng Ma trận Eisenhower vào cuộc sống của 
 **Bước 4: Đánh giá và cải thiện**
 
 - Cuối ngày hoặc cuối tuần, xem lại ma trận của bạn:
-	- Có quá nhiều việc ở Ô 1 không? Nếu có, hãy đầu tư nhiều hơn vào Ô 2 để tránh khủng hoảng trong tương lai.
-	- Bạn có lãng phí thời gian ở Ô 4 không? Nếu có, đặt giới hạn nghiêm ngặt hơn.
+    - Có quá nhiều việc ở Ô 1 không? Nếu có, hãy đầu tư nhiều hơn vào Ô 2 để tránh khủng hoảng trong tương lai.
+    - Bạn có lãng phí thời gian ở Ô 4 không? Nếu có, đặt giới hạn nghiêm ngặt hơn.
 - Điều chỉnh kế hoạch để cân bằng giữa các ô, đặc biệt là ưu tiên Ô 2.
 
 # **Mẹo để áp dụng Ma trận Eisenhower thành công**
 
 1. **Sử dụng công cụ hỗ trợ**:
-	- Vẽ ma trận trên giấy hoặc dùng ứng dụng như Trello, Notion, hoặc Google Calendar để quản lý nhiệm vụ.
-	- Đặt lời nhắc cho các công việc ở Ô 2 để không quên.
+    - Vẽ ma trận trên giấy hoặc dùng ứng dụng như Trello, Notion, hoặc Google Calendar để quản lý nhiệm vụ.
+    - Đặt lời nhắc cho các công việc ở Ô 2 để không quên.
 2. **Giới hạn nhiệm vụ**:
-	- Chỉ chọn 3-5 nhiệm vụ ưu tiên mỗi ngày để tránh quá tải.
+    - Chỉ chọn 3-5 nhiệm vụ ưu tiên mỗi ngày để tránh quá tải.
 3. **Đầu tư vào Ô 2**:
-	- Đây là ô quan trọng nhất. Dành ít nhất 1-2 giờ mỗi tuần để học hỏi, rèn luyện sức khỏe, hoặc xây dựng mối quan hệ.
+    - Đây là ô quan trọng nhất. Dành ít nhất 1-2 giờ mỗi tuần để học hỏi, rèn luyện sức khỏe, hoặc xây dựng mối quan hệ.
 4. **Kiểm soát Ô 4**:
-	- Sử dụng ứng dụng chặn phân tâm như Freedom hoặc Cold Turkey để giới hạn thời gian lướt mạng xã hội.
+    - Sử dụng ứng dụng chặn phân tâm như Freedom hoặc Cold Turkey để giới hạn thời gian lướt mạng xã hội.
 5. **Học cách ủy thác**:
-	- Nếu không thể giao việc cho người khác, thử tự động hóa (như dùng mẫu email) hoặc thương lượng thời hạn.
+    - Nếu không thể giao việc cho người khác, thử tự động hóa (như dùng mẫu email) hoặc thương lượng thời hạn.
 6. **Thực hành đều đặn**:
-	- Ban đầu, việc phân loại có thể mất thời gian, nhưng sau 1-2 tuần, bạn sẽ thành thạo.
+    - Ban đầu, việc phân loại có thể mất thời gian, nhưng sau 1-2 tuần, bạn sẽ thành thạo.
 
 # **Sai lầm cần tránh khi dùng Ma trận Eisenhower**
 
 1. **Nhầm lẫn khẩn cấp với quan trọng**:
-	- Không phải mọi việc gấp đều đáng làm. Luôn hỏi: "Việc này có giúp tôi đạt mục tiêu không?"
+    - Không phải mọi việc gấp đều đáng làm. Luôn hỏi: "Việc này có giúp tôi đạt mục tiêu không?"
 2. **Bỏ bê Ô 2**:
-	- Nếu bạn chỉ tập trung vào Ô 1, bạn sẽ mãi chạy theo khủng hoảng. Hãy dành thời gian cho Ô 2 để phát triển bền vững.
+    - Nếu bạn chỉ tập trung vào Ô 1, bạn sẽ mãi chạy theo khủng hoảng. Hãy dành thời gian cho Ô 2 để phát triển bền vững.
 3. **Ôm đồm quá nhiều**:
-	- Đừng cố làm tất cả cùng lúc. Hãy chọn lọc và tập trung.
+    - Đừng cố làm tất cả cùng lúc. Hãy chọn lọc và tập trung.
 4. **Không loại bỏ Ô 4**:
-	- Những thói quen như lướt mạng xã hội có thể âm thầm chiếm thời gian của bạn. Hãy kiểm soát chúng.
+    - Những thói quen như lướt mạng xã hội có thể âm thầm chiếm thời gian của bạn. Hãy kiểm soát chúng.
 
 ## Cách phân biệt và ưu tiên Ô 2 với Ô 3 khi không có ai ủy thác:
 

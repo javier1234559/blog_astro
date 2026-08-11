@@ -147,8 +147,8 @@ void reverseString(vector<char>& s) {
 - Dùng khi cần xử lý **subarray**, **substring**, hoặc đoạn liên tiếp trong mảng/chuỗi.
 - Tối ưu hơn so với nested loop bằng cách trượt một cửa sổ có kích thước cố định hoặc động trên dãy số.
 - Có hai loại:
-	- **Fixed-size window** (cửa sổ cố định)
-	- **Variable-size window** (cửa sổ động)
+    - **Fixed-size window** (cửa sổ cố định)
+    - **Variable-size window** (cửa sổ động)
 
 ### 2. Dạng phổ biến
 
@@ -230,11 +230,11 @@ int minSubArrayLen(int target, vector<int>& nums) {
 ### 2. Ý tưởng chính
 
 - Tạo mảng `prefix[]` sao cho:
-	- `prefix[0] = 0`
-	- `prefix[i] = prefix[i-1] + a[i-1]`
+    - `prefix[0] = 0`
+    - `prefix[i] = prefix[i-1] + a[i-1]`
 - Tổng đoạn từ `a[L] → a[R]` chính là:
 
-	👉 `prefix[R+1] - prefix[L]`
+    👉 `prefix[R+1] - prefix[L]`
 
 
 ### 3. Ví dụ minh họa
@@ -280,11 +280,11 @@ int sum = rangeSum(prefix, 1, 3);  // = 3 + 7 + 1 = 11
 ### 2. Ý tưởng chính
 
 - Tạo `diff[]` từ mảng ban đầu `a[]`:
-	- `diff[0] = a[0]`
-	- `diff[i] = a[i] - a[i-1]` (với i > 0)
+    - `diff[0] = a[0]`
+    - `diff[i] = a[i] - a[i-1]` (với i > 0)
 - Khi cần cộng `+val` cho đoạn từ `L → R`, chỉ cần:
-	- `diff[L] += val`
-	- `diff[R+1] -= val`
+    - `diff[L] += val`
+    - `diff[R+1] -= val`
 - Sau khi cập nhật xong, dùng **Prefix Sum của** **`diff[]`** để khôi phục lại mảng gốc đã update.
 
 ### 3. Ví dụ minh họa
@@ -585,8 +585,8 @@ Greedy Idea:
 
 - Sort theo `start` tăng dần.
 - Duyệt từng interval:
-	- Nếu nó **chồng** lên cái cuối cùng ta đã merge → merge lại (`max end`).
-	- Ngược lại thì thêm vào danh sách kết quả.
+    - Nếu nó **chồng** lên cái cuối cùng ta đã merge → merge lại (`max end`).
+    - Ngược lại thì thêm vào danh sách kết quả.
 
 ```c++
 vector<vector<int>> mergeIntervals(vector<vector<int>>& intervals) {
@@ -615,9 +615,9 @@ vector<vector<int>> mergeIntervals(vector<vector<int>>& intervals) {
 - Dùng khi cần **tìm tất cả các tổ hợp / cấu hình hợp lệ**.
 - Là phương pháp thử sai có tổ chức (try → fail → undo → thử cái khác).
 - Rất hay dùng trong:
-	- Sinh tổ hợp, hoán vị
-	- Sudoku, N-Queens, Maze solving
-	- Partition problem
+    - Sinh tổ hợp, hoán vị
+    - Sudoku, N-Queens, Maze solving
+    - Partition problem
 
 ### 2. Kỹ thuật chính
 
@@ -972,8 +972,8 @@ int countDivisibleBy3Digits(int n) {
 ### 1. Đặc điểm
 
 - Dành cho bài toán có:
-	- **Tính chất con lặp lại**: Bài toán lớn được tạo thành từ các bài toán con giống nhau.
-	- **Tối ưu con (Optimal Substructure)**: Kết quả bài toán lớn phụ thuộc vào kết quả tối ưu của các bài toán con.
+    - **Tính chất con lặp lại**: Bài toán lớn được tạo thành từ các bài toán con giống nhau.
+    - **Tối ưu con (Optimal Substructure)**: Kết quả bài toán lớn phụ thuộc vào kết quả tối ưu của các bài toán con.
 - Ý tưởng chính: **Lưu lại kết quả đã tính**, không tính lại.
 
 ### 2. Dạng phổ biến
@@ -1005,7 +1005,7 @@ Muốn đến bậc `n`, ta có thể từ:
 - bậc `n-1` bước 1 lần
 - bậc `n-2` bước 2 lần
 
-	=> Tổng số cách đến `n` = cách đến `n-1` + cách đến `n-2`
+    => Tổng số cách đến `n` = cách đến `n-1` + cách đến `n-2`
 
 
 ---

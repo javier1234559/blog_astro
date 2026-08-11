@@ -108,14 +108,14 @@ Trong “Kim tứ đồ”  có 4 cách kiếm tiền, làm thuê, làm chủ, l
 **Daily must-do:**
 
 - Ưu tiên:
-	- Code thuật toán & project giải quyết vấn đề (50%).
-	- Học tiếng Anh qua viết blog, đọc sách (20%).
-	- Thể thao, đi dạo, chụp ảnh, nghe sách nói (10%).
+    - Code thuật toán & project giải quyết vấn đề (50%).
+    - Học tiếng Anh qua viết blog, đọc sách (20%).
+    - Thể thao, đi dạo, chụp ảnh, nghe sách nói (10%).
 - Pending:
-	- Học thêm ngoại ngữ.
-	- Edit ảnh, đăng lên mạng xã hội.
-	- Làm video ngắn, học edit.
-	- Học thiết kế bổ trợ cho Frontend Dev.
+    - Học thêm ngoại ngữ.
+    - Edit ảnh, đăng lên mạng xã hội.
+    - Làm video ngắn, học edit.
+    - Học thiết kế bổ trợ cho Frontend Dev.
 
 P/s: Đây là những dòng tôi viết để nhắc chính mình: 22 tuổi, tôi không cần phải hoàn hảo, nhưng nhất định phải tiến bộ.
 

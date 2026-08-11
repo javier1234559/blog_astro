@@ -211,8 +211,6 @@ Có lẽ, thứ tự phù hợp nhất với mình sẽ là:
 **Nhóm 1 nhắc mình mình đang đi về đâu.**
 
 
-Và có lẽ, ở thời điểm hiện tịa đây là câu trả lời lý giải mình thấy hợp lý nhất cho câu
+Cuối cùng đây sẽ là 1 câu mà mình sẽ mãi ghi nhớ 
 
-
-**"Chúng ta đang cố gắng vì điều gì?"**
-
+> "Con người hiếm khi thay đổi khi nhìn thấy cơ hội. Họ thường chỉ thay đổi khi cảm thấy cái giá của việc không thay đổi còn lớn hơn.”
