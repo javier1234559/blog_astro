@@ -21,13 +21,13 @@ jobs:
           node-version: '20.x'
           
       - name: Install dependencies
-        run: yarn install
+        run: corepack pnpm install
 
       - name: Sync Notion to Markdown
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-        run: yarn sync
+        run: corepack pnpm sync
 
       - name: Commit and Push changes
         run: |
