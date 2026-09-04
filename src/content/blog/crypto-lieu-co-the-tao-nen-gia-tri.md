@@ -154,7 +154,7 @@ Crypto ra đời với lý tưởng **không phụ thuộc chính phủ**, nhưn
 Chat GPT nghĩ gì vì về quan điểm này  😂 ?
 
 
-![image.png](/images/blog/79b82cf20886a7fbcfc9f3b2bca2cb19.png)
+![image.png](/images/blog/008013288c722eccf58d03a145d77a2e.png)
 
 
 Tương lai của crypto vẫn có thể phát triển, nhưng với điều kiện nó phải đáp ứng một số yếu tố quan trọng
