@@ -3,7 +3,7 @@ external: false
 draft: false
 title: "Chuyện Đào Giếng - Nghệ thuật chiến thắng sự nhàm chán"
 description: "Một video về đào giếng khiến mình nhìn lại tất cả những lần bỏ dở việc trong đời"
-date: "2026-08-24"
+date: "2026-08-23"
 author: "Javier"
 slug: "chuyen-dao-gieng-nghe-thuat-chien-thang-su-nham-chan"
 status: "Published"
@@ -58,7 +58,7 @@ Ranh giới ở đây khá rõ: nếu có thông tin mới thật sự cho thấ
 Chi tiết làm mình suy nghĩ nhất: phần lớn người ta bỏ cuộc trong lúc mù, không biết mình đã đi được bao xa. Nhớ lại vài lần từng dừng, hoàn toàn có khả năng lúc đó mình đang đứng rất gần một cột mốc nào đó mà không nhìn thấy được, chỉ vì chẳng có gì báo trước.
 
 
-![image.png](/images/blog/59949e05a82f9bef008be931b6f44b75.png)
+![image.png](/images/blog/b166694507e8a7a62a33f99d42a33bb5.png)
 
 
 ## 4. Ngưỡng chịu chán là thứ luyện được
