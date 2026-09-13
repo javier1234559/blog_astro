@@ -13,7 +13,7 @@ const siteMetadata = {
   siteRepo: "https://github.com/javier1234559/blog_astro",
   siteLogo: "/static/images/logo.png",
   image: "/static/images/avatar.png",
-  socialBanner: "/static/images/socialbg.png",
+  socialBanner: "/og-cloudy.png",
 
   twitterHandle: "@javier1234559",
   email: "nhat1234559@gmail.com",
