@@ -9,7 +9,7 @@ const siteMetadata = {
   },
   headerTitle: "Nhat's Blog",
   description: "A place to put my thoughts in writing",
-  siteUrl: "https://nhatng.vercel.com",
+  siteUrl: "https://nhatng.vercel.app",
   siteRepo: "https://github.com/javier1234559/blog_astro",
   siteLogo: "/static/images/logo.png",
   image: "/static/images/avatar.png",
