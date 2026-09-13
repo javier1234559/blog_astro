@@ -22,7 +22,16 @@ Có lẽ yêu không phải là chừa cho mình một con đường lui. Mà l�
 Con người ở bất kỳ thời đại nào có lẽ cũng vậy: luyến tiếc quá khứ, lo sợ tương lai và dè chừng hiện tại. Ta sợ trao đi quá nhiều, sợ mình trở nên yếu thế, sợ một ngày người ấy rời đi, rồi mải mê bảo vệ bản thân đến mức quên mất mình đang yêu.
 
 
-Đôi khi nhìn ông bà, bố mẹ mình ngày trước, tôi tự hỏi liệu họ có từng sợ như chúng ta không. Họ cũng từng yêu một người mà không biết tương lai sẽ thế nào, cũng từng có những lúc bất đồng, tổn thương và đứng trước những lựa chọn. Chỉ là khi ấy, có lẽ họ không có quá nhiều cách để giữ lại cho mình một phương án khác. Một khi đã lựa chọn nắm tay nhau bước vào một chặng đường, họ học cách chấp nhận cả những điều không hoàn hảo đi cùng lựa chọn ấy, cùng nhau vun đắp, cùng nhau vượt qua những ngày khó khăn và chịu trách nhiệm với quyết định của mình. Không phải vì tình yêu của thế hệ trước luôn đúng, cũng không phải vì họ chưa từng có những cuộc chia ly, mà bởi điều đó khiến tôi tự hỏi: liệu đôi khi chúng ta có quá nhiều lựa chọn đến mức luôn nghĩ về việc mình có thể tìm một người khác, thay vì thật sự sống với người đang ở trước mặt mình?
+Đôi khi nhìn ông bà, bố mẹ mình ngày trước, tôi tự hỏi liệu họ có từng sợ như chúng ta không. Họ cũng từng yêu một người mà không biết tương lai sẽ thế nào, cũng từng có những lúc bất đồng, tổn thương và đứng trước những lựa chọn. Chỉ là khi ấy, có lẽ họ không có quá nhiều cách để giữ lại cho mình một phương án khác. 
+
+
+Một khi đã lựa chọn nắm tay nhau bước vào một chặng đường, họ học cách chấp nhận cả những điều không hoàn hảo đi cùng lựa chọn ấy, cùng nhau vun đắp, cùng nhau vượt qua những ngày khó khăn và chịu trách nhiệm với quyết định của mình. 
+
+
+![image.png](/images/blog/7ac9384fa3f465f674d64034eb1e6fa5.png)
+
+
+Không phải vì tình yêu của thế hệ trước luôn đúng, cũng không phải vì họ chưa từng có những cuộc chia ly, mà bởi điều đó khiến tôi tự hỏi: liệu đôi khi chúng ta có quá nhiều lựa chọn đến mức luôn nghĩ về việc mình có thể tìm một người khác, thay vì thật sự sống với người đang ở trước mặt mình?
 
 
 Còn chúng ta, giữa một thời đại có quá nhiều lựa chọn, dường như càng dễ học cách yêu để không bị tổn thương. Ta tính toán phải yêu bao nhiêu, trao đi bao nhiêu, giữ lại bao nhiêu, như thể tình yêu cũng cần một phương án dự phòng.
