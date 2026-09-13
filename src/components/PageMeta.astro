@@ -5,69 +5,94 @@ import siteMetadata from "@/content/sideMetaData";
 export interface Props {
   title: string;
   description: string;
-  favicon?: string;
+  pagePath?: string;
 }
 
-const { title, description, favicon = '/favicon.ico' } = Astro.props;
+const {
+  title,
+  description,
+  pagePath = Astro.url.pathname,
+} = Astro.props;
+
+const pageTitle =
+  title === siteMetadata.title ||
+  title.includes("|") ||
+  title.includes(siteMetadata.title)
+    ? title
+    : `${title} | ${siteMetadata.title}`;
+
+const pageDescription = description || siteMetadata.description;
 
 const { meta, og, twitter } = getPageMeta({
-  title: title ||siteMetadata.title,
-  description: description || siteMetadata.description,
+  title: pageTitle,
+  description: pageDescription,
   baseUrl: siteMetadata.siteUrl,
-  ogImageAbsoluteUrl: new URL(siteMetadata.socialBanner, siteMetadata.siteUrl).toString(),
+  pagePath,
+  siteName: siteMetadata.title,
+  locale: siteMetadata.locale,
+  ogImageAbsoluteUrl: new URL(
+    siteMetadata.socialBanner,
+    siteMetadata.siteUrl
+  ).toString(),
   ogImageAltText: siteMetadata.title,
-  ogImageWidth: 1021,
-  ogImageHeight: 614,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
   siteOwnerTwitterHandle: siteMetadata.twitterHandle,
   contentAuthorTwitterHandle: siteMetadata.twitterHandle,
 });
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: meta.title,
+  description: meta.description,
+  url: meta.canonicalUrl,
+  isPartOf: {
+    "@type": "WebSite",
+    name: siteMetadata.title,
+    url: siteMetadata.siteUrl,
+  },
+  author: {
+    "@type": "Person",
+    name: siteMetadata.author,
+    url: siteMetadata.siteUrl,
+  },
+  image: og.image,
+};
 ---
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content={description} />
-<title>{title}</title>
-<!-- Favicon -->
-<link rel="icon" type="image/x-icon" href={favicon} />
-<link rel="shortcut icon" type="image/x-icon" href={favicon} />
-<!-- Optional: Add different sizes and formats for better compatibility -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-
-<!-- Primary Meta Tags -->
 <title>{meta.title}</title>
 <meta name="title" content={meta.title} />
 {meta.description && <meta name="description" content={meta.description} />}
+{meta.canonicalUrl && <link rel="canonical" href={meta.canonicalUrl} />}
 
 <!-- Open Graph / Facebook -->
 {og.title && <meta property="og:title" content={og.title} />}
 {og.description && <meta property="og:description" content={og.description} />}
 {og.type && <meta property="og:type" content={og.type} />}
 {og.url && <meta property="og:url" content={og.url} />}
+{og.siteName && <meta property="og:site_name" content={og.siteName} />}
+{og.locale && <meta property="og:locale" content={og.locale} />}
 {og.image && <meta property="og:image" content={og.image} />}
 {og.imageAlt && <meta property="og:image:alt" content={og.imageAlt} />}
 {og.imageWidth && <meta property="og:image:width" content={og.imageWidth} />}
 {og.imageHeight && <meta property="og:image:height" content={og.imageHeight} />}
 
-<!-- Twitter -->
-{twitter.title && <meta property="twitter:title" content={twitter.title} />}
+<!-- Twitter / X (use name=, not property=) -->
+<meta name="twitter:card" content="summary_large_image" />
+{twitter.title && <meta name="twitter:title" content={twitter.title} />}
 {
   twitter.description && (
-    <meta property="twitter:description" content={twitter.description} />
+    <meta name="twitter:description" content={twitter.description} />
   )
 }
-{twitter.site && <meta property="twitter:site" content={twitter.site} />}
-{
-  twitter.creator && (
-    <meta property="twitter:creator" content={twitter.creator} />
-  )
-}
-<meta property="twitter:card" content="summary_large_image" />
-{twitter.image && <meta property="twitter:image" content={twitter.image} />}
+{twitter.site && <meta name="twitter:site" content={twitter.site} />}
+{twitter.creator && <meta name="twitter:creator" content={twitter.creator} />}
+{twitter.image && <meta name="twitter:image" content={twitter.image} />}
 {
   twitter.imageAlt && (
-    <meta property="twitter:image:alt" content={twitter.imageAlt} />
+    <meta name="twitter:image:alt" content={twitter.imageAlt} />
   )
 }
-<!-- {twitter.url && <meta property="twitter:url" content={twitter.url} />} -->
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

@@ -5,54 +5,60 @@ type PageMeta = {
 };
 
 type PageOgMeta = {
-  title: string; // page title
-  description?: string; // page description
+  title: string;
+  description?: string;
   type: "website";
-  url?: string; // site URL
-  image?: string; // preview image
-  imageAlt?: string; // alt text for preview image
-  imageWidth?: string; // preview image width - 1200px standard
-  imageHeight?: string; // preview image height - 627px standard
+  url?: string;
+  siteName?: string;
+  locale?: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: string;
+  imageHeight?: string;
 };
 
 type PageTwitterMeta = {
-  title: string; // same as og:title
-  description?: string; // same as og:description
+  title: string;
+  description?: string;
   card: "summary_large_image";
-  site?: string; // twitter handle (@username) of blog owner
-  creator?: string; // twitter handle (@username) of content owner (usually same as blog owner)
-  image?: string; // same as og:image
-  imageAlt?: string; // same as og:image:alt
+  site?: string;
+  creator?: string;
+  image?: string;
+  imageAlt?: string;
 };
 
 type BlogPostOgMeta = {
-  title: string; // page title
-  description?: string; // page description
+  title: string;
+  description?: string;
   type: "article";
-  url?: string; // blog post url
-  author?: string; // post author name
-  // siteName?: string; // page title
-  publishDate: string; // ISO string
-  image?: string; // preview image
-  imageAlt?: string; // alt text for preview image
-  imageWidth?: string; // preview image width - 1200px standard
-  imageHeight?: string; // preview image height - 627px standard
+  url?: string;
+  siteName?: string;
+  locale?: string;
+  author?: string;
+  publishDate: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: string;
+  imageHeight?: string;
 };
 
 type BlogPostTwitterMeta = {
-  title: string; // same as blog post og:title
-  description?: string; // same as blog post og:description
+  title: string;
+  description?: string;
   card: "summary_large_image";
-  site?: string; // twitter handle (@username) of blog owner
-  creator?: string; // twitter handle (@username) of content owner (usually same as blog owner)
-  image?: string; // same as blog post  og:image
-  imageAlt?: string; // same as blog post  og:image:alt
+  site?: string;
+  creator?: string;
+  image?: string;
+  imageAlt?: string;
 };
 
 export function getPageMeta({
   title: pageTitle,
   description,
   baseUrl,
+  pagePath,
+  siteName,
+  locale,
   ogImageAbsoluteUrl,
   ogImageAltText,
   ogImageWidth,
@@ -63,7 +69,10 @@ export function getPageMeta({
   title: string;
   description: string;
   baseUrl?: string;
-  ogImageAbsoluteUrl?: string; // should always be absolute
+  pagePath?: string;
+  siteName?: string;
+  locale?: string;
+  ogImageAbsoluteUrl?: string;
   ogImageAltText?: string;
   ogImageWidth?: number;
   ogImageHeight?: number;
@@ -77,17 +86,26 @@ export function getPageMeta({
     ogImageAltText = !ogImageAltText
       ? `Preview image for ${pageTitle}`
       : ogImageAltText;
-    // ogImageWidth = !ogImageWidth ? 1200 : ogImageWidth;
-    // ogImageHeight = !ogImageHeight ? 627 : ogImageHeight;
   }
 
-  const meta: PageMeta = { title: pageTitle, description: description };
+  const pageUrl =
+    baseUrl && pagePath
+      ? new URL(pagePath, baseUrl).toString()
+      : baseUrl;
+
+  const meta: PageMeta = {
+    title: pageTitle,
+    description,
+    canonicalUrl: pageUrl,
+  };
 
   const og: PageOgMeta = {
     title: pageTitle,
-    description: description,
+    description,
     type: "website",
-    url: baseUrl,
+    url: pageUrl,
+    siteName,
+    locale,
     image: ogImageAbsoluteUrl,
     imageAlt: ogImageAltText,
     imageWidth: ogImageWidth ? String(ogImageWidth) : undefined,
@@ -96,7 +114,7 @@ export function getPageMeta({
 
   const twitter: PageTwitterMeta = {
     title: pageTitle,
-    description: description,
+    description,
     card: "summary_large_image",
     site: siteOwnerTwitterHandle,
     creator: contentAuthorTwitterHandle || siteOwnerTwitterHandle,
@@ -116,6 +134,8 @@ export function getBlogPostMeta({
   description,
   canonicalUrl,
   pageUrl,
+  siteName,
+  locale,
   authorName,
   publishDate,
   ogImageAbsoluteUrl,
@@ -129,9 +149,11 @@ export function getBlogPostMeta({
   description: string;
   canonicalUrl?: string;
   pageUrl?: string;
+  siteName?: string;
+  locale?: string;
   authorName?: string;
   publishDate: string;
-  ogImageAbsoluteUrl?: string; // should always be absolute
+  ogImageAbsoluteUrl?: string;
   ogImageAltText?: string;
   ogImageWidth?: number;
   ogImageHeight?: number;
@@ -145,19 +167,23 @@ export function getBlogPostMeta({
     ogImageAltText = `Preview image for ${pageTitle}`;
   }
 
+  const resolvedUrl = canonicalUrl || pageUrl;
+
   const meta: PageMeta = {
     title: pageTitle,
-    description: description,
-    canonicalUrl,
+    description,
+    canonicalUrl: resolvedUrl,
   };
 
   const og: BlogPostOgMeta = {
     title: pageTitle,
-    description: description,
+    description,
     type: "article",
     url: pageUrl,
+    siteName,
+    locale,
     author: authorName,
-    publishDate: publishDate,
+    publishDate,
     image: ogImageAbsoluteUrl,
     imageAlt: ogImageAltText,
     imageWidth: ogImageWidth ? String(ogImageWidth) : undefined,
@@ -166,7 +192,7 @@ export function getBlogPostMeta({
 
   const twitter: BlogPostTwitterMeta = {
     title: pageTitle,
-    description: description,
+    description,
     card: "summary_large_image",
     site: siteOwnerTwitterHandle,
     creator: contentAuthorTwitterHandle || siteOwnerTwitterHandle,

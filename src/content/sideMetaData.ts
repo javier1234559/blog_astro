@@ -8,19 +8,21 @@ const siteMetadata = {
     gender: "male",
   },
   headerTitle: "Nhat's Blog",
-  description: "A place to put my thoughts in writing",
-  siteUrl: "https://nhatng.vercel.app",
+  description:
+    "Personal blog by Nhat Nguyen — notes on fullstack web development, software engineering, design, and life as a student at HCMUTE.",
+  siteUrl: "https://nhatng.waebuns.com",
   siteRepo: "https://github.com/javier1234559/blog_astro",
   siteLogo: "/static/images/logo.png",
   image: "/static/images/avatar.png",
-  socialBanner: "/og-cloudy.png",
+  socialBanner: "/og-cloudy.jpg",
+  locale: "en_US",
 
   twitterHandle: "@javier1234559",
   email: "nhat1234559@gmail.com",
   github: "https://github.com/javier1234559",
   facebook: "https://facebook.com/javier1234559",
   linkedin: "http://linkedin.com/in/thinhngow",
-  twitter : "https://twitter.com/javier1234559",
+  twitter: "https://twitter.com/javier1234559",
 
   analytics: {
     // googleAnalyticsId: "G-P4B7XCWCdYP",

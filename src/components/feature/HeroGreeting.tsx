@@ -115,7 +115,7 @@ export default function HeroGreeting() {
       <h1 className="sr-only">
         {PREFIX} {INITIAL_NAME}
       </h1>
-      <h1
+      <div
         aria-hidden="true"
         className="text-2xl font-bold leading-snug [text-wrap:balance]"
       >
@@ -130,7 +130,7 @@ export default function HeroGreeting() {
             )}
           </span>
         </span>
-      </h1>
+      </div>
     </>
   );
 }

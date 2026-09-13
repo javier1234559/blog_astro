@@ -1,12 +1,7 @@
 ---
 import { getBlogPostMeta } from "../lib/seo";
-import {
-  SITE_TITLE,
-  SITE_DESCRIPTION,
-  SITE_URL,
-  TWITTER_HANDLE,
-  MY_NAME,
-} from "../config";
+import siteMetadata from "@/content/sideMetaData";
+import { MY_NAME } from "../config";
 
 export interface Props {
   title?: string;
@@ -24,25 +19,56 @@ const {
   description,
   publishDate,
   pagePath,
-  ogImageAbsoluteUrl,
-  ogImageAltText,
-  ogImageWidth,
-  ogImageHeight,
+  ogImageAbsoluteUrl = new URL(
+    siteMetadata.socialBanner,
+    siteMetadata.siteUrl
+  ).toString(),
+  ogImageAltText = siteMetadata.title,
+  ogImageWidth = 1200,
+  ogImageHeight = 630,
 } = Astro.props;
 
+const pageUrl = pagePath
+  ? new URL(pagePath, siteMetadata.siteUrl).toString()
+  : undefined;
+
 const { meta, og, twitter } = getBlogPostMeta({
-  title: title || SITE_TITLE,
-  description: description || SITE_DESCRIPTION,
-  pageUrl: pagePath ? new URL(pagePath, SITE_URL).toString() : undefined,
+  title: title || siteMetadata.title,
+  description: description || siteMetadata.description,
+  pageUrl,
+  canonicalUrl: pageUrl,
+  siteName: siteMetadata.title,
+  locale: siteMetadata.locale,
   authorName: MY_NAME,
   publishDate,
   ogImageAbsoluteUrl,
   ogImageAltText,
   ogImageWidth,
   ogImageHeight,
-  siteOwnerTwitterHandle: TWITTER_HANDLE,
-  contentAuthorTwitterHandle: TWITTER_HANDLE,
+  siteOwnerTwitterHandle: siteMetadata.twitterHandle,
+  contentAuthorTwitterHandle: siteMetadata.twitterHandle,
 });
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: meta.title,
+  description: meta.description,
+  datePublished: publishDate,
+  author: {
+    "@type": "Person",
+    name: siteMetadata.author,
+  },
+  image: og.image,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": meta.canonicalUrl,
+  },
+  publisher: {
+    "@type": "Person",
+    name: siteMetadata.author,
+  },
+};
 ---
 
 <!-- Primary Meta Tags -->
@@ -56,6 +82,8 @@ const { meta, og, twitter } = getBlogPostMeta({
 {og.description && <meta property="og:description" content={og.description} />}
 {og.type && <meta property="og:type" content={og.type} />}
 {og.url && <meta property="og:url" content={og.url} />}
+{og.siteName && <meta property="og:site_name" content={og.siteName} />}
+{og.locale && <meta property="og:locale" content={og.locale} />}
 {og.author && <meta property="article:author" content={og.author} />}
 {
   og.publishDate && (
@@ -67,24 +95,21 @@ const { meta, og, twitter } = getBlogPostMeta({
 {og.imageWidth && <meta property="og:image:width" content={og.imageWidth} />}
 {og.imageHeight && <meta property="og:image:height" content={og.imageHeight} />}
 
-<!-- Twitter -->
-{twitter.title && <meta property="twitter:title" content={twitter.title} />}
+<!-- Twitter / X (use name=, not property=) -->
+<meta name="twitter:card" content="summary_large_image" />
+{twitter.title && <meta name="twitter:title" content={twitter.title} />}
 {
   twitter.description && (
-    <meta property="twitter:description" content={twitter.description} />
+    <meta name="twitter:description" content={twitter.description} />
   )
 }
-{twitter.site && <meta property="twitter:site" content={twitter.site} />}
-{
-  twitter.creator && (
-    <meta property="twitter:creator" content={twitter.creator} />
-  )
-}
-<meta property="twitter:card" content="summary_large_image" />
-{twitter.image && <meta property="twitter:image" content={twitter.image} />}
+{twitter.site && <meta name="twitter:site" content={twitter.site} />}
+{twitter.creator && <meta name="twitter:creator" content={twitter.creator} />}
+{twitter.image && <meta name="twitter:image" content={twitter.image} />}
 {
   twitter.imageAlt && (
-    <meta property="twitter:image:alt" content={twitter.imageAlt} />
+    <meta name="twitter:image:alt" content={twitter.imageAlt} />
   )
 }
-<!-- {twitter.url && <meta property="twitter:url" content={twitter.url} />} -->
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

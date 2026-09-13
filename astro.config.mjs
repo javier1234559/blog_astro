@@ -11,7 +11,7 @@ import remarkToc from 'remark-toc';
 
 const SERVER_PORT = 4000;
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
-const LIVE_URL = "https://nhatng.vercel.app/";
+const LIVE_URL = "https://nhatng.waebuns.com/";
 const SCRIPT = process.env.npm_lifecycle_script || "";
 const isBuild = SCRIPT.includes("astro build");
 let BASE_URL = LOCALHOST_URL;
