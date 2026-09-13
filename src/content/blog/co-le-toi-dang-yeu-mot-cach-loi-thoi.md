@@ -28,7 +28,13 @@ Con người ở bất kỳ thời đại nào có lẽ cũng vậy: luyến ti�
 Một khi đã lựa chọn nắm tay nhau bước vào một chặng đường, họ học cách chấp nhận cả những điều không hoàn hảo đi cùng lựa chọn ấy, cùng nhau vun đắp, cùng nhau vượt qua những ngày khó khăn và chịu trách nhiệm với quyết định của mình. 
 
 
-![image.png](/images/blog/7ac9384fa3f465f674d64034eb1e6fa5.png)
+_Tại sao tình yêu thế hệ trước thật đẹp ?_ 
+
+
+_Tại vì đời ông bà hư thì cùng sửa chứ không có bỏ …_
+
+
+![image.png](/images/blog/ff04216605a7355916fd144ce177efa3.png)
 
 
 Không phải vì tình yêu của thế hệ trước luôn đúng, cũng không phải vì họ chưa từng có những cuộc chia ly, mà bởi điều đó khiến tôi tự hỏi: liệu đôi khi chúng ta có quá nhiều lựa chọn đến mức luôn nghĩ về việc mình có thể tìm một người khác, thay vì thật sự sống với người đang ở trước mặt mình?
