@@ -43,7 +43,7 @@ Trước khi bắt đầu, chúng ta cần chuẩn bị một vài tài khoản 
 Đối với Github cli thì cần cài thông qua Terminal. Mở giao diện Window Search tìm “PowerShell”
 
 
-![image.png](/images/blog/5e76d952e7ae0272b6035581d78a960b.png)
+![image.png](/images/blog/0f4141564b146b8da2e5b9395cd2b93e.png)
 
 
 ### Đăng nhập
@@ -65,7 +65,7 @@ gh auth login
 ```
 
 
-![image.png](/images/blog/80a899d0399342ca6a5ebc41e7b85634.png)
+![image.png](/images/blog/624f8a0ace7290b1b6308420fe52ce68.png)
 
 
 Cuối cùng kiểm tra trạng thái:
@@ -76,7 +76,7 @@ gh auth status
 ```
 
 
-![image.png](/images/blog/c6255121e8d91bd16881162e4e01593d.png)
+![image.png](/images/blog/cb148b9d05775dfa8a5b83df9ebb1830.png)
 
 
 Nếu mọi thứ đã sẵn sàng, chúng ta có thể bắt đầu.
@@ -172,7 +172,7 @@ Bạn sẽ thấy những file mà Codex vừa tạo đang được lưu trên G
 **Folder → Codex → Website → GitHub**
 
 
-![image.png](/images/blog/d88fe0fee47749be31c6868beb77a8da.png)
+![image.png](/images/blog/a529117fd01bde414bde92a5e0615c32.png)
 
 
 ## 5. Bắt đầu xây dựng website thật
@@ -216,7 +216,7 @@ Nếu có phần nào chưa đúng, bạn có thể tiếp tục nói cho Codex 
 **Yêu cầu → Generate → Kiểm tra → Feedback → Sửa → Kiểm tra lại.**
 
 
-![image.png](/images/blog/c835c71424207cdefbf72e574089605f.png)
+![image.png](/images/blog/d9cda10c204ec3aa26b2a55a2edeabe1.png)
 
 
 ## 6. Push website lên GitHub
@@ -239,7 +239,7 @@ Codex sẽ thực hiện các thao tác cần thiết dựa trên project hiện
 Sau đó mở repository trên GitHub và kiểm tra xem code đã được push thành công hay chưa.
 
 
-![image.png](/images/blog/ff50798a82b7ce50ff7ecff1453ed591.png)
+![image.png](/images/blog/ef2b519a066c9160b2dfa6b387579a39.png)
 
 
 ## 7. Publish website với GitHub Pages
@@ -272,7 +272,7 @@ Nếu website xuất hiện, vậy là xong.
 🎉 **Bạn vừa đi từ một folder trống đến một website được publish online bằng Codex.**
 
 
-![image.png](/images/blog/f6ebda335601fc82f97c4f28575c9f53.png)
+![image.png](/images/blog/f07e3e4a623a86f8d2d3b22a57a3937b.png)
 
 
 ## Kết Luận
