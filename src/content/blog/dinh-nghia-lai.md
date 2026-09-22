@@ -13,7 +13,7 @@ categories:
 readingTime: "13 min read"
 ---
 
-Cuộc sống của mình dần thay đổi khi mình hiểu một định nghĩa khác về **can đảm**. Hôm nay mình lại vô tình thấy một cách định nghĩa khác về **tự tin**.
+Dạo gần đây cuộc sống của mình dần thay đổi khi mình hiểu một định nghĩa khác về **can đảm**. Hôm nay mình lại vô tình thấy một cách định nghĩa khác về **tự tin**.
 
 
 Mình bắt đầu để ý một điều khá thú vị: ngôn ngữ có một thứ rất hay, đó là chỉ cần thay đổi cách định nghĩa một từ, đôi khi mình lại có một góc nhìn hoàn toàn khác về nó. Và thú vị hơn nữa là góc nhìn đó đôi khi vô tình thay đổi luôn cách mình hành động.
@@ -33,7 +33,7 @@ Rồi hôm nay mình lại thấy một câu khác:
 Mình lại thấy nó đúng theo một cách rất khác. Nếu sự tự tin của mình phụ thuộc vào việc người khác nghĩ gì về mình, thì mình thực sự đang trao quyền quyết định giá trị của mình cho họ. Có lẽ tự tin không phải là nghĩ rằng mình đủ tốt để tất cả mọi người thích mình, mà là hiểu rằng họ có thích mình hay không cũng không quyết định mình là ai.
 
 
-Và từ hai định nghĩa đó, mình bắt đầu thấy một pattern. Có thể do bản thân mình là một Iter mình có thể nhận thấy sự lặp lại này và muốn hệ thống nó một chút
+Và từ hai định nghĩa đó, mình bắt đầu thấy một pattern. Có thể do bản thân mình là một ITer mình có thể nhận thấy sự lặp lại này và muốn hệ thống nó một chút
 
 
 Có rất nhiều từ mình đã sử dụng từ nhỏ đến giờ, tưởng rằng mình hiểu chúng, nhưng có lẽ mình chỉ đang hiểu chúng theo một định nghĩa rất quen thuộc.
@@ -48,7 +48,7 @@ Thay vì hỏi “hãy cho tôi những định nghĩa hay”, mình thử zoom 
 Từ đó mình mới bắt đầu lọc ra một vài từ mà mình nghĩ mình thực sự cần xây dựng, rồi thử định nghĩa lại chúng theo cách của riêng mình.
 
 
-![image.png](/images/blog/3cf7b8352aef981ba43cbb9553d59a48.png)
+![image.png](/images/blog/de3dfc08af5762d65075bb647d17cb1f.png)
 
 
 ## 1. Can đảm
@@ -283,7 +283,7 @@ Nhưng cuối cùng thứ mình tìm được lại không phải là những c�
 Nó giống như một bộ lăng kính hơn.
 
 
-![image.png](/images/blog/b0efd27c7a1beebf8b6beb2376d6437f.png)
+![image.png](/images/blog/f4de46f4b32377c2b67df90b2fd9b82c.png)
 
 
 Khi sợ, mình có một cách khác để nhìn về **can đảm**.
