@@ -48,6 +48,9 @@ Thay vì hỏi “hãy cho tôi những định nghĩa hay”, mình thử zoom 
 Từ đó mình mới bắt đầu lọc ra một vài từ mà mình nghĩ mình thực sự cần xây dựng, rồi thử định nghĩa lại chúng theo cách của riêng mình.
 
 
+![image.png](/images/blog/7c24ca5cc75ab4da6b98394b393b0a35.png)
+
+
 ## 1. Can đảm
 
 > **Can đảm không phải là không sợ gì, mà là biết sợ nhưng vẫn dám lao vào làm.**
@@ -268,7 +271,7 @@ Không phải vì mình nghĩ mình đã trưởng thành.
 Mà vì mình muốn đặt bản thân vào một môi trường buộc mình phải trưởng thành.
 
 
----
+# Vậy thì ?
 
 
 Viết đến đây mình mới nhận ra, ban đầu mình chỉ muốn tìm thêm vài câu định nghĩa hay.
@@ -278,6 +281,9 @@ Nhưng cuối cùng thứ mình tìm được lại không phải là những c�
 
 
 Nó giống như một bộ lăng kính hơn.
+
+
+![image.png](/images/blog/6fa1a66e64c18767c1707d83444827f0.png)
 
 
 Khi sợ, mình có một cách khác để nhìn về **can đảm**.
