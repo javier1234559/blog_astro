@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Định nghĩa lại"
-description: "Có những từ quen thuộc, nhưng có lẽ mình chưa thật sự hiểu chúng."
+description: "Có 10 từ quen thuộc, nhưng có lẽ mình chưa thật sự hiểu chúng."
 date: "2026-09-22"
 author: "Javier"
 slug: "dinh-nghia-lai"
@@ -48,7 +48,7 @@ Thay vì hỏi “hãy cho tôi những định nghĩa hay”, mình thử zoom 
 Từ đó mình mới bắt đầu lọc ra một vài từ mà mình nghĩ mình thực sự cần xây dựng, rồi thử định nghĩa lại chúng theo cách của riêng mình.
 
 
-![image.png](/images/blog/de3dfc08af5762d65075bb647d17cb1f.png)
+![image.png](/images/blog/a4ab53481289af1b6e4c7b5768a879fb.png)
 
 
 ## 1. Can đảm
@@ -283,7 +283,7 @@ Nhưng cuối cùng thứ mình tìm được lại không phải là những c�
 Nó giống như một bộ lăng kính hơn.
 
 
-![image.png](/images/blog/f4de46f4b32377c2b67df90b2fd9b82c.png)
+![image.png](/images/blog/91cc81c87ed7abd88b34fbf19f6caa23.png)
 
 
 Khi sợ, mình có một cách khác để nhìn về **can đảm**.

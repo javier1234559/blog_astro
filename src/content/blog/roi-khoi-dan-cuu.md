@@ -27,7 +27,10 @@ Nhưng càng nghĩ mình càng thấy câu hỏi thú vị hơn một chút. N�
 Mình bắt đầu search về chuyện này và tình cờ quay lại với _Nhà Giả Kim_ của Paulo Coelho. Mình từng nghe rất nhiều người nói về cuốn sách, đặc biệt là câu _“When you want something, all the universe conspires in helping you to achieve it.”_ Nhưng lần này mình không đọc nó như một cuốn sách tạo động lực. Mình tò mò xem câu chuyện về một cậu bé chăn cừu đi tìm kho báu thực sự muốn nói điều gì.
 
 
-![image.png](/images/blog/d30565342cfa1d258cbbf2eff9c4b4bb.png)
+![image.png](/images/blog/394afccf6a05b55163f1bf4f7648d0f4.png)
+
+
+![9FE19652-59CA-4026-8F9A-4CD0ED3BE17D.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/a6db9e62-19fc-439b-bd8b-1e09a1fdac77/cb4b6a82-d33c-4d69-b8e9-8bfa58086d5e/9FE19652-59CA-4026-8F9A-4CD0ED3BE17D.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UCNWGTBF%2F20260924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260924T075838Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAgaCXVzLXdlc3QtMiJHMEUCIDN0ifYJiw2bdHfeXA5qkKD39JfMkfiZfiR8Od5prCGQAiEA8yRJK73o6yEpvgotht05EqkixbPyusy1iio9p7sIyhsqiAQI0P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAWzAqQFrXChiQ7HsCrcA%2BsYGD0tlOLfadBkwoq94rQkuUrQTValZeW5RuNAgrWMaZsB%2Fn92v5j7Z%2FgB%2BB%2FnTN818REqCfUI3729AlwFe8LKmfryPP7DtHAQfytGnEzeozS9XQLb4m0GfRoHW6Be5CY%2Boxou5MulII6QTblWPcPzc8Z6W2n%2FDyTcMVMqEP6%2FW2pnr0v%2FKSrYYQRl%2BDP7gFjH4mGausskibDqiTisYc2UUVpKj%2Fu4Ygqk9XecQxgByMFRWOWnCCherjw1OaoUKGp3UR8kTRbUqt92eAPM7SJCa3ww8%2BWMC4lz7KbOBAhZGLuPEoyzRmdO%2FWsnILDS%2B0mVXATi4l0qnmzidiiygO0OorKSOM92fE2DvfSQvBKSM%2FzpvWRNoUO6PzVaQDyPH69BJ77Swm65aVhkQbotMhVbybQdzXx55ZMeh9IDADaQ%2FxK1Ub6JQrLzrPJkWnABhyaSQ7G3pjFGjIHz%2FX6%2BcnYOpZGLdimxS25ZzVJT0CJE%2FK5So%2FtWUrrmjUTojzc2CSo3F5xX9zqTZhYffqOFJKmlSZmdepS38QE5AxV7Kv%2BqDDQIaR60E1%2BLHXTpR%2FF2eOTMBm3Gy41SctxYSkeXjy0qBmPN%2Ft6EdIRqFHIQpDEbwuBbynMR8SaUMO3%2BMM%2Bf09UGOqUBUu9OS%2BLl%2BrbH5GeYlL3yoZDu4nbDECwqEJjQ7okjM8x6QqbX0ubFAZk1rfaHxQhC0dfqOzNgc1sg8nj58HnWSdf8J52WavTKZcOwDB0uHj7MT5XXaRICYL%2B%2Bc03B1zyvbDUWRFzEyAJDLZsq9DufvFbzZ7q9NXaqIu7SLK2c0OU6sD6LlL84oeuZQSSlDs2%2BrwcOBYj67QHqtkf3A6B2ZARqp4am&X-Amz-Signature=6310723b9e38e164a2b348cd4a960501c9a911fdcb01b8e64796f4a561958a63&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 
 Và khá bất ngờ, thứ khiến mình nghĩ nhiều nhất sau khi đọc xong lại không phải là kho báu.
@@ -400,5 +403,5 @@ Nhưng ít nhất hôm nay, mình biết một điều hơn hôm qua:
 Việc tôi bắt đầu trong năm nay đó là rời khỏi nhà …
 
 
-![image.png](/images/blog/c2fb0f6184ab9ed8cc41c229942605e9.png)
+![image.png](/images/blog/ef075c1ffde80d7ff8ae71e9823975ce.png)
 
