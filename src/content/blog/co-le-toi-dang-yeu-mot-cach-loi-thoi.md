@@ -10,6 +10,8 @@ status: "Published"
 categories:
   - name: "life"
     color: "green"
+  - name: "love"
+    color: "red"
 readingTime: "4 min read"
 ---
 
@@ -34,7 +36,7 @@ _Tại sao tình yêu thế hệ trước thật đẹp ?_
 _Tại vì đời ông bà hư thì cùng sửa chứ không có bỏ …_
 
 
-![image.png](/images/blog/8c08958496d0e8bbf72c4ceded70d064.png)
+![image.png](/images/blog/f87de755ed18d7652544092fddbce4f4.png)
 
 
 Không phải vì tình yêu của thế hệ trước luôn đúng, cũng không phải vì họ chưa từng có những cuộc chia ly, mà bởi điều đó khiến tôi tự hỏi: liệu đôi khi chúng ta có quá nhiều lựa chọn đến mức luôn nghĩ về việc mình có thể tìm một người khác, thay vì thật sự sống với người đang ở trước mặt mình?
