@@ -2,6 +2,7 @@
 external: false
 draft: false
 title: "AGAPE"
+description: "Một bản nhạc, một từ xa lạ, và hành trình khám phá bốn dạng tình yêu qua C.S. Lewis."
 date: "2026-09-30"
 author: "Javier"
 slug: "agape"
@@ -20,6 +21,9 @@ Hôm nay mình tình cờ nghe được một bản nhạc trong một short ng�
 
 
 Mình không biết tên bài hát, cũng không biết nó đến từ đâu. Thứ đầu tiên khiến mình chú ý chỉ đơn giản là âm thanh của nó.
+
+
+[video](https://www.youtube.com/watch?v=mmK71ZfaZO4)
 
 
 Bản nhạc bắt đầu bằng những nốt piano khá chậm, vang và có nhiều khoảng trống. Rồi âm thanh từ từ lớn lên. Sau đó xuất hiện thêm tiếng cello, lúc đầu mình còn tưởng nó giống tiếng sáo vì âm thanh khá mảnh và cao.
@@ -244,7 +248,7 @@ Và trong số những điều Lewis viết về Agape, có một đoạn khiế
 
 > "There is no safe investment. To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken."
 
-![image.png](/images/blog/b6b3bd48359ec3ac31207b3ef2e99454.png)
+![image.png](/images/blog/3a704e265cdbb0508059618d349b3688.png)
 
 
 Lewis tiếp tục nói rằng nếu muốn giữ trái tim mình hoàn toàn nguyên vẹn, cách an toàn nhất là không trao nó cho bất kỳ ai. Hãy bọc nó lại bằng những sở thích, những tiện nghi nhỏ và sự ích kỷ của chính mình.
@@ -262,7 +266,7 @@ Tình yêu không phải là một khoản đầu tư an toàn. Nếu yêu một
 Nhưng có lẽ điều ngược lại còn đáng sợ hơn: sống cả đời chỉ để bảo vệ mình khỏi khả năng bị tổn thương, đến mức không còn để bất kỳ ai hay bất kỳ điều gì thực sự bước vào bên trong.
 
 
-![image.png](/images/blog/bdfc7fc033384ccd6e0493aa64a55430.png)
+![image.png](/images/blog/2b8beb78c60f8e1967905c06bf3fa078.png)
 
 
 Có lẽ tình yêu luôn có một phần rủi ro như vậy.
