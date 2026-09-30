@@ -90,7 +90,7 @@ Bốn từ này xuất hiện trong cách C.S. Lewis phân tích tình yêu tron
 
 
 C.S. Lewis là một nhà văn và học giả văn học người Anh, nổi tiếng với _The Chronicles of Narnia (_
- là một bộ tiểu thuyết kinh điển thuộc thể loại **fantasy** _)_. Nhưng ông cũng dành phần lớn sự nghiệp để suy nghĩ và viết về Kitô giáo.
+ là một bộ tiểu thuyết kinh điển thuộc thể loại fantasy _)_. Nhưng ông cũng dành phần lớn sự nghiệp để suy nghĩ và viết về Kitô giáo.
 
 
 Điều khiến mình thấy thú vị là Lewis không phải lúc nào cũng là một người có đức tin. Ông từng là một người vô thần trong nhiều năm.
@@ -248,7 +248,7 @@ Và trong số những điều Lewis viết về Agape, có một đoạn khiế
 
 > "There is no safe investment. To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken."
 
-![image.png](/images/blog/3a704e265cdbb0508059618d349b3688.png)
+![image.png](/images/blog/11e8fa704ff16742f091f4b67c1238ee.png)
 
 
 Lewis tiếp tục nói rằng nếu muốn giữ trái tim mình hoàn toàn nguyên vẹn, cách an toàn nhất là không trao nó cho bất kỳ ai. Hãy bọc nó lại bằng những sở thích, những tiện nghi nhỏ và sự ích kỷ của chính mình.
@@ -266,7 +266,7 @@ Tình yêu không phải là một khoản đầu tư an toàn. Nếu yêu một
 Nhưng có lẽ điều ngược lại còn đáng sợ hơn: sống cả đời chỉ để bảo vệ mình khỏi khả năng bị tổn thương, đến mức không còn để bất kỳ ai hay bất kỳ điều gì thực sự bước vào bên trong.
 
 
-![image.png](/images/blog/2b8beb78c60f8e1967905c06bf3fa078.png)
+![image.png](/images/blog/92e3114301a02c102dda121e73f85599.png)
 
 
 Có lẽ tình yêu luôn có một phần rủi ro như vậy.
