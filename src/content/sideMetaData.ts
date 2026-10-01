@@ -9,7 +9,7 @@ const siteMetadata = {
   },
   headerTitle: "Nhat's Blog",
   description:
-    "Personal blog by Nhat Nguyen — notes on fullstack web development, software engineering, design, and life as a student at HCMUTE.",
+    "Personal blog by Nhat Nguyen — a curious self-learner who shares what he learns, and uses technology to turn ideas into something of value.",
   siteUrl: "https://nhatng.waebuns.com",
   siteRepo: "https://github.com/javier1234559/blog_astro",
   siteLogo: "/static/images/logo.png",

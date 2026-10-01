@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "type": "module",
   "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": "24.x"
+  },
   "private": true,
   "scripts": {
     "dev": "astro dev",

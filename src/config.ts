@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "Nhat's Blog";
 export const SITE_DESCRIPTION =
-  "Personal blog by Nhat Nguyen — notes on fullstack web development, software engineering, design, and life as a student at HCMUTE.";
+  "Personal blog by Nhat Nguyen — a curious self-learner who shares what he learns, and uses technology to turn ideas into something of value.";
 export const TWITTER_HANDLE = "@javier1234559";
 export const MY_NAME = "Nhat Nguyen";
 
