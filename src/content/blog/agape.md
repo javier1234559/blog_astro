@@ -17,7 +17,7 @@ categories:
 readingTime: "13 min read"
 ---
 
-Hôm nay mình tình cờ nghe được một bản nhạc trong một short ngắn trên mạng xã hội.
+Hôm nay mình tình cờ nghe được một bản nhạc trong một video short trên mạng xã hội.
 
 
 Mình không biết tên bài hát, cũng không biết nó đến từ đâu. Thứ đầu tiên khiến mình chú ý chỉ đơn giản là âm thanh của nó.
@@ -86,7 +86,7 @@ Và rồi mình phát hiện ra rằng ngoài Agape, còn có ba từ khác thư
 Bốn từ này xuất hiện trong cách C.S. Lewis phân tích tình yêu trong cuốn _The Four Loves_.
 
 
-![image.png](/images/blog/d4e0600c9e5639b0901d8db558d93180.png)
+![image.png](/images/blog/4871b27540a15877c7dceef8d4bfd448.png)
 
 
 # C.S. LEWIS VÀ BỐN LOẠI TÌNH YÊU
@@ -251,7 +251,7 @@ Và trong số những điều Lewis viết về Agape, có một đoạn khiế
 
 > "There is no safe investment. To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken."
 
-![image.png](/images/blog/cadd491b3839b236094c42e02bda8f7d.png)
+![image.png](/images/blog/fd4280d0e60644015d4a9fd3105261a7.png)
 
 
 Lewis tiếp tục nói rằng nếu muốn giữ trái tim mình hoàn toàn nguyên vẹn, cách an toàn nhất là không trao nó cho bất kỳ ai. Hãy bọc nó lại bằng những sở thích, những tiện nghi nhỏ và sự ích kỷ của chính mình.
@@ -269,7 +269,7 @@ Tình yêu không phải là một khoản đầu tư an toàn. Nếu yêu một
 Nhưng có lẽ điều ngược lại còn đáng sợ hơn: sống cả đời chỉ để bảo vệ mình khỏi khả năng bị tổn thương, đến mức không còn để bất kỳ ai hay bất kỳ điều gì thực sự bước vào bên trong.
 
 
-![image.png](/images/blog/3fd82e9516d4b08b064dce9a7a296f8f.png)
+![image.png](/images/blog/679a04d45a58fa7a53f78c7f90133030.png)
 
 
 Có lẽ tình yêu luôn có một phần rủi ro như vậy.

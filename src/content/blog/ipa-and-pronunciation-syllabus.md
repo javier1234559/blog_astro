@@ -110,7 +110,7 @@ IPA & PHÁT ÂM
 Có thể dựa vào bảng IPA nổi tiếng sau để dò nhanh loại âm 
 
 
-![image.png](/images/blog/ac6699b03a31772d3568563d2b67bfa6.png)
+![image.png](/images/blog/1c94cdffd492dbacca37f0502aa5ff76.png)
 
 
 và youtube playlist để follow
