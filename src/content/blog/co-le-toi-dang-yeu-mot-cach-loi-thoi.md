@@ -36,7 +36,7 @@ _Tại sao tình yêu thế hệ trước thật đẹp ?_
 _Tại vì đời ông bà hư thì cùng sửa chứ không có bỏ …_
 
 
-![image.png](/images/blog/2fabaf44c38ae5dcd25de49425960c0b.png)
+![image.png](/images/blog/bcc1b0c3fcf21cc269f0b8cbee963ebe.png)
 
 
 Không phải vì tình yêu của thế hệ trước luôn đúng, cũng không phải vì họ chưa từng có những cuộc chia ly, mà bởi điều đó khiến tôi tự hỏi: liệu đôi khi chúng ta có quá nhiều lựa chọn đến mức luôn nghĩ về việc mình có thể tìm một người khác, thay vì thật sự sống với người đang ở trước mặt mình?
