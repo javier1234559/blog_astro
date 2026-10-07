@@ -10,6 +10,8 @@ status: "Published"
 categories:
   - name: "life"
     color: "green"
+  - name: "mindset"
+    color: "brown"
 readingTime: "13 min read"
 ---
 
@@ -48,7 +50,7 @@ Thay vì hỏi “hãy cho tôi những định nghĩa hay”, mình thử zoom 
 Từ đó mình mới bắt đầu lọc ra một vài từ mà mình nghĩ mình thực sự cần xây dựng, rồi thử định nghĩa lại chúng theo cách của riêng mình.
 
 
-![image.png](/images/blog/f06d83063772780cfb80e7107a709a82.png)
+![image.png](/images/blog/f65f3cff37319aabfc3f0f5b68bc793b.png)
 
 
 ## 1. Can đảm
@@ -283,7 +285,7 @@ Nhưng cuối cùng thứ mình tìm được lại không phải là những c�
 Nó giống như một bộ lăng kính hơn.
 
 
-![image.png](/images/blog/b92c6bcca5f1c66cba9fb2edc89e8bca.png)
+![image.png](/images/blog/8cdb084a061785bd0c283dd5794eeddd.png)
 
 
 Khi sợ, mình có một cách khác để nhìn về **can đảm**.
