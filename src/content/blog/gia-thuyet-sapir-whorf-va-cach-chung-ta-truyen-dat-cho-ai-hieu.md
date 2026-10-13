@@ -15,6 +15,9 @@ categories:
 readingTime: "11 min read"
 ---
 
+# Giả thuyết Sapir whorf và cách chúng ta truyền đạt cho AI hiểu
+
+
 Từ giả thuyết Sapir–Whorf mà mình đã liên tưởng đến cách sử dụng AI, mình nhận ra một vấn đề: chúng ta thường hình dung nhiều hơn những gì mình có thể diễn đạt. Và để AI hiểu đúng điều mình muốn, trước hết mình cần học cách suy nghĩ và giao tiếp rõ ràng hơn.
 
 
@@ -37,7 +40,7 @@ Chúng ta vẫn có thể cảm nhận được những khác biệt ấy dù ch
 Giả thuyết này cũng truyền cảm hứng cho bộ phim khoa học viễn tưởng nổi tiếng _Arrival_ (2016), kể về nỗ lực giải mã hệ thống chữ viết hình tròn của người ngoài hành tinh,  một nhiệm vụ có thể quyết định liệu nhân loại sẽ tìm được cách giao tiếp hay đẩy thế giới đến bờ vực chiến tranh.
 
 
-![image.png](/images/blog/7aeb1e5067eb6d0113a392aced5d5caf.png)
+![image.png](/images/blog/6382bb08a11ae9eab11817e4c32498ab.png)
 
 
 ## VÀI BÀI HỌC NHỎ TỪ MỘT VIDEO CHIA SẺ VỀ GIẢ THUYẾT NÀY
@@ -114,7 +117,7 @@ Khi giải thích vấn đề cho chính mình bằng ngôn ngữ dễ hiểu, c
 Bốn bài học này không phải những nguyên lý được Sapir–Whorf trực tiếp đề xuất, nhưng chúng giúp mình suy ngẫm về cách ngôn ngữ liên hệ với khả năng tư duy và diễn đạt.
 
 
-![image.png](/images/blog/36310a76cf9cafb74a152df983888000.png)
+![image.png](/images/blog/cf580cc81f4612b16bcd7ca0c4deb67d.png)
 
 
 ## KHI AI XUẤT HIỆN, KHOẢNG CÁCH GIỮA Ý TƯỞNG VÀ NGÔN NGỮ TRỞ NÊN RÕ RÀNG HƠN
