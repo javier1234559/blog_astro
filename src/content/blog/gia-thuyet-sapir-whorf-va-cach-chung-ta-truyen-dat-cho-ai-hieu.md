@@ -1,11 +1,11 @@
 ---
 external: false
 draft: false
-title: "Giả thuyết Sapir whorf và cách chúng ta nên học để truyền đạt cho AI hiểu"
+title: "Giả thuyết Sapir whorf và cách chúng ta truyền đạt cho AI hiểu"
 description: "mình nhận ra những bài học thực tế về tư duy, giao tiếp và khoảng cách giữa ý tưởng của con người với cách chúng ta sử dụng AI."
 date: "2026-09-27"
 author: "Javier"
-slug: "gia-thuyet-sapir-whorf-va-cach-chung-ta-nen-hoc-de-truyen-dat-cho-ai-hieu"
+slug: "gia-thuyet-sapir-whorf-va-cach-chung-ta-truyen-dat-cho-ai-hieu"
 status: "Published"
 categories:
   - name: "mindset"
@@ -37,7 +37,7 @@ Chúng ta vẫn có thể cảm nhận được những khác biệt ấy dù ch
 Giả thuyết này cũng truyền cảm hứng cho bộ phim khoa học viễn tưởng nổi tiếng _Arrival_ (2016), kể về nỗ lực giải mã hệ thống chữ viết hình tròn của người ngoài hành tinh,  một nhiệm vụ có thể quyết định liệu nhân loại sẽ tìm được cách giao tiếp hay đẩy thế giới đến bờ vực chiến tranh.
 
 
-![image.png](/images/blog/8a9bc17ebf45b721b8d5d6510c0a29cc.png)
+![image.png](/images/blog/7aeb1e5067eb6d0113a392aced5d5caf.png)
 
 
 ## VÀI BÀI HỌC NHỎ TỪ MỘT VIDEO CHIA SẺ VỀ GIẢ THUYẾT NÀY
@@ -114,7 +114,7 @@ Khi giải thích vấn đề cho chính mình bằng ngôn ngữ dễ hiểu, c
 Bốn bài học này không phải những nguyên lý được Sapir–Whorf trực tiếp đề xuất, nhưng chúng giúp mình suy ngẫm về cách ngôn ngữ liên hệ với khả năng tư duy và diễn đạt.
 
 
-![image.png](/images/blog/524cf049924bee04e610f5a01fbe32ac.png)
+![image.png](/images/blog/36310a76cf9cafb74a152df983888000.png)
 
 
 ## KHI AI XUẤT HIỆN, KHOẢNG CÁCH GIỮA Ý TƯỞNG VÀ NGÔN NGỮ TRỞ NÊN RÕ RÀNG HƠN
