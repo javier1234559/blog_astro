@@ -52,7 +52,7 @@ Bởi yêu thương, suy cho cùng, chính là sự chú ý. Là việc bạn gh
 Nhiều người đàn ông sẽ đọc đến đây và nghĩ: "Như vậy phiền phức quá." Có lẽ đúng. Yêu thương vốn dĩ cần sự nỗ lực. Nhưng điều thú vị là khi bạn thật lòng quan tâm đến một ai đó, những điều ấy không còn là nghĩa vụ. Chúng trở thành thói quen,  giống như việc mẹ bạn luôn nhớ món ăn bạn thích dù bạn chưa kịp nói, giống như việc bố bạn đổ đầy xăng vào xe bạn khi lấy xe đi ra chợ mua đồ. Chúng ta làm chỉ đơn giản vì chúng ta muốn làm .
 
 
-![image.png](/images/blog/b126c47f75dca3157d52cdb9974d15d9.png)
+![image.png](/images/blog/4c764ba96f74e557ee5e5776ebe1508c.png)
 
 
 ## Nhưng còn đàn ông thì sao?
@@ -87,7 +87,7 @@ Tôi hay nghĩ đến hình ảnh một con sói đầu đàn. Khi bị thương
 Người phụ nữ ở lại thường không hiểu tại sao, và hay tự hỏi hoặc đổ lỗi rằng vì sao anh ấy lại thay đổi. Nhưng đôi khi lý do đơn giản chỉ là: họ đã cho đi rất nhiều rồi. Đến một giai đoạn nào đó, họ cũng rất cần được cảm nhận lại. Nếu người bên cạnh không mang đến đủ sự quan tâm ngược lại, thì sớm muộn gì, mối quan hệ ấy cũng khó mà đi được đường dài.
 
 
-![image.png](/images/blog/e0b476c73c24fddaf0eddf74386617a0.png)
+![image.png](/images/blog/0dde207a2a8deb7033afc81c9d8cee03.png)
 
 
 ## Tình yêu sống trong những điều rất đời thường
@@ -121,7 +121,7 @@ Bây giờ, tường cửa hàng đã phai màu sơn, không còn được như 
 Hai anh chị ấy cho tôi thấy kết quả của một mối quan hệ lâu năm: không hào nhoáng, không còn như những tấm ảnh đẹp thuở ban đầu, nhưng vẫn đủ ấm để giữ nhau lại. Cuộc đời đáng quý nhất có lẽ là có một người luôn hiểu mình. Tôi tin rồi shop đó sẽ được nhiều người biết đến hơn, và họ sẽ lại sơn mới căn nhà ấy, miễn là tình yêu giữa họ vẫn đẹp như bây giờ.
 
 
-![image.png](/images/blog/d22a7f76a8c1bd160938284bfc8b9bc9.png)
+![image.png](/images/blog/1b548b6edb6fb8612623aafd1acf53aa.png)
 
 
 ## Kết
