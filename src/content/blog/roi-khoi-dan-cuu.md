@@ -27,7 +27,7 @@ Nhưng càng nghĩ mình càng thấy câu hỏi thú vị hơn một chút. N�
 Mình bắt đầu search về chuyện này và tình cờ quay lại với _Nhà Giả Kim_ của Paulo Coelho. Mình từng nghe rất nhiều người nói về cuốn sách, đặc biệt là câu _“When you want something, all the universe conspires in helping you to achieve it.”_ Nhưng lần này mình không đọc nó như một cuốn sách tạo động lực. Mình tò mò xem câu chuyện về một cậu bé chăn cừu đi tìm kho báu thực sự muốn nói điều gì.
 
 
-![image.png](/images/blog/8f5012174d7cf5135ea03526dcbf866c.png)
+![image.png](/images/blog/19200097bb2a77ec46e56c06ebfe2f07.png)
 
 
 Và khá bất ngờ, thứ khiến mình nghĩ nhiều nhất sau khi đọc xong lại không phải là kho báu.
@@ -400,5 +400,5 @@ Nhưng ít nhất hôm nay, mình biết một điều hơn hôm qua:
 Việc tôi bắt đầu trong năm nay đó là rời khỏi nhà …
 
 
-![image.png](/images/blog/e12d06a601aa4345f4c91903363a0abc.png)
+![image.png](/images/blog/da3e0f1a0c7b8a925145dff5cf7918b3.png)
 
