@@ -28,7 +28,7 @@ Sau khi tìm kiếm và xem lại câu chuyện trong MV, mình mới biết bà
 ## CÂU CHUYỆN HIỆN TẠI CỦA NGƯỜI ĐÀN ÔNG
 
 
-Mở đầu bài hát là hình ảnh một ông lão đứng giữa mùa đông, tay cầm một đóa hồng, trước ngôi mộ của người vợ đã khuất. Ông vẫn nhìn thấy hình bóng bà ở khắp nơi và thường xuyên trò chuyện với bà.
+Mở đầu bài hát là hình ảnh một ông lão đứng giữa mùa đông, tay cầm một đóa hồng, trước ngôi mộ của người thương đã khuất. Ông vẫn nhìn thấy hình bóng bà ở khắp nơi và thường xuyên trò chuyện với bà.
 
 > _Il, il n'est pas fou, il l'aime, c'est tout_
 >
@@ -36,10 +36,10 @@ Mở đầu bài hát là hình ảnh một ông lão đứng giữa mùa đông
 >
 >
 
-Người ngoài có thể nghĩ ông đã sống quá lâu trong quá khứ. Nhưng khi biết câu chuyện phía sau, mình nghĩ ký ức về người vợ không đơn thuần là điều khiến ông đau buồn, mà còn là niềm hy vọng đã giúp ông tiếp tục sống qua những năm tháng chia ly và mất mát.
+Người ngoài có thể nghĩ ông đã sống quá lâu trong quá khứ. Nhưng khi biết câu chuyện phía sau, mình nghĩ ký ức về người thương không đơn thuần là điều khiến ông đau buồn, mà còn là niềm hy vọng đã giúp ông tiếp tục sống qua những năm tháng chia ly và mất mát.
 
 
-Chiến tranh luôn khiến ranh giới giữa sự sống và cái chết trở nên mong manh. Có lẽ trong những tháng ngày ấy, tình yêu và lời hẹn ước với người mình thương đã trở thành điều để ông bám víu, để tiếp tục bước đi. Và dù thời gian đã trôi qua, tình yêu ấy vẫn ở lại trong ông.
+Chiến tranh luôn khiến ranh giới giữa sự sống và cái chết trở nên mong manh. Có lẽ trong những tháng ngày ấy, tình yêu và lời hẹn ước với người mình thương đã trở thành sợi dây để ông bám víu, để tiếp tục bước đi. Và dù thời gian đã trôi qua, tình yêu ấy vẫn ở lại trong ông.
 
 
 Nhưng điều gì đã xảy ra trong quá khứ để khiến một người có thể mang theo tình yêu ấy suốt cả cuộc đời?
@@ -59,7 +59,7 @@ Bối cảnh câu chuyện là chàng trai đã yêu cô gái nhưng chưa kịp
 Khi đọc lời bài hát lần đầu, mình khá thắc mắc về những câu hát thể hiện sự hối tiếc của cô gái. Cô nói mình đã quá ngốc nghếch, muốn ở lại nhưng lại không còn biết cách yêu. Vậy rốt cuộc, cô đã làm gì để phải day dứt đến thế?
 
 
-Sau khi tìm hiểu thêm về câu chuyện, mình biết rằng sai lầm của cô gái được hiểu là sự ngốc nghếch và thiếu kiên nhẫn của tuổi trẻ: cô không biết cách đón nhận tình yêu lớn lao khi vẫn còn cơ hội. Đến khi nhận ra tình cảm của mình, chàng trai đã phải rời đi.
+Sau khi tìm hiểu thêm về câu chuyện, mình mới biết rằng sai lầm của cô gái được hiểu là sự ngốc nghếch và thiếu kiên nhẫn của tuổi trẻ: cô không biết cách đón nhận tình yêu lớn lao khi vẫn còn cơ hội. Đến khi nhận ra tình cảm của mình, chàng trai đã phải rời đi.
 
 > _Oui, oui, je veux rester, mais, je n'sais plus aimer_
 >
@@ -124,7 +124,7 @@ Indila từng chia sẻ rằng cô muốn âm nhạc của mình mang tính _Cin
 Indila cũng chia sẻ về tư duy âm nhạc của mình: cô luôn coi cuộc đời là những vòng lặp của sự tái sinh.
 
 
-![image.png](/images/blog/3a435b8e9ad1cc7546309dbaa6ea5450.png)
+![image.png](/images/blog/f92702cf60c93b69d31108965d8d35eb.png)
 
 
 Cô ấy coi mỗi ngày là một cuộc đời nhỏ, giống như cách mình đang nhìn nhận hiện tại. Không nhất thiết phải là một cuộc đời mới, mà có thể đơn giản là mỗi ngày, chúng ta lại có cơ hội thử sống lại một điều mình mong muốn nhất , điều mà mình đã không kịp làm trong “cuộc đời trước”.
