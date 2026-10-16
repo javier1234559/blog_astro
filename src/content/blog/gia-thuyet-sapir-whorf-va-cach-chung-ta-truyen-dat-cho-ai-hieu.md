@@ -40,7 +40,7 @@ Chúng ta vẫn có thể cảm nhận được những khác biệt ấy dù ch
 Giả thuyết này cũng truyền cảm hứng cho bộ phim khoa học viễn tưởng nổi tiếng _Arrival_ (2016), kể về nỗ lực giải mã hệ thống chữ viết hình tròn của người ngoài hành tinh,  một nhiệm vụ có thể quyết định liệu nhân loại sẽ tìm được cách giao tiếp hay đẩy thế giới đến bờ vực chiến tranh.
 
 
-![image.png](/images/blog/c8dd59cfc0a3de618ee72ab308c9c3ae.png)
+![image.png](/images/blog/c5fadb0e2255e83c7e74716a4d9523e2.png)
 
 
 ## VÀI BÀI HỌC NHỎ TỪ MỘT VIDEO CHIA SẺ VỀ GIẢ THUYẾT NÀY
@@ -117,7 +117,7 @@ Khi giải thích vấn đề cho chính mình bằng ngôn ngữ dễ hiểu, c
 Bốn bài học này không phải những nguyên lý được Sapir–Whorf trực tiếp đề xuất, nhưng chúng giúp mình suy ngẫm về cách ngôn ngữ liên hệ với khả năng tư duy và diễn đạt.
 
 
-![image.png](/images/blog/add0efb3c975e50ef8c0c13d32867ebe.png)
+![image.png](/images/blog/1c696e99d55a3115d5e81750d7c3adce.png)
 
 
 ## KHI AI XUẤT HIỆN, KHOẢNG CÁCH GIỮA Ý TƯỞNG VÀ NGÔN NGỮ TRỞ NÊN RÕ RÀNG HƠN
