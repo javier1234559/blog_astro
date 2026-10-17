@@ -1,10 +1,11 @@
 ---
 external: false
 draft: false
-title: "Crypto: Từ một cuốn sổ nhỏ đến hệ thống tiền tệ không cần người đứng giữa"
+title: "Crypto"
+description: "Từ một cuốn sổ nhỏ đến hệ thống tiền tệ không cần người đứng giữa"
 date: "2026-10-17"
 author: "Javier"
-slug: "crypto-tu-mot-cuon-so-nho-den-he-thong-tien-te-khong-can-nguoi-dung-giua"
+slug: "crypto"
 status: "Published"
 categories:
   - name: "crypto"
@@ -35,7 +36,7 @@ Nhưng tiền không chỉ là giấy bạc hay kim loại. Bản chất của n
 Nói cách khác, tiền là công cụ giúp con người trao đổi giá trị, còn lòng tin là một phần quan trọng giúp công cụ đó hoạt động.
 
 
-![image.png](/images/blog/71e5d42b7e6ce254c50962f583323752.png)
+![image.png](/images/blog/ebfcc4ef5e9295157db6e1e46e78dee7.png)
 
 
 ### Tiền hiện đại hoạt động như thế nào?
@@ -80,7 +81,7 @@ Hãy tưởng tượng nếu một quốc gia rơi vào khủng hoảng nghiêm 
 Điều này không có nghĩa chính phủ có thể tùy ý thay đổi giá trị tiền mà không chịu hậu quả. Các thể chế, chính sách và điều kiện kinh tế tạo ra những giới hạn thực tế. Tuy nhiên, lịch sử cho thấy niềm tin vào tiền tệ có thể suy yếu và sức mua của đồng tiền có thể giảm mạnh.
 
 
-![image.png](/images/blog/0f013c1081280b72ca318988e21e776b.png)
+![image.png](/images/blog/745e494a4a6b4a604cf2f3bb0c0833ff.png)
 
 
 ### Nếu không cần một tổ chức trung tâm thì sao?
@@ -98,7 +99,7 @@ Vậy có cách nào để nhiều người cùng sử dụng một hệ thống
 Để hiểu vì sao ý tưởng này đặc biệt, hãy bắt đầu từ một tình huống rất nhỏ: năm người bạn và một cuốn sổ ghi chép tiền ăn vặt.
 
 
-![image.png](/images/blog/775ec8d85d86b2f41ac03bccc76dee11.png)
+![image.png](/images/blog/4d686b2528ca50347d0bba49f33964e2.png)
 
 
 ## 2. Câu chuyện năm người bạn và cuốn sổ giao dịch
@@ -289,7 +290,7 @@ Cả nhóm quyết định rằng mỗi trang sổ sẽ có một cấu trúc ch
 Để dễ hình dung, cả nhóm tưởng tượng rằng những thông tin này được tổng hợp thành một con số trung bình. Con số đó chỉ là cách đơn giản hóa trong câu chuyện, giúp họ có một thông tin đầu vào để thiết lập điều kiện cho trang sổ.
 
 
-![image.png](/images/blog/2ae0494ac6529870c4f3eadf341a7dfd.png)
+![image.png](/images/blog/eca21be081f9cf560ed6300afbbec050.png)
 
 
 Cả nhóm còn có một chiếc ổ khóa thông minh. Muốn chốt trang sổ, mọi người phải tìm được một kết quả phù hợp với điều kiện của chiếc khóa.
@@ -320,7 +321,7 @@ Nếu ai đó muốn sửa một trang sổ cũ, họ không chỉ phải thay �
 Đây chính là mô hình giúp chúng ta hình dung những ý tưởng cốt lõi của Bitcoin: gom giao dịch, tìm kết quả hợp lệ, kiểm tra trang sổ và liên kết lịch sử.
 
 
-![image.png](/images/blog/d23dcfe11ee80997f57dfffa3936ca3e.png)
+![image.png](/images/blog/379b6f7763a9dca4a3061b9203ff81a2.png)
 
 
 Tất nhiên, đây chỉ là một mô hình đơn giản. Bitcoin không dùng số trung bình hay xúc xắc thật. Trong thực tế, thợ đào liên tục thay đổi dữ liệu đầu vào để tính hash, còn các node kiểm tra block bằng những quy tắc chung của giao thức.
@@ -434,7 +435,7 @@ Thợ đào cứ thử liên tục. Nếu hash chưa đạt Target, họ thử t
 Độ khó đào được điều chỉnh định kỳ để thời gian tạo block trung bình của toàn mạng hướng tới khoảng 10 phút. Đây là thời gian trung bình, không phải lịch đóng sổ cố định.
 
 
-![image.png](/images/blog/83c0b6a38b75282b302455d801a3fa68.png)
+![image.png](/images/blog/ff9a68c2755ad5eb5089789cd48d8927.png)
 
 
 ### Các node kiểm tra block như thế nào?
