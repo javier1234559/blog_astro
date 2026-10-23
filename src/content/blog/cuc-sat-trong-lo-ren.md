@@ -142,7 +142,7 @@ Mà nằm ở việc mình có đang vô thức biến hy vọng thành dự đo
 Mình bắt đầu tìm hiểu về chuyện này và tình cờ biết đến một hình ảnh trong _Trang Tử ( một triết gia và tác gia vĩ đại của Đạo giáo thời Chiến Quốc trong lịch sử Trung Quốc )_  mà mình rất ấn tượng
 
 
-![image.png](/images/blog/455fc341623e3367dc925e4b4080c888.png)
+![image.png](/images/blog/35254a7a52cf9acf875543074a18f532.png)
 
 
 Trang Tử từng dùng hình ảnh trời đất như một lò rèn lớn, nơi vạn vật không ngừng biến đổi. Trong câu chuyện đó có hình ảnh một cục sắt đang được rèn. Nếu cục sắt ấy nhảy lên và nói:
@@ -467,7 +467,7 @@ Nhưng mình chỉ là một cục sắt.
 Mình không thể chỉ vì mình muốn trở thành một thanh kiếm mà bắt cả lò rèn phải thay đổi để đáp ứng mong muốn đó. Mình không thể bắt người thợ rèn phải gõ đúng những nhát búa mình muốn, hay bắt thế giới phải sắp xếp mọi thứ theo hình ảnh mà mình đã tưởng tượng.
 
 
-![image.png](/images/blog/04a7815f52bc451ff3e25135906e41c4.png)
+![image.png](/images/blog/d53dd242377a5a605418ed3de4291bac.png)
 
 
 Có lẽ phải ngược lại.
