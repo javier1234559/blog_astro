@@ -40,7 +40,7 @@ Trong thần thoại, Tinh Vệ là biểu tượng của ý chí bất khuất.
 Bài hát gửi gắm một thông điệp nhân sinh cay đắng: Trong cuộc sống, có những lúc sự kiên trì không đem lại quả ngọt, mà nó chỉ là sợi dây xích trói buộc chúng ta vào những tổn thương không lối thoát.
 
 
-![image.png](/images/blog/62538b1f5b58c17cfec5271d84865815.png)
+![image.png](/images/blog/e6350972e2af9a65befabb83b220fd03.png)
 
 
 ## **2. Lòng Người Tựa Vực Sâu Khó Lấp Đầy Hơn Cả Biển Khơi**
@@ -63,13 +63,11 @@ Khi bước vào thế giới của tình cảm đôi lứa, _Tinh Vệ_ chính 
 Trong một mối quan hệ bất đối xứng, bi kịch sẽ xảy ra khi một bên không ngừng tích lũy lòng thành, còn một bên lại dễ dàng buông bỏ:
 
 
-| **Kẻ đơn phương (Chim Tinh Vệ)**                                                                                      | **Người vô tâm (Biển khơi)**                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| • Cố chấp ngậm từng viên đá tình cảm. 
-• Khắc ghi từng lời hứa, từng kỷ niệm. 
-• Dốc cạn lòng để mong người thay đổi. | • Chỉ cần một con sóng nhẹ là xóa sạch tất cả. 
-• _"Những lời đã nói tại sao lại không nhớ?"_ 
-• Lạnh lùng, vô tình và đứng ngoài cuộc. |
+| **Kẻ đơn phương (Chim Tinh Vệ)**        | **Người vô tâm (Biển khơi)**                    |
+| --------------------------------------- | ----------------------------------------------- |
+| • Cố chấp ngậm từng viên đá tình cảm.   | • Chỉ cần một con sóng nhẹ là xóa sạch tất cả.  |
+| • Khắc ghi từng lời hứa, từng kỷ niệm.  | • _"Những lời đã nói tại sao lại không nhớ?"_   |
+| • Dốc cạn lòng để mong người thay đổi.  | • Lạnh lùng, vô tình và đứng ngoài cuộc.        |
 
 
 Bạn cố gắng lay chuyển một người không yêu mình, kết quả nhận lại chỉ là sự bất lực. Lòng của họ không hướng về bạn, thì mọi sự hy sinh của bạn chỉ là công dã tràng.
@@ -87,7 +85,7 @@ _"Dùng tiếng Trung của chúng ta mà nói, là tôi không đúng..."_.
 Đây chính là khoảnh khắc nhân vật hoàn toàn thức tỉnh sau những chuỗi ngày tự hành hạ bản thân.
 
 
-![image.png](/images/blog/93a98947bea98c0cdf254ea3a4fcf0bf.png)
+![image.png](/images/blog/74d45ce0025e6e4f1afcbb309b16a6f3.png)
 
 
 Hóa ra, Tinh Vệ đau khổ không phải vì biển quá rộng, mà vì nàng **không chịu buông bỏ tư thù**. Chúng ta đau khổ trong tình yêu không phải vì đối phương quá tàn nhẫn, mà vì chúng ta tự biến mình thành "nạn nhân cao thượng", tự xây nên một ảo tưởng rồi đắm chìm vào đó. Câu nói _"Là tôi không đúng"_ là lời tự trách, nhưng cũng là chiếc chìa khóa duy nhất để mở trói cho tâm hồn. Muốn bình yên, bắt buộc phải học cách chấp nhận và buông tay.

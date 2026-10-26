@@ -86,7 +86,7 @@ Và rồi mình phát hiện ra rằng ngoài Agape, còn có ba từ khác thư
 Bốn từ này xuất hiện trong cách C.S. Lewis phân tích tình yêu trong cuốn _The Four Loves_.
 
 
-![image.png](/images/blog/a9354bff378374f574a31d7ff8f13393.png)
+![image.png](/images/blog/874f4d2159d1edaf6563af14ab1c0c1d.png)
 
 
 # C.S. LEWIS VÀ BỐN LOẠI TÌNH YÊU
@@ -251,7 +251,7 @@ Và trong số những điều Lewis viết về Agape, có một đoạn khiế
 
 > "There is no safe investment. To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken."
 
-![image.png](/images/blog/9ec85c558534cec04efd89257e7872ea.png)
+![image.png](/images/blog/8aeec9430e5f1654f6b3392e625b918b.png)
 
 
 Lewis tiếp tục nói rằng nếu muốn giữ trái tim mình hoàn toàn nguyên vẹn, cách an toàn nhất là không trao nó cho bất kỳ ai. Hãy bọc nó lại bằng những sở thích, những tiện nghi nhỏ và sự ích kỷ của chính mình.
@@ -269,7 +269,7 @@ Tình yêu không phải là một khoản đầu tư an toàn. Nếu yêu một
 Nhưng có lẽ điều ngược lại còn đáng sợ hơn: sống cả đời chỉ để bảo vệ mình khỏi khả năng bị tổn thương, đến mức không còn để bất kỳ ai hay bất kỳ điều gì thực sự bước vào bên trong.
 
 
-![image.png](/images/blog/c0a436a3aa4db95fff17257c044dd30f.png)
+![image.png](/images/blog/44ff78e397a5d60e56ea9cac2d447001.png)
 
 
 Có lẽ tình yêu luôn có một phần rủi ro như vậy.
