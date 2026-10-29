@@ -50,7 +50,7 @@ Thay vì hỏi “hãy cho tôi những định nghĩa hay”, mình thử zoom 
 Từ đó mình mới bắt đầu lọc ra một vài từ mà mình nghĩ mình thực sự cần xây dựng, rồi thử định nghĩa lại chúng theo cách của riêng mình.
 
 
-![image.png](/images/blog/95ebac0257b90a54de05c60e655c8ec6.png)
+![image.png](/images/blog/dd0f555f26408faa7af9b84fd43a06c8.png)
 
 
 ## 1. Can đảm
@@ -285,7 +285,7 @@ Nhưng cuối cùng thứ mình tìm được lại không phải là những c�
 Nó giống như một bộ lăng kính hơn.
 
 
-![image.png](/images/blog/e6abb93cb07cf65a1080ceb2ec47f991.png)
+![image.png](/images/blog/48b2c3b4a601a6f38f4554aaab27e3ef.png)
 
 
 Khi sợ, mình có một cách khác để nhìn về **can đảm**.
