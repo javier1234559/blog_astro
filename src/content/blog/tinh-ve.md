@@ -40,7 +40,7 @@ Trong thần thoại, Tinh Vệ là biểu tượng của ý chí bất khuất.
 Bài hát gửi gắm một thông điệp nhân sinh cay đắng: Trong cuộc sống, có những lúc sự kiên trì không đem lại quả ngọt, mà nó chỉ là sợi dây xích trói buộc chúng ta vào những tổn thương không lối thoát.
 
 
-![image.png](/images/blog/07b5e9ccf58bb9349a086a9fa20f1373.png)
+![image.png](/images/blog/facecb33cb53b331b001cfb80a95e830.png)
 
 
 ## **2. Lòng Người Tựa Vực Sâu Khó Lấp Đầy Hơn Cả Biển Khơi**
@@ -85,7 +85,7 @@ _"Dùng tiếng Trung của chúng ta mà nói, là tôi không đúng..."_.
 Đây chính là khoảnh khắc nhân vật hoàn toàn thức tỉnh sau những chuỗi ngày tự hành hạ bản thân.
 
 
-![image.png](/images/blog/cec77b9d1dd68a8e4f32528724e4e307.png)
+![image.png](/images/blog/d2df51fdb0687825f4cb06ce6413560c.png)
 
 
 Hóa ra, Tinh Vệ đau khổ không phải vì biển quá rộng, mà vì nàng **không chịu buông bỏ tư thù**. Chúng ta đau khổ trong tình yêu không phải vì đối phương quá tàn nhẫn, mà vì chúng ta tự biến mình thành "nạn nhân cao thượng", tự xây nên một ảo tưởng rồi đắm chìm vào đó. Câu nói _"Là tôi không đúng"_ là lời tự trách, nhưng cũng là chiếc chìa khóa duy nhất để mở trói cho tâm hồn. Muốn bình yên, bắt buộc phải học cách chấp nhận và buông tay.

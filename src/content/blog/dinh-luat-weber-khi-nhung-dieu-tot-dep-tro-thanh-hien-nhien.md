@@ -47,7 +47,7 @@ Hiểu đơn giản, cùng một mức thay đổi có thể dễ nhận ra tron
 Ví dụ, khi đang cầm một vật nặng 100 g, việc tăng thêm một lượng trọng lượng nhỏ có thể khiến mình nhận ra sự khác biệt. Nhưng nếu đang cầm một vật nặng 10 kg, cùng một lượng trọng lượng được thêm vào có thể gần như không tạo ra cảm giác khác biệt rõ rệt.
 
 
-![image.png](/images/blog/d2386d9e83ebbceae2e90f09aaa3046a.png)
+![image.png](/images/blog/67951d10df7a4ba18725dc8b55084f01.png)
 
 
 Điều này xảy ra vì khả năng nhận biết sự thay đổi của chúng ta không chỉ phụ thuộc vào mức thay đổi tuyệt đối, mà còn phụ thuộc vào mức kích thích ban đầu. Trong những điều kiện nhất định, mức thay đổi cần thiết để nhận ra sự khác biệt sẽ tăng lên cùng với cường độ ban đầu của kích thích.
@@ -161,7 +161,7 @@ Dù vậy, mình cũng không nghĩ mình cần phải phủ nhận nhu cầu đ
 Đôi khi, mình cần chấp nhận rằng có những người không phù hợp với cách mình yêu thương. Và cũng có những mối quan hệ mà dù mình cố gắng thêm bao nhiêu, sự tương hỗ vẫn không xuất hiện.
 
 
-![image.png](/images/blog/c82450d6a5d0bd564d89d20ff0fe3108.png)
+![image.png](/images/blog/6fba700665ac8425d05e05d93a1db463.png)
 
 
 ## CÓ LẼ MÌNH KHÔNG CẦN TRỞ NÊN ÍT TỐT BỤNG HƠN

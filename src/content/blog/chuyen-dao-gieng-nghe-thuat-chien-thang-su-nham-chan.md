@@ -58,7 +58,7 @@ Ranh giới ở đây khá rõ: nếu có thông tin mới thật sự cho thấ
 Chi tiết làm mình suy nghĩ nhất: phần lớn người ta bỏ cuộc trong lúc mù, không biết mình đã đi được bao xa. Nhớ lại vài lần từng dừng, hoàn toàn có khả năng lúc đó mình đang đứng rất gần một cột mốc nào đó mà không nhìn thấy được, chỉ vì chẳng có gì báo trước.
 
 
-![image.png](/images/blog/eb2ba5bfe2a435e3d44b05a1ab103671.png)
+![image.png](/images/blog/e6baffc82ad74184d11d01688a39effd.png)
 
 
 ## 4. Ngưỡng chịu chán là thứ luyện được

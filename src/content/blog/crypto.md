@@ -36,7 +36,7 @@ Nhưng tiền không chỉ là giấy bạc hay kim loại. Bản chất của n
 Nói cách khác, tiền là công cụ giúp con người trao đổi giá trị, còn lòng tin là một phần quan trọng giúp công cụ đó hoạt động.
 
 
-![image.png](/images/blog/43fedc3b5fe96be3152197c64f73a3d1.png)
+![image.png](/images/blog/3045fc5db7ca80460977e8238711a4c4.png)
 
 
 ### Tiền hiện đại hoạt động như thế nào?
@@ -81,7 +81,7 @@ Hãy tưởng tượng nếu một quốc gia rơi vào khủng hoảng nghiêm 
 Điều này không có nghĩa chính phủ có thể tùy ý thay đổi giá trị tiền mà không chịu hậu quả. Các thể chế, chính sách và điều kiện kinh tế tạo ra những giới hạn thực tế. Tuy nhiên, lịch sử cho thấy niềm tin vào tiền tệ có thể suy yếu và sức mua của đồng tiền có thể giảm mạnh.
 
 
-![image.png](/images/blog/683f4ded3d7fa2a7c2eee9f427a13b08.png)
+![image.png](/images/blog/079bb07c89cfd119d9a27d1dc0ad0ec4.png)
 
 
 ### Nếu không cần một tổ chức trung tâm thì sao?
@@ -99,7 +99,7 @@ Vậy có cách nào để nhiều người cùng sử dụng một hệ thống
 Để hiểu vì sao ý tưởng này đặc biệt, hãy bắt đầu từ một tình huống rất nhỏ: năm người bạn và một cuốn sổ ghi chép tiền ăn vặt.
 
 
-![image.png](/images/blog/935ebcca8cf1329bf398545373951c80.png)
+![image.png](/images/blog/15f2f8988aa75384cdc10db4d38987f6.png)
 
 
 ## 2. Câu chuyện năm người bạn và cuốn sổ giao dịch
@@ -290,7 +290,7 @@ Cả nhóm quyết định rằng mỗi trang sổ sẽ có một cấu trúc ch
 Để dễ hình dung, cả nhóm tưởng tượng rằng những thông tin này được tổng hợp thành một con số trung bình. Con số đó chỉ là cách đơn giản hóa trong câu chuyện, giúp họ có một thông tin đầu vào để thiết lập điều kiện cho trang sổ.
 
 
-![image.png](/images/blog/a9a302aa62ada68e9f189e914547e1d2.png)
+![image.png](/images/blog/e4ccd48c53a44412742cd88b7340ea96.png)
 
 
 Cả nhóm còn có một chiếc ổ khóa thông minh. Muốn chốt trang sổ, mọi người phải tìm được một kết quả phù hợp với điều kiện của chiếc khóa.
@@ -321,7 +321,7 @@ Nếu ai đó muốn sửa một trang sổ cũ, họ không chỉ phải thay �
 Đây chính là mô hình giúp chúng ta hình dung những ý tưởng cốt lõi của Bitcoin: gom giao dịch, tìm kết quả hợp lệ, kiểm tra trang sổ và liên kết lịch sử.
 
 
-![image.png](/images/blog/c48ba6222fc69138634eab8f2666a653.png)
+![image.png](/images/blog/0d10718d846ac6a14b155a50c31714b9.png)
 
 
 Tất nhiên, đây chỉ là một mô hình đơn giản. Bitcoin không dùng số trung bình hay xúc xắc thật. Trong thực tế, thợ đào liên tục thay đổi dữ liệu đầu vào để tính hash, còn các node kiểm tra block bằng những quy tắc chung của giao thức.
@@ -435,7 +435,7 @@ Thợ đào cứ thử liên tục. Nếu hash chưa đạt Target, họ thử t
 Độ khó đào được điều chỉnh định kỳ để thời gian tạo block trung bình của toàn mạng hướng tới khoảng 10 phút. Đây là thời gian trung bình, không phải lịch đóng sổ cố định.
 
 
-![image.png](/images/blog/307e0d78c3890bdccd842654bf716d1c.png)
+![image.png](/images/blog/b3f7610c759c2d11cc50975d72e020e4.png)
 
 
 ### Các node kiểm tra block như thế nào?
