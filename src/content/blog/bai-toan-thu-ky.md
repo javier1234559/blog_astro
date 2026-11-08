@@ -72,13 +72,13 @@ Câu hỏi cần giải quyết là: nên chọn (r) bằng bao nhiêu để (P(
 Công thức xác suất của chiến lược là:
 
 
-![image.png](/images/blog/81cb13f0d6c7f6565b459d1eec5b9310.png)
+![image.png](/images/blog/3f7682a43106d57f145b886709a6d42a.png)
 
 
 Công thức trông khá phức tạp, nhưng có thể hiểu đơn giản qua từng phần:
 
 
-![image.png](/images/blog/dba2fd726eb0e47238fed66306075ccb.png)
+![image.png](/images/blog/59bde1831ce55185182fe2022c54b171.png)
 
 
 Nói cách khác, công thức này cộng các trường hợp có thể giúp chúng ta chọn đúng người giỏi nhất để tính ra xác suất thành công chung.
@@ -90,7 +90,7 @@ Nói cách khác, công thức này cộng các trường hợp có thể giúp 
 Khi số ứng viên đủ lớn, ta có thể dùng tích phân để xấp xỉ tổng trong công thức. Đây là cách chuyển một phép cộng nhiều số hạng thành một biểu thức gọn hơn.
 
 
-![image.png](/images/blog/b60b75433d4d5ae3bbdc030dac7ad376.png)
+![image.png](/images/blog/1bb72057733f62fd85d4ab9804c9828f.png)
 
 
 Tức là khoảng **36,8%, thường được làm tròn thành 37%**.
