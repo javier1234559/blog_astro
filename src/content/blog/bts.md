@@ -12,7 +12,7 @@ categories:
     color: "brown"
   - name: "life"
     color: "green"
-readingTime: "9 min read"
+readingTime: "13 min read"
 ---
 
 Hôm nay, mình tình cờ nghe được thêm một bài hát khá thú vị của BTS có tên là **Pied Piper**.
@@ -33,7 +33,7 @@ Thay vì chỉ xoay quanh những câu chuyện tình yêu hay các mối quan h
 Vô tình, mình bắt đầu tìm hiểu ý nghĩa của ba bài hát mà mình yêu thích nhất. Và điều thú vị là mỗi bài lại mang đến một góc nhìn rất riêng về cuộc sống.
 
 
-## 1. Ba bài hát – Ba câu hỏi về cuộc sống
+## Ba bài hát – Ba câu hỏi về cuộc sống
 
 
 | Bài hát             | Câu hỏi lớn                                               |
@@ -46,7 +46,7 @@ Vô tình, mình bắt đầu tìm hiểu ý nghĩa của ba bài hát mà mình
 Thoạt nhìn, đây chỉ là ba bài hát với ba giai điệu khác nhau. Nhưng khi tìm hiểu sâu hơn, mình nhận ra mỗi bài đều chứa đựng một câu chuyện đáng suy ngẫm.
 
 
-## 2. Blood Sweat & Tears – Trưởng thành là hành trình đánh đổi
+## Blood Sweat & Tears – Trưởng thành là hành trình đánh đổi
 
 
 _Album: WINGS (2016)_
@@ -74,6 +74,9 @@ Có một câu nói rất nổi tiếng trong cuốn sách:
 
 
 "Con chim đấu tranh để thoát ra khỏi quả trứng. Quả trứng là thế giới. Ai muốn được sinh ra trước tiên phải phá hủy một thế giới."
+
+
+![image.png](/images/blog/dac1f07cd203d41f821ca084d97d6ed4.png)
 
 
 Mình khá thích cách diễn giải này.
@@ -112,19 +115,28 @@ Có thể Demian vốn là người dẫn đường giúp Sinclair tìm thấy c
 Bởi những điều Demian từng dạy đã trở thành một phần trong chính con người cậu.
 
 
+![image.png](/images/blog/557e9b2465f1e6cb176711369f024248.png)
+
+
 Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị hơn.
 
 
-MV có nhiều hình ảnh gợi nhắc đến Demian, đặc biệt là những biểu tượng về đôi cánh, thiên thần sa ngã và sự cám dỗ. Một số cách giải thích của người hâm mộ còn liên hệ các thành viên như Jin, Jungkook và V với những nhân vật trong câu chuyện.
+Có một chi tiết tìm được trong các bài phân tích của fan: ở đầu MV, RM xuất hiện đọc sách cho Jungkook. Một số người cho rằng hình ảnh này tượng trưng cho mối quan hệ giữa Demian và Sinclair trong tiểu thuyết – một người đóng vai trò dẫn đường, người còn lại đang trên hành trình khám phá bản thân.
 
 
-Dù không nên xem mọi chi tiết trong MV là một phép chuyển thể chính xác từ tiểu thuyết, những liên hệ này khiến mình càng muốn tìm hiểu thêm về tác phẩm.
+Jungkook cũng xuất hiện trong những hình ảnh gợi liên tưởng đến Icarus, chàng trai trong thần thoại Hy Lạp sở hữu đôi cánh bằng sáp nhưng cuối cùng lại rơi xuống biển vì bay quá gần mặt trời.
 
 
-Có lẽ trưởng thành không đơn giản là trở nên tốt đẹp hơn, mà còn là học cách chấp nhận cả những mặt không hoàn hảo của bản thân.
+Đặc biệt, hình ảnh đôi cánh mọc ra từ vai Jungkook cũng được nhắc đến trong concept book của album WINGS.
 
 
-## 3. Pied Piper – Đừng để sự mê hoặc khiến bạn quên mất cuộc sống
+Mình thấy những chi tiết này khá thú vị khi đặt cạnh câu chuyện trong Demian. Có lẽ hình ảnh Jungkook đang bay cũng là một cách thể hiện tuổi trẻ đang muốn thoát khỏi những giới hạn cũ, khám phá một thế giới rộng lớn hơn, dù hành trình đó có thể đi kèm với những sai lầm và tổn thương.
+
+
+Tất nhiên, đây là những cách diễn giải mang tính biểu tượng của fan, chứ không phải toàn bộ đều là phân vai chính thức được BTS xác nhận.
+
+
+## Pied Piper – Đừng để sự mê hoặc khiến bạn quên mất cuộc sống
 
 
 _Album: Love Yourself 承 'Her' (2017)_
@@ -140,6 +152,9 @@ Trong câu chuyện, người thổi sáo sử dụng tiếng sáo ma thuật đ
 
 
 BTS đã mượn hình ảnh này để ví mình như người thổi sáo, còn người hâm mộ là những người bị âm nhạc và hình ảnh của họ mê hoặc.
+
+
+![image.png](/images/blog/73ad69dc4f6970f1fc3cf176f8e93c44.png)
 
 
 Nhưng điều thú vị nằm ở thông điệp phía sau.
@@ -169,55 +184,91 @@ Yêu thích một điều gì đó không sai.
 Nhưng nếu nó khiến mình quên đi cuộc sống của chính mình thì có lẽ đã đến lúc cần nhìn lại.
 
 
-## 4. Make It Right – Giá trị của những người đồng hành
+## Make It Right – Giá trị của những người đồng hành
 
 
 _Album: Map of the Soul: Persona (2019)_
 
 
-Nếu Blood Sweat & Tears nói về sự trưởng thành, Pied Piper nói về những cám dỗ, thì Make It Right lại mang đến một cảm xúc nhẹ nhàng hơn.
+Nếu _Blood Sweat & Tears_ nói về sự trưởng thành, _Pied Piper_ nói về những cám dỗ, thì _Make It Right_ lại mang đến một cảm xúc nhẹ nhàng hơn.
 
 
-Bài hát được diễn giải như một lời tri ân dành cho những người đã đồng hành cùng BTS trong suốt hành trình của họ, đặc biệt là cộng đồng người hâm mộ ARMY.
+Bài hát thường được diễn giải như một lời tri ân dành cho những người đã đồng hành cùng BTS trong suốt hành trình của họ, đặc biệt là cộng đồng người hâm mộ ARMY.
 
 
-Có một hình ảnh ẩn dụ khá thú vị trong cách giải thích bài hát này.
+Điều khiến mình chú ý hơn cả là câu chuyện trong MV phiên bản kết hợp với Lauv.
 
 
-BTS từng ví những ngày đầu sự nghiệp của mình như một vùng sa mạc. Đó là khoảng thời gian khó khăn, cô đơn và chưa biết tương lai sẽ đi về đâu.
+MV kể về một chàng trai cô độc, trên hành trình của mình, cậu gặp một cô gái. Cô gái ấy ở bên cạnh, giúp đỡ và bảo vệ cậu vượt qua những khó khăn. Có một phân cảnh mình khá thích: khi chàng trai ngủ bên đống lửa, cô gái biến thành một chiếc áo choàng, âm thầm che chở cho cậu.
 
 
-Còn biển cả tượng trưng cho hành trình và thành công mà họ đã đạt được.
+Sau đó, chàng trai tiếp tục hành trình và phải đối mặt với một con rồng. Cậu chiến đấu, vượt qua nỗi sợ và cuối cùng đánh bại nó. Đến cuối câu chuyện, những giọt nước mắt của chàng trai rơi xuống chiếc áo choàng, khiến cô gái xuất hiện trở lại.
+
+
+![image.png](/images/blog/0b1a035440a94af6a0e421f45094877f.png)
+
+
+Nếu nhìn theo cách diễn giải phổ biến của người hâm mộ, chàng trai đại diện cho BTS, còn cô gái tượng trưng cho ARMY. Cô gái không trực tiếp chiến đấu thay chàng trai, nhưng luôn ở đó, trở thành nguồn sức mạnh giúp cậu có thể tiếp tục bước đi.
+
+
+Và mình nghĩ hình ảnh này khá khớp với thông điệp của bài hát.
+
+
+BTS từng ví những ngày đầu sự nghiệp của mình như một vùng sa mạc. Đó là khoảng thời gian khó khăn, cô đơn và chưa biết tương lai sẽ đi về đâu. Còn biển cả có thể được hiểu như hành trình và thành công mà họ đã đạt được.
 
 
 Nhưng điều đáng suy ngẫm là: nếu đã đến được biển cả mà không có những người đồng hành, liệu thành công ấy còn ý nghĩa bao nhiêu?
 
 
-Khi nghĩ rộng hơn về những người làm nghệ thuật, mình nhận ra rằng có lẽ không chỉ riêng BTS mới như vậy.
+Khi nghĩ rộng hơn về những người làm nghệ thuật, mình nhận ra có lẽ không chỉ riêng BTS mới như vậy.
 
 
-Một nghệ sĩ có thể sở hữu tài năng, được đứng trên những sân khấu lớn, có ánh đèn chiếu vào mình và nhận được sự tung hô từ hàng nghìn người.
+Một nghệ sĩ có thể sở hữu tài năng, được đứng trên những sân khấu lớn, có ánh đèn chiếu vào mình và nhận được sự tung hô từ hàng nghìn người. Đó là điều mà rất nhiều người mong muốn.
 
 
-Đó là thứ mà rất nhiều người mong muốn.
+Nhưng đằng sau ánh hào quang ấy chắc chắn cũng có những áp lực mà người bên ngoài khó nhìn thấy. Và những người hâm mộ dành tình cảm, sự ủng hộ và niềm tin cho họ chính là một phần động lực để họ tiếp tục cố gắng.
 
 
-Nhưng đằng sau ánh hào quang ấy chắc chắn cũng có những áp lực mà người bên ngoài khó nhìn thấy.
+Nếu không có khán giả, liệu một nghệ sĩ có thể trở thành người được nhiều người biết đến như ngày hôm nay?
 
 
-Và chính những người hâm mộ đã dành tình cảm, sự ủng hộ và niềm tin cho họ là một phần động lực để họ tiếp tục cố gắng.
+Mình nghĩ tài năng là điều giúp một người bắt đầu, nhưng chính khán giả mới là những người đón nhận, lan tỏa và giúp những gì họ tạo ra có cơ hội chạm đến nhiều người hơn.
 
 
-Nếu không có khán giả, liệu một nghệ sĩ có thể trở thành một nghệ sĩ được nhiều người biết đến như ngày hôm nay?
+Thú vị hơn, mối quan hệ này không hẳn chỉ có một chiều. Không chỉ ARMY là người bảo vệ và tiếp thêm sức mạnh cho BTS, mà âm nhạc của BTS cũng có thể trở thành nguồn động viên đối với chính những người hâm mộ.
 
 
-Mình nghĩ thành công không chỉ đến từ người đứng trên sân khấu, mà còn có sự đóng góp của những người đứng phía dưới đang dõi theo và ủng hộ họ.
+Có lẽ đó cũng là lý do hình ảnh cô gái biến thành chiếc áo choàng lại có ý nghĩa đến vậy. Đôi khi, người đồng hành không cần phải đứng ở phía trước để chiến đấu cùng ta. Chỉ cần họ vẫn ở đó, âm thầm che chở và tiếp thêm sức mạnh, cũng đã đủ để ta có thể đi tiếp.
 
 
-Đôi khi, giá trị của một hành trình không chỉ nằm ở đích đến, mà còn nằm ở những người đã cùng chúng ta đi qua nó.
+Và sau cùng, giá trị của một hành trình có lẽ không chỉ nằm ở nơi chúng ta đến, mà còn nằm ở những người đã cùng chúng ta đi qua nó.
 
 
-## 5. Sau cùng thì...
+# **Nhìn lại hành trình của BTS**
+
+
+Nói đến những người đồng hành, mình cũng muốn nhìn lại một chút hành trình của BTS.
+
+
+BTS ra mắt vào ngày 13/6/2013, khi còn là một nhóm nhạc hip-hop trực thuộc Big Hit Entertainment - một công ty giải trí khi ấy chưa có vị thế lớn trong ngành công nghiệp K-pop.
+
+
+Những ngày đầu, họ chưa có ánh hào quang hay những sân khấu quốc tế như bây giờ. BTS dần xây dựng chỗ đứng bằng âm nhạc, những màn trình diễn và cách kể câu chuyện của chính thế hệ mình. Họ nói về áp lực tuổi trẻ, những hoài nghi, ước mơ và cả những khó khăn khi trưởng thành. Qua từng album, lượng người nghe và cộng đồng ARMY cũng ngày càng lớn mạnh.
+
+
+Từ _WINGS_, _Love Yourself_ cho đến những ca khúc như _Dynamite_ và _Butter_, BTS từng bước vươn ra thị trường quốc tế, xuất hiện trên những sân khấu lớn và đạt được nhiều thành tích mà có lẽ ở những ngày đầu, chính họ cũng khó hình dung hết được.
+
+
+Nhưng điều mình thấy thú vị là hành trình ấy không chỉ được tạo nên bởi bảy thành viên. Đằng sau những cột mốc của BTS còn có hàng triệu người đã lắng nghe, chia sẻ âm nhạc, chờ đợi và ủng hộ họ qua từng giai đoạn.
+
+
+Nhìn lại, mình thấy điều này khá giống với thông điệp của _Make It Right_: một người có thể tự mình bắt đầu hành trình, nhưng để đi thật xa, đôi khi họ cần những người tin tưởng và đồng hành cùng mình.
+
+
+Và có lẽ, đó cũng là điều khiến câu chuyện của BTS trở nên đáng để tìm hiểu hơn đối với mình.
+
+
+# Sau cùng thì...
 
 
 Tìm hiểu ba bài hát này khiến mình nhìn nhận âm nhạc của BTS theo một cách khác.
@@ -238,8 +289,5 @@ Dạo gần đây, có lẽ vì bắt đầu quan tâm nhiều hơn đến ngh�
 Và điều đó cũng khá tốt.
 
 
-Bởi nhờ vậy, mỗi bài nhạc mình nghe dường như lại trở nên thú vị hơn hẳn.
-
-
-Hihi.
+Bởi nhờ vậy, mỗi bài nhạc mình nghe dường như lại trở nên thú vị hơn hẳn 👍
 
