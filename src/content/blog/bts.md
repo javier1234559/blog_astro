@@ -76,7 +76,7 @@ Có một câu nói rất nổi tiếng trong cuốn sách:
 "Con chim đấu tranh để thoát ra khỏi quả trứng. Quả trứng là thế giới. Ai muốn được sinh ra trước tiên phải phá hủy một thế giới."
 
 
-![image.png](/images/blog/166471a05670046f4c3b63e5ebba14b2.png)
+![image.png](/images/blog/7e655a79e03f5b51de57b91c25ea1eaa.png)
 
 
 Mình khá thích cách diễn giải này.
@@ -115,13 +115,19 @@ Có thể Demian vốn là người dẫn đường giúp Sinclair tìm thấy c
 Bởi những điều Demian từng dạy đã trở thành một phần trong chính con người cậu.
 
 
-![image.png](/images/blog/15c98be0debf5c7eca9dbab0afb1fea6.png)
+![image.png](/images/blog/d98f82f99ba187a1abf09613d08e3598.png)
 
 
 Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị hơn.
 
 
-Có một chi tiết tìm được trong các bài phân tích của fan: ở đầu MV, RM xuất hiện đọc sách cho Jungkook. Một số người cho rằng hình ảnh này tượng trưng cho mối quan hệ giữa Demian và Sinclair trong tiểu thuyết – một người đóng vai trò dẫn đường, người còn lại đang trên hành trình khám phá bản thân.
+Có một chi tiết tìm được trong các bài phân tích của fan: ở đầu MV, RM xuất hiện đọc sách cho Jungkook. 
+
+
+![image.png](/images/blog/347c699f2925846020a217f552f876d3.png)
+
+
+Một số người cho rằng hình ảnh này tượng trưng cho mối quan hệ giữa Demian và Sinclair trong tiểu thuyết – một người đóng vai trò dẫn đường, người còn lại đang trên hành trình khám phá bản thân.
 
 
 Jungkook cũng xuất hiện trong những hình ảnh gợi liên tưởng đến Icarus, chàng trai trong thần thoại Hy Lạp sở hữu đôi cánh bằng sáp nhưng cuối cùng lại rơi xuống biển vì bay quá gần mặt trời.
@@ -154,7 +160,7 @@ Trong câu chuyện, người thổi sáo sử dụng tiếng sáo ma thuật đ
 BTS đã mượn hình ảnh này để ví mình như người thổi sáo, còn người hâm mộ là những người bị âm nhạc và hình ảnh của họ mê hoặc.
 
 
-![image.png](/images/blog/9cde2001edf23a57e2dd03239f17e615.png)
+![image.png](/images/blog/5e58ba95c449d8969f1664747b8d49cf.png)
 
 
 Nhưng điều thú vị nằm ở thông điệp phía sau.
@@ -205,7 +211,7 @@ MV kể về một chàng trai cô độc, trên hành trình của mình, cậu
 Sau đó, chàng trai tiếp tục hành trình và phải đối mặt với một con rồng. Cậu chiến đấu, vượt qua nỗi sợ và cuối cùng đánh bại nó. Đến cuối câu chuyện, những giọt nước mắt của chàng trai rơi xuống chiếc áo choàng, khiến cô gái xuất hiện trở lại.
 
 
-![image.png](/images/blog/be76a612cc967eeb8d99d90622586ffc.png)
+![image.png](/images/blog/cd2488c01ae31c74c0289ef887c7d0a9.png)
 
 
 Nếu nhìn theo cách diễn giải phổ biến của người hâm mộ, chàng trai đại diện cho BTS, còn cô gái tượng trưng cho ARMY. Cô gái không trực tiếp chiến đấu thay chàng trai, nhưng luôn ở đó, trở thành nguồn sức mạnh giúp cậu có thể tiếp tục bước đi.
