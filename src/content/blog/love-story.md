@@ -91,7 +91,7 @@ Mình thấy chi tiết này khá buồn. Đôi khi, điều khiến chúng ta �
 Câu hát này khiến mình rất ấn tượng. Nếu hiểu theo nghĩa đen, tình yêu có thể khiến một người làm nên những điều phi thường, như xây dựng cả một đế chế. Đồng thời, câu hát cũng khiến mình liên tưởng trở lại hình ảnh ông lão ở đầu bài.
 
 
-![image.png](/images/blog/d15c86482ceedb33653937ba222e67ab.png)
+![image.png](/images/blog/51fb542a1d5e6e7e57233530342e4966.png)
 
 
 Mình thích hình ảnh _một kẻ điên trở thành vị vua_ ở chỗ đó. Người khác có thể không hiểu thế giới của ông, nhưng họ cũng không thể biết hết những gì ông đã trải qua. Bên ngoài, họ chỉ thấy “một kẻ điên” trong mắt người đời vì cứ đứng chờ người đã khuất, nhưng không ai biết ông ấy đang là “một vị vua” trong vương quốc tình yêu của chính mình.
@@ -129,7 +129,7 @@ Indila từng chia sẻ rằng cô muốn âm nhạc của mình mang tính _Cin
 Indila cũng chia sẻ về tư duy âm nhạc của mình: cô luôn coi cuộc đời là những vòng lặp của sự tái sinh.
 
 
-![image.png](/images/blog/bee2ac235ab1b3723315ae76fd4fd261.png)
+![image.png](/images/blog/deb46adf59cea3786b87fabdad0acf2d.png)
 
 
 Cô ấy coi mỗi ngày là một cuộc đời nhỏ, giống như cách mình đang nhìn nhận hiện tại. Không nhất thiết phải là một cuộc đời mới, mà có thể đơn giản là mỗi ngày, chúng ta lại có cơ hội thử sống lại một điều mình mong muốn nhất , điều mà mình đã không kịp làm trong “cuộc đời trước”.

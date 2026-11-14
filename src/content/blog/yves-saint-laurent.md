@@ -42,7 +42,7 @@ Nhưng thế giới bên ngoài không phải lúc nào cũng dịu dàng với 
 Năm 17 tuổi, Yves chuyển đến Paris để theo đuổi giấc mơ thiết kế. Tài năng của ông nhanh chóng được chú ý, đặc biệt sau khi giành giải tại một cuộc thi thiết kế quốc tế. Những bản phác thảo của chàng trai trẻ lọt vào mắt xanh của Christian Dior – một trong những nhà thiết kế quyền lực nhất nước Pháp lúc bấy giờ.
 
 
-![image.png](/images/blog/64585a4069a74314be9086f3e93ffc39.png)
+![image.png](/images/blog/0a4aef10e18fc4913e3afcb505e78e32.png)
 
 
 Và thế là, một cánh cửa lớn đã mở ra.
@@ -66,7 +66,7 @@ Hãy thử tưởng tượng cảm giác của một chàng trai trẻ, vừa b�
 Đó vừa là một vinh dự, vừa là một áp lực khổng lồ.
 
 
-![image.png](/images/blog/f2be64ab60fb078b79224f56280de9e0.png)
+![image.png](/images/blog/086a07799e14160962396b4d1fde7768.png)
 
 
 Thế nhưng, Yves đã chứng minh rằng tài năng không phải lúc nào cũng phụ thuộc vào tuổi tác. Bộ sưu tập đầu tay Trapeze năm 1958 thành công vang dội, giúp Dior tiếp tục duy trì vị thế và đưa tên tuổi của ông trở thành hiện tượng trong giới thời trang.
@@ -105,7 +105,7 @@ Hai con người với những tính cách tưởng chừng trái ngược ấy 
 Năm 1961, với sự hỗ trợ về tài chính và kinh doanh của Pierre Bergé, nhà mốt Yves Saint Laurent chính thức được thành lập.
 
 
-![image.png](/images/blog/071c5e92aea4a6f182e842d911ef21f2.png)
+![image.png](/images/blog/9d45d8f1a80605eeedc842d4bfac6ef4.png)
 
 
 Đây không đơn thuần là sự ra đời của một thương hiệu thời trang. Nó còn đánh dấu sự khởi đầu của một mối quan hệ cộng sinh đặc biệt: Yves sáng tạo, Pierre xây dựng nền móng để những sáng tạo ấy có thể tồn tại và phát triển.
@@ -153,7 +153,7 @@ Nổi bật nhất chính là Le Smoking – bộ tuxedo dành cho phụ nữ ra
 **Le Smoking – Khi phụ nữ không còn phải mặc theo những quy tắc do đàn ông đặt ra.**
 
 
-![image.png](/images/blog/873ae333f468f8b4fb8308cfc8fe7a21.png)
+![image.png](/images/blog/609c6d3f057506f80a87ed2cb8ce2eb0.png)
 
 
 Vào thời điểm đó, tuxedo vốn là trang phục trang trọng dành riêng cho nam giới. Việc một người phụ nữ xuất hiện trong bộ suit như vậy tại những buổi tiệc sang trọng vẫn bị xem là điều khác thường, thậm chí gây tranh cãi.
@@ -240,7 +240,7 @@ Những thiết kế của Yves vẫn tiếp tục xuất hiện trên các sàn
 Ngày nay, thương hiệu tiếp tục phát triển dưới sự dẫn dắt của những nhà thiết kế mới, trong đó có Anthony Vaccarello – người đảm nhiệm vị trí giám đốc sáng tạo từ năm 2016.
 
 
-![image.png](/images/blog/965fe89ba3a01f1263c38c4ca98cebad.png)
+![image.png](/images/blog/535ecb9d03ac4b083bfaefa842af291b.png)
 
 
 Có thể nói, thời trang luôn thay đổi. Những xu hướng từng được xem là đỉnh cao rồi cũng sẽ nhường chỗ cho những điều mới mẻ hơn. Nhưng những ý tưởng thực sự có sức ảnh hưởng lại có khả năng sống lâu hơn chính người tạo ra chúng.
@@ -258,7 +258,7 @@ Một đóa hoa không thể chống lại thời gian. Một con người cũng
 Nhưng những gì ông tạo ra vẫn còn ở đó.
 
 
-![image.png](/images/blog/0a1767e990090706c2ec73b5ae46caab.png)
+![image.png](/images/blog/8e49a1edc3e45bf4fbff1c14624be675.png)
 
 
 Có Pierre Bergé, người đã cùng ông nuôi dưỡng giấc mơ ấy. Có những người phụ nữ từng khoác lên mình Le Smoking và cảm nhận được sự tự do theo một cách hoàn toàn mới. Có những thế hệ nhà thiết kế tiếp tục tìm thấy cảm hứng từ những di sản mà ông để lại.
