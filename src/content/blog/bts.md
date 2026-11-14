@@ -76,7 +76,7 @@ Có một câu nói rất nổi tiếng trong cuốn sách:
 "Con chim đấu tranh để thoát ra khỏi quả trứng. Quả trứng là thế giới. Ai muốn được sinh ra trước tiên phải phá hủy một thế giới."
 
 
-![image.png](/images/blog/7e655a79e03f5b51de57b91c25ea1eaa.png)
+![image.png](/images/blog/64af08bdd6946946645975a348ab966d.png)
 
 
 Mình khá thích cách diễn giải này.
@@ -115,7 +115,7 @@ Có thể Demian vốn là người dẫn đường giúp Sinclair tìm thấy c
 Bởi những điều Demian từng dạy đã trở thành một phần trong chính con người cậu.
 
 
-![image.png](/images/blog/d98f82f99ba187a1abf09613d08e3598.png)
+![image.png](/images/blog/2f3392622735061003510f0ccaef5f66.png)
 
 
 Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị hơn.
@@ -124,7 +124,7 @@ Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị h�
 Có một chi tiết tìm được trong các bài phân tích của fan: ở đầu MV, RM xuất hiện đọc sách cho Jungkook. 
 
 
-![image.png](/images/blog/347c699f2925846020a217f552f876d3.png)
+![image.png](/images/blog/01c6a450b58a320f49f1fbc21661ab01.png)
 
 
 Một số người cho rằng hình ảnh này tượng trưng cho mối quan hệ giữa Demian và Sinclair trong tiểu thuyết – một người đóng vai trò dẫn đường, người còn lại đang trên hành trình khám phá bản thân.
@@ -160,7 +160,7 @@ Trong câu chuyện, người thổi sáo sử dụng tiếng sáo ma thuật đ
 BTS đã mượn hình ảnh này để ví mình như người thổi sáo, còn người hâm mộ là những người bị âm nhạc và hình ảnh của họ mê hoặc.
 
 
-![image.png](/images/blog/5e58ba95c449d8969f1664747b8d49cf.png)
+![image.png](/images/blog/787245c45e937d7fa0399306c8d2918f.png)
 
 
 Nhưng điều thú vị nằm ở thông điệp phía sau.
@@ -211,7 +211,7 @@ MV kể về một chàng trai cô độc, trên hành trình của mình, cậu
 Sau đó, chàng trai tiếp tục hành trình và phải đối mặt với một con rồng. Cậu chiến đấu, vượt qua nỗi sợ và cuối cùng đánh bại nó. Đến cuối câu chuyện, những giọt nước mắt của chàng trai rơi xuống chiếc áo choàng, khiến cô gái xuất hiện trở lại.
 
 
-![image.png](/images/blog/cd2488c01ae31c74c0289ef887c7d0a9.png)
+![image.png](/images/blog/e4e95720e23277b8b1df50fe98dc8064.png)
 
 
 Nếu nhìn theo cách diễn giải phổ biến của người hâm mộ, chàng trai đại diện cho BTS, còn cô gái tượng trưng cho ARMY. Cô gái không trực tiếp chiến đấu thay chàng trai, nhưng luôn ở đó, trở thành nguồn sức mạnh giúp cậu có thể tiếp tục bước đi.
@@ -256,7 +256,7 @@ Và sau cùng, giá trị của một hành trình có lẽ không chỉ nằm �
 Nói đến những người đồng hành, mình cũng muốn nhìn lại một chút hành trình của BTS.
 
 
-BTS ra mắt vào ngày 13/6/2013, khi còn là một nhóm nhạc hip-hop trực thuộc Big Hit Entertainment - một công ty giải trí khi ấy chưa có vị thế lớn trong ngành công nghiệp K-pop.
+BTS ra mắt vào ngày 13/6/2013, khi còn là một nhóm nhạc hip-hop trực thuộc Big Hit Entertainment - một công ty giải trí khi ấy chưa có vị thế lớn trong ngành công nghiệp K-pop cộng với việc văn hóa cộng đồng tại Hàn Quốc nổi tiếng toxic và khắc nghiệt , họ luôn tìm cách dè bỉu và so sánh với tượng đài đã có chẳng hạn như BigBang, quả thực là một áp lực lớn với họ ở giai đoạn đó.
 
 
 Những ngày đầu, họ chưa có ánh hào quang hay những sân khấu quốc tế như bây giờ. BTS dần xây dựng chỗ đứng bằng âm nhạc, những màn trình diễn và cách kể câu chuyện của chính thế hệ mình. Họ nói về áp lực tuổi trẻ, những hoài nghi, ước mơ và cả những khó khăn khi trưởng thành. Qua từng album, lượng người nghe và cộng đồng ARMY cũng ngày càng lớn mạnh.
