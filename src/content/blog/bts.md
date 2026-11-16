@@ -76,7 +76,7 @@ Có một câu nói rất nổi tiếng trong cuốn sách:
 "Con chim đấu tranh để thoát ra khỏi quả trứng. Quả trứng là thế giới. Ai muốn được sinh ra trước tiên phải phá hủy một thế giới."
 
 
-![image.png](/images/blog/64af08bdd6946946645975a348ab966d.png)
+![image.png](/images/blog/8e6ffb79f3d722530550389358c6347d.png)
 
 
 Mình khá thích cách diễn giải này.
@@ -115,7 +115,7 @@ Có thể Demian vốn là người dẫn đường giúp Sinclair tìm thấy c
 Bởi những điều Demian từng dạy đã trở thành một phần trong chính con người cậu.
 
 
-![image.png](/images/blog/2f3392622735061003510f0ccaef5f66.png)
+![image.png](/images/blog/80f84897639e5524eff49d36b4d4bd8c.png)
 
 
 Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị hơn.
@@ -124,7 +124,7 @@ Và khi liên hệ với MV Blood Sweat & Tears, mình càng thấy thú vị h�
 Có một chi tiết tìm được trong các bài phân tích của fan: ở đầu MV, RM xuất hiện đọc sách cho Jungkook. 
 
 
-![image.png](/images/blog/01c6a450b58a320f49f1fbc21661ab01.png)
+![image.png](/images/blog/cb2592bb86c87354fa32935476025840.png)
 
 
 Một số người cho rằng hình ảnh này tượng trưng cho mối quan hệ giữa Demian và Sinclair trong tiểu thuyết – một người đóng vai trò dẫn đường, người còn lại đang trên hành trình khám phá bản thân.
@@ -160,7 +160,7 @@ Trong câu chuyện, người thổi sáo sử dụng tiếng sáo ma thuật đ
 BTS đã mượn hình ảnh này để ví mình như người thổi sáo, còn người hâm mộ là những người bị âm nhạc và hình ảnh của họ mê hoặc.
 
 
-![image.png](/images/blog/787245c45e937d7fa0399306c8d2918f.png)
+![image.png](/images/blog/dfc446cc882b1582083d7ed32e9739a4.png)
 
 
 Nhưng điều thú vị nằm ở thông điệp phía sau.
@@ -211,7 +211,7 @@ MV kể về một chàng trai cô độc, trên hành trình của mình, cậu
 Sau đó, chàng trai tiếp tục hành trình và phải đối mặt với một con rồng. Cậu chiến đấu, vượt qua nỗi sợ và cuối cùng đánh bại nó. Đến cuối câu chuyện, những giọt nước mắt của chàng trai rơi xuống chiếc áo choàng, khiến cô gái xuất hiện trở lại.
 
 
-![image.png](/images/blog/e4e95720e23277b8b1df50fe98dc8064.png)
+![image.png](/images/blog/c18df6e65edd95637984b1e6ad142882.png)
 
 
 Nếu nhìn theo cách diễn giải phổ biến của người hâm mộ, chàng trai đại diện cho BTS, còn cô gái tượng trưng cho ARMY. Cô gái không trực tiếp chiến đấu thay chàng trai, nhưng luôn ở đó, trở thành nguồn sức mạnh giúp cậu có thể tiếp tục bước đi.
