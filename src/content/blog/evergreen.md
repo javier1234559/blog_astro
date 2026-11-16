@@ -21,7 +21,7 @@ _Đôi khi, cuộc sống không cần một biến cố lớn để thay đổi
 Hôm nay, mình tình cờ nghe được một bài hát có tên **Evergreen** của Richy Mitch & The Coal Miners. Bài hát có một giai điệu khá đặc biệt, nhẹ nhàng nhưng cũng mang lại cảm giác thôi thúc. Càng nghe, mình càng thấy có những câu hát giống như đang kể lại một phần câu chuyện của chính mình trong 5 tháng vừa qua.
 
 
-![image.png](/images/blog/048cf1034e6b07911b441bc2ba0fec80.png)
+[video](https://www.youtube.com/watch?v=lD0QTb-ieVY&list=RDlD0QTb-ieVY)
 
 
 Bài hát mở đầu bằng câu _“Locked in a stalemate”_.
@@ -33,7 +33,7 @@ Mình hiểu _stalemate_ là một trạng thái bế tắc, khi mọi thứ dư
 Khi ấy, cuộc sống của mình khá đơn điệu. Mọi thứ cứ lặp đi lặp lại, công việc cũng không ổn định. Mình thường nghĩ đến chuyện nếu một ngày mất việc thì sẽ thế nào, rồi lại loay hoay không biết bản thân có thể làm gì tiếp theo.
 
 
-![image.png](/images/blog/b90d97a0690a31be29ff82a5434805be.png)
+![image.png](/images/blog/c12dcf16d57203a2d9bfceb8e5d43c15.png)
 
 
 Mình biết mình muốn thay đổi, nhưng lại không biết phải bắt đầu từ đâu.
@@ -90,7 +90,7 @@ Tháng 7, mình chuyển ra ngoài sống.
 Những ngày đầu có khá nhiều thứ mới mẻ. Từ việc sắp xếp đồ đạc, đi chợ, nấu ăn cho đến tự giải quyết những vấn đề nhỏ trong sinh hoạt. Những việc tưởng chừng rất bình thường ấy trước đây mình không phải bận tâm quá nhiều.
 
 
-![image.png](/images/blog/dac5ee52bb382fef211751b7330730d0.png)
+![image.png](/images/blog/5cf86cb0c7c9bdfbc13e13aeb75df642.png)
 
 
 Mình cũng gặp được những người mới. Môi trường xung quanh có năng lượng khá tích cực, mọi người thường tham gia nhiều hoạt động và sẵn sàng thử những điều khác nhau. Điều đó cũng ảnh hưởng đến mình.
@@ -111,7 +111,7 @@ _“Feet planted beneath / My compass, my transport”_
 Mình hiểu câu hát này như một lời nhắc rằng đôi khi, thứ đưa mình đến một nơi khác không phải là một phép màu hay một cơ hội từ bên ngoài. Chính đôi chân của mình mới là phương tiện để bắt đầu hành trình đó.
 
 
-![image.png](/images/blog/d105fd97cf363bdee143aba8f9857957.png)
+![image.png](/images/blog/d0b5b93580025ef0a244ec9ea740e120.png)
 
 
 Mình không cần phải biết trước mọi thứ sẽ đi về đâu. Cũng không cần phải có một kế hoạch hoàn hảo. Chỉ cần có một hướng để thử và đủ can đảm để bước những bước đầu tiên.
@@ -180,13 +180,13 @@ Có một hình ảnh trong bài hát khiến mình đặc biệt ấn tượng:
 Evergreen có thể hiểu là cây thường xanh. Trong tự nhiên, cây thường xanh vẫn giữ màu xanh quanh năm, bất chấp những mùa khắc nghiệt. Chúng âm thầm lớn lên qua từng ngày, từng mùa, từ một mầm cây nhỏ bé đến khi trở thành cây đại thụ. Hình ảnh này tượng trưng cho sự bền bỉ, vươn lên bất chấp những đổi thay của hoàn cảnh và sức mạnh của những thay đổi âm thầm theo thời gian.
 
 
-![image.png](/images/blog/7daf30d18817c16b3850f311c922838b.png)
+![image.png](/images/blog/cbe200bcdee493f1576501d685cce4ab.png)
 
 
 Mình thích cách hình ảnh ấy xuất hiện trong bài hát. Những hàng cây thường xanh vẫn đứng yên ở đó, nhưng người nhìn qua khung cửa sổ lại đang trên một hành trình dịch chuyển. Một bên là sự bền bỉ, một bên là sự thay đổi. Có lẽ chính sự đối lập này khiến mình liên tưởng đến hành trình của bản thân trong 5 tháng vừa qua.
 
 
-![image.png](/images/blog/3c043d19b0e65bbfbf6109e9e2ec1468.png)
+![image.png](/images/blog/2b99268d1cc0bc0d5bf4d6a3a077f4c8.png)
 
 
 Nhìn lại, mình không nghĩ bản thân đã thay đổi hoàn toàn hay tìm được một con đường rõ ràng cho tương lai. Mình vẫn có những lúc lo lắng, hoang mang và không biết điều gì đang chờ phía trước. Nhưng có một điều đã khác: mình không còn quá ngần ngại trước những điều mới mẻ như trước đây.
@@ -199,6 +199,9 @@ Thực tế, những thay đổi trong 5 tháng qua không bắt đầu từ đi
 
 
 Từng việc một có thể chẳng đáng kể, nhưng khi nhìn lại, mình nhận ra chúng đã mở ra rất nhiều trải nghiệm mà nếu vẫn tiếp tục sống trong vòng lặp cũ, có lẽ mình sẽ không bao giờ có được.
+
+
+![image.png](/images/blog/29191c1d1414d012c600093c379db986.png)
 
 
 Có lẽ mình không cần phải trở thành một con người hoàn toàn khác sau mỗi lần thay đổi. Mình chỉ muốn giữ lại sự tò mò, tinh thần dám thử và những giá trị khiến bản thân muốn tiếp tục bước đi, giống như màu xanh của những cây thường xanh vẫn còn đó qua bao mùa thay đổi.
