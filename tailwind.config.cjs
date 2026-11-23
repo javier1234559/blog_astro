@@ -5,9 +5,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily:{
-				barlow: ['Barlow Condensed', 'sans-serif'],
-				barlowCondensed: ['Barlow Condensed', 'sans-serif'],
-				barlowCondensed: ['Barlow Condensed', 'sans-serif'],
+				barlow: ['Barlow', 'sans-serif'],
+				fraunces: ['Fraunces', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
