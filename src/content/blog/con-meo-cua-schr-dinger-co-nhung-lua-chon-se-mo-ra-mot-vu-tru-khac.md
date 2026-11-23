@@ -36,7 +36,7 @@ Mình tò mò về những ý tưởng này nên bắt đầu tìm hiểu và bi
 Con mèo Schrödinger là một thí nghiệm tư tưởng trong vật lý lượng tử. Một con mèo được đặt trong chiếc hộp kín cùng một cơ chế có thể khiến nó sống hoặc chết. Thí nghiệm này thường được dùng để minh họa cho khái niệm chồng chập lượng tử, khi một hệ thống được mô tả bằng nhiều trạng thái trước khi được quan sát.
 
 
-![image.png](/images/blog/cf6822deda951b55935987fdd8ee30fc.png)
+![image.png](/images/blog/c451a15d25a54cd3e5c69288e56de0e8.png)
 
 
 Mình thấy hình ảnh này khá thú vị khi liên hệ với cuộc sống. Trước khi đưa ra một quyết định, chúng ta thường đứng trước nhiều khả năng khác nhau. Có những con đường mà mình chưa từng đi, những cơ hội mà mình chưa từng thử, và những phiên bản của bản thân mà mình chưa có cơ hội trở thành.
@@ -72,7 +72,7 @@ Trong cuộc sống, chúng ta thường muốn có một câu trả lời rõ r
 Mình nghĩ đây là một góc nhìn khá hữu ích. Không phải lúc nào cũng cần phải quyết định thật nhanh. Có những lúc, việc tiếp tục học hỏi, thử nghiệm và giữ thêm những cánh cửa mở cũng chính là một quyết định.
 
 
-![image.png](/images/blog/e29a0b8f078962be52b3d90c55ffc4ac.png)
+![image.png](/images/blog/b915ec0d3012f34043ad5886e238b69b.png)
 
 
 **3. Xác suất và những ngã rẽ cuộc đời**
@@ -87,7 +87,7 @@ Một quyết định tốt không đồng nghĩa với việc chắc chắn s�
 Nếu chỉ đánh giá một lựa chọn dựa trên kết quả cuối cùng, chúng ta rất dễ đưa ra những kết luận sai lầm. Điều cần quan tâm không chỉ là mình đã thắng hay thua, mà còn là quyết định đó được đưa ra dựa trên những thông tin nào, mức độ rủi ro ra sao và liệu nó có hợp lý ở thời điểm ấy hay không.
 
 
-![image.png](/images/blog/85e826ab3daa149655795f12e43412e6.png)
+![image.png](/images/blog/c9e5906fce95826429aae1bcb69dd48f.png)
 
 
 Điều này khiến mình nghĩ rằng có lẽ nên học cách đánh giá quyết định thay vì chỉ đánh giá kết quả. Bởi nếu một phương pháp tốt nhưng chưa mang lại kết quả ngay lập tức, việc từ bỏ quá sớm có thể khiến mình bỏ lỡ những cơ hội mà chỉ cần kiên trì thêm một chút đã có thể đạt được.
@@ -114,7 +114,7 @@ Mình thấy điều này khá đúng trong việc học và làm bất cứ th�
 Mặc dù không thể kiểm soát mọi yếu tố xảy ra trong cuộc sống, chúng ta vẫn có thể chủ động gia tăng cơ hội gặp được những điều tốt đẹp bằng cách tạo ra nhiều cơ hội hơn, học hỏi, thử nghiệm và kết nối với thế giới xung quanh.
 
 
-![image.png](/images/blog/0e69d20ca6dfb1f4c72de622ebbbb0ee.png)
+![image.png](/images/blog/e94f8418ee0f25e5a91c6481ec5f623f.png)
 
 
 Một người có thể không gặp may trong lần thử đầu tiên, nhưng nếu họ liên tục thử những phương án hợp lý, học từ những sai lầm và không đặt tất cả hy vọng vào một kết quả duy nhất, xác suất tìm được cơ hội phù hợp sẽ dần tăng lên.
@@ -135,7 +135,7 @@ Cuối cùng, vẫn phải có hành động.
 Mình nghĩ đây là phần quan trọng nhất, bởi đôi khi chúng ta đọc rất nhiều sách, học rất nhiều phương pháp và có thể giải thích mọi thứ khá rõ ràng, nhưng cuộc sống lại không thay đổi tương ứng.
 
 
-![image.png](/images/blog/2275ae30268c06201e39cd16bbcca4d5.png)
+![image.png](/images/blog/a4bc0a3f89b2bf217793c889e87abe24.png)
 
 
 Một lựa chọn không cần phải hoàn hảo ngay từ đầu. Điều quan trọng có lẽ là bắt đầu, quan sát kết quả, điều chỉnh và tiếp tục. Nếu cứ chờ đến khi hiểu hết mọi thứ mới hành động, có thể chúng ta sẽ chẳng bao giờ thực sự bắt đầu.
